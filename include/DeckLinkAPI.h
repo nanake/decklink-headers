@@ -4754,6 +4754,13 @@ typedef enum _BMDDynamicRange {
     bmdDynamicRangeHDRStaticPQ = 1 << 29,
     bmdDynamicRangeHDRStaticHLG = 1 << 30
 } BMDDynamicRange;
+typedef enum _BMDMezzanineType {
+    bmdMezzanineTypeNone = 0,
+    bmdMezzanineTypeHDMI14OpticalSDI = 0x6d7a6131,
+    bmdMezzanineTypeQuadSDI = 0x6d7a3473,
+    bmdMezzanineTypeHDMI20OpticalSDI = 0x6d7a6132,
+    bmdMezzanineTypeHDMI21RS422 = 0x6d7a6872
+} BMDMezzanineType;
 typedef enum _BMDDeckLinkHDMIInputEDIDID {
     bmdDeckLinkHDMIInputEDIDDynamicRange = 0x48494479
 } BMDDeckLinkHDMIInputEDIDID;
@@ -4821,6 +4828,7 @@ typedef enum _BMDDeckLinkAttributeID {
     BMDDeckLinkSupportsSynchronizeToPlaybackGroup = 0x73747067,
     BMDDeckLinkHasMonitorOut = 0x666d6f6f,
     BMDDeckLinkMaximumAudioChannels = 0x6d616368,
+    BMDDeckLinkMaximumHDMIAudioChannels = 0x6d686368,
     BMDDeckLinkMaximumAnalogAudioInputChannels = 0x69616368,
     BMDDeckLinkMaximumAnalogAudioOutputChannels = 0x61616368,
     BMDDeckLinkNumberOfSubDevices = 0x6e736264,
@@ -4843,6 +4851,7 @@ typedef enum _BMDDeckLinkAttributeID {
     BMDDeckLinkDuplex = 0x64757078,
     BMDDeckLinkMinimumPrerollFrames = 0x6d707266,
     BMDDeckLinkSupportedDynamicRange = 0x73756472,
+    BMDDeckLinkMezzanineType = 0x6d657a74,
     BMDDeckLinkVideoInputGainMinimum = 0x7669676d,
     BMDDeckLinkVideoInputGainMaximum = 0x76696778,
     BMDDeckLinkVideoOutputGainMinimum = 0x766f676d,
