@@ -4573,6 +4573,7 @@ typedef unsigned int BMDVideoInputFormatChangedEvents;
 typedef unsigned int BMDDetectedVideoInputFormatFlags;
 typedef unsigned int BMDDeckLinkCapturePassthroughMode;
 typedef unsigned int BMDAnalogVideoFlags;
+typedef unsigned int BMDFormatFlags;
 typedef unsigned int BMDDeviceBusyState;
 #if 0
 typedef enum _BMDFrameFlags BMDFrameFlags;
@@ -4581,6 +4582,7 @@ typedef enum _BMDVideoInputFormatChangedEvents BMDVideoInputFormatChangedEvents;
 typedef enum _BMDDetectedVideoInputFormatFlags BMDDetectedVideoInputFormatFlags;
 typedef enum _BMDDeckLinkCapturePassthroughMode BMDDeckLinkCapturePassthroughMode;
 typedef enum _BMDAnalogVideoFlags BMDAnalogVideoFlags;
+typedef enum _BMDFormatFlags BMDFormatFlags;
 typedef enum _BMDDeviceBusyState BMDDeviceBusyState;
 #endif
 typedef enum _BMDVideoOutputFlags {
@@ -4890,6 +4892,11 @@ typedef enum _BMDDeckLinkStatusID {
     bmdDeckLinkStatusBusy = 0x62757379,
     bmdDeckLinkStatusInterchangeablePanelType = 0x69637074,
     bmdDeckLinkStatusDeviceTemperature = 0x64746d70,
+    bmdDeckLinkStatusHDMIOutputActualMode = 0x6869616d,
+    bmdDeckLinkStatusHDMIOutputActualFormatFlags = 0x68696166,
+    bmdDeckLinkStatusHDMIOutputFRLRate = 0x68696f66,
+    bmdDeckLinkStatusHDMIInputFRLRate = 0x68696966,
+    bmdDeckLinkStatusHDMIOutputTMDSLineRate = 0x68696c72,
     bmdDeckLinkStatusVideoInputSignalLocked = 0x7669736c,
     bmdDeckLinkStatusReferenceSignalLocked = 0x7265666c,
     bmdDeckLinkStatusEthernetLocalIPAddress = 0x73656970,
@@ -4918,6 +4925,15 @@ typedef enum _BMDPanelType {
     bmdPanelNotDetected = 0x6e706e6c,
     bmdPanelTeranexMiniSmartPanel = 0x746d736d
 } BMDPanelType;
+enum _BMDFormatFlags {
+    bmdFormatRGB444 = 1 << 0,
+    bmdFormatYUV444 = 1 << 1,
+    bmdFormatYUV422 = 1 << 2,
+    bmdFormatYUV420 = 1 << 3,
+    bmdFormat8BitDepth = 1 << 4,
+    bmdFormat10BitDepth = 1 << 5,
+    bmdFormat12BitDepth = 1 << 6
+};
 enum _BMDDeviceBusyState {
     bmdDeviceCaptureBusy = 1 << 0,
     bmdDevicePlaybackBusy = 1 << 1,
