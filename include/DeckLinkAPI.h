@@ -220,11 +220,19 @@ interface IDeckLinkEncoderInputCallback;
 #endif /* __cplusplus */
 #endif
 
-#ifndef __IDeckLinkMemoryAllocator_FWD_DEFINED__
-#define __IDeckLinkMemoryAllocator_FWD_DEFINED__
-typedef interface IDeckLinkMemoryAllocator IDeckLinkMemoryAllocator;
+#ifndef __IDeckLinkVideoBufferAllocator_FWD_DEFINED__
+#define __IDeckLinkVideoBufferAllocator_FWD_DEFINED__
+typedef interface IDeckLinkVideoBufferAllocator IDeckLinkVideoBufferAllocator;
 #ifdef __cplusplus
-interface IDeckLinkMemoryAllocator;
+interface IDeckLinkVideoBufferAllocator;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoBufferAllocatorProvider_FWD_DEFINED__
+#define __IDeckLinkVideoBufferAllocatorProvider_FWD_DEFINED__
+typedef interface IDeckLinkVideoBufferAllocatorProvider IDeckLinkVideoBufferAllocatorProvider;
+#ifdef __cplusplus
+interface IDeckLinkVideoBufferAllocatorProvider;
 #endif /* __cplusplus */
 #endif
 
@@ -284,6 +292,14 @@ interface IDeckLinkEncoderInput;
 #endif /* __cplusplus */
 #endif
 
+#ifndef __IDeckLinkVideoBuffer_FWD_DEFINED__
+#define __IDeckLinkVideoBuffer_FWD_DEFINED__
+typedef interface IDeckLinkVideoBuffer IDeckLinkVideoBuffer;
+#ifdef __cplusplus
+interface IDeckLinkVideoBuffer;
+#endif /* __cplusplus */
+#endif
+
 #ifndef __IDeckLinkVideoFrame_FWD_DEFINED__
 #define __IDeckLinkVideoFrame_FWD_DEFINED__
 typedef interface IDeckLinkVideoFrame IDeckLinkVideoFrame;
@@ -313,6 +329,14 @@ interface IDeckLinkVideoFrame3DExtensions;
 typedef interface IDeckLinkVideoFrameMetadataExtensions IDeckLinkVideoFrameMetadataExtensions;
 #ifdef __cplusplus
 interface IDeckLinkVideoFrameMetadataExtensions;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoFrameMutableMetadataExtensions_FWD_DEFINED__
+#define __IDeckLinkVideoFrameMutableMetadataExtensions_FWD_DEFINED__
+typedef interface IDeckLinkVideoFrameMutableMetadataExtensions IDeckLinkVideoFrameMutableMetadataExtensions;
+#ifdef __cplusplus
+interface IDeckLinkVideoFrameMutableMetadataExtensions;
 #endif /* __cplusplus */
 #endif
 
@@ -605,6 +629,171 @@ typedef struct CDeckLinkVideoFrameAncillaryPackets CDeckLinkVideoFrameAncillaryP
 #endif /* defined __cplusplus */
 #endif /* defined __CDeckLinkVideoFrameAncillaryPackets_FWD_DEFINED__ */
 
+#ifndef __IDeckLinkVideoOutputCallback_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoOutputCallback_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoOutputCallback_v14_2_1 IDeckLinkVideoOutputCallback_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoOutputCallback_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkInputCallback_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkInputCallback_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkInputCallback_v14_2_1 IDeckLinkInputCallback_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkInputCallback_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkMemoryAllocator_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkMemoryAllocator_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkMemoryAllocator_v14_2_1 IDeckLinkMemoryAllocator_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkMemoryAllocator_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkOutput_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkOutput_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkOutput_v14_2_1 IDeckLinkOutput_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkOutput_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkInput_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkInput_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkInput_v14_2_1 IDeckLinkInput_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkInput_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkEncoderInput_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkEncoderInput_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkEncoderInput_v14_2_1 IDeckLinkEncoderInput_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkEncoderInput_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoFrame_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoFrame_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoFrame_v14_2_1 IDeckLinkVideoFrame_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoFrame_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkMutableVideoFrame_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkMutableVideoFrame_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkMutableVideoFrame_v14_2_1 IDeckLinkMutableVideoFrame_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkMutableVideoFrame_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoFrame3DExtensions_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoFrame3DExtensions_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoFrame3DExtensions_v14_2_1 IDeckLinkVideoFrame3DExtensions_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoFrame3DExtensions_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoInputFrame_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoInputFrame_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoInputFrame_v14_2_1 IDeckLinkVideoInputFrame_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoInputFrame_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkScreenPreviewCallback_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkScreenPreviewCallback_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkScreenPreviewCallback_v14_2_1 IDeckLinkScreenPreviewCallback_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkScreenPreviewCallback_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkGLScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkGLScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkGLScreenPreviewHelper_v14_2_1 IDeckLinkGLScreenPreviewHelper_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkGLScreenPreviewHelper_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkDX9ScreenPreviewHelper_v14_2_1 IDeckLinkDX9ScreenPreviewHelper_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkDX9ScreenPreviewHelper_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoConversion_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoConversion_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoConversion_v14_2_1 IDeckLinkVideoConversion_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoConversion_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __CDeckLinkGLScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __CDeckLinkGLScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#ifdef __cplusplus
+typedef class CDeckLinkGLScreenPreviewHelper_v14_2_1 CDeckLinkGLScreenPreviewHelper_v14_2_1;
+#else
+typedef struct CDeckLinkGLScreenPreviewHelper_v14_2_1 CDeckLinkGLScreenPreviewHelper_v14_2_1;
+#endif /* defined __cplusplus */
+#endif /* defined __CDeckLinkGLScreenPreviewHelper_v14_2_1_FWD_DEFINED__ */
+
+#ifndef __CDeckLinkGL3ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __CDeckLinkGL3ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#ifdef __cplusplus
+typedef class CDeckLinkGL3ScreenPreviewHelper_v14_2_1 CDeckLinkGL3ScreenPreviewHelper_v14_2_1;
+#else
+typedef struct CDeckLinkGL3ScreenPreviewHelper_v14_2_1 CDeckLinkGL3ScreenPreviewHelper_v14_2_1;
+#endif /* defined __cplusplus */
+#endif /* defined __CDeckLinkGL3ScreenPreviewHelper_v14_2_1_FWD_DEFINED__ */
+
+#ifndef __CDeckLinkDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __CDeckLinkDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#ifdef __cplusplus
+typedef class CDeckLinkDX9ScreenPreviewHelper_v14_2_1 CDeckLinkDX9ScreenPreviewHelper_v14_2_1;
+#else
+typedef struct CDeckLinkDX9ScreenPreviewHelper_v14_2_1 CDeckLinkDX9ScreenPreviewHelper_v14_2_1;
+#endif /* defined __cplusplus */
+#endif /* defined __CDeckLinkDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__ */
+
+#ifndef __CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#ifdef __cplusplus
+typedef class CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1;
+#else
+typedef struct CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1;
+#endif /* defined __cplusplus */
+#endif /* defined __CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__ */
+
+#ifndef __CDeckLinkVideoConversion_v14_2_1_FWD_DEFINED__
+#define __CDeckLinkVideoConversion_v14_2_1_FWD_DEFINED__
+#ifdef __cplusplus
+typedef class CDeckLinkVideoConversion_v14_2_1 CDeckLinkVideoConversion_v14_2_1;
+#else
+typedef struct CDeckLinkVideoConversion_v14_2_1 CDeckLinkVideoConversion_v14_2_1;
+#endif /* defined __cplusplus */
+#endif /* defined __CDeckLinkVideoConversion_v14_2_1_FWD_DEFINED__ */
+
 #ifndef __IDeckLinkInputCallback_v11_5_1_FWD_DEFINED__
 #define __IDeckLinkInputCallback_v11_5_1_FWD_DEFINED__
 typedef interface IDeckLinkInputCallback_v11_5_1 IDeckLinkInputCallback_v11_5_1;
@@ -767,305 +956,6 @@ typedef struct CDeckLinkDiscovery_v10_8 CDeckLinkDiscovery_v10_8;
 typedef interface IDeckLinkEncoderConfiguration_v10_5 IDeckLinkEncoderConfiguration_v10_5;
 #ifdef __cplusplus
 interface IDeckLinkEncoderConfiguration_v10_5;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkOutput_v9_9_FWD_DEFINED__
-#define __IDeckLinkOutput_v9_9_FWD_DEFINED__
-typedef interface IDeckLinkOutput_v9_9 IDeckLinkOutput_v9_9;
-#ifdef __cplusplus
-interface IDeckLinkOutput_v9_9;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkInput_v9_2_FWD_DEFINED__
-#define __IDeckLinkInput_v9_2_FWD_DEFINED__
-typedef interface IDeckLinkInput_v9_2 IDeckLinkInput_v9_2;
-#ifdef __cplusplus
-interface IDeckLinkInput_v9_2;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDeckControlStatusCallback_v8_1_FWD_DEFINED__
-#define __IDeckLinkDeckControlStatusCallback_v8_1_FWD_DEFINED__
-typedef interface IDeckLinkDeckControlStatusCallback_v8_1 IDeckLinkDeckControlStatusCallback_v8_1;
-#ifdef __cplusplus
-interface IDeckLinkDeckControlStatusCallback_v8_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDeckControl_v8_1_FWD_DEFINED__
-#define __IDeckLinkDeckControl_v8_1_FWD_DEFINED__
-typedef interface IDeckLinkDeckControl_v8_1 IDeckLinkDeckControl_v8_1;
-#ifdef __cplusplus
-interface IDeckLinkDeckControl_v8_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLink_v8_0_FWD_DEFINED__
-#define __IDeckLink_v8_0_FWD_DEFINED__
-typedef interface IDeckLink_v8_0 IDeckLink_v8_0;
-#ifdef __cplusplus
-interface IDeckLink_v8_0;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkIterator_v8_0_FWD_DEFINED__
-#define __IDeckLinkIterator_v8_0_FWD_DEFINED__
-typedef interface IDeckLinkIterator_v8_0 IDeckLinkIterator_v8_0;
-#ifdef __cplusplus
-interface IDeckLinkIterator_v8_0;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __CDeckLinkIterator_v8_0_FWD_DEFINED__
-#define __CDeckLinkIterator_v8_0_FWD_DEFINED__
-#ifdef __cplusplus
-typedef class CDeckLinkIterator_v8_0 CDeckLinkIterator_v8_0;
-#else
-typedef struct CDeckLinkIterator_v8_0 CDeckLinkIterator_v8_0;
-#endif /* defined __cplusplus */
-#endif /* defined __CDeckLinkIterator_v8_0_FWD_DEFINED__ */
-
-#ifndef __IDeckLinkDeckControl_v7_9_FWD_DEFINED__
-#define __IDeckLinkDeckControl_v7_9_FWD_DEFINED__
-typedef interface IDeckLinkDeckControl_v7_9 IDeckLinkDeckControl_v7_9;
-#ifdef __cplusplus
-interface IDeckLinkDeckControl_v7_9;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoOutputCallback_v7_6_FWD_DEFINED__
-#define __IDeckLinkVideoOutputCallback_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkVideoOutputCallback_v7_6 IDeckLinkVideoOutputCallback_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkVideoOutputCallback_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkInputCallback_v7_6_FWD_DEFINED__
-#define __IDeckLinkInputCallback_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkInputCallback_v7_6 IDeckLinkInputCallback_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkInputCallback_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDisplayModeIterator_v7_6_FWD_DEFINED__
-#define __IDeckLinkDisplayModeIterator_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkDisplayModeIterator_v7_6 IDeckLinkDisplayModeIterator_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkDisplayModeIterator_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDisplayMode_v7_6_FWD_DEFINED__
-#define __IDeckLinkDisplayMode_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkDisplayMode_v7_6 IDeckLinkDisplayMode_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkDisplayMode_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkOutput_v7_6_FWD_DEFINED__
-#define __IDeckLinkOutput_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkOutput_v7_6 IDeckLinkOutput_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkOutput_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkInput_v7_6_FWD_DEFINED__
-#define __IDeckLinkInput_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkInput_v7_6 IDeckLinkInput_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkInput_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkTimecode_v7_6_FWD_DEFINED__
-#define __IDeckLinkTimecode_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkTimecode_v7_6 IDeckLinkTimecode_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkTimecode_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoFrame_v7_6_FWD_DEFINED__
-#define __IDeckLinkVideoFrame_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkVideoFrame_v7_6 IDeckLinkVideoFrame_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkVideoFrame_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkMutableVideoFrame_v7_6_FWD_DEFINED__
-#define __IDeckLinkMutableVideoFrame_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkMutableVideoFrame_v7_6 IDeckLinkMutableVideoFrame_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkMutableVideoFrame_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoInputFrame_v7_6_FWD_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkVideoInputFrame_v7_6 IDeckLinkVideoInputFrame_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkVideoInputFrame_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkScreenPreviewCallback_v7_6_FWD_DEFINED__
-#define __IDeckLinkScreenPreviewCallback_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkScreenPreviewCallback_v7_6 IDeckLinkScreenPreviewCallback_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkScreenPreviewCallback_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkGLScreenPreviewHelper_v7_6_FWD_DEFINED__
-#define __IDeckLinkGLScreenPreviewHelper_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkGLScreenPreviewHelper_v7_6 IDeckLinkGLScreenPreviewHelper_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkGLScreenPreviewHelper_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoConversion_v7_6_FWD_DEFINED__
-#define __IDeckLinkVideoConversion_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkVideoConversion_v7_6 IDeckLinkVideoConversion_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkVideoConversion_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkConfiguration_v7_6_FWD_DEFINED__
-#define __IDeckLinkConfiguration_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkConfiguration_v7_6 IDeckLinkConfiguration_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkConfiguration_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __CDeckLinkGLScreenPreviewHelper_v7_6_FWD_DEFINED__
-#define __CDeckLinkGLScreenPreviewHelper_v7_6_FWD_DEFINED__
-#ifdef __cplusplus
-typedef class CDeckLinkGLScreenPreviewHelper_v7_6 CDeckLinkGLScreenPreviewHelper_v7_6;
-#else
-typedef struct CDeckLinkGLScreenPreviewHelper_v7_6 CDeckLinkGLScreenPreviewHelper_v7_6;
-#endif /* defined __cplusplus */
-#endif /* defined __CDeckLinkGLScreenPreviewHelper_v7_6_FWD_DEFINED__ */
-
-#ifndef __CDeckLinkVideoConversion_v7_6_FWD_DEFINED__
-#define __CDeckLinkVideoConversion_v7_6_FWD_DEFINED__
-#ifdef __cplusplus
-typedef class CDeckLinkVideoConversion_v7_6 CDeckLinkVideoConversion_v7_6;
-#else
-typedef struct CDeckLinkVideoConversion_v7_6 CDeckLinkVideoConversion_v7_6;
-#endif /* defined __cplusplus */
-#endif /* defined __CDeckLinkVideoConversion_v7_6_FWD_DEFINED__ */
-
-#ifndef __IDeckLinkInputCallback_v7_3_FWD_DEFINED__
-#define __IDeckLinkInputCallback_v7_3_FWD_DEFINED__
-typedef interface IDeckLinkInputCallback_v7_3 IDeckLinkInputCallback_v7_3;
-#ifdef __cplusplus
-interface IDeckLinkInputCallback_v7_3;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkOutput_v7_3_FWD_DEFINED__
-#define __IDeckLinkOutput_v7_3_FWD_DEFINED__
-typedef interface IDeckLinkOutput_v7_3 IDeckLinkOutput_v7_3;
-#ifdef __cplusplus
-interface IDeckLinkOutput_v7_3;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkInput_v7_3_FWD_DEFINED__
-#define __IDeckLinkInput_v7_3_FWD_DEFINED__
-typedef interface IDeckLinkInput_v7_3 IDeckLinkInput_v7_3;
-#ifdef __cplusplus
-interface IDeckLinkInput_v7_3;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoInputFrame_v7_3_FWD_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_3_FWD_DEFINED__
-typedef interface IDeckLinkVideoInputFrame_v7_3 IDeckLinkVideoInputFrame_v7_3;
-#ifdef __cplusplus
-interface IDeckLinkVideoInputFrame_v7_3;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDisplayModeIterator_v7_1_FWD_DEFINED__
-#define __IDeckLinkDisplayModeIterator_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkDisplayModeIterator_v7_1 IDeckLinkDisplayModeIterator_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkDisplayModeIterator_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDisplayMode_v7_1_FWD_DEFINED__
-#define __IDeckLinkDisplayMode_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkDisplayMode_v7_1 IDeckLinkDisplayMode_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkDisplayMode_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoOutputCallback_v7_1_FWD_DEFINED__
-#define __IDeckLinkVideoOutputCallback_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkVideoOutputCallback_v7_1 IDeckLinkVideoOutputCallback_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkVideoOutputCallback_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkInputCallback_v7_1_FWD_DEFINED__
-#define __IDeckLinkInputCallback_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkInputCallback_v7_1 IDeckLinkInputCallback_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkInputCallback_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkOutput_v7_1_FWD_DEFINED__
-#define __IDeckLinkOutput_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkOutput_v7_1 IDeckLinkOutput_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkOutput_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkInput_v7_1_FWD_DEFINED__
-#define __IDeckLinkInput_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkInput_v7_1 IDeckLinkInput_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkInput_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoFrame_v7_1_FWD_DEFINED__
-#define __IDeckLinkVideoFrame_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkVideoFrame_v7_1 IDeckLinkVideoFrame_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkVideoFrame_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoInputFrame_v7_1_FWD_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkVideoInputFrame_v7_1 IDeckLinkVideoInputFrame_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkVideoInputFrame_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkAudioInputPacket_v7_1_FWD_DEFINED__
-#define __IDeckLinkAudioInputPacket_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkAudioInputPacket_v7_1 IDeckLinkAudioInputPacket_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkAudioInputPacket_v7_1;
 #endif /* __cplusplus */
 #endif
 
@@ -4573,6 +4463,7 @@ __CRT_UUID_DECL(CBMDStreamingH264NALParser, 0x7753efbd, 0x951c, 0x407c, 0x97,0xa
 #endif
 #endif
 
+typedef unsigned int BMDBufferAccessFlags;
 typedef unsigned int BMDFrameFlags;
 typedef unsigned int BMDVideoInputFlags;
 typedef unsigned int BMDVideoInputFormatChangedEvents;
@@ -4582,6 +4473,7 @@ typedef unsigned int BMDAnalogVideoFlags;
 typedef unsigned int BMDFormatFlags;
 typedef unsigned int BMDDeviceBusyState;
 #if 0
+typedef enum _BMDBufferAccessFlags BMDBufferAccessFlags;
 typedef enum _BMDFrameFlags BMDFrameFlags;
 typedef enum _BMDVideoInputFlags BMDVideoInputFlags;
 typedef enum _BMDVideoInputFormatChangedEvents BMDVideoInputFormatChangedEvents;
@@ -4591,6 +4483,11 @@ typedef enum _BMDAnalogVideoFlags BMDAnalogVideoFlags;
 typedef enum _BMDFormatFlags BMDFormatFlags;
 typedef enum _BMDDeviceBusyState BMDDeviceBusyState;
 #endif
+enum _BMDBufferAccessFlags {
+    bmdBufferAccessReadAndWrite = (1 << 0) | (1 << 1),
+    bmdBufferAccessRead = 1 << 0,
+    bmdBufferAccessWrite = 1 << 1
+};
 typedef enum _BMDVideoOutputFlags {
     bmdVideoOutputFlagDefault = 0,
     bmdVideoOutputVANC = 1 << 0,
@@ -4992,11 +4889,19 @@ interface IDeckLinkEncoderInputCallback;
 #endif /* __cplusplus */
 #endif
 
-#ifndef __IDeckLinkMemoryAllocator_FWD_DEFINED__
-#define __IDeckLinkMemoryAllocator_FWD_DEFINED__
-typedef interface IDeckLinkMemoryAllocator IDeckLinkMemoryAllocator;
+#ifndef __IDeckLinkVideoBufferAllocator_FWD_DEFINED__
+#define __IDeckLinkVideoBufferAllocator_FWD_DEFINED__
+typedef interface IDeckLinkVideoBufferAllocator IDeckLinkVideoBufferAllocator;
 #ifdef __cplusplus
-interface IDeckLinkMemoryAllocator;
+interface IDeckLinkVideoBufferAllocator;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoBufferAllocatorProvider_FWD_DEFINED__
+#define __IDeckLinkVideoBufferAllocatorProvider_FWD_DEFINED__
+typedef interface IDeckLinkVideoBufferAllocatorProvider IDeckLinkVideoBufferAllocatorProvider;
+#ifdef __cplusplus
+interface IDeckLinkVideoBufferAllocatorProvider;
 #endif /* __cplusplus */
 #endif
 
@@ -5056,6 +4961,14 @@ interface IDeckLinkEncoderInput;
 #endif /* __cplusplus */
 #endif
 
+#ifndef __IDeckLinkVideoBuffer_FWD_DEFINED__
+#define __IDeckLinkVideoBuffer_FWD_DEFINED__
+typedef interface IDeckLinkVideoBuffer IDeckLinkVideoBuffer;
+#ifdef __cplusplus
+interface IDeckLinkVideoBuffer;
+#endif /* __cplusplus */
+#endif
+
 #ifndef __IDeckLinkVideoFrame_FWD_DEFINED__
 #define __IDeckLinkVideoFrame_FWD_DEFINED__
 typedef interface IDeckLinkVideoFrame IDeckLinkVideoFrame;
@@ -5085,6 +4998,14 @@ interface IDeckLinkVideoFrame3DExtensions;
 typedef interface IDeckLinkVideoFrameMetadataExtensions IDeckLinkVideoFrameMetadataExtensions;
 #ifdef __cplusplus
 interface IDeckLinkVideoFrameMetadataExtensions;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoFrameMutableMetadataExtensions_FWD_DEFINED__
+#define __IDeckLinkVideoFrameMutableMetadataExtensions_FWD_DEFINED__
+typedef interface IDeckLinkVideoFrameMutableMetadataExtensions IDeckLinkVideoFrameMutableMetadataExtensions;
+#ifdef __cplusplus
+interface IDeckLinkVideoFrameMutableMetadataExtensions;
 #endif /* __cplusplus */
 #endif
 
@@ -5302,9 +5223,9 @@ interface IDeckLinkDiscovery;
 #ifndef __IDeckLinkVideoOutputCallback_INTERFACE_DEFINED__
 #define __IDeckLinkVideoOutputCallback_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkVideoOutputCallback, 0x20aa5225, 0x1958, 0x47cb, 0x82,0x0b, 0x80,0xa8,0xd5,0x21,0xa6,0xee);
+DEFINE_GUID(IID_IDeckLinkVideoOutputCallback, 0x5be6df26, 0x02ce, 0x433e, 0x99,0xd9, 0x9a,0x87,0xc3,0xac,0x17,0x1f);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("20aa5225-1958-47cb-820b-80a8d521a6ee")
+MIDL_INTERFACE("5be6df26-02ce-433e-99d9-9a87c3ac171f")
 IDeckLinkVideoOutputCallback : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE ScheduledFrameCompleted(
@@ -5316,7 +5237,7 @@ IDeckLinkVideoOutputCallback : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoOutputCallback, 0x20aa5225, 0x1958, 0x47cb, 0x82,0x0b, 0x80,0xa8,0xd5,0x21,0xa6,0xee)
+__CRT_UUID_DECL(IDeckLinkVideoOutputCallback, 0x5be6df26, 0x02ce, 0x433e, 0x99,0xd9, 0x9a,0x87,0xc3,0xac,0x17,0x1f)
 #endif
 #else
 typedef struct IDeckLinkVideoOutputCallbackVtbl {
@@ -5391,9 +5312,9 @@ static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_ScheduledPlaybackHasSt
 #ifndef __IDeckLinkInputCallback_INTERFACE_DEFINED__
 #define __IDeckLinkInputCallback_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkInputCallback, 0xc6fce4c9, 0xc4e4, 0x4047, 0x82,0xfb, 0x5d,0x23,0x82,0x32,0xa9,0x02);
+DEFINE_GUID(IID_IDeckLinkInputCallback, 0x3a94f075, 0xc37d, 0x4ba8, 0xbc,0xc0, 0x1d,0x77,0x8c,0x8f,0x88,0x1b);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("c6fce4c9-c4e4-4047-82fb-5d238232a902")
+MIDL_INTERFACE("3a94f075-c37d-4ba8-bcc0-1d778c8f881b")
 IDeckLinkInputCallback : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE VideoInputFormatChanged(
@@ -5407,7 +5328,7 @@ IDeckLinkInputCallback : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInputCallback, 0xc6fce4c9, 0xc4e4, 0x4047, 0x82,0xfb, 0x5d,0x23,0x82,0x32,0xa9,0x02)
+__CRT_UUID_DECL(IDeckLinkInputCallback, 0x3a94f075, 0xc37d, 0x4ba8, 0xbc,0xc0, 0x1d,0x77,0x8c,0x8f,0x88,0x1b)
 #endif
 #else
 typedef struct IDeckLinkInputCallbackVtbl {
@@ -5583,106 +5504,73 @@ static __WIDL_INLINE HRESULT IDeckLinkEncoderInputCallback_AudioPacketArrived(ID
 #endif  /* __IDeckLinkEncoderInputCallback_INTERFACE_DEFINED__ */
 
 /*****************************************************************************
- * IDeckLinkMemoryAllocator interface
+ * IDeckLinkVideoBufferAllocator interface
  */
-#ifndef __IDeckLinkMemoryAllocator_INTERFACE_DEFINED__
-#define __IDeckLinkMemoryAllocator_INTERFACE_DEFINED__
+#ifndef __IDeckLinkVideoBufferAllocator_INTERFACE_DEFINED__
+#define __IDeckLinkVideoBufferAllocator_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkMemoryAllocator, 0xb36eb6e7, 0x9d29, 0x4aa8, 0x92,0xef, 0x84,0x3b,0x87,0xa2,0x89,0xe8);
+DEFINE_GUID(IID_IDeckLinkVideoBufferAllocator, 0x3481a4df, 0x2b11, 0x4e55, 0xac,0x61, 0x83,0x6b,0x87,0x98,0x5e,0x9a);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("b36eb6e7-9d29-4aa8-92ef-843b87a289e8")
-IDeckLinkMemoryAllocator : public IUnknown
+MIDL_INTERFACE("3481a4df-2b11-4e55-ac61-836b87985e9a")
+IDeckLinkVideoBufferAllocator : public IUnknown
 {
-    virtual HRESULT STDMETHODCALLTYPE AllocateBuffer(
-        unsigned int bufferSize,
-        void **allocatedBuffer) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ReleaseBuffer(
-        void *buffer) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Commit(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Decommit(
-        ) = 0;
+    virtual HRESULT STDMETHODCALLTYPE AllocateVideoBuffer(
+        IDeckLinkVideoBuffer **allocatedBuffer) = 0;
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkMemoryAllocator, 0xb36eb6e7, 0x9d29, 0x4aa8, 0x92,0xef, 0x84,0x3b,0x87,0xa2,0x89,0xe8)
+__CRT_UUID_DECL(IDeckLinkVideoBufferAllocator, 0x3481a4df, 0x2b11, 0x4e55, 0xac,0x61, 0x83,0x6b,0x87,0x98,0x5e,0x9a)
 #endif
 #else
-typedef struct IDeckLinkMemoryAllocatorVtbl {
+typedef struct IDeckLinkVideoBufferAllocatorVtbl {
     BEGIN_INTERFACE
 
     /*** IUnknown methods ***/
     HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkMemoryAllocator *This,
+        IDeckLinkVideoBufferAllocator *This,
         REFIID riid,
         void **ppvObject);
 
     ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkMemoryAllocator *This);
+        IDeckLinkVideoBufferAllocator *This);
 
     ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkMemoryAllocator *This);
+        IDeckLinkVideoBufferAllocator *This);
 
-    /*** IDeckLinkMemoryAllocator methods ***/
-    HRESULT (STDMETHODCALLTYPE *AllocateBuffer)(
-        IDeckLinkMemoryAllocator *This,
-        unsigned int bufferSize,
-        void **allocatedBuffer);
-
-    HRESULT (STDMETHODCALLTYPE *ReleaseBuffer)(
-        IDeckLinkMemoryAllocator *This,
-        void *buffer);
-
-    HRESULT (STDMETHODCALLTYPE *Commit)(
-        IDeckLinkMemoryAllocator *This);
-
-    HRESULT (STDMETHODCALLTYPE *Decommit)(
-        IDeckLinkMemoryAllocator *This);
+    /*** IDeckLinkVideoBufferAllocator methods ***/
+    HRESULT (STDMETHODCALLTYPE *AllocateVideoBuffer)(
+        IDeckLinkVideoBufferAllocator *This,
+        IDeckLinkVideoBuffer **allocatedBuffer);
 
     END_INTERFACE
-} IDeckLinkMemoryAllocatorVtbl;
+} IDeckLinkVideoBufferAllocatorVtbl;
 
-interface IDeckLinkMemoryAllocator {
-    CONST_VTBL IDeckLinkMemoryAllocatorVtbl* lpVtbl;
+interface IDeckLinkVideoBufferAllocator {
+    CONST_VTBL IDeckLinkVideoBufferAllocatorVtbl* lpVtbl;
 };
 
 #ifdef COBJMACROS
 #ifndef WIDL_C_INLINE_WRAPPERS
 /*** IUnknown methods ***/
-#define IDeckLinkMemoryAllocator_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkMemoryAllocator_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkMemoryAllocator_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkMemoryAllocator methods ***/
-#define IDeckLinkMemoryAllocator_AllocateBuffer(This,bufferSize,allocatedBuffer) (This)->lpVtbl->AllocateBuffer(This,bufferSize,allocatedBuffer)
-#define IDeckLinkMemoryAllocator_ReleaseBuffer(This,buffer) (This)->lpVtbl->ReleaseBuffer(This,buffer)
-#define IDeckLinkMemoryAllocator_Commit(This) (This)->lpVtbl->Commit(This)
-#define IDeckLinkMemoryAllocator_Decommit(This) (This)->lpVtbl->Decommit(This)
+#define IDeckLinkVideoBufferAllocator_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoBufferAllocator_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoBufferAllocator_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoBufferAllocator methods ***/
+#define IDeckLinkVideoBufferAllocator_AllocateVideoBuffer(This,allocatedBuffer) (This)->lpVtbl->AllocateVideoBuffer(This,allocatedBuffer)
 #else
 /*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_QueryInterface(IDeckLinkMemoryAllocator* This,REFIID riid,void **ppvObject) {
+static __WIDL_INLINE HRESULT IDeckLinkVideoBufferAllocator_QueryInterface(IDeckLinkVideoBufferAllocator* This,REFIID riid,void **ppvObject) {
     return This->lpVtbl->QueryInterface(This,riid,ppvObject);
 }
-static __WIDL_INLINE ULONG IDeckLinkMemoryAllocator_AddRef(IDeckLinkMemoryAllocator* This) {
+static __WIDL_INLINE ULONG IDeckLinkVideoBufferAllocator_AddRef(IDeckLinkVideoBufferAllocator* This) {
     return This->lpVtbl->AddRef(This);
 }
-static __WIDL_INLINE ULONG IDeckLinkMemoryAllocator_Release(IDeckLinkMemoryAllocator* This) {
+static __WIDL_INLINE ULONG IDeckLinkVideoBufferAllocator_Release(IDeckLinkVideoBufferAllocator* This) {
     return This->lpVtbl->Release(This);
 }
-/*** IDeckLinkMemoryAllocator methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_AllocateBuffer(IDeckLinkMemoryAllocator* This,unsigned int bufferSize,void **allocatedBuffer) {
-    return This->lpVtbl->AllocateBuffer(This,bufferSize,allocatedBuffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_ReleaseBuffer(IDeckLinkMemoryAllocator* This,void *buffer) {
-    return This->lpVtbl->ReleaseBuffer(This,buffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_Commit(IDeckLinkMemoryAllocator* This) {
-    return This->lpVtbl->Commit(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_Decommit(IDeckLinkMemoryAllocator* This) {
-    return This->lpVtbl->Decommit(This);
+/*** IDeckLinkVideoBufferAllocator methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoBufferAllocator_AllocateVideoBuffer(IDeckLinkVideoBufferAllocator* This,IDeckLinkVideoBuffer **allocatedBuffer) {
+    return This->lpVtbl->AllocateVideoBuffer(This,allocatedBuffer);
 }
 #endif
 #endif
@@ -5690,7 +5578,94 @@ static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_Decommit(IDeckLinkMemoryAl
 #endif
 
 
-#endif  /* __IDeckLinkMemoryAllocator_INTERFACE_DEFINED__ */
+#endif  /* __IDeckLinkVideoBufferAllocator_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkVideoBufferAllocatorProvider interface
+ */
+#ifndef __IDeckLinkVideoBufferAllocatorProvider_INTERFACE_DEFINED__
+#define __IDeckLinkVideoBufferAllocatorProvider_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoBufferAllocatorProvider, 0x08b80403, 0xbff2, 0x49d0, 0xb4,0x48, 0x8c,0x90,0x8b,0x9e,0x9f,0xc9);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("08b80403-bff2-49d0-b448-8c908b9e9fc9")
+IDeckLinkVideoBufferAllocatorProvider : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE GetVideoBufferAllocator(
+        unsigned int bufferSize,
+        unsigned int width,
+        unsigned int height,
+        unsigned int rowBytes,
+        BMDPixelFormat pixelFormat,
+        IDeckLinkVideoBufferAllocator **allocator) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoBufferAllocatorProvider, 0x08b80403, 0xbff2, 0x49d0, 0xb4,0x48, 0x8c,0x90,0x8b,0x9e,0x9f,0xc9)
+#endif
+#else
+typedef struct IDeckLinkVideoBufferAllocatorProviderVtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoBufferAllocatorProvider *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoBufferAllocatorProvider *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoBufferAllocatorProvider *This);
+
+    /*** IDeckLinkVideoBufferAllocatorProvider methods ***/
+    HRESULT (STDMETHODCALLTYPE *GetVideoBufferAllocator)(
+        IDeckLinkVideoBufferAllocatorProvider *This,
+        unsigned int bufferSize,
+        unsigned int width,
+        unsigned int height,
+        unsigned int rowBytes,
+        BMDPixelFormat pixelFormat,
+        IDeckLinkVideoBufferAllocator **allocator);
+
+    END_INTERFACE
+} IDeckLinkVideoBufferAllocatorProviderVtbl;
+
+interface IDeckLinkVideoBufferAllocatorProvider {
+    CONST_VTBL IDeckLinkVideoBufferAllocatorProviderVtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoBufferAllocatorProvider_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoBufferAllocatorProvider_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoBufferAllocatorProvider_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoBufferAllocatorProvider methods ***/
+#define IDeckLinkVideoBufferAllocatorProvider_GetVideoBufferAllocator(This,bufferSize,width,height,rowBytes,pixelFormat,allocator) (This)->lpVtbl->GetVideoBufferAllocator(This,bufferSize,width,height,rowBytes,pixelFormat,allocator)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoBufferAllocatorProvider_QueryInterface(IDeckLinkVideoBufferAllocatorProvider* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoBufferAllocatorProvider_AddRef(IDeckLinkVideoBufferAllocatorProvider* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoBufferAllocatorProvider_Release(IDeckLinkVideoBufferAllocatorProvider* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoBufferAllocatorProvider methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoBufferAllocatorProvider_GetVideoBufferAllocator(IDeckLinkVideoBufferAllocatorProvider* This,unsigned int bufferSize,unsigned int width,unsigned int height,unsigned int rowBytes,BMDPixelFormat pixelFormat,IDeckLinkVideoBufferAllocator **allocator) {
+    return This->lpVtbl->GetVideoBufferAllocator(This,bufferSize,width,height,rowBytes,pixelFormat,allocator);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoBufferAllocatorProvider_INTERFACE_DEFINED__ */
 
 /*****************************************************************************
  * IDeckLinkAudioOutputCallback interface
@@ -5970,9 +5945,9 @@ static __WIDL_INLINE HRESULT IDeckLinkAPIInformation_GetString(IDeckLinkAPIInfor
 #ifndef __IDeckLinkOutput_INTERFACE_DEFINED__
 #define __IDeckLinkOutput_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkOutput, 0xbe2d9020, 0x461e, 0x442f, 0x84,0xb7, 0xe9,0x49,0xcb,0x95,0x3b,0x9d);
+DEFINE_GUID(IID_IDeckLinkOutput, 0x1a8077f1, 0x9fe2, 0x4533, 0x81,0x47, 0x22,0x94,0x30,0x5e,0x25,0x3f);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("be2d9020-461e-442f-84b7-e949cb953b9d")
+MIDL_INTERFACE("1a8077f1-9fe2-4533-8147-2294305e253f")
 IDeckLinkOutput : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
@@ -6001,9 +5976,6 @@ IDeckLinkOutput : public IUnknown
     virtual HRESULT STDMETHODCALLTYPE DisableVideoOutput(
         ) = 0;
 
-    virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
-
     virtual HRESULT STDMETHODCALLTYPE CreateVideoFrame(
         int width,
         int height,
@@ -6011,6 +5983,20 @@ IDeckLinkOutput : public IUnknown
         BMDPixelFormat pixelFormat,
         BMDFrameFlags flags,
         IDeckLinkMutableVideoFrame **outFrame) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE CreateVideoFrameWithBuffer(
+        int width,
+        int height,
+        int rowBytes,
+        BMDPixelFormat pixelFormat,
+        BMDFrameFlags flags,
+        IDeckLinkVideoBuffer *buffer,
+        IDeckLinkMutableVideoFrame **outFrame) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE RowBytesForPixelFormat(
+        BMDPixelFormat pixelFormat,
+        int width,
+        int *rowBytes) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE CreateAncillaryData(
         BMDPixelFormat pixelFormat,
@@ -6101,7 +6087,7 @@ IDeckLinkOutput : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkOutput, 0xbe2d9020, 0x461e, 0x442f, 0x84,0xb7, 0xe9,0x49,0xcb,0x95,0x3b,0x9d)
+__CRT_UUID_DECL(IDeckLinkOutput, 0x1a8077f1, 0x9fe2, 0x4533, 0x81,0x47, 0x22,0x94,0x30,0x5e,0x25,0x3f)
 #endif
 #else
 typedef struct IDeckLinkOutputVtbl {
@@ -6151,10 +6137,6 @@ typedef struct IDeckLinkOutputVtbl {
     HRESULT (STDMETHODCALLTYPE *DisableVideoOutput)(
         IDeckLinkOutput *This);
 
-    HRESULT (STDMETHODCALLTYPE *SetVideoOutputFrameMemoryAllocator)(
-        IDeckLinkOutput *This,
-        IDeckLinkMemoryAllocator *theAllocator);
-
     HRESULT (STDMETHODCALLTYPE *CreateVideoFrame)(
         IDeckLinkOutput *This,
         int width,
@@ -6163,6 +6145,22 @@ typedef struct IDeckLinkOutputVtbl {
         BMDPixelFormat pixelFormat,
         BMDFrameFlags flags,
         IDeckLinkMutableVideoFrame **outFrame);
+
+    HRESULT (STDMETHODCALLTYPE *CreateVideoFrameWithBuffer)(
+        IDeckLinkOutput *This,
+        int width,
+        int height,
+        int rowBytes,
+        BMDPixelFormat pixelFormat,
+        BMDFrameFlags flags,
+        IDeckLinkVideoBuffer *buffer,
+        IDeckLinkMutableVideoFrame **outFrame);
+
+    HRESULT (STDMETHODCALLTYPE *RowBytesForPixelFormat)(
+        IDeckLinkOutput *This,
+        BMDPixelFormat pixelFormat,
+        int width,
+        int *rowBytes);
 
     HRESULT (STDMETHODCALLTYPE *CreateAncillaryData)(
         IDeckLinkOutput *This,
@@ -6288,8 +6286,9 @@ interface IDeckLinkOutput {
 #define IDeckLinkOutput_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
 #define IDeckLinkOutput_EnableVideoOutput(This,displayMode,flags) (This)->lpVtbl->EnableVideoOutput(This,displayMode,flags)
 #define IDeckLinkOutput_DisableVideoOutput(This) (This)->lpVtbl->DisableVideoOutput(This)
-#define IDeckLinkOutput_SetVideoOutputFrameMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator)
 #define IDeckLinkOutput_CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame) (This)->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame)
+#define IDeckLinkOutput_CreateVideoFrameWithBuffer(This,width,height,rowBytes,pixelFormat,flags,buffer,outFrame) (This)->lpVtbl->CreateVideoFrameWithBuffer(This,width,height,rowBytes,pixelFormat,flags,buffer,outFrame)
+#define IDeckLinkOutput_RowBytesForPixelFormat(This,pixelFormat,width,rowBytes) (This)->lpVtbl->RowBytesForPixelFormat(This,pixelFormat,width,rowBytes)
 #define IDeckLinkOutput_CreateAncillaryData(This,pixelFormat,outBuffer) (This)->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer)
 #define IDeckLinkOutput_DisplayVideoFrameSync(This,theFrame) (This)->lpVtbl->DisplayVideoFrameSync(This,theFrame)
 #define IDeckLinkOutput_ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale) (This)->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale)
@@ -6341,11 +6340,14 @@ static __WIDL_INLINE HRESULT IDeckLinkOutput_EnableVideoOutput(IDeckLinkOutput* 
 static __WIDL_INLINE HRESULT IDeckLinkOutput_DisableVideoOutput(IDeckLinkOutput* This) {
     return This->lpVtbl->DisableVideoOutput(This);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput* This,IDeckLinkMemoryAllocator *theAllocator) {
-    return This->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator);
-}
 static __WIDL_INLINE HRESULT IDeckLinkOutput_CreateVideoFrame(IDeckLinkOutput* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame **outFrame) {
     return This->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_CreateVideoFrameWithBuffer(IDeckLinkOutput* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkVideoBuffer *buffer,IDeckLinkMutableVideoFrame **outFrame) {
+    return This->lpVtbl->CreateVideoFrameWithBuffer(This,width,height,rowBytes,pixelFormat,flags,buffer,outFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_RowBytesForPixelFormat(IDeckLinkOutput* This,BMDPixelFormat pixelFormat,int width,int *rowBytes) {
+    return This->lpVtbl->RowBytesForPixelFormat(This,pixelFormat,width,rowBytes);
 }
 static __WIDL_INLINE HRESULT IDeckLinkOutput_CreateAncillaryData(IDeckLinkOutput* This,BMDPixelFormat pixelFormat,IDeckLinkVideoFrameAncillary **outBuffer) {
     return This->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer);
@@ -6424,9 +6426,9 @@ static __WIDL_INLINE HRESULT IDeckLinkOutput_GetFrameCompletionReferenceTimestam
 #ifndef __IDeckLinkInput_INTERFACE_DEFINED__
 #define __IDeckLinkInput_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkInput, 0xc21cdb6e, 0xf414, 0x46e4, 0xa6,0x36, 0x80,0xa5,0x66,0xe0,0xed,0x37);
+DEFINE_GUID(IID_IDeckLinkInput, 0x4095db82, 0xe294, 0x4b8c, 0xaa,0xa8, 0x3b,0x9e,0x80,0xc4,0x93,0x36);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("c21cdb6e-f414-46e4-a636-80a566e0ed37")
+MIDL_INTERFACE("4095db82-e294-4b8c-aaa8-3b9e80c49336")
 IDeckLinkInput : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
@@ -6453,14 +6455,17 @@ IDeckLinkInput : public IUnknown
         BMDPixelFormat pixelFormat,
         BMDVideoInputFlags flags) = 0;
 
+    virtual HRESULT STDMETHODCALLTYPE EnableVideoInputWithAllocatorProvider(
+        BMDDisplayMode displayMode,
+        BMDPixelFormat pixelFormat,
+        BMDVideoInputFlags flags,
+        IDeckLinkVideoBufferAllocatorProvider *allocatorProvider) = 0;
+
     virtual HRESULT STDMETHODCALLTYPE DisableVideoInput(
         ) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE GetAvailableVideoFrameCount(
         unsigned int *availableFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoInputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
         BMDAudioSampleRate sampleRate,
@@ -6496,7 +6501,7 @@ IDeckLinkInput : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInput, 0xc21cdb6e, 0xf414, 0x46e4, 0xa6,0x36, 0x80,0xa5,0x66,0xe0,0xed,0x37)
+__CRT_UUID_DECL(IDeckLinkInput, 0x4095db82, 0xe294, 0x4b8c, 0xaa,0xa8, 0x3b,0x9e,0x80,0xc4,0x93,0x36)
 #endif
 #else
 typedef struct IDeckLinkInputVtbl {
@@ -6544,16 +6549,19 @@ typedef struct IDeckLinkInputVtbl {
         BMDPixelFormat pixelFormat,
         BMDVideoInputFlags flags);
 
+    HRESULT (STDMETHODCALLTYPE *EnableVideoInputWithAllocatorProvider)(
+        IDeckLinkInput *This,
+        BMDDisplayMode displayMode,
+        BMDPixelFormat pixelFormat,
+        BMDVideoInputFlags flags,
+        IDeckLinkVideoBufferAllocatorProvider *allocatorProvider);
+
     HRESULT (STDMETHODCALLTYPE *DisableVideoInput)(
         IDeckLinkInput *This);
 
     HRESULT (STDMETHODCALLTYPE *GetAvailableVideoFrameCount)(
         IDeckLinkInput *This,
         unsigned int *availableFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoInputFrameMemoryAllocator)(
-        IDeckLinkInput *This,
-        IDeckLinkMemoryAllocator *theAllocator);
 
     HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
         IDeckLinkInput *This,
@@ -6610,9 +6618,9 @@ interface IDeckLinkInput {
 #define IDeckLinkInput_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
 #define IDeckLinkInput_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
 #define IDeckLinkInput_EnableVideoInput(This,displayMode,pixelFormat,flags) (This)->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags)
+#define IDeckLinkInput_EnableVideoInputWithAllocatorProvider(This,displayMode,pixelFormat,flags,allocatorProvider) (This)->lpVtbl->EnableVideoInputWithAllocatorProvider(This,displayMode,pixelFormat,flags,allocatorProvider)
 #define IDeckLinkInput_DisableVideoInput(This) (This)->lpVtbl->DisableVideoInput(This)
 #define IDeckLinkInput_GetAvailableVideoFrameCount(This,availableFrameCount) (This)->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount)
-#define IDeckLinkInput_SetVideoInputFrameMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetVideoInputFrameMemoryAllocator(This,theAllocator)
 #define IDeckLinkInput_EnableAudioInput(This,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount)
 #define IDeckLinkInput_DisableAudioInput(This) (This)->lpVtbl->DisableAudioInput(This)
 #define IDeckLinkInput_GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount) (This)->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount)
@@ -6649,14 +6657,14 @@ static __WIDL_INLINE HRESULT IDeckLinkInput_SetScreenPreviewCallback(IDeckLinkIn
 static __WIDL_INLINE HRESULT IDeckLinkInput_EnableVideoInput(IDeckLinkInput* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
     return This->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags);
 }
+static __WIDL_INLINE HRESULT IDeckLinkInput_EnableVideoInputWithAllocatorProvider(IDeckLinkInput* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags,IDeckLinkVideoBufferAllocatorProvider *allocatorProvider) {
+    return This->lpVtbl->EnableVideoInputWithAllocatorProvider(This,displayMode,pixelFormat,flags,allocatorProvider);
+}
 static __WIDL_INLINE HRESULT IDeckLinkInput_DisableVideoInput(IDeckLinkInput* This) {
     return This->lpVtbl->DisableVideoInput(This);
 }
 static __WIDL_INLINE HRESULT IDeckLinkInput_GetAvailableVideoFrameCount(IDeckLinkInput* This,unsigned int *availableFrameCount) {
     return This->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_SetVideoInputFrameMemoryAllocator(IDeckLinkInput* This,IDeckLinkMemoryAllocator *theAllocator) {
-    return This->lpVtbl->SetVideoInputFrameMemoryAllocator(This,theAllocator);
 }
 static __WIDL_INLINE HRESULT IDeckLinkInput_EnableAudioInput(IDeckLinkInput* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
     return This->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount);
@@ -6801,9 +6809,9 @@ static __WIDL_INLINE HRESULT IDeckLinkHDMIInputEDID_WriteToEDID(IDeckLinkHDMIInp
 #ifndef __IDeckLinkEncoderInput_INTERFACE_DEFINED__
 #define __IDeckLinkEncoderInput_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkEncoderInput, 0xf222551d, 0x13df, 0x4fd8, 0xb5,0x87, 0x9d,0x4f,0x19,0xec,0x12,0xc9);
+DEFINE_GUID(IID_IDeckLinkEncoderInput, 0x46c1332e, 0x6fd9, 0x472a, 0x85,0x91, 0xfe,0x59,0xc2,0x21,0x92,0xe1);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("f222551d-13df-4fd8-b587-9d4f19ec12c9")
+MIDL_INTERFACE("46c1332e-6fd9-472a-8591-fe59c22192e1")
 IDeckLinkEncoderInput : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
@@ -6831,9 +6839,6 @@ IDeckLinkEncoderInput : public IUnknown
 
     virtual HRESULT STDMETHODCALLTYPE GetAvailablePacketsCount(
         unsigned int *availablePacketsCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
         BMDAudioFormat audioFormat,
@@ -6870,7 +6875,7 @@ IDeckLinkEncoderInput : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkEncoderInput, 0xf222551d, 0x13df, 0x4fd8, 0xb5,0x87, 0x9d,0x4f,0x19,0xec,0x12,0xc9)
+__CRT_UUID_DECL(IDeckLinkEncoderInput, 0x46c1332e, 0x6fd9, 0x472a, 0x85,0x91, 0xfe,0x59,0xc2,0x21,0x92,0xe1)
 #endif
 #else
 typedef struct IDeckLinkEncoderInputVtbl {
@@ -6919,10 +6924,6 @@ typedef struct IDeckLinkEncoderInputVtbl {
     HRESULT (STDMETHODCALLTYPE *GetAvailablePacketsCount)(
         IDeckLinkEncoderInput *This,
         unsigned int *availablePacketsCount);
-
-    HRESULT (STDMETHODCALLTYPE *SetMemoryAllocator)(
-        IDeckLinkEncoderInput *This,
-        IDeckLinkMemoryAllocator *theAllocator);
 
     HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
         IDeckLinkEncoderInput *This,
@@ -6981,7 +6982,6 @@ interface IDeckLinkEncoderInput {
 #define IDeckLinkEncoderInput_EnableVideoInput(This,displayMode,pixelFormat,flags) (This)->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags)
 #define IDeckLinkEncoderInput_DisableVideoInput(This) (This)->lpVtbl->DisableVideoInput(This)
 #define IDeckLinkEncoderInput_GetAvailablePacketsCount(This,availablePacketsCount) (This)->lpVtbl->GetAvailablePacketsCount(This,availablePacketsCount)
-#define IDeckLinkEncoderInput_SetMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetMemoryAllocator(This,theAllocator)
 #define IDeckLinkEncoderInput_EnableAudioInput(This,audioFormat,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioInput(This,audioFormat,sampleRate,sampleType,channelCount)
 #define IDeckLinkEncoderInput_DisableAudioInput(This) (This)->lpVtbl->DisableAudioInput(This)
 #define IDeckLinkEncoderInput_GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount) (This)->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount)
@@ -7021,9 +7021,6 @@ static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_DisableVideoInput(IDeckLinkEn
 static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_GetAvailablePacketsCount(IDeckLinkEncoderInput* This,unsigned int *availablePacketsCount) {
     return This->lpVtbl->GetAvailablePacketsCount(This,availablePacketsCount);
 }
-static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_SetMemoryAllocator(IDeckLinkEncoderInput* This,IDeckLinkMemoryAllocator *theAllocator) {
-    return This->lpVtbl->SetMemoryAllocator(This,theAllocator);
-}
 static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_EnableAudioInput(IDeckLinkEncoderInput* This,BMDAudioFormat audioFormat,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
     return This->lpVtbl->EnableAudioInput(This,audioFormat,sampleRate,sampleType,channelCount);
 }
@@ -7060,14 +7057,113 @@ static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_GetHardwareReferenceClock(IDe
 #endif  /* __IDeckLinkEncoderInput_INTERFACE_DEFINED__ */
 
 /*****************************************************************************
+ * IDeckLinkVideoBuffer interface
+ */
+#ifndef __IDeckLinkVideoBuffer_INTERFACE_DEFINED__
+#define __IDeckLinkVideoBuffer_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoBuffer, 0xccb4b64a, 0x5c86, 0x4e02, 0xb7,0x78, 0x88,0x5d,0x35,0x27,0x09,0xfe);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("ccb4b64a-5c86-4e02-b778-885d352709fe")
+IDeckLinkVideoBuffer : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE GetBytes(
+        void **buffer) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE StartAccess(
+        BMDBufferAccessFlags flags) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE EndAccess(
+        BMDBufferAccessFlags flags) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoBuffer, 0xccb4b64a, 0x5c86, 0x4e02, 0xb7,0x78, 0x88,0x5d,0x35,0x27,0x09,0xfe)
+#endif
+#else
+typedef struct IDeckLinkVideoBufferVtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoBuffer *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoBuffer *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoBuffer *This);
+
+    /*** IDeckLinkVideoBuffer methods ***/
+    HRESULT (STDMETHODCALLTYPE *GetBytes)(
+        IDeckLinkVideoBuffer *This,
+        void **buffer);
+
+    HRESULT (STDMETHODCALLTYPE *StartAccess)(
+        IDeckLinkVideoBuffer *This,
+        BMDBufferAccessFlags flags);
+
+    HRESULT (STDMETHODCALLTYPE *EndAccess)(
+        IDeckLinkVideoBuffer *This,
+        BMDBufferAccessFlags flags);
+
+    END_INTERFACE
+} IDeckLinkVideoBufferVtbl;
+
+interface IDeckLinkVideoBuffer {
+    CONST_VTBL IDeckLinkVideoBufferVtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoBuffer_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoBuffer_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoBuffer_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoBuffer methods ***/
+#define IDeckLinkVideoBuffer_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
+#define IDeckLinkVideoBuffer_StartAccess(This,flags) (This)->lpVtbl->StartAccess(This,flags)
+#define IDeckLinkVideoBuffer_EndAccess(This,flags) (This)->lpVtbl->EndAccess(This,flags)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoBuffer_QueryInterface(IDeckLinkVideoBuffer* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoBuffer_AddRef(IDeckLinkVideoBuffer* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoBuffer_Release(IDeckLinkVideoBuffer* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoBuffer methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoBuffer_GetBytes(IDeckLinkVideoBuffer* This,void **buffer) {
+    return This->lpVtbl->GetBytes(This,buffer);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoBuffer_StartAccess(IDeckLinkVideoBuffer* This,BMDBufferAccessFlags flags) {
+    return This->lpVtbl->StartAccess(This,flags);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoBuffer_EndAccess(IDeckLinkVideoBuffer* This,BMDBufferAccessFlags flags) {
+    return This->lpVtbl->EndAccess(This,flags);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoBuffer_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
  * IDeckLinkVideoFrame interface
  */
 #ifndef __IDeckLinkVideoFrame_INTERFACE_DEFINED__
 #define __IDeckLinkVideoFrame_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkVideoFrame, 0x3f716fe0, 0xf023, 0x4111, 0xbe,0x5d, 0xef,0x44,0x14,0xc0,0x5b,0x17);
+DEFINE_GUID(IID_IDeckLinkVideoFrame, 0x6502091c, 0x615f, 0x4f51, 0xba,0xf6, 0x45,0xc4,0x25,0x6d,0xd5,0xb0);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("3f716fe0-f023-4111-be5d-ef4414c05b17")
+MIDL_INTERFACE("6502091c-615f-4f51-baf6-45c4256dd5b0")
 IDeckLinkVideoFrame : public IUnknown
 {
     virtual LONG STDMETHODCALLTYPE GetWidth(
@@ -7085,9 +7181,6 @@ IDeckLinkVideoFrame : public IUnknown
     virtual BMDFrameFlags STDMETHODCALLTYPE GetFlags(
         ) = 0;
 
-    virtual HRESULT STDMETHODCALLTYPE GetBytes(
-        void **buffer) = 0;
-
     virtual HRESULT STDMETHODCALLTYPE GetTimecode(
         BMDTimecodeFormat format,
         IDeckLinkTimecode **timecode) = 0;
@@ -7097,7 +7190,7 @@ IDeckLinkVideoFrame : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoFrame, 0x3f716fe0, 0xf023, 0x4111, 0xbe,0x5d, 0xef,0x44,0x14,0xc0,0x5b,0x17)
+__CRT_UUID_DECL(IDeckLinkVideoFrame, 0x6502091c, 0x615f, 0x4f51, 0xba,0xf6, 0x45,0xc4,0x25,0x6d,0xd5,0xb0)
 #endif
 #else
 typedef struct IDeckLinkVideoFrameVtbl {
@@ -7131,10 +7224,6 @@ typedef struct IDeckLinkVideoFrameVtbl {
     BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
         IDeckLinkVideoFrame *This);
 
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkVideoFrame *This,
-        void **buffer);
-
     HRESULT (STDMETHODCALLTYPE *GetTimecode)(
         IDeckLinkVideoFrame *This,
         BMDTimecodeFormat format,
@@ -7163,7 +7252,6 @@ interface IDeckLinkVideoFrame {
 #define IDeckLinkVideoFrame_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
 #define IDeckLinkVideoFrame_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
 #define IDeckLinkVideoFrame_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkVideoFrame_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
 #define IDeckLinkVideoFrame_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
 #define IDeckLinkVideoFrame_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
 #else
@@ -7193,9 +7281,6 @@ static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoFrame_GetPixelFormat(IDeckLink
 static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoFrame_GetFlags(IDeckLinkVideoFrame* This) {
     return This->lpVtbl->GetFlags(This);
 }
-static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_GetBytes(IDeckLinkVideoFrame* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
 static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_GetTimecode(IDeckLinkVideoFrame* This,BMDTimecodeFormat format,IDeckLinkTimecode **timecode) {
     return This->lpVtbl->GetTimecode(This,format,timecode);
 }
@@ -7216,9 +7301,9 @@ static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_GetAncillaryData(IDeckLinkVideo
 #ifndef __IDeckLinkMutableVideoFrame_INTERFACE_DEFINED__
 #define __IDeckLinkMutableVideoFrame_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkMutableVideoFrame, 0x69e2639f, 0x40da, 0x4e19, 0xb6,0xf2, 0x20,0xac,0xe8,0x15,0xc3,0x90);
+DEFINE_GUID(IID_IDeckLinkMutableVideoFrame, 0xcf9eb134, 0x0374, 0x4c5b, 0x95,0xfa, 0x1e,0xc1,0x48,0x19,0xff,0x62);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("69e2639f-40da-4e19-b6f2-20ace815c390")
+MIDL_INTERFACE("cf9eb134-0374-4c5b-95fa-1ec14819ff62")
 IDeckLinkMutableVideoFrame : public IDeckLinkVideoFrame
 {
     virtual HRESULT STDMETHODCALLTYPE SetFlags(
@@ -7243,9 +7328,13 @@ IDeckLinkMutableVideoFrame : public IDeckLinkVideoFrame
         BMDTimecodeFormat format,
         BMDTimecodeUserBits userBits) = 0;
 
+    virtual HRESULT STDMETHODCALLTYPE SetInterfaceProvider(
+        REFIID iid,
+        IUnknown *iface) = 0;
+
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkMutableVideoFrame, 0x69e2639f, 0x40da, 0x4e19, 0xb6,0xf2, 0x20,0xac,0xe8,0x15,0xc3,0x90)
+__CRT_UUID_DECL(IDeckLinkMutableVideoFrame, 0xcf9eb134, 0x0374, 0x4c5b, 0x95,0xfa, 0x1e,0xc1,0x48,0x19,0xff,0x62)
 #endif
 #else
 typedef struct IDeckLinkMutableVideoFrameVtbl {
@@ -7278,10 +7367,6 @@ typedef struct IDeckLinkMutableVideoFrameVtbl {
 
     BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
         IDeckLinkMutableVideoFrame *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkMutableVideoFrame *This,
-        void **buffer);
 
     HRESULT (STDMETHODCALLTYPE *GetTimecode)(
         IDeckLinkMutableVideoFrame *This,
@@ -7320,6 +7405,11 @@ typedef struct IDeckLinkMutableVideoFrameVtbl {
         BMDTimecodeFormat format,
         BMDTimecodeUserBits userBits);
 
+    HRESULT (STDMETHODCALLTYPE *SetInterfaceProvider)(
+        IDeckLinkMutableVideoFrame *This,
+        REFIID iid,
+        IUnknown *iface);
+
     END_INTERFACE
 } IDeckLinkMutableVideoFrameVtbl;
 
@@ -7339,7 +7429,6 @@ interface IDeckLinkMutableVideoFrame {
 #define IDeckLinkMutableVideoFrame_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
 #define IDeckLinkMutableVideoFrame_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
 #define IDeckLinkMutableVideoFrame_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkMutableVideoFrame_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
 #define IDeckLinkMutableVideoFrame_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
 #define IDeckLinkMutableVideoFrame_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
 /*** IDeckLinkMutableVideoFrame methods ***/
@@ -7348,6 +7437,7 @@ interface IDeckLinkMutableVideoFrame {
 #define IDeckLinkMutableVideoFrame_SetTimecodeFromComponents(This,format,hours,minutes,seconds,frames,flags) (This)->lpVtbl->SetTimecodeFromComponents(This,format,hours,minutes,seconds,frames,flags)
 #define IDeckLinkMutableVideoFrame_SetAncillaryData(This,ancillary) (This)->lpVtbl->SetAncillaryData(This,ancillary)
 #define IDeckLinkMutableVideoFrame_SetTimecodeUserBits(This,format,userBits) (This)->lpVtbl->SetTimecodeUserBits(This,format,userBits)
+#define IDeckLinkMutableVideoFrame_SetInterfaceProvider(This,iid,iface) (This)->lpVtbl->SetInterfaceProvider(This,iid,iface)
 #else
 /*** IUnknown methods ***/
 static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_QueryInterface(IDeckLinkMutableVideoFrame* This,REFIID riid,void **ppvObject) {
@@ -7375,9 +7465,6 @@ static __WIDL_INLINE BMDPixelFormat IDeckLinkMutableVideoFrame_GetPixelFormat(ID
 static __WIDL_INLINE BMDFrameFlags IDeckLinkMutableVideoFrame_GetFlags(IDeckLinkMutableVideoFrame* This) {
     return This->lpVtbl->GetFlags(This);
 }
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_GetBytes(IDeckLinkMutableVideoFrame* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
 static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_GetTimecode(IDeckLinkMutableVideoFrame* This,BMDTimecodeFormat format,IDeckLinkTimecode **timecode) {
     return This->lpVtbl->GetTimecode(This,format,timecode);
 }
@@ -7400,6 +7487,9 @@ static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_SetAncillaryData(IDeckLi
 static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_SetTimecodeUserBits(IDeckLinkMutableVideoFrame* This,BMDTimecodeFormat format,BMDTimecodeUserBits userBits) {
     return This->lpVtbl->SetTimecodeUserBits(This,format,userBits);
 }
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_SetInterfaceProvider(IDeckLinkMutableVideoFrame* This,REFIID iid,IUnknown *iface) {
+    return This->lpVtbl->SetInterfaceProvider(This,iid,iface);
+}
 #endif
 #endif
 
@@ -7414,9 +7504,9 @@ static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_SetTimecodeUserBits(IDec
 #ifndef __IDeckLinkVideoFrame3DExtensions_INTERFACE_DEFINED__
 #define __IDeckLinkVideoFrame3DExtensions_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkVideoFrame3DExtensions, 0xda0f7e4a, 0xedc7, 0x48a8, 0x9c,0xdd, 0x2d,0xb5,0x1c,0x72,0x9c,0xd7);
+DEFINE_GUID(IID_IDeckLinkVideoFrame3DExtensions, 0xd4dbe9c6, 0xb4d2, 0x49d3, 0xab,0xf2, 0xb4,0xe8,0x6c,0x73,0x91,0xb0);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("da0f7e4a-edc7-48a8-9cdd-2db51c729cd7")
+MIDL_INTERFACE("d4dbe9c6-b4d2-49d3-abf2-b4e86c7391b0")
 IDeckLinkVideoFrame3DExtensions : public IUnknown
 {
     virtual BMDVideo3DPackingFormat STDMETHODCALLTYPE Get3DPackingFormat(
@@ -7427,7 +7517,7 @@ IDeckLinkVideoFrame3DExtensions : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoFrame3DExtensions, 0xda0f7e4a, 0xedc7, 0x48a8, 0x9c,0xdd, 0x2d,0xb5,0x1c,0x72,0x9c,0xd7)
+__CRT_UUID_DECL(IDeckLinkVideoFrame3DExtensions, 0xd4dbe9c6, 0xb4d2, 0x49d3, 0xab,0xf2, 0xb4,0xe8,0x6c,0x73,0x91,0xb0)
 #endif
 #else
 typedef struct IDeckLinkVideoFrame3DExtensionsVtbl {
@@ -7629,14 +7719,196 @@ static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMetadataExtensions_GetBytes(IDec
 #endif  /* __IDeckLinkVideoFrameMetadataExtensions_INTERFACE_DEFINED__ */
 
 /*****************************************************************************
+ * IDeckLinkVideoFrameMutableMetadataExtensions interface
+ */
+#ifndef __IDeckLinkVideoFrameMutableMetadataExtensions_INTERFACE_DEFINED__
+#define __IDeckLinkVideoFrameMutableMetadataExtensions_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoFrameMutableMetadataExtensions, 0xcc198fc6, 0x8298, 0x4419, 0x94,0x2d, 0x83,0x57,0xec,0x35,0x5e,0x58);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("cc198fc6-8298-4419-942d-8357ec355e58")
+IDeckLinkVideoFrameMutableMetadataExtensions : public IDeckLinkVideoFrameMetadataExtensions
+{
+    virtual HRESULT STDMETHODCALLTYPE SetInt(
+        BMDDeckLinkFrameMetadataID metadataID,
+        LONGLONG value) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetFloat(
+        BMDDeckLinkFrameMetadataID metadataID,
+        double value) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetFlag(
+        BMDDeckLinkFrameMetadataID metadataID,
+        BOOL value) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetString(
+        BMDDeckLinkFrameMetadataID metadataID,
+        BSTR value) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetBytes(
+        BMDDeckLinkFrameMetadataID metadataID,
+        void *buffer,
+        unsigned int bufferSize) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoFrameMutableMetadataExtensions, 0xcc198fc6, 0x8298, 0x4419, 0x94,0x2d, 0x83,0x57,0xec,0x35,0x5e,0x58)
+#endif
+#else
+typedef struct IDeckLinkVideoFrameMutableMetadataExtensionsVtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This);
+
+    /*** IDeckLinkVideoFrameMetadataExtensions methods ***/
+    HRESULT (STDMETHODCALLTYPE *GetInt)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        LONGLONG *value);
+
+    HRESULT (STDMETHODCALLTYPE *GetFloat)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        double *value);
+
+    HRESULT (STDMETHODCALLTYPE *GetFlag)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        BOOL *value);
+
+    HRESULT (STDMETHODCALLTYPE *GetString)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        BSTR *value);
+
+    HRESULT (STDMETHODCALLTYPE *GetBytes)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        void *buffer,
+        unsigned int *bufferSize);
+
+    /*** IDeckLinkVideoFrameMutableMetadataExtensions methods ***/
+    HRESULT (STDMETHODCALLTYPE *SetInt)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        LONGLONG value);
+
+    HRESULT (STDMETHODCALLTYPE *SetFloat)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        double value);
+
+    HRESULT (STDMETHODCALLTYPE *SetFlag)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        BOOL value);
+
+    HRESULT (STDMETHODCALLTYPE *SetString)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        BSTR value);
+
+    HRESULT (STDMETHODCALLTYPE *SetBytes)(
+        IDeckLinkVideoFrameMutableMetadataExtensions *This,
+        BMDDeckLinkFrameMetadataID metadataID,
+        void *buffer,
+        unsigned int bufferSize);
+
+    END_INTERFACE
+} IDeckLinkVideoFrameMutableMetadataExtensionsVtbl;
+
+interface IDeckLinkVideoFrameMutableMetadataExtensions {
+    CONST_VTBL IDeckLinkVideoFrameMutableMetadataExtensionsVtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoFrameMutableMetadataExtensions_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoFrameMetadataExtensions methods ***/
+#define IDeckLinkVideoFrameMutableMetadataExtensions_GetInt(This,metadataID,value) (This)->lpVtbl->GetInt(This,metadataID,value)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_GetFloat(This,metadataID,value) (This)->lpVtbl->GetFloat(This,metadataID,value)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_GetFlag(This,metadataID,value) (This)->lpVtbl->GetFlag(This,metadataID,value)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_GetString(This,metadataID,value) (This)->lpVtbl->GetString(This,metadataID,value)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_GetBytes(This,metadataID,buffer,bufferSize) (This)->lpVtbl->GetBytes(This,metadataID,buffer,bufferSize)
+/*** IDeckLinkVideoFrameMutableMetadataExtensions methods ***/
+#define IDeckLinkVideoFrameMutableMetadataExtensions_SetInt(This,metadataID,value) (This)->lpVtbl->SetInt(This,metadataID,value)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_SetFloat(This,metadataID,value) (This)->lpVtbl->SetFloat(This,metadataID,value)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_SetFlag(This,metadataID,value) (This)->lpVtbl->SetFlag(This,metadataID,value)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_SetString(This,metadataID,value) (This)->lpVtbl->SetString(This,metadataID,value)
+#define IDeckLinkVideoFrameMutableMetadataExtensions_SetBytes(This,metadataID,buffer,bufferSize) (This)->lpVtbl->SetBytes(This,metadataID,buffer,bufferSize)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_QueryInterface(IDeckLinkVideoFrameMutableMetadataExtensions* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoFrameMutableMetadataExtensions_AddRef(IDeckLinkVideoFrameMutableMetadataExtensions* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoFrameMutableMetadataExtensions_Release(IDeckLinkVideoFrameMutableMetadataExtensions* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoFrameMetadataExtensions methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_GetInt(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,LONGLONG *value) {
+    return This->lpVtbl->GetInt(This,metadataID,value);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_GetFloat(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,double *value) {
+    return This->lpVtbl->GetFloat(This,metadataID,value);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_GetFlag(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,BOOL *value) {
+    return This->lpVtbl->GetFlag(This,metadataID,value);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_GetString(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,BSTR *value) {
+    return This->lpVtbl->GetString(This,metadataID,value);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_GetBytes(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,void *buffer,unsigned int *bufferSize) {
+    return This->lpVtbl->GetBytes(This,metadataID,buffer,bufferSize);
+}
+/*** IDeckLinkVideoFrameMutableMetadataExtensions methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_SetInt(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,LONGLONG value) {
+    return This->lpVtbl->SetInt(This,metadataID,value);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_SetFloat(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,double value) {
+    return This->lpVtbl->SetFloat(This,metadataID,value);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_SetFlag(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,BOOL value) {
+    return This->lpVtbl->SetFlag(This,metadataID,value);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_SetString(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,BSTR value) {
+    return This->lpVtbl->SetString(This,metadataID,value);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrameMutableMetadataExtensions_SetBytes(IDeckLinkVideoFrameMutableMetadataExtensions* This,BMDDeckLinkFrameMetadataID metadataID,void *buffer,unsigned int bufferSize) {
+    return This->lpVtbl->SetBytes(This,metadataID,buffer,bufferSize);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoFrameMutableMetadataExtensions_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
  * IDeckLinkVideoInputFrame interface
  */
 #ifndef __IDeckLinkVideoInputFrame_INTERFACE_DEFINED__
 #define __IDeckLinkVideoInputFrame_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkVideoInputFrame, 0x05cfe374, 0x537c, 0x4094, 0x9a,0x57, 0x68,0x05,0x25,0x11,0x8f,0x44);
+DEFINE_GUID(IID_IDeckLinkVideoInputFrame, 0xc9add3d2, 0xbe52, 0x488d, 0xab,0x2d, 0x7f,0xde,0xf7,0xaf,0x0c,0x95);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("05cfe374-537c-4094-9a57-680525118f44")
+MIDL_INTERFACE("c9add3d2-be52-488d-ab2d-7fdef7af0c95")
 IDeckLinkVideoInputFrame : public IDeckLinkVideoFrame
 {
     virtual HRESULT STDMETHODCALLTYPE GetStreamTime(
@@ -7651,7 +7923,7 @@ IDeckLinkVideoInputFrame : public IDeckLinkVideoFrame
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoInputFrame, 0x05cfe374, 0x537c, 0x4094, 0x9a,0x57, 0x68,0x05,0x25,0x11,0x8f,0x44)
+__CRT_UUID_DECL(IDeckLinkVideoInputFrame, 0xc9add3d2, 0xbe52, 0x488d, 0xab,0x2d, 0x7f,0xde,0xf7,0xaf,0x0c,0x95)
 #endif
 #else
 typedef struct IDeckLinkVideoInputFrameVtbl {
@@ -7684,10 +7956,6 @@ typedef struct IDeckLinkVideoInputFrameVtbl {
 
     BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
         IDeckLinkVideoInputFrame *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkVideoInputFrame *This,
-        void **buffer);
 
     HRESULT (STDMETHODCALLTYPE *GetTimecode)(
         IDeckLinkVideoInputFrame *This,
@@ -7730,7 +7998,6 @@ interface IDeckLinkVideoInputFrame {
 #define IDeckLinkVideoInputFrame_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
 #define IDeckLinkVideoInputFrame_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
 #define IDeckLinkVideoInputFrame_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkVideoInputFrame_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
 #define IDeckLinkVideoInputFrame_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
 #define IDeckLinkVideoInputFrame_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
 /*** IDeckLinkVideoInputFrame methods ***/
@@ -7762,9 +8029,6 @@ static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoInputFrame_GetPixelFormat(IDec
 }
 static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoInputFrame_GetFlags(IDeckLinkVideoInputFrame* This) {
     return This->lpVtbl->GetFlags(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_GetBytes(IDeckLinkVideoInputFrame* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
 }
 static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_GetTimecode(IDeckLinkVideoInputFrame* This,BMDTimecodeFormat format,IDeckLinkTimecode **timecode) {
     return This->lpVtbl->GetTimecode(This,format,timecode);
@@ -8833,9 +9097,9 @@ static __WIDL_INLINE HRESULT IDeckLinkAudioInputPacket_GetPacketTime(IDeckLinkAu
 #ifndef __IDeckLinkScreenPreviewCallback_INTERFACE_DEFINED__
 #define __IDeckLinkScreenPreviewCallback_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkScreenPreviewCallback, 0xb1d3f49a, 0x85fe, 0x4c5d, 0x95,0xc8, 0x0b,0x5d,0x5d,0xcc,0xd4,0x38);
+DEFINE_GUID(IID_IDeckLinkScreenPreviewCallback, 0xd4fa2345, 0x9fba, 0x4497, 0x95,0xc3, 0xc0,0xc3,0xce,0xd3,0xcd,0xa8);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("b1d3f49a-85fe-4c5d-95c8-0b5d5dccd438")
+MIDL_INTERFACE("d4fa2345-9fba-4497-95c3-c0c3ced3cda8")
 IDeckLinkScreenPreviewCallback : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE DrawFrame(
@@ -8843,7 +9107,7 @@ IDeckLinkScreenPreviewCallback : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkScreenPreviewCallback, 0xb1d3f49a, 0x85fe, 0x4c5d, 0x95,0xc8, 0x0b,0x5d,0x5d,0xcc,0xd4,0x38)
+__CRT_UUID_DECL(IDeckLinkScreenPreviewCallback, 0xd4fa2345, 0x9fba, 0x4497, 0x95,0xc3, 0xc0,0xc3,0xce,0xd3,0xcd,0xa8)
 #endif
 #else
 typedef struct IDeckLinkScreenPreviewCallbackVtbl {
@@ -8910,9 +9174,9 @@ static __WIDL_INLINE HRESULT IDeckLinkScreenPreviewCallback_DrawFrame(IDeckLinkS
 #ifndef __IDeckLinkGLScreenPreviewHelper_INTERFACE_DEFINED__
 #define __IDeckLinkGLScreenPreviewHelper_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkGLScreenPreviewHelper, 0x504e2209, 0xcac7, 0x4c1a, 0x9f,0xb4, 0xc5,0xbb,0x62,0x74,0xd2,0x2f);
+DEFINE_GUID(IID_IDeckLinkGLScreenPreviewHelper, 0xceb778e2, 0xc202, 0x4ec8, 0x90,0x85, 0x0c,0xd2,0x85,0xcc,0x55,0x22);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("504e2209-cac7-4c1a-9fb4-c5bb6274d22f")
+MIDL_INTERFACE("ceb778e2-c202-4ec8-9085-0cd285cc5522")
 IDeckLinkGLScreenPreviewHelper : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE InitializeGL(
@@ -8929,7 +9193,7 @@ IDeckLinkGLScreenPreviewHelper : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkGLScreenPreviewHelper, 0x504e2209, 0xcac7, 0x4c1a, 0x9f,0xb4, 0xc5,0xbb,0x62,0x74,0xd2,0x2f)
+__CRT_UUID_DECL(IDeckLinkGLScreenPreviewHelper, 0xceb778e2, 0xc202, 0x4ec8, 0x90,0x85, 0x0c,0xd2,0x85,0xcc,0x55,0x22)
 #endif
 #else
 typedef struct IDeckLinkGLScreenPreviewHelperVtbl {
@@ -9018,9 +9282,9 @@ static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_Set3DPreviewFormat(I
 #ifndef __IDeckLinkDX9ScreenPreviewHelper_INTERFACE_DEFINED__
 #define __IDeckLinkDX9ScreenPreviewHelper_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkDX9ScreenPreviewHelper, 0x2094b522, 0xd1a1, 0x40c0, 0x9a,0xc7, 0x1c,0x01,0x22,0x18,0xef,0x02);
+DEFINE_GUID(IID_IDeckLinkDX9ScreenPreviewHelper, 0xf2dd78ca, 0x2921, 0x4ac2, 0xb5,0xbc, 0xbf,0xdc,0xc2,0x03,0x5a,0x1f);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("2094b522-d1a1-40c0-9ac7-1c012218ef02")
+MIDL_INTERFACE("f2dd78ca-2921-4ac2-b5bc-bfdcc2035a1f")
 IDeckLinkDX9ScreenPreviewHelper : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE Initialize(
@@ -9037,7 +9301,7 @@ IDeckLinkDX9ScreenPreviewHelper : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkDX9ScreenPreviewHelper, 0x2094b522, 0xd1a1, 0x40c0, 0x9a,0xc7, 0x1c,0x01,0x22,0x18,0xef,0x02)
+__CRT_UUID_DECL(IDeckLinkDX9ScreenPreviewHelper, 0xf2dd78ca, 0x2921, 0x4ac2, 0xb5,0xbc, 0xbf,0xdc,0xc2,0x03,0x5a,0x1f)
 #endif
 #else
 typedef struct IDeckLinkDX9ScreenPreviewHelperVtbl {
@@ -9128,9 +9392,9 @@ static __WIDL_INLINE HRESULT IDeckLinkDX9ScreenPreviewHelper_Set3DPreviewFormat(
 #ifndef __IDeckLinkWPFDX9ScreenPreviewHelper_INTERFACE_DEFINED__
 #define __IDeckLinkWPFDX9ScreenPreviewHelper_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkWPFDX9ScreenPreviewHelper, 0xad8ec84a, 0x7dde, 0x11e9, 0x8f,0x9e, 0x2a,0x86,0xe4,0x08,0x5a,0x59);
+DEFINE_GUID(IID_IDeckLinkWPFDX9ScreenPreviewHelper, 0xc59346cd, 0x9326, 0x4266, 0xac,0x2d, 0x5c,0x19,0x0f,0x57,0x99,0xee);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("ad8ec84a-7dde-11e9-8f9e-2a86e4085a59")
+MIDL_INTERFACE("c59346cd-9326-4266-ac2d-5c190f5799ee")
 IDeckLinkWPFDX9ScreenPreviewHelper : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE Initialize(
@@ -9154,7 +9418,7 @@ IDeckLinkWPFDX9ScreenPreviewHelper : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkWPFDX9ScreenPreviewHelper, 0xad8ec84a, 0x7dde, 0x11e9, 0x8f,0x9e, 0x2a,0x86,0xe4,0x08,0x5a,0x59)
+__CRT_UUID_DECL(IDeckLinkWPFDX9ScreenPreviewHelper, 0xc59346cd, 0x9326, 0x4266, 0xac,0x2d, 0x5c,0x19,0x0f,0x57,0x99,0xee)
 #endif
 #else
 typedef struct IDeckLinkWPFDX9ScreenPreviewHelperVtbl {
@@ -10181,18 +10445,25 @@ static __WIDL_INLINE HRESULT IDeckLinkKeyer_Disable(IDeckLinkKeyer* This) {
 #ifndef __IDeckLinkVideoConversion_INTERFACE_DEFINED__
 #define __IDeckLinkVideoConversion_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkVideoConversion, 0x3bbcb8a2, 0xda2c, 0x42d9, 0xb5,0xd8, 0x88,0x08,0x36,0x44,0xe9,0x9a);
+DEFINE_GUID(IID_IDeckLinkVideoConversion, 0xa48755d9, 0x8bd5, 0x4727, 0xa1,0xe9, 0x06,0x9f,0xde,0xdb,0xa6,0xe9);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("3bbcb8a2-da2c-42d9-b5d8-88083644e99a")
+MIDL_INTERFACE("a48755d9-8bd5-4727-a1e9-069fdedba6e9")
 IDeckLinkVideoConversion : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE ConvertFrame(
         IDeckLinkVideoFrame *srcFrame,
         IDeckLinkVideoFrame *dstFrame) = 0;
 
+    virtual HRESULT STDMETHODCALLTYPE ConvertNewFrame(
+        IDeckLinkVideoFrame *srcFrame,
+        BMDPixelFormat dstPixelFormat,
+        BMDColorspace dstColorspace,
+        IDeckLinkVideoBuffer *dstBuffer,
+        IDeckLinkVideoFrame **dstFrame) = 0;
+
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoConversion, 0x3bbcb8a2, 0xda2c, 0x42d9, 0xb5,0xd8, 0x88,0x08,0x36,0x44,0xe9,0x9a)
+__CRT_UUID_DECL(IDeckLinkVideoConversion, 0xa48755d9, 0x8bd5, 0x4727, 0xa1,0xe9, 0x06,0x9f,0xde,0xdb,0xa6,0xe9)
 #endif
 #else
 typedef struct IDeckLinkVideoConversionVtbl {
@@ -10216,6 +10487,14 @@ typedef struct IDeckLinkVideoConversionVtbl {
         IDeckLinkVideoFrame *srcFrame,
         IDeckLinkVideoFrame *dstFrame);
 
+    HRESULT (STDMETHODCALLTYPE *ConvertNewFrame)(
+        IDeckLinkVideoConversion *This,
+        IDeckLinkVideoFrame *srcFrame,
+        BMDPixelFormat dstPixelFormat,
+        BMDColorspace dstColorspace,
+        IDeckLinkVideoBuffer *dstBuffer,
+        IDeckLinkVideoFrame **dstFrame);
+
     END_INTERFACE
 } IDeckLinkVideoConversionVtbl;
 
@@ -10231,6 +10510,7 @@ interface IDeckLinkVideoConversion {
 #define IDeckLinkVideoConversion_Release(This) (This)->lpVtbl->Release(This)
 /*** IDeckLinkVideoConversion methods ***/
 #define IDeckLinkVideoConversion_ConvertFrame(This,srcFrame,dstFrame) (This)->lpVtbl->ConvertFrame(This,srcFrame,dstFrame)
+#define IDeckLinkVideoConversion_ConvertNewFrame(This,srcFrame,dstPixelFormat,dstColorspace,dstBuffer,dstFrame) (This)->lpVtbl->ConvertNewFrame(This,srcFrame,dstPixelFormat,dstColorspace,dstBuffer,dstFrame)
 #else
 /*** IUnknown methods ***/
 static __WIDL_INLINE HRESULT IDeckLinkVideoConversion_QueryInterface(IDeckLinkVideoConversion* This,REFIID riid,void **ppvObject) {
@@ -10245,6 +10525,9 @@ static __WIDL_INLINE ULONG IDeckLinkVideoConversion_Release(IDeckLinkVideoConver
 /*** IDeckLinkVideoConversion methods ***/
 static __WIDL_INLINE HRESULT IDeckLinkVideoConversion_ConvertFrame(IDeckLinkVideoConversion* This,IDeckLinkVideoFrame *srcFrame,IDeckLinkVideoFrame *dstFrame) {
     return This->lpVtbl->ConvertFrame(This,srcFrame,dstFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoConversion_ConvertNewFrame(IDeckLinkVideoConversion* This,IDeckLinkVideoFrame *srcFrame,BMDPixelFormat dstPixelFormat,BMDColorspace dstColorspace,IDeckLinkVideoBuffer *dstBuffer,IDeckLinkVideoFrame **dstFrame) {
+    return This->lpVtbl->ConvertNewFrame(This,srcFrame,dstPixelFormat,dstColorspace,dstBuffer,dstFrame);
 }
 #endif
 #endif
@@ -10459,12 +10742,12 @@ __CRT_UUID_DECL(CDeckLinkAPIInformation, 0x263ca19f, 0xed09, 0x482e, 0x9f,0x9d, 
  * CDeckLinkGLScreenPreviewHelper coclass
  */
 
-DEFINE_GUID(CLSID_CDeckLinkGLScreenPreviewHelper, 0xf63e77c7, 0xb655, 0x4a4a, 0x9a,0xd0, 0x3c,0xa8,0x5d,0x39,0x43,0x43);
+DEFINE_GUID(CLSID_CDeckLinkGLScreenPreviewHelper, 0x1e332dae, 0x0d04, 0x49eb, 0xb8,0xa1, 0xb6,0xe0,0x0b,0x2b,0x6b,0xd0);
 
 #ifdef __cplusplus
-class DECLSPEC_UUID("f63e77c7-b655-4a4a-9ad0-3ca85d394343") CDeckLinkGLScreenPreviewHelper;
+class DECLSPEC_UUID("1e332dae-0d04-49eb-b8a1-b6e00b2b6bd0") CDeckLinkGLScreenPreviewHelper;
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkGLScreenPreviewHelper, 0xf63e77c7, 0xb655, 0x4a4a, 0x9a,0xd0, 0x3c,0xa8,0x5d,0x39,0x43,0x43)
+__CRT_UUID_DECL(CDeckLinkGLScreenPreviewHelper, 0x1e332dae, 0x0d04, 0x49eb, 0xb8,0xa1, 0xb6,0xe0,0x0b,0x2b,0x6b,0xd0)
 #endif
 #endif
 
@@ -10472,12 +10755,12 @@ __CRT_UUID_DECL(CDeckLinkGLScreenPreviewHelper, 0xf63e77c7, 0xb655, 0x4a4a, 0x9a
  * CDeckLinkGL3ScreenPreviewHelper coclass
  */
 
-DEFINE_GUID(CLSID_CDeckLinkGL3ScreenPreviewHelper, 0x00696a71, 0xebc7, 0x491f, 0xac,0x02, 0x18,0xd3,0x39,0x3f,0x33,0xf0);
+DEFINE_GUID(CLSID_CDeckLinkGL3ScreenPreviewHelper, 0x166804e4, 0x15ef, 0x4bfd, 0xb6,0x23, 0xb5,0xba,0x92,0x16,0x67,0xc5);
 
 #ifdef __cplusplus
-class DECLSPEC_UUID("00696a71-ebc7-491f-ac02-18d3393f33f0") CDeckLinkGL3ScreenPreviewHelper;
+class DECLSPEC_UUID("166804e4-15ef-4bfd-b623-b5ba921667c5") CDeckLinkGL3ScreenPreviewHelper;
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkGL3ScreenPreviewHelper, 0x00696a71, 0xebc7, 0x491f, 0xac,0x02, 0x18,0xd3,0x39,0x3f,0x33,0xf0)
+__CRT_UUID_DECL(CDeckLinkGL3ScreenPreviewHelper, 0x166804e4, 0x15ef, 0x4bfd, 0xb6,0x23, 0xb5,0xba,0x92,0x16,0x67,0xc5)
 #endif
 #endif
 
@@ -10485,12 +10768,12 @@ __CRT_UUID_DECL(CDeckLinkGL3ScreenPreviewHelper, 0x00696a71, 0xebc7, 0x491f, 0xa
  * CDeckLinkDX9ScreenPreviewHelper coclass
  */
 
-DEFINE_GUID(CLSID_CDeckLinkDX9ScreenPreviewHelper, 0xcc010023, 0xe01d, 0x4525, 0x9d,0x59, 0x80,0xc8,0xab,0x3d,0xc7,0xa0);
+DEFINE_GUID(CLSID_CDeckLinkDX9ScreenPreviewHelper, 0x0eb111ed, 0xada6, 0x43a6, 0x8b,0x16, 0xca,0x5d,0x27,0xee,0xa1,0x5e);
 
 #ifdef __cplusplus
-class DECLSPEC_UUID("cc010023-e01d-4525-9d59-80c8ab3dc7a0") CDeckLinkDX9ScreenPreviewHelper;
+class DECLSPEC_UUID("0eb111ed-ada6-43a6-8b16-ca5d27eea15e") CDeckLinkDX9ScreenPreviewHelper;
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkDX9ScreenPreviewHelper, 0xcc010023, 0xe01d, 0x4525, 0x9d,0x59, 0x80,0xc8,0xab,0x3d,0xc7,0xa0)
+__CRT_UUID_DECL(CDeckLinkDX9ScreenPreviewHelper, 0x0eb111ed, 0xada6, 0x43a6, 0x8b,0x16, 0xca,0x5d,0x27,0xee,0xa1,0x5e)
 #endif
 #endif
 
@@ -10498,12 +10781,12 @@ __CRT_UUID_DECL(CDeckLinkDX9ScreenPreviewHelper, 0xcc010023, 0xe01d, 0x4525, 0x9
  * CDeckLinkWPFDX9ScreenPreviewHelper coclass
  */
 
-DEFINE_GUID(CLSID_CDeckLinkWPFDX9ScreenPreviewHelper, 0xef2a8478, 0x7ddf, 0x11e9, 0x8f,0x9e, 0x2a,0x86,0xe4,0x08,0x5a,0x59);
+DEFINE_GUID(CLSID_CDeckLinkWPFDX9ScreenPreviewHelper, 0x5e64496d, 0x4bb2, 0x45d5, 0x9b,0x63, 0xbf,0x1b,0x46,0x3b,0x18,0xaf);
 
 #ifdef __cplusplus
-class DECLSPEC_UUID("ef2a8478-7ddf-11e9-8f9e-2a86e4085a59") CDeckLinkWPFDX9ScreenPreviewHelper;
+class DECLSPEC_UUID("5e64496d-4bb2-45d5-9b63-bf1b463b18af") CDeckLinkWPFDX9ScreenPreviewHelper;
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkWPFDX9ScreenPreviewHelper, 0xef2a8478, 0x7ddf, 0x11e9, 0x8f,0x9e, 0x2a,0x86,0xe4,0x08,0x5a,0x59)
+__CRT_UUID_DECL(CDeckLinkWPFDX9ScreenPreviewHelper, 0x5e64496d, 0x4bb2, 0x45d5, 0x9b,0x63, 0xbf,0x1b,0x46,0x3b,0x18,0xaf)
 #endif
 #endif
 
@@ -10511,12 +10794,12 @@ __CRT_UUID_DECL(CDeckLinkWPFDX9ScreenPreviewHelper, 0xef2a8478, 0x7ddf, 0x11e9, 
  * CDeckLinkVideoConversion coclass
  */
 
-DEFINE_GUID(CLSID_CDeckLinkVideoConversion, 0x7dbbbb11, 0x5b7b, 0x467d, 0xae,0xa4, 0xce,0xa4,0x68,0xfd,0x36,0x8c);
+DEFINE_GUID(CLSID_CDeckLinkVideoConversion, 0x89ba47bd, 0x1fe2, 0x4d76, 0x9b,0xfe, 0xde,0x85,0x04,0x9c,0x49,0x87);
 
 #ifdef __cplusplus
-class DECLSPEC_UUID("7dbbbb11-5b7b-467d-aea4-cea468fd368c") CDeckLinkVideoConversion;
+class DECLSPEC_UUID("89ba47bd-1fe2-4d76-9bfe-de85049c4987") CDeckLinkVideoConversion;
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkVideoConversion, 0x7dbbbb11, 0x5b7b, 0x467d, 0xae,0xa4, 0xce,0xa4,0x68,0xfd,0x36,0x8c)
+__CRT_UUID_DECL(CDeckLinkVideoConversion, 0x89ba47bd, 0x1fe2, 0x4d76, 0x9b,0xfe, 0xde,0x85,0x04,0x9c,0x49,0x87)
 #endif
 #endif
 
@@ -10546,6 +10829,2586 @@ __CRT_UUID_DECL(CDeckLinkVideoFrameAncillaryPackets, 0xf891ad29, 0xd0c2, 0x46e9,
 #endif
 #endif
 
+#ifndef __IDeckLinkVideoOutputCallback_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoOutputCallback_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoOutputCallback_v14_2_1 IDeckLinkVideoOutputCallback_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoOutputCallback_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkInputCallback_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkInputCallback_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkInputCallback_v14_2_1 IDeckLinkInputCallback_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkInputCallback_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkEncoderInputCallback_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkEncoderInputCallback_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkEncoderInputCallback_v14_2_1 IDeckLinkEncoderInputCallback_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkEncoderInputCallback_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkMemoryAllocator_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkMemoryAllocator_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkMemoryAllocator_v14_2_1 IDeckLinkMemoryAllocator_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkMemoryAllocator_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkOutput_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkOutput_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkOutput_v14_2_1 IDeckLinkOutput_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkOutput_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkInput_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkInput_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkInput_v14_2_1 IDeckLinkInput_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkInput_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkEncoderInput_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkEncoderInput_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkEncoderInput_v14_2_1 IDeckLinkEncoderInput_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkEncoderInput_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoFrame_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoFrame_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoFrame_v14_2_1 IDeckLinkVideoFrame_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoFrame_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkMutableVideoFrame_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkMutableVideoFrame_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkMutableVideoFrame_v14_2_1 IDeckLinkMutableVideoFrame_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkMutableVideoFrame_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoFrame3DExtensions_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoFrame3DExtensions_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoFrame3DExtensions_v14_2_1 IDeckLinkVideoFrame3DExtensions_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoFrame3DExtensions_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoInputFrame_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoInputFrame_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoInputFrame_v14_2_1 IDeckLinkVideoInputFrame_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoInputFrame_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkScreenPreviewCallback_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkScreenPreviewCallback_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkScreenPreviewCallback_v14_2_1 IDeckLinkScreenPreviewCallback_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkScreenPreviewCallback_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkGLScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkGLScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkGLScreenPreviewHelper_v14_2_1 IDeckLinkGLScreenPreviewHelper_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkGLScreenPreviewHelper_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkDX9ScreenPreviewHelper_v14_2_1 IDeckLinkDX9ScreenPreviewHelper_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkDX9ScreenPreviewHelper_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoConversion_v14_2_1_FWD_DEFINED__
+#define __IDeckLinkVideoConversion_v14_2_1_FWD_DEFINED__
+typedef interface IDeckLinkVideoConversion_v14_2_1 IDeckLinkVideoConversion_v14_2_1;
+#ifdef __cplusplus
+interface IDeckLinkVideoConversion_v14_2_1;
+#endif /* __cplusplus */
+#endif
+
+/*****************************************************************************
+ * IDeckLinkVideoOutputCallback_v14_2_1 interface
+ */
+#ifndef __IDeckLinkVideoOutputCallback_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkVideoOutputCallback_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoOutputCallback_v14_2_1, 0x20aa5225, 0x1958, 0x47cb, 0x82,0x0b, 0x80,0xa8,0xd5,0x21,0xa6,0xee);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("20aa5225-1958-47cb-820b-80a8d521a6ee")
+IDeckLinkVideoOutputCallback_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE ScheduledFrameCompleted(
+        IDeckLinkVideoFrame_v14_2_1 *completedFrame,
+        BMDOutputFrameCompletionResult result) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE ScheduledPlaybackHasStopped(
+        ) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoOutputCallback_v14_2_1, 0x20aa5225, 0x1958, 0x47cb, 0x82,0x0b, 0x80,0xa8,0xd5,0x21,0xa6,0xee)
+#endif
+#else
+typedef struct IDeckLinkVideoOutputCallback_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoOutputCallback_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoOutputCallback_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoOutputCallback_v14_2_1 *This);
+
+    /*** IDeckLinkVideoOutputCallback_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *ScheduledFrameCompleted)(
+        IDeckLinkVideoOutputCallback_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *completedFrame,
+        BMDOutputFrameCompletionResult result);
+
+    HRESULT (STDMETHODCALLTYPE *ScheduledPlaybackHasStopped)(
+        IDeckLinkVideoOutputCallback_v14_2_1 *This);
+
+    END_INTERFACE
+} IDeckLinkVideoOutputCallback_v14_2_1Vtbl;
+
+interface IDeckLinkVideoOutputCallback_v14_2_1 {
+    CONST_VTBL IDeckLinkVideoOutputCallback_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoOutputCallback_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoOutputCallback_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoOutputCallback_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoOutputCallback_v14_2_1 methods ***/
+#define IDeckLinkVideoOutputCallback_v14_2_1_ScheduledFrameCompleted(This,completedFrame,result) (This)->lpVtbl->ScheduledFrameCompleted(This,completedFrame,result)
+#define IDeckLinkVideoOutputCallback_v14_2_1_ScheduledPlaybackHasStopped(This) (This)->lpVtbl->ScheduledPlaybackHasStopped(This)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_v14_2_1_QueryInterface(IDeckLinkVideoOutputCallback_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoOutputCallback_v14_2_1_AddRef(IDeckLinkVideoOutputCallback_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoOutputCallback_v14_2_1_Release(IDeckLinkVideoOutputCallback_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoOutputCallback_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_v14_2_1_ScheduledFrameCompleted(IDeckLinkVideoOutputCallback_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *completedFrame,BMDOutputFrameCompletionResult result) {
+    return This->lpVtbl->ScheduledFrameCompleted(This,completedFrame,result);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_v14_2_1_ScheduledPlaybackHasStopped(IDeckLinkVideoOutputCallback_v14_2_1* This) {
+    return This->lpVtbl->ScheduledPlaybackHasStopped(This);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoOutputCallback_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkInputCallback_v14_2_1 interface
+ */
+#ifndef __IDeckLinkInputCallback_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkInputCallback_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkInputCallback_v14_2_1, 0xc6fce4c9, 0xc4e4, 0x4047, 0x82,0xfb, 0x5d,0x23,0x82,0x32,0xa9,0x02);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("c6fce4c9-c4e4-4047-82fb-5d238232a902")
+IDeckLinkInputCallback_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE VideoInputFormatChanged(
+        BMDVideoInputFormatChangedEvents notificationEvents,
+        IDeckLinkDisplayMode *newDisplayMode,
+        BMDDetectedVideoInputFormatFlags detectedSignalFlags) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE VideoInputFrameArrived(
+        IDeckLinkVideoInputFrame_v14_2_1 *videoFrame,
+        IDeckLinkAudioInputPacket *audioPacket) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkInputCallback_v14_2_1, 0xc6fce4c9, 0xc4e4, 0x4047, 0x82,0xfb, 0x5d,0x23,0x82,0x32,0xa9,0x02)
+#endif
+#else
+typedef struct IDeckLinkInputCallback_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkInputCallback_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkInputCallback_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkInputCallback_v14_2_1 *This);
+
+    /*** IDeckLinkInputCallback_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *VideoInputFormatChanged)(
+        IDeckLinkInputCallback_v14_2_1 *This,
+        BMDVideoInputFormatChangedEvents notificationEvents,
+        IDeckLinkDisplayMode *newDisplayMode,
+        BMDDetectedVideoInputFormatFlags detectedSignalFlags);
+
+    HRESULT (STDMETHODCALLTYPE *VideoInputFrameArrived)(
+        IDeckLinkInputCallback_v14_2_1 *This,
+        IDeckLinkVideoInputFrame_v14_2_1 *videoFrame,
+        IDeckLinkAudioInputPacket *audioPacket);
+
+    END_INTERFACE
+} IDeckLinkInputCallback_v14_2_1Vtbl;
+
+interface IDeckLinkInputCallback_v14_2_1 {
+    CONST_VTBL IDeckLinkInputCallback_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkInputCallback_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkInputCallback_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkInputCallback_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkInputCallback_v14_2_1 methods ***/
+#define IDeckLinkInputCallback_v14_2_1_VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags) (This)->lpVtbl->VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags)
+#define IDeckLinkInputCallback_v14_2_1_VideoInputFrameArrived(This,videoFrame,audioPacket) (This)->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v14_2_1_QueryInterface(IDeckLinkInputCallback_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkInputCallback_v14_2_1_AddRef(IDeckLinkInputCallback_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkInputCallback_v14_2_1_Release(IDeckLinkInputCallback_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkInputCallback_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v14_2_1_VideoInputFormatChanged(IDeckLinkInputCallback_v14_2_1* This,BMDVideoInputFormatChangedEvents notificationEvents,IDeckLinkDisplayMode *newDisplayMode,BMDDetectedVideoInputFormatFlags detectedSignalFlags) {
+    return This->lpVtbl->VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v14_2_1_VideoInputFrameArrived(IDeckLinkInputCallback_v14_2_1* This,IDeckLinkVideoInputFrame_v14_2_1 *videoFrame,IDeckLinkAudioInputPacket *audioPacket) {
+    return This->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkInputCallback_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkMemoryAllocator_v14_2_1 interface
+ */
+#ifndef __IDeckLinkMemoryAllocator_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkMemoryAllocator_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkMemoryAllocator_v14_2_1, 0xb36eb6e7, 0x9d29, 0x4aa8, 0x92,0xef, 0x84,0x3b,0x87,0xa2,0x89,0xe8);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("b36eb6e7-9d29-4aa8-92ef-843b87a289e8")
+IDeckLinkMemoryAllocator_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE AllocateBuffer(
+        unsigned int bufferSize,
+        void **allocatedBuffer) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE ReleaseBuffer(
+        void *buffer) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE Commit(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE Decommit(
+        ) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkMemoryAllocator_v14_2_1, 0xb36eb6e7, 0x9d29, 0x4aa8, 0x92,0xef, 0x84,0x3b,0x87,0xa2,0x89,0xe8)
+#endif
+#else
+typedef struct IDeckLinkMemoryAllocator_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkMemoryAllocator_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkMemoryAllocator_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkMemoryAllocator_v14_2_1 *This);
+
+    /*** IDeckLinkMemoryAllocator_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *AllocateBuffer)(
+        IDeckLinkMemoryAllocator_v14_2_1 *This,
+        unsigned int bufferSize,
+        void **allocatedBuffer);
+
+    HRESULT (STDMETHODCALLTYPE *ReleaseBuffer)(
+        IDeckLinkMemoryAllocator_v14_2_1 *This,
+        void *buffer);
+
+    HRESULT (STDMETHODCALLTYPE *Commit)(
+        IDeckLinkMemoryAllocator_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *Decommit)(
+        IDeckLinkMemoryAllocator_v14_2_1 *This);
+
+    END_INTERFACE
+} IDeckLinkMemoryAllocator_v14_2_1Vtbl;
+
+interface IDeckLinkMemoryAllocator_v14_2_1 {
+    CONST_VTBL IDeckLinkMemoryAllocator_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkMemoryAllocator_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkMemoryAllocator_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkMemoryAllocator_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkMemoryAllocator_v14_2_1 methods ***/
+#define IDeckLinkMemoryAllocator_v14_2_1_AllocateBuffer(This,bufferSize,allocatedBuffer) (This)->lpVtbl->AllocateBuffer(This,bufferSize,allocatedBuffer)
+#define IDeckLinkMemoryAllocator_v14_2_1_ReleaseBuffer(This,buffer) (This)->lpVtbl->ReleaseBuffer(This,buffer)
+#define IDeckLinkMemoryAllocator_v14_2_1_Commit(This) (This)->lpVtbl->Commit(This)
+#define IDeckLinkMemoryAllocator_v14_2_1_Decommit(This) (This)->lpVtbl->Decommit(This)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_v14_2_1_QueryInterface(IDeckLinkMemoryAllocator_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkMemoryAllocator_v14_2_1_AddRef(IDeckLinkMemoryAllocator_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkMemoryAllocator_v14_2_1_Release(IDeckLinkMemoryAllocator_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkMemoryAllocator_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_v14_2_1_AllocateBuffer(IDeckLinkMemoryAllocator_v14_2_1* This,unsigned int bufferSize,void **allocatedBuffer) {
+    return This->lpVtbl->AllocateBuffer(This,bufferSize,allocatedBuffer);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_v14_2_1_ReleaseBuffer(IDeckLinkMemoryAllocator_v14_2_1* This,void *buffer) {
+    return This->lpVtbl->ReleaseBuffer(This,buffer);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_v14_2_1_Commit(IDeckLinkMemoryAllocator_v14_2_1* This) {
+    return This->lpVtbl->Commit(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMemoryAllocator_v14_2_1_Decommit(IDeckLinkMemoryAllocator_v14_2_1* This) {
+    return This->lpVtbl->Decommit(This);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkMemoryAllocator_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkOutput_v14_2_1 interface
+ */
+#ifndef __IDeckLinkOutput_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkOutput_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkOutput_v14_2_1, 0xbe2d9020, 0x461e, 0x442f, 0x84,0xb7, 0xe9,0x49,0xcb,0x95,0x3b,0x9d);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("be2d9020-461e-442f-84b7-e949cb953b9d")
+IDeckLinkOutput_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
+        BMDVideoConnection connection,
+        BMDDisplayMode requestedMode,
+        BMDPixelFormat requestedPixelFormat,
+        BMDVideoOutputConversionMode conversionMode,
+        BMDSupportedVideoModeFlags flags,
+        BMDDisplayMode *actualMode,
+        BOOL *supported) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetDisplayMode(
+        BMDDisplayMode displayMode,
+        IDeckLinkDisplayMode **resultDisplayMode) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
+        IDeckLinkDisplayModeIterator **iterator) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE EnableVideoOutput(
+        BMDDisplayMode displayMode,
+        BMDVideoOutputFlags flags) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DisableVideoOutput(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFrameMemoryAllocator(
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE CreateVideoFrame(
+        int width,
+        int height,
+        int rowBytes,
+        BMDPixelFormat pixelFormat,
+        BMDFrameFlags flags,
+        IDeckLinkMutableVideoFrame_v14_2_1 **outFrame) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE CreateAncillaryData(
+        BMDPixelFormat pixelFormat,
+        IDeckLinkVideoFrameAncillary **outBuffer) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DisplayVideoFrameSync(
+        IDeckLinkVideoFrame_v14_2_1 *theFrame) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE ScheduleVideoFrame(
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
+        BMDTimeValue displayTime,
+        BMDTimeValue displayDuration,
+        BMDTimeScale timeScale) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetScheduledFrameCompletionCallback(
+        IDeckLinkVideoOutputCallback_v14_2_1 *theCallback) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetBufferedVideoFrameCount(
+        unsigned int *bufferedFrameCount) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE EnableAudioOutput(
+        BMDAudioSampleRate sampleRate,
+        BMDAudioSampleType sampleType,
+        unsigned int channelCount,
+        BMDAudioOutputStreamType streamType) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DisableAudioOutput(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE WriteAudioSamplesSync(
+        void *buffer,
+        unsigned int sampleFrameCount,
+        unsigned int *sampleFramesWritten) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE BeginAudioPreroll(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE EndAudioPreroll(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE ScheduleAudioSamples(
+        void *buffer,
+        unsigned int sampleFrameCount,
+        BMDTimeValue streamTime,
+        BMDTimeScale timeScale,
+        unsigned int *sampleFramesWritten) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetBufferedAudioSampleFrameCount(
+        unsigned int *bufferedSampleFrameCount) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE FlushBufferedAudioSamples(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetAudioCallback(
+        IDeckLinkAudioOutputCallback *theCallback) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE StartScheduledPlayback(
+        BMDTimeValue playbackStartTime,
+        BMDTimeScale timeScale,
+        double playbackSpeed) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE StopScheduledPlayback(
+        BMDTimeValue stopPlaybackAtTime,
+        BMDTimeValue *actualStopTime,
+        BMDTimeScale timeScale) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE IsScheduledPlaybackRunning(
+        BOOL *active) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetScheduledStreamTime(
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *streamTime,
+        double *playbackSpeed) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetReferenceStatus(
+        BMDReferenceStatus *referenceStatus) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *hardwareTime,
+        BMDTimeValue *timeInFrame,
+        BMDTimeValue *ticksPerFrame) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetFrameCompletionReferenceTimestamp(
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *frameCompletionTimestamp) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkOutput_v14_2_1, 0xbe2d9020, 0x461e, 0x442f, 0x84,0xb7, 0xe9,0x49,0xcb,0x95,0x3b,0x9d)
+#endif
+#else
+typedef struct IDeckLinkOutput_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkOutput_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkOutput_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkOutput_v14_2_1 *This);
+
+    /*** IDeckLinkOutput_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDVideoConnection connection,
+        BMDDisplayMode requestedMode,
+        BMDPixelFormat requestedPixelFormat,
+        BMDVideoOutputConversionMode conversionMode,
+        BMDSupportedVideoModeFlags flags,
+        BMDDisplayMode *actualMode,
+        BOOL *supported);
+
+    HRESULT (STDMETHODCALLTYPE *GetDisplayMode)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDDisplayMode displayMode,
+        IDeckLinkDisplayMode **resultDisplayMode);
+
+    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
+        IDeckLinkOutput_v14_2_1 *This,
+        IDeckLinkDisplayModeIterator **iterator);
+
+    HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
+        IDeckLinkOutput_v14_2_1 *This,
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback);
+
+    HRESULT (STDMETHODCALLTYPE *EnableVideoOutput)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDDisplayMode displayMode,
+        BMDVideoOutputFlags flags);
+
+    HRESULT (STDMETHODCALLTYPE *DisableVideoOutput)(
+        IDeckLinkOutput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *SetVideoOutputFrameMemoryAllocator)(
+        IDeckLinkOutput_v14_2_1 *This,
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
+
+    HRESULT (STDMETHODCALLTYPE *CreateVideoFrame)(
+        IDeckLinkOutput_v14_2_1 *This,
+        int width,
+        int height,
+        int rowBytes,
+        BMDPixelFormat pixelFormat,
+        BMDFrameFlags flags,
+        IDeckLinkMutableVideoFrame_v14_2_1 **outFrame);
+
+    HRESULT (STDMETHODCALLTYPE *CreateAncillaryData)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDPixelFormat pixelFormat,
+        IDeckLinkVideoFrameAncillary **outBuffer);
+
+    HRESULT (STDMETHODCALLTYPE *DisplayVideoFrameSync)(
+        IDeckLinkOutput_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame);
+
+    HRESULT (STDMETHODCALLTYPE *ScheduleVideoFrame)(
+        IDeckLinkOutput_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
+        BMDTimeValue displayTime,
+        BMDTimeValue displayDuration,
+        BMDTimeScale timeScale);
+
+    HRESULT (STDMETHODCALLTYPE *SetScheduledFrameCompletionCallback)(
+        IDeckLinkOutput_v14_2_1 *This,
+        IDeckLinkVideoOutputCallback_v14_2_1 *theCallback);
+
+    HRESULT (STDMETHODCALLTYPE *GetBufferedVideoFrameCount)(
+        IDeckLinkOutput_v14_2_1 *This,
+        unsigned int *bufferedFrameCount);
+
+    HRESULT (STDMETHODCALLTYPE *EnableAudioOutput)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDAudioSampleRate sampleRate,
+        BMDAudioSampleType sampleType,
+        unsigned int channelCount,
+        BMDAudioOutputStreamType streamType);
+
+    HRESULT (STDMETHODCALLTYPE *DisableAudioOutput)(
+        IDeckLinkOutput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *WriteAudioSamplesSync)(
+        IDeckLinkOutput_v14_2_1 *This,
+        void *buffer,
+        unsigned int sampleFrameCount,
+        unsigned int *sampleFramesWritten);
+
+    HRESULT (STDMETHODCALLTYPE *BeginAudioPreroll)(
+        IDeckLinkOutput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *EndAudioPreroll)(
+        IDeckLinkOutput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *ScheduleAudioSamples)(
+        IDeckLinkOutput_v14_2_1 *This,
+        void *buffer,
+        unsigned int sampleFrameCount,
+        BMDTimeValue streamTime,
+        BMDTimeScale timeScale,
+        unsigned int *sampleFramesWritten);
+
+    HRESULT (STDMETHODCALLTYPE *GetBufferedAudioSampleFrameCount)(
+        IDeckLinkOutput_v14_2_1 *This,
+        unsigned int *bufferedSampleFrameCount);
+
+    HRESULT (STDMETHODCALLTYPE *FlushBufferedAudioSamples)(
+        IDeckLinkOutput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *SetAudioCallback)(
+        IDeckLinkOutput_v14_2_1 *This,
+        IDeckLinkAudioOutputCallback *theCallback);
+
+    HRESULT (STDMETHODCALLTYPE *StartScheduledPlayback)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDTimeValue playbackStartTime,
+        BMDTimeScale timeScale,
+        double playbackSpeed);
+
+    HRESULT (STDMETHODCALLTYPE *StopScheduledPlayback)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDTimeValue stopPlaybackAtTime,
+        BMDTimeValue *actualStopTime,
+        BMDTimeScale timeScale);
+
+    HRESULT (STDMETHODCALLTYPE *IsScheduledPlaybackRunning)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BOOL *active);
+
+    HRESULT (STDMETHODCALLTYPE *GetScheduledStreamTime)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *streamTime,
+        double *playbackSpeed);
+
+    HRESULT (STDMETHODCALLTYPE *GetReferenceStatus)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDReferenceStatus *referenceStatus);
+
+    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
+        IDeckLinkOutput_v14_2_1 *This,
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *hardwareTime,
+        BMDTimeValue *timeInFrame,
+        BMDTimeValue *ticksPerFrame);
+
+    HRESULT (STDMETHODCALLTYPE *GetFrameCompletionReferenceTimestamp)(
+        IDeckLinkOutput_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *frameCompletionTimestamp);
+
+    END_INTERFACE
+} IDeckLinkOutput_v14_2_1Vtbl;
+
+interface IDeckLinkOutput_v14_2_1 {
+    CONST_VTBL IDeckLinkOutput_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkOutput_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkOutput_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkOutput_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkOutput_v14_2_1 methods ***/
+#define IDeckLinkOutput_v14_2_1_DoesSupportVideoMode(This,connection,requestedMode,requestedPixelFormat,conversionMode,flags,actualMode,supported) (This)->lpVtbl->DoesSupportVideoMode(This,connection,requestedMode,requestedPixelFormat,conversionMode,flags,actualMode,supported)
+#define IDeckLinkOutput_v14_2_1_GetDisplayMode(This,displayMode,resultDisplayMode) (This)->lpVtbl->GetDisplayMode(This,displayMode,resultDisplayMode)
+#define IDeckLinkOutput_v14_2_1_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
+#define IDeckLinkOutput_v14_2_1_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
+#define IDeckLinkOutput_v14_2_1_EnableVideoOutput(This,displayMode,flags) (This)->lpVtbl->EnableVideoOutput(This,displayMode,flags)
+#define IDeckLinkOutput_v14_2_1_DisableVideoOutput(This) (This)->lpVtbl->DisableVideoOutput(This)
+#define IDeckLinkOutput_v14_2_1_SetVideoOutputFrameMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator)
+#define IDeckLinkOutput_v14_2_1_CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame) (This)->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame)
+#define IDeckLinkOutput_v14_2_1_CreateAncillaryData(This,pixelFormat,outBuffer) (This)->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer)
+#define IDeckLinkOutput_v14_2_1_DisplayVideoFrameSync(This,theFrame) (This)->lpVtbl->DisplayVideoFrameSync(This,theFrame)
+#define IDeckLinkOutput_v14_2_1_ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale) (This)->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale)
+#define IDeckLinkOutput_v14_2_1_SetScheduledFrameCompletionCallback(This,theCallback) (This)->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback)
+#define IDeckLinkOutput_v14_2_1_GetBufferedVideoFrameCount(This,bufferedFrameCount) (This)->lpVtbl->GetBufferedVideoFrameCount(This,bufferedFrameCount)
+#define IDeckLinkOutput_v14_2_1_EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType) (This)->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType)
+#define IDeckLinkOutput_v14_2_1_DisableAudioOutput(This) (This)->lpVtbl->DisableAudioOutput(This)
+#define IDeckLinkOutput_v14_2_1_WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten) (This)->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten)
+#define IDeckLinkOutput_v14_2_1_BeginAudioPreroll(This) (This)->lpVtbl->BeginAudioPreroll(This)
+#define IDeckLinkOutput_v14_2_1_EndAudioPreroll(This) (This)->lpVtbl->EndAudioPreroll(This)
+#define IDeckLinkOutput_v14_2_1_ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten) (This)->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten)
+#define IDeckLinkOutput_v14_2_1_GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount) (This)->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount)
+#define IDeckLinkOutput_v14_2_1_FlushBufferedAudioSamples(This) (This)->lpVtbl->FlushBufferedAudioSamples(This)
+#define IDeckLinkOutput_v14_2_1_SetAudioCallback(This,theCallback) (This)->lpVtbl->SetAudioCallback(This,theCallback)
+#define IDeckLinkOutput_v14_2_1_StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed) (This)->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed)
+#define IDeckLinkOutput_v14_2_1_StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale) (This)->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale)
+#define IDeckLinkOutput_v14_2_1_IsScheduledPlaybackRunning(This,active) (This)->lpVtbl->IsScheduledPlaybackRunning(This,active)
+#define IDeckLinkOutput_v14_2_1_GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed) (This)->lpVtbl->GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed)
+#define IDeckLinkOutput_v14_2_1_GetReferenceStatus(This,referenceStatus) (This)->lpVtbl->GetReferenceStatus(This,referenceStatus)
+#define IDeckLinkOutput_v14_2_1_GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame)
+#define IDeckLinkOutput_v14_2_1_GetFrameCompletionReferenceTimestamp(This,theFrame,desiredTimeScale,frameCompletionTimestamp) (This)->lpVtbl->GetFrameCompletionReferenceTimestamp(This,theFrame,desiredTimeScale,frameCompletionTimestamp)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_QueryInterface(IDeckLinkOutput_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkOutput_v14_2_1_AddRef(IDeckLinkOutput_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkOutput_v14_2_1_Release(IDeckLinkOutput_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkOutput_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_DoesSupportVideoMode(IDeckLinkOutput_v14_2_1* This,BMDVideoConnection connection,BMDDisplayMode requestedMode,BMDPixelFormat requestedPixelFormat,BMDVideoOutputConversionMode conversionMode,BMDSupportedVideoModeFlags flags,BMDDisplayMode *actualMode,BOOL *supported) {
+    return This->lpVtbl->DoesSupportVideoMode(This,connection,requestedMode,requestedPixelFormat,conversionMode,flags,actualMode,supported);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_GetDisplayMode(IDeckLinkOutput_v14_2_1* This,BMDDisplayMode displayMode,IDeckLinkDisplayMode **resultDisplayMode) {
+    return This->lpVtbl->GetDisplayMode(This,displayMode,resultDisplayMode);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_GetDisplayModeIterator(IDeckLinkOutput_v14_2_1* This,IDeckLinkDisplayModeIterator **iterator) {
+    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_SetScreenPreviewCallback(IDeckLinkOutput_v14_2_1* This,IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) {
+    return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_EnableVideoOutput(IDeckLinkOutput_v14_2_1* This,BMDDisplayMode displayMode,BMDVideoOutputFlags flags) {
+    return This->lpVtbl->EnableVideoOutput(This,displayMode,flags);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_DisableVideoOutput(IDeckLinkOutput_v14_2_1* This) {
+    return This->lpVtbl->DisableVideoOutput(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v14_2_1* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
+    return This->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_CreateVideoFrame(IDeckLinkOutput_v14_2_1* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame_v14_2_1 **outFrame) {
+    return This->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_CreateAncillaryData(IDeckLinkOutput_v14_2_1* This,BMDPixelFormat pixelFormat,IDeckLinkVideoFrameAncillary **outBuffer) {
+    return This->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_DisplayVideoFrameSync(IDeckLinkOutput_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *theFrame) {
+    return This->lpVtbl->DisplayVideoFrameSync(This,theFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_ScheduleVideoFrame(IDeckLinkOutput_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
+    return This->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v14_2_1* This,IDeckLinkVideoOutputCallback_v14_2_1 *theCallback) {
+    return This->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_GetBufferedVideoFrameCount(IDeckLinkOutput_v14_2_1* This,unsigned int *bufferedFrameCount) {
+    return This->lpVtbl->GetBufferedVideoFrameCount(This,bufferedFrameCount);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_EnableAudioOutput(IDeckLinkOutput_v14_2_1* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount,BMDAudioOutputStreamType streamType) {
+    return This->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_DisableAudioOutput(IDeckLinkOutput_v14_2_1* This) {
+    return This->lpVtbl->DisableAudioOutput(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_WriteAudioSamplesSync(IDeckLinkOutput_v14_2_1* This,void *buffer,unsigned int sampleFrameCount,unsigned int *sampleFramesWritten) {
+    return This->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_BeginAudioPreroll(IDeckLinkOutput_v14_2_1* This) {
+    return This->lpVtbl->BeginAudioPreroll(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_EndAudioPreroll(IDeckLinkOutput_v14_2_1* This) {
+    return This->lpVtbl->EndAudioPreroll(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_ScheduleAudioSamples(IDeckLinkOutput_v14_2_1* This,void *buffer,unsigned int sampleFrameCount,BMDTimeValue streamTime,BMDTimeScale timeScale,unsigned int *sampleFramesWritten) {
+    return This->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_GetBufferedAudioSampleFrameCount(IDeckLinkOutput_v14_2_1* This,unsigned int *bufferedSampleFrameCount) {
+    return This->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_FlushBufferedAudioSamples(IDeckLinkOutput_v14_2_1* This) {
+    return This->lpVtbl->FlushBufferedAudioSamples(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_SetAudioCallback(IDeckLinkOutput_v14_2_1* This,IDeckLinkAudioOutputCallback *theCallback) {
+    return This->lpVtbl->SetAudioCallback(This,theCallback);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_StartScheduledPlayback(IDeckLinkOutput_v14_2_1* This,BMDTimeValue playbackStartTime,BMDTimeScale timeScale,double playbackSpeed) {
+    return This->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_StopScheduledPlayback(IDeckLinkOutput_v14_2_1* This,BMDTimeValue stopPlaybackAtTime,BMDTimeValue *actualStopTime,BMDTimeScale timeScale) {
+    return This->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_IsScheduledPlaybackRunning(IDeckLinkOutput_v14_2_1* This,BOOL *active) {
+    return This->lpVtbl->IsScheduledPlaybackRunning(This,active);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_GetScheduledStreamTime(IDeckLinkOutput_v14_2_1* This,BMDTimeScale desiredTimeScale,BMDTimeValue *streamTime,double *playbackSpeed) {
+    return This->lpVtbl->GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_GetReferenceStatus(IDeckLinkOutput_v14_2_1* This,BMDReferenceStatus *referenceStatus) {
+    return This->lpVtbl->GetReferenceStatus(This,referenceStatus);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_GetHardwareReferenceClock(IDeckLinkOutput_v14_2_1* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
+    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v14_2_1_GetFrameCompletionReferenceTimestamp(IDeckLinkOutput_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *theFrame,BMDTimeScale desiredTimeScale,BMDTimeValue *frameCompletionTimestamp) {
+    return This->lpVtbl->GetFrameCompletionReferenceTimestamp(This,theFrame,desiredTimeScale,frameCompletionTimestamp);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkOutput_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkInput_v14_2_1 interface
+ */
+#ifndef __IDeckLinkInput_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkInput_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkInput_v14_2_1, 0xc21cdb6e, 0xf414, 0x46e4, 0xa6,0x36, 0x80,0xa5,0x66,0xe0,0xed,0x37);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("c21cdb6e-f414-46e4-a636-80a566e0ed37")
+IDeckLinkInput_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
+        BMDVideoConnection connection,
+        BMDDisplayMode requestedMode,
+        BMDPixelFormat requestedPixelFormat,
+        BMDVideoInputConversionMode conversionMode,
+        BMDSupportedVideoModeFlags flags,
+        BMDDisplayMode *actualMode,
+        BOOL *supported) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetDisplayMode(
+        BMDDisplayMode displayMode,
+        IDeckLinkDisplayMode **resultDisplayMode) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
+        IDeckLinkDisplayModeIterator **iterator) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
+        BMDDisplayMode displayMode,
+        BMDPixelFormat pixelFormat,
+        BMDVideoInputFlags flags) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DisableVideoInput(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetAvailableVideoFrameCount(
+        unsigned int *availableFrameCount) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetVideoInputFrameMemoryAllocator(
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
+        BMDAudioSampleRate sampleRate,
+        BMDAudioSampleType sampleType,
+        unsigned int channelCount) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DisableAudioInput(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetAvailableAudioSampleFrameCount(
+        unsigned int *availableSampleFrameCount) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE StartStreams(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE StopStreams(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE PauseStreams(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE FlushStreams(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetCallback(
+        IDeckLinkInputCallback_v14_2_1 *theCallback) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *hardwareTime,
+        BMDTimeValue *timeInFrame,
+        BMDTimeValue *ticksPerFrame) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkInput_v14_2_1, 0xc21cdb6e, 0xf414, 0x46e4, 0xa6,0x36, 0x80,0xa5,0x66,0xe0,0xed,0x37)
+#endif
+#else
+typedef struct IDeckLinkInput_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkInput_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkInput_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkInput_v14_2_1 *This);
+
+    /*** IDeckLinkInput_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
+        IDeckLinkInput_v14_2_1 *This,
+        BMDVideoConnection connection,
+        BMDDisplayMode requestedMode,
+        BMDPixelFormat requestedPixelFormat,
+        BMDVideoInputConversionMode conversionMode,
+        BMDSupportedVideoModeFlags flags,
+        BMDDisplayMode *actualMode,
+        BOOL *supported);
+
+    HRESULT (STDMETHODCALLTYPE *GetDisplayMode)(
+        IDeckLinkInput_v14_2_1 *This,
+        BMDDisplayMode displayMode,
+        IDeckLinkDisplayMode **resultDisplayMode);
+
+    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
+        IDeckLinkInput_v14_2_1 *This,
+        IDeckLinkDisplayModeIterator **iterator);
+
+    HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
+        IDeckLinkInput_v14_2_1 *This,
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback);
+
+    HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
+        IDeckLinkInput_v14_2_1 *This,
+        BMDDisplayMode displayMode,
+        BMDPixelFormat pixelFormat,
+        BMDVideoInputFlags flags);
+
+    HRESULT (STDMETHODCALLTYPE *DisableVideoInput)(
+        IDeckLinkInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *GetAvailableVideoFrameCount)(
+        IDeckLinkInput_v14_2_1 *This,
+        unsigned int *availableFrameCount);
+
+    HRESULT (STDMETHODCALLTYPE *SetVideoInputFrameMemoryAllocator)(
+        IDeckLinkInput_v14_2_1 *This,
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
+
+    HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
+        IDeckLinkInput_v14_2_1 *This,
+        BMDAudioSampleRate sampleRate,
+        BMDAudioSampleType sampleType,
+        unsigned int channelCount);
+
+    HRESULT (STDMETHODCALLTYPE *DisableAudioInput)(
+        IDeckLinkInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *GetAvailableAudioSampleFrameCount)(
+        IDeckLinkInput_v14_2_1 *This,
+        unsigned int *availableSampleFrameCount);
+
+    HRESULT (STDMETHODCALLTYPE *StartStreams)(
+        IDeckLinkInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *StopStreams)(
+        IDeckLinkInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *PauseStreams)(
+        IDeckLinkInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *FlushStreams)(
+        IDeckLinkInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *SetCallback)(
+        IDeckLinkInput_v14_2_1 *This,
+        IDeckLinkInputCallback_v14_2_1 *theCallback);
+
+    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
+        IDeckLinkInput_v14_2_1 *This,
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *hardwareTime,
+        BMDTimeValue *timeInFrame,
+        BMDTimeValue *ticksPerFrame);
+
+    END_INTERFACE
+} IDeckLinkInput_v14_2_1Vtbl;
+
+interface IDeckLinkInput_v14_2_1 {
+    CONST_VTBL IDeckLinkInput_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkInput_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkInput_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkInput_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkInput_v14_2_1 methods ***/
+#define IDeckLinkInput_v14_2_1_DoesSupportVideoMode(This,connection,requestedMode,requestedPixelFormat,conversionMode,flags,actualMode,supported) (This)->lpVtbl->DoesSupportVideoMode(This,connection,requestedMode,requestedPixelFormat,conversionMode,flags,actualMode,supported)
+#define IDeckLinkInput_v14_2_1_GetDisplayMode(This,displayMode,resultDisplayMode) (This)->lpVtbl->GetDisplayMode(This,displayMode,resultDisplayMode)
+#define IDeckLinkInput_v14_2_1_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
+#define IDeckLinkInput_v14_2_1_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
+#define IDeckLinkInput_v14_2_1_EnableVideoInput(This,displayMode,pixelFormat,flags) (This)->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags)
+#define IDeckLinkInput_v14_2_1_DisableVideoInput(This) (This)->lpVtbl->DisableVideoInput(This)
+#define IDeckLinkInput_v14_2_1_GetAvailableVideoFrameCount(This,availableFrameCount) (This)->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount)
+#define IDeckLinkInput_v14_2_1_SetVideoInputFrameMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetVideoInputFrameMemoryAllocator(This,theAllocator)
+#define IDeckLinkInput_v14_2_1_EnableAudioInput(This,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount)
+#define IDeckLinkInput_v14_2_1_DisableAudioInput(This) (This)->lpVtbl->DisableAudioInput(This)
+#define IDeckLinkInput_v14_2_1_GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount) (This)->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount)
+#define IDeckLinkInput_v14_2_1_StartStreams(This) (This)->lpVtbl->StartStreams(This)
+#define IDeckLinkInput_v14_2_1_StopStreams(This) (This)->lpVtbl->StopStreams(This)
+#define IDeckLinkInput_v14_2_1_PauseStreams(This) (This)->lpVtbl->PauseStreams(This)
+#define IDeckLinkInput_v14_2_1_FlushStreams(This) (This)->lpVtbl->FlushStreams(This)
+#define IDeckLinkInput_v14_2_1_SetCallback(This,theCallback) (This)->lpVtbl->SetCallback(This,theCallback)
+#define IDeckLinkInput_v14_2_1_GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_QueryInterface(IDeckLinkInput_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkInput_v14_2_1_AddRef(IDeckLinkInput_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkInput_v14_2_1_Release(IDeckLinkInput_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkInput_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_DoesSupportVideoMode(IDeckLinkInput_v14_2_1* This,BMDVideoConnection connection,BMDDisplayMode requestedMode,BMDPixelFormat requestedPixelFormat,BMDVideoInputConversionMode conversionMode,BMDSupportedVideoModeFlags flags,BMDDisplayMode *actualMode,BOOL *supported) {
+    return This->lpVtbl->DoesSupportVideoMode(This,connection,requestedMode,requestedPixelFormat,conversionMode,flags,actualMode,supported);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_GetDisplayMode(IDeckLinkInput_v14_2_1* This,BMDDisplayMode displayMode,IDeckLinkDisplayMode **resultDisplayMode) {
+    return This->lpVtbl->GetDisplayMode(This,displayMode,resultDisplayMode);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_GetDisplayModeIterator(IDeckLinkInput_v14_2_1* This,IDeckLinkDisplayModeIterator **iterator) {
+    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_SetScreenPreviewCallback(IDeckLinkInput_v14_2_1* This,IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) {
+    return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_EnableVideoInput(IDeckLinkInput_v14_2_1* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
+    return This->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_DisableVideoInput(IDeckLinkInput_v14_2_1* This) {
+    return This->lpVtbl->DisableVideoInput(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_GetAvailableVideoFrameCount(IDeckLinkInput_v14_2_1* This,unsigned int *availableFrameCount) {
+    return This->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_SetVideoInputFrameMemoryAllocator(IDeckLinkInput_v14_2_1* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
+    return This->lpVtbl->SetVideoInputFrameMemoryAllocator(This,theAllocator);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_EnableAudioInput(IDeckLinkInput_v14_2_1* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
+    return This->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_DisableAudioInput(IDeckLinkInput_v14_2_1* This) {
+    return This->lpVtbl->DisableAudioInput(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_GetAvailableAudioSampleFrameCount(IDeckLinkInput_v14_2_1* This,unsigned int *availableSampleFrameCount) {
+    return This->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_StartStreams(IDeckLinkInput_v14_2_1* This) {
+    return This->lpVtbl->StartStreams(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_StopStreams(IDeckLinkInput_v14_2_1* This) {
+    return This->lpVtbl->StopStreams(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_PauseStreams(IDeckLinkInput_v14_2_1* This) {
+    return This->lpVtbl->PauseStreams(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_FlushStreams(IDeckLinkInput_v14_2_1* This) {
+    return This->lpVtbl->FlushStreams(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_SetCallback(IDeckLinkInput_v14_2_1* This,IDeckLinkInputCallback_v14_2_1 *theCallback) {
+    return This->lpVtbl->SetCallback(This,theCallback);
+}
+static __WIDL_INLINE HRESULT IDeckLinkInput_v14_2_1_GetHardwareReferenceClock(IDeckLinkInput_v14_2_1* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
+    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkInput_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkEncoderInput_v14_2_1 interface
+ */
+#ifndef __IDeckLinkEncoderInput_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkEncoderInput_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkEncoderInput_v14_2_1, 0xf222551d, 0x13df, 0x4fd8, 0xb5,0x87, 0x9d,0x4f,0x19,0xec,0x12,0xc9);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("f222551d-13df-4fd8-b587-9d4f19ec12c9")
+IDeckLinkEncoderInput_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
+        BMDVideoConnection connection,
+        BMDDisplayMode requestedMode,
+        BMDPixelFormat requestedCodec,
+        unsigned int requestedCodecProfile,
+        BMDSupportedVideoModeFlags flags,
+        BOOL *supported) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetDisplayMode(
+        BMDDisplayMode displayMode,
+        IDeckLinkDisplayMode **resultDisplayMode) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
+        IDeckLinkDisplayModeIterator **iterator) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
+        BMDDisplayMode displayMode,
+        BMDPixelFormat pixelFormat,
+        BMDVideoInputFlags flags) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DisableVideoInput(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetAvailablePacketsCount(
+        unsigned int *availablePacketsCount) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetMemoryAllocator(
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
+        BMDAudioFormat audioFormat,
+        BMDAudioSampleRate sampleRate,
+        BMDAudioSampleType sampleType,
+        unsigned int channelCount) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DisableAudioInput(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetAvailableAudioSampleFrameCount(
+        unsigned int *availableSampleFrameCount) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE StartStreams(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE StopStreams(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE PauseStreams(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE FlushStreams(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetCallback(
+        IDeckLinkEncoderInputCallback *theCallback) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *hardwareTime,
+        BMDTimeValue *timeInFrame,
+        BMDTimeValue *ticksPerFrame) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkEncoderInput_v14_2_1, 0xf222551d, 0x13df, 0x4fd8, 0xb5,0x87, 0x9d,0x4f,0x19,0xec,0x12,0xc9)
+#endif
+#else
+typedef struct IDeckLinkEncoderInput_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkEncoderInput_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkEncoderInput_v14_2_1 *This);
+
+    /*** IDeckLinkEncoderInput_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        BMDVideoConnection connection,
+        BMDDisplayMode requestedMode,
+        BMDPixelFormat requestedCodec,
+        unsigned int requestedCodecProfile,
+        BMDSupportedVideoModeFlags flags,
+        BOOL *supported);
+
+    HRESULT (STDMETHODCALLTYPE *GetDisplayMode)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        BMDDisplayMode displayMode,
+        IDeckLinkDisplayMode **resultDisplayMode);
+
+    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        IDeckLinkDisplayModeIterator **iterator);
+
+    HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        BMDDisplayMode displayMode,
+        BMDPixelFormat pixelFormat,
+        BMDVideoInputFlags flags);
+
+    HRESULT (STDMETHODCALLTYPE *DisableVideoInput)(
+        IDeckLinkEncoderInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *GetAvailablePacketsCount)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        unsigned int *availablePacketsCount);
+
+    HRESULT (STDMETHODCALLTYPE *SetMemoryAllocator)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
+
+    HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        BMDAudioFormat audioFormat,
+        BMDAudioSampleRate sampleRate,
+        BMDAudioSampleType sampleType,
+        unsigned int channelCount);
+
+    HRESULT (STDMETHODCALLTYPE *DisableAudioInput)(
+        IDeckLinkEncoderInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *GetAvailableAudioSampleFrameCount)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        unsigned int *availableSampleFrameCount);
+
+    HRESULT (STDMETHODCALLTYPE *StartStreams)(
+        IDeckLinkEncoderInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *StopStreams)(
+        IDeckLinkEncoderInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *PauseStreams)(
+        IDeckLinkEncoderInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *FlushStreams)(
+        IDeckLinkEncoderInput_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *SetCallback)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        IDeckLinkEncoderInputCallback *theCallback);
+
+    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
+        IDeckLinkEncoderInput_v14_2_1 *This,
+        BMDTimeScale desiredTimeScale,
+        BMDTimeValue *hardwareTime,
+        BMDTimeValue *timeInFrame,
+        BMDTimeValue *ticksPerFrame);
+
+    END_INTERFACE
+} IDeckLinkEncoderInput_v14_2_1Vtbl;
+
+interface IDeckLinkEncoderInput_v14_2_1 {
+    CONST_VTBL IDeckLinkEncoderInput_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkEncoderInput_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkEncoderInput_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkEncoderInput_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkEncoderInput_v14_2_1 methods ***/
+#define IDeckLinkEncoderInput_v14_2_1_DoesSupportVideoMode(This,connection,requestedMode,requestedCodec,requestedCodecProfile,flags,supported) (This)->lpVtbl->DoesSupportVideoMode(This,connection,requestedMode,requestedCodec,requestedCodecProfile,flags,supported)
+#define IDeckLinkEncoderInput_v14_2_1_GetDisplayMode(This,displayMode,resultDisplayMode) (This)->lpVtbl->GetDisplayMode(This,displayMode,resultDisplayMode)
+#define IDeckLinkEncoderInput_v14_2_1_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
+#define IDeckLinkEncoderInput_v14_2_1_EnableVideoInput(This,displayMode,pixelFormat,flags) (This)->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags)
+#define IDeckLinkEncoderInput_v14_2_1_DisableVideoInput(This) (This)->lpVtbl->DisableVideoInput(This)
+#define IDeckLinkEncoderInput_v14_2_1_GetAvailablePacketsCount(This,availablePacketsCount) (This)->lpVtbl->GetAvailablePacketsCount(This,availablePacketsCount)
+#define IDeckLinkEncoderInput_v14_2_1_SetMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetMemoryAllocator(This,theAllocator)
+#define IDeckLinkEncoderInput_v14_2_1_EnableAudioInput(This,audioFormat,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioInput(This,audioFormat,sampleRate,sampleType,channelCount)
+#define IDeckLinkEncoderInput_v14_2_1_DisableAudioInput(This) (This)->lpVtbl->DisableAudioInput(This)
+#define IDeckLinkEncoderInput_v14_2_1_GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount) (This)->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount)
+#define IDeckLinkEncoderInput_v14_2_1_StartStreams(This) (This)->lpVtbl->StartStreams(This)
+#define IDeckLinkEncoderInput_v14_2_1_StopStreams(This) (This)->lpVtbl->StopStreams(This)
+#define IDeckLinkEncoderInput_v14_2_1_PauseStreams(This) (This)->lpVtbl->PauseStreams(This)
+#define IDeckLinkEncoderInput_v14_2_1_FlushStreams(This) (This)->lpVtbl->FlushStreams(This)
+#define IDeckLinkEncoderInput_v14_2_1_SetCallback(This,theCallback) (This)->lpVtbl->SetCallback(This,theCallback)
+#define IDeckLinkEncoderInput_v14_2_1_GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_QueryInterface(IDeckLinkEncoderInput_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkEncoderInput_v14_2_1_AddRef(IDeckLinkEncoderInput_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkEncoderInput_v14_2_1_Release(IDeckLinkEncoderInput_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkEncoderInput_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_DoesSupportVideoMode(IDeckLinkEncoderInput_v14_2_1* This,BMDVideoConnection connection,BMDDisplayMode requestedMode,BMDPixelFormat requestedCodec,unsigned int requestedCodecProfile,BMDSupportedVideoModeFlags flags,BOOL *supported) {
+    return This->lpVtbl->DoesSupportVideoMode(This,connection,requestedMode,requestedCodec,requestedCodecProfile,flags,supported);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_GetDisplayMode(IDeckLinkEncoderInput_v14_2_1* This,BMDDisplayMode displayMode,IDeckLinkDisplayMode **resultDisplayMode) {
+    return This->lpVtbl->GetDisplayMode(This,displayMode,resultDisplayMode);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_GetDisplayModeIterator(IDeckLinkEncoderInput_v14_2_1* This,IDeckLinkDisplayModeIterator **iterator) {
+    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_EnableVideoInput(IDeckLinkEncoderInput_v14_2_1* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
+    return This->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_DisableVideoInput(IDeckLinkEncoderInput_v14_2_1* This) {
+    return This->lpVtbl->DisableVideoInput(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_GetAvailablePacketsCount(IDeckLinkEncoderInput_v14_2_1* This,unsigned int *availablePacketsCount) {
+    return This->lpVtbl->GetAvailablePacketsCount(This,availablePacketsCount);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_SetMemoryAllocator(IDeckLinkEncoderInput_v14_2_1* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
+    return This->lpVtbl->SetMemoryAllocator(This,theAllocator);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_EnableAudioInput(IDeckLinkEncoderInput_v14_2_1* This,BMDAudioFormat audioFormat,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
+    return This->lpVtbl->EnableAudioInput(This,audioFormat,sampleRate,sampleType,channelCount);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_DisableAudioInput(IDeckLinkEncoderInput_v14_2_1* This) {
+    return This->lpVtbl->DisableAudioInput(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_GetAvailableAudioSampleFrameCount(IDeckLinkEncoderInput_v14_2_1* This,unsigned int *availableSampleFrameCount) {
+    return This->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_StartStreams(IDeckLinkEncoderInput_v14_2_1* This) {
+    return This->lpVtbl->StartStreams(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_StopStreams(IDeckLinkEncoderInput_v14_2_1* This) {
+    return This->lpVtbl->StopStreams(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_PauseStreams(IDeckLinkEncoderInput_v14_2_1* This) {
+    return This->lpVtbl->PauseStreams(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_FlushStreams(IDeckLinkEncoderInput_v14_2_1* This) {
+    return This->lpVtbl->FlushStreams(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_SetCallback(IDeckLinkEncoderInput_v14_2_1* This,IDeckLinkEncoderInputCallback *theCallback) {
+    return This->lpVtbl->SetCallback(This,theCallback);
+}
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v14_2_1_GetHardwareReferenceClock(IDeckLinkEncoderInput_v14_2_1* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
+    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkEncoderInput_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkVideoFrame_v14_2_1 interface
+ */
+#ifndef __IDeckLinkVideoFrame_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkVideoFrame_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoFrame_v14_2_1, 0x3f716fe0, 0xf023, 0x4111, 0xbe,0x5d, 0xef,0x44,0x14,0xc0,0x5b,0x17);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("3f716fe0-f023-4111-be5d-ef4414c05b17")
+IDeckLinkVideoFrame_v14_2_1 : public IUnknown
+{
+    virtual LONG STDMETHODCALLTYPE GetWidth(
+        ) = 0;
+
+    virtual LONG STDMETHODCALLTYPE GetHeight(
+        ) = 0;
+
+    virtual LONG STDMETHODCALLTYPE GetRowBytes(
+        ) = 0;
+
+    virtual BMDPixelFormat STDMETHODCALLTYPE GetPixelFormat(
+        ) = 0;
+
+    virtual BMDFrameFlags STDMETHODCALLTYPE GetFlags(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetBytes(
+        void **buffer) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetTimecode(
+        BMDTimecodeFormat format,
+        IDeckLinkTimecode **timecode) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetAncillaryData(
+        IDeckLinkVideoFrameAncillary **ancillary) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoFrame_v14_2_1, 0x3f716fe0, 0xf023, 0x4111, 0xbe,0x5d, 0xef,0x44,0x14,0xc0,0x5b,0x17)
+#endif
+#else
+typedef struct IDeckLinkVideoFrame_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoFrame_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoFrame_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoFrame_v14_2_1 *This);
+
+    /*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+    LONG (STDMETHODCALLTYPE *GetWidth)(
+        IDeckLinkVideoFrame_v14_2_1 *This);
+
+    LONG (STDMETHODCALLTYPE *GetHeight)(
+        IDeckLinkVideoFrame_v14_2_1 *This);
+
+    LONG (STDMETHODCALLTYPE *GetRowBytes)(
+        IDeckLinkVideoFrame_v14_2_1 *This);
+
+    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
+        IDeckLinkVideoFrame_v14_2_1 *This);
+
+    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
+        IDeckLinkVideoFrame_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *GetBytes)(
+        IDeckLinkVideoFrame_v14_2_1 *This,
+        void **buffer);
+
+    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
+        IDeckLinkVideoFrame_v14_2_1 *This,
+        BMDTimecodeFormat format,
+        IDeckLinkTimecode **timecode);
+
+    HRESULT (STDMETHODCALLTYPE *GetAncillaryData)(
+        IDeckLinkVideoFrame_v14_2_1 *This,
+        IDeckLinkVideoFrameAncillary **ancillary);
+
+    END_INTERFACE
+} IDeckLinkVideoFrame_v14_2_1Vtbl;
+
+interface IDeckLinkVideoFrame_v14_2_1 {
+    CONST_VTBL IDeckLinkVideoFrame_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoFrame_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoFrame_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoFrame_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+#define IDeckLinkVideoFrame_v14_2_1_GetWidth(This) (This)->lpVtbl->GetWidth(This)
+#define IDeckLinkVideoFrame_v14_2_1_GetHeight(This) (This)->lpVtbl->GetHeight(This)
+#define IDeckLinkVideoFrame_v14_2_1_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
+#define IDeckLinkVideoFrame_v14_2_1_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
+#define IDeckLinkVideoFrame_v14_2_1_GetFlags(This) (This)->lpVtbl->GetFlags(This)
+#define IDeckLinkVideoFrame_v14_2_1_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
+#define IDeckLinkVideoFrame_v14_2_1_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
+#define IDeckLinkVideoFrame_v14_2_1_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v14_2_1_QueryInterface(IDeckLinkVideoFrame_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoFrame_v14_2_1_AddRef(IDeckLinkVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoFrame_v14_2_1_Release(IDeckLinkVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+static __WIDL_INLINE LONG IDeckLinkVideoFrame_v14_2_1_GetWidth(IDeckLinkVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetWidth(This);
+}
+static __WIDL_INLINE LONG IDeckLinkVideoFrame_v14_2_1_GetHeight(IDeckLinkVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetHeight(This);
+}
+static __WIDL_INLINE LONG IDeckLinkVideoFrame_v14_2_1_GetRowBytes(IDeckLinkVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetRowBytes(This);
+}
+static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoFrame_v14_2_1_GetPixelFormat(IDeckLinkVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetPixelFormat(This);
+}
+static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoFrame_v14_2_1_GetFlags(IDeckLinkVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetFlags(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v14_2_1_GetBytes(IDeckLinkVideoFrame_v14_2_1* This,void **buffer) {
+    return This->lpVtbl->GetBytes(This,buffer);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v14_2_1_GetTimecode(IDeckLinkVideoFrame_v14_2_1* This,BMDTimecodeFormat format,IDeckLinkTimecode **timecode) {
+    return This->lpVtbl->GetTimecode(This,format,timecode);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v14_2_1_GetAncillaryData(IDeckLinkVideoFrame_v14_2_1* This,IDeckLinkVideoFrameAncillary **ancillary) {
+    return This->lpVtbl->GetAncillaryData(This,ancillary);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoFrame_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkMutableVideoFrame_v14_2_1 interface
+ */
+#ifndef __IDeckLinkMutableVideoFrame_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkMutableVideoFrame_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkMutableVideoFrame_v14_2_1, 0x69e2639f, 0x40da, 0x4e19, 0xb6,0xf2, 0x20,0xac,0xe8,0x15,0xc3,0x90);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("69e2639f-40da-4e19-b6f2-20ace815c390")
+IDeckLinkMutableVideoFrame_v14_2_1 : public IDeckLinkVideoFrame_v14_2_1
+{
+    virtual HRESULT STDMETHODCALLTYPE SetFlags(
+        BMDFrameFlags newFlags) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetTimecode(
+        BMDTimecodeFormat format,
+        IDeckLinkTimecode *timecode) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetTimecodeFromComponents(
+        BMDTimecodeFormat format,
+        unsigned char hours,
+        unsigned char minutes,
+        unsigned char seconds,
+        unsigned char frames,
+        BMDTimecodeFlags flags) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetAncillaryData(
+        IDeckLinkVideoFrameAncillary *ancillary) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetTimecodeUserBits(
+        BMDTimecodeFormat format,
+        BMDTimecodeUserBits userBits) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkMutableVideoFrame_v14_2_1, 0x69e2639f, 0x40da, 0x4e19, 0xb6,0xf2, 0x20,0xac,0xe8,0x15,0xc3,0x90)
+#endif
+#else
+typedef struct IDeckLinkMutableVideoFrame_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This);
+
+    /*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+    LONG (STDMETHODCALLTYPE *GetWidth)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This);
+
+    LONG (STDMETHODCALLTYPE *GetHeight)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This);
+
+    LONG (STDMETHODCALLTYPE *GetRowBytes)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This);
+
+    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This);
+
+    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *GetBytes)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        void **buffer);
+
+    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        BMDTimecodeFormat format,
+        IDeckLinkTimecode **timecode);
+
+    HRESULT (STDMETHODCALLTYPE *GetAncillaryData)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        IDeckLinkVideoFrameAncillary **ancillary);
+
+    /*** IDeckLinkMutableVideoFrame_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *SetFlags)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        BMDFrameFlags newFlags);
+
+    HRESULT (STDMETHODCALLTYPE *SetTimecode)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        BMDTimecodeFormat format,
+        IDeckLinkTimecode *timecode);
+
+    HRESULT (STDMETHODCALLTYPE *SetTimecodeFromComponents)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        BMDTimecodeFormat format,
+        unsigned char hours,
+        unsigned char minutes,
+        unsigned char seconds,
+        unsigned char frames,
+        BMDTimecodeFlags flags);
+
+    HRESULT (STDMETHODCALLTYPE *SetAncillaryData)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        IDeckLinkVideoFrameAncillary *ancillary);
+
+    HRESULT (STDMETHODCALLTYPE *SetTimecodeUserBits)(
+        IDeckLinkMutableVideoFrame_v14_2_1 *This,
+        BMDTimecodeFormat format,
+        BMDTimecodeUserBits userBits);
+
+    END_INTERFACE
+} IDeckLinkMutableVideoFrame_v14_2_1Vtbl;
+
+interface IDeckLinkMutableVideoFrame_v14_2_1 {
+    CONST_VTBL IDeckLinkMutableVideoFrame_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkMutableVideoFrame_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkMutableVideoFrame_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkMutableVideoFrame_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+#define IDeckLinkMutableVideoFrame_v14_2_1_GetWidth(This) (This)->lpVtbl->GetWidth(This)
+#define IDeckLinkMutableVideoFrame_v14_2_1_GetHeight(This) (This)->lpVtbl->GetHeight(This)
+#define IDeckLinkMutableVideoFrame_v14_2_1_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
+#define IDeckLinkMutableVideoFrame_v14_2_1_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
+#define IDeckLinkMutableVideoFrame_v14_2_1_GetFlags(This) (This)->lpVtbl->GetFlags(This)
+#define IDeckLinkMutableVideoFrame_v14_2_1_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
+#define IDeckLinkMutableVideoFrame_v14_2_1_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
+#define IDeckLinkMutableVideoFrame_v14_2_1_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
+/*** IDeckLinkMutableVideoFrame_v14_2_1 methods ***/
+#define IDeckLinkMutableVideoFrame_v14_2_1_SetFlags(This,newFlags) (This)->lpVtbl->SetFlags(This,newFlags)
+#define IDeckLinkMutableVideoFrame_v14_2_1_SetTimecode(This,format,timecode) (This)->lpVtbl->SetTimecode(This,format,timecode)
+#define IDeckLinkMutableVideoFrame_v14_2_1_SetTimecodeFromComponents(This,format,hours,minutes,seconds,frames,flags) (This)->lpVtbl->SetTimecodeFromComponents(This,format,hours,minutes,seconds,frames,flags)
+#define IDeckLinkMutableVideoFrame_v14_2_1_SetAncillaryData(This,ancillary) (This)->lpVtbl->SetAncillaryData(This,ancillary)
+#define IDeckLinkMutableVideoFrame_v14_2_1_SetTimecodeUserBits(This,format,userBits) (This)->lpVtbl->SetTimecodeUserBits(This,format,userBits)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_QueryInterface(IDeckLinkMutableVideoFrame_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkMutableVideoFrame_v14_2_1_AddRef(IDeckLinkMutableVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkMutableVideoFrame_v14_2_1_Release(IDeckLinkMutableVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+static __WIDL_INLINE LONG IDeckLinkMutableVideoFrame_v14_2_1_GetWidth(IDeckLinkMutableVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetWidth(This);
+}
+static __WIDL_INLINE LONG IDeckLinkMutableVideoFrame_v14_2_1_GetHeight(IDeckLinkMutableVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetHeight(This);
+}
+static __WIDL_INLINE LONG IDeckLinkMutableVideoFrame_v14_2_1_GetRowBytes(IDeckLinkMutableVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetRowBytes(This);
+}
+static __WIDL_INLINE BMDPixelFormat IDeckLinkMutableVideoFrame_v14_2_1_GetPixelFormat(IDeckLinkMutableVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetPixelFormat(This);
+}
+static __WIDL_INLINE BMDFrameFlags IDeckLinkMutableVideoFrame_v14_2_1_GetFlags(IDeckLinkMutableVideoFrame_v14_2_1* This) {
+    return This->lpVtbl->GetFlags(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_GetBytes(IDeckLinkMutableVideoFrame_v14_2_1* This,void **buffer) {
+    return This->lpVtbl->GetBytes(This,buffer);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_GetTimecode(IDeckLinkMutableVideoFrame_v14_2_1* This,BMDTimecodeFormat format,IDeckLinkTimecode **timecode) {
+    return This->lpVtbl->GetTimecode(This,format,timecode);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_GetAncillaryData(IDeckLinkMutableVideoFrame_v14_2_1* This,IDeckLinkVideoFrameAncillary **ancillary) {
+    return This->lpVtbl->GetAncillaryData(This,ancillary);
+}
+/*** IDeckLinkMutableVideoFrame_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_SetFlags(IDeckLinkMutableVideoFrame_v14_2_1* This,BMDFrameFlags newFlags) {
+    return This->lpVtbl->SetFlags(This,newFlags);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_SetTimecode(IDeckLinkMutableVideoFrame_v14_2_1* This,BMDTimecodeFormat format,IDeckLinkTimecode *timecode) {
+    return This->lpVtbl->SetTimecode(This,format,timecode);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_SetTimecodeFromComponents(IDeckLinkMutableVideoFrame_v14_2_1* This,BMDTimecodeFormat format,unsigned char hours,unsigned char minutes,unsigned char seconds,unsigned char frames,BMDTimecodeFlags flags) {
+    return This->lpVtbl->SetTimecodeFromComponents(This,format,hours,minutes,seconds,frames,flags);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_SetAncillaryData(IDeckLinkMutableVideoFrame_v14_2_1* This,IDeckLinkVideoFrameAncillary *ancillary) {
+    return This->lpVtbl->SetAncillaryData(This,ancillary);
+}
+static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v14_2_1_SetTimecodeUserBits(IDeckLinkMutableVideoFrame_v14_2_1* This,BMDTimecodeFormat format,BMDTimecodeUserBits userBits) {
+    return This->lpVtbl->SetTimecodeUserBits(This,format,userBits);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkMutableVideoFrame_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkVideoFrame3DExtensions_v14_2_1 interface
+ */
+#ifndef __IDeckLinkVideoFrame3DExtensions_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkVideoFrame3DExtensions_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoFrame3DExtensions_v14_2_1, 0xda0f7e4a, 0xedc7, 0x48a8, 0x9c,0xdd, 0x2d,0xb5,0x1c,0x72,0x9c,0xd7);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("da0f7e4a-edc7-48a8-9cdd-2db51c729cd7")
+IDeckLinkVideoFrame3DExtensions_v14_2_1 : public IUnknown
+{
+    virtual BMDVideo3DPackingFormat STDMETHODCALLTYPE Get3DPackingFormat(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetFrameForRightEye(
+        IDeckLinkVideoFrame_v14_2_1 **rightEyeFrame) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoFrame3DExtensions_v14_2_1, 0xda0f7e4a, 0xedc7, 0x48a8, 0x9c,0xdd, 0x2d,0xb5,0x1c,0x72,0x9c,0xd7)
+#endif
+#else
+typedef struct IDeckLinkVideoFrame3DExtensions_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoFrame3DExtensions_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoFrame3DExtensions_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoFrame3DExtensions_v14_2_1 *This);
+
+    /*** IDeckLinkVideoFrame3DExtensions_v14_2_1 methods ***/
+    BMDVideo3DPackingFormat (STDMETHODCALLTYPE *Get3DPackingFormat)(
+        IDeckLinkVideoFrame3DExtensions_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *GetFrameForRightEye)(
+        IDeckLinkVideoFrame3DExtensions_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 **rightEyeFrame);
+
+    END_INTERFACE
+} IDeckLinkVideoFrame3DExtensions_v14_2_1Vtbl;
+
+interface IDeckLinkVideoFrame3DExtensions_v14_2_1 {
+    CONST_VTBL IDeckLinkVideoFrame3DExtensions_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoFrame3DExtensions_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoFrame3DExtensions_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoFrame3DExtensions_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoFrame3DExtensions_v14_2_1 methods ***/
+#define IDeckLinkVideoFrame3DExtensions_v14_2_1_Get3DPackingFormat(This) (This)->lpVtbl->Get3DPackingFormat(This)
+#define IDeckLinkVideoFrame3DExtensions_v14_2_1_GetFrameForRightEye(This,rightEyeFrame) (This)->lpVtbl->GetFrameForRightEye(This,rightEyeFrame)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrame3DExtensions_v14_2_1_QueryInterface(IDeckLinkVideoFrame3DExtensions_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoFrame3DExtensions_v14_2_1_AddRef(IDeckLinkVideoFrame3DExtensions_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoFrame3DExtensions_v14_2_1_Release(IDeckLinkVideoFrame3DExtensions_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoFrame3DExtensions_v14_2_1 methods ***/
+static __WIDL_INLINE BMDVideo3DPackingFormat IDeckLinkVideoFrame3DExtensions_v14_2_1_Get3DPackingFormat(IDeckLinkVideoFrame3DExtensions_v14_2_1* This) {
+    return This->lpVtbl->Get3DPackingFormat(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoFrame3DExtensions_v14_2_1_GetFrameForRightEye(IDeckLinkVideoFrame3DExtensions_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 **rightEyeFrame) {
+    return This->lpVtbl->GetFrameForRightEye(This,rightEyeFrame);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoFrame3DExtensions_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkVideoInputFrame_v14_2_1 interface
+ */
+#ifndef __IDeckLinkVideoInputFrame_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkVideoInputFrame_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoInputFrame_v14_2_1, 0x05cfe374, 0x537c, 0x4094, 0x9a,0x57, 0x68,0x05,0x25,0x11,0x8f,0x44);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("05cfe374-537c-4094-9a57-680525118f44")
+IDeckLinkVideoInputFrame_v14_2_1 : public IDeckLinkVideoFrame_v14_2_1
+{
+    virtual HRESULT STDMETHODCALLTYPE GetStreamTime(
+        BMDTimeValue *frameTime,
+        BMDTimeValue *frameDuration,
+        BMDTimeScale timeScale) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceTimestamp(
+        BMDTimeScale timeScale,
+        BMDTimeValue *frameTime,
+        BMDTimeValue *frameDuration) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoInputFrame_v14_2_1, 0x05cfe374, 0x537c, 0x4094, 0x9a,0x57, 0x68,0x05,0x25,0x11,0x8f,0x44)
+#endif
+#else
+typedef struct IDeckLinkVideoInputFrame_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This);
+
+    /*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+    LONG (STDMETHODCALLTYPE *GetWidth)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This);
+
+    LONG (STDMETHODCALLTYPE *GetHeight)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This);
+
+    LONG (STDMETHODCALLTYPE *GetRowBytes)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This);
+
+    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This);
+
+    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *GetBytes)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This,
+        void **buffer);
+
+    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This,
+        BMDTimecodeFormat format,
+        IDeckLinkTimecode **timecode);
+
+    HRESULT (STDMETHODCALLTYPE *GetAncillaryData)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This,
+        IDeckLinkVideoFrameAncillary **ancillary);
+
+    /*** IDeckLinkVideoInputFrame_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *GetStreamTime)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This,
+        BMDTimeValue *frameTime,
+        BMDTimeValue *frameDuration,
+        BMDTimeScale timeScale);
+
+    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceTimestamp)(
+        IDeckLinkVideoInputFrame_v14_2_1 *This,
+        BMDTimeScale timeScale,
+        BMDTimeValue *frameTime,
+        BMDTimeValue *frameDuration);
+
+    END_INTERFACE
+} IDeckLinkVideoInputFrame_v14_2_1Vtbl;
+
+interface IDeckLinkVideoInputFrame_v14_2_1 {
+    CONST_VTBL IDeckLinkVideoInputFrame_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoInputFrame_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoInputFrame_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoInputFrame_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+#define IDeckLinkVideoInputFrame_v14_2_1_GetWidth(This) (This)->lpVtbl->GetWidth(This)
+#define IDeckLinkVideoInputFrame_v14_2_1_GetHeight(This) (This)->lpVtbl->GetHeight(This)
+#define IDeckLinkVideoInputFrame_v14_2_1_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
+#define IDeckLinkVideoInputFrame_v14_2_1_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
+#define IDeckLinkVideoInputFrame_v14_2_1_GetFlags(This) (This)->lpVtbl->GetFlags(This)
+#define IDeckLinkVideoInputFrame_v14_2_1_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
+#define IDeckLinkVideoInputFrame_v14_2_1_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
+#define IDeckLinkVideoInputFrame_v14_2_1_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
+/*** IDeckLinkVideoInputFrame_v14_2_1 methods ***/
+#define IDeckLinkVideoInputFrame_v14_2_1_GetStreamTime(This,frameTime,frameDuration,timeScale) (This)->lpVtbl->GetStreamTime(This,frameTime,frameDuration,timeScale)
+#define IDeckLinkVideoInputFrame_v14_2_1_GetHardwareReferenceTimestamp(This,timeScale,frameTime,frameDuration) (This)->lpVtbl->GetHardwareReferenceTimestamp(This,timeScale,frameTime,frameDuration)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v14_2_1_QueryInterface(IDeckLinkVideoInputFrame_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoInputFrame_v14_2_1_AddRef(IDeckLinkVideoInputFrame_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoInputFrame_v14_2_1_Release(IDeckLinkVideoInputFrame_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoFrame_v14_2_1 methods ***/
+static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v14_2_1_GetWidth(IDeckLinkVideoInputFrame_v14_2_1* This) {
+    return This->lpVtbl->GetWidth(This);
+}
+static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v14_2_1_GetHeight(IDeckLinkVideoInputFrame_v14_2_1* This) {
+    return This->lpVtbl->GetHeight(This);
+}
+static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v14_2_1_GetRowBytes(IDeckLinkVideoInputFrame_v14_2_1* This) {
+    return This->lpVtbl->GetRowBytes(This);
+}
+static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoInputFrame_v14_2_1_GetPixelFormat(IDeckLinkVideoInputFrame_v14_2_1* This) {
+    return This->lpVtbl->GetPixelFormat(This);
+}
+static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoInputFrame_v14_2_1_GetFlags(IDeckLinkVideoInputFrame_v14_2_1* This) {
+    return This->lpVtbl->GetFlags(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v14_2_1_GetBytes(IDeckLinkVideoInputFrame_v14_2_1* This,void **buffer) {
+    return This->lpVtbl->GetBytes(This,buffer);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v14_2_1_GetTimecode(IDeckLinkVideoInputFrame_v14_2_1* This,BMDTimecodeFormat format,IDeckLinkTimecode **timecode) {
+    return This->lpVtbl->GetTimecode(This,format,timecode);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v14_2_1_GetAncillaryData(IDeckLinkVideoInputFrame_v14_2_1* This,IDeckLinkVideoFrameAncillary **ancillary) {
+    return This->lpVtbl->GetAncillaryData(This,ancillary);
+}
+/*** IDeckLinkVideoInputFrame_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v14_2_1_GetStreamTime(IDeckLinkVideoInputFrame_v14_2_1* This,BMDTimeValue *frameTime,BMDTimeValue *frameDuration,BMDTimeScale timeScale) {
+    return This->lpVtbl->GetStreamTime(This,frameTime,frameDuration,timeScale);
+}
+static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v14_2_1_GetHardwareReferenceTimestamp(IDeckLinkVideoInputFrame_v14_2_1* This,BMDTimeScale timeScale,BMDTimeValue *frameTime,BMDTimeValue *frameDuration) {
+    return This->lpVtbl->GetHardwareReferenceTimestamp(This,timeScale,frameTime,frameDuration);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoInputFrame_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkScreenPreviewCallback_v14_2_1 interface
+ */
+#ifndef __IDeckLinkScreenPreviewCallback_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkScreenPreviewCallback_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkScreenPreviewCallback_v14_2_1, 0xb1d3f49a, 0x85fe, 0x4c5d, 0x95,0xc8, 0x0b,0x5d,0x5d,0xcc,0xd4,0x38);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("b1d3f49a-85fe-4c5d-95c8-0b5d5dccd438")
+IDeckLinkScreenPreviewCallback_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE DrawFrame(
+        IDeckLinkVideoFrame_v14_2_1 *theFrame) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkScreenPreviewCallback_v14_2_1, 0xb1d3f49a, 0x85fe, 0x4c5d, 0x95,0xc8, 0x0b,0x5d,0x5d,0xcc,0xd4,0x38)
+#endif
+#else
+typedef struct IDeckLinkScreenPreviewCallback_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkScreenPreviewCallback_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkScreenPreviewCallback_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkScreenPreviewCallback_v14_2_1 *This);
+
+    /*** IDeckLinkScreenPreviewCallback_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *DrawFrame)(
+        IDeckLinkScreenPreviewCallback_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame);
+
+    END_INTERFACE
+} IDeckLinkScreenPreviewCallback_v14_2_1Vtbl;
+
+interface IDeckLinkScreenPreviewCallback_v14_2_1 {
+    CONST_VTBL IDeckLinkScreenPreviewCallback_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkScreenPreviewCallback_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkScreenPreviewCallback_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkScreenPreviewCallback_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkScreenPreviewCallback_v14_2_1 methods ***/
+#define IDeckLinkScreenPreviewCallback_v14_2_1_DrawFrame(This,theFrame) (This)->lpVtbl->DrawFrame(This,theFrame)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkScreenPreviewCallback_v14_2_1_QueryInterface(IDeckLinkScreenPreviewCallback_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkScreenPreviewCallback_v14_2_1_AddRef(IDeckLinkScreenPreviewCallback_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkScreenPreviewCallback_v14_2_1_Release(IDeckLinkScreenPreviewCallback_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkScreenPreviewCallback_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkScreenPreviewCallback_v14_2_1_DrawFrame(IDeckLinkScreenPreviewCallback_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *theFrame) {
+    return This->lpVtbl->DrawFrame(This,theFrame);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkScreenPreviewCallback_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkGLScreenPreviewHelper_v14_2_1 interface
+ */
+#ifndef __IDeckLinkGLScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkGLScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkGLScreenPreviewHelper_v14_2_1, 0x504e2209, 0xcac7, 0x4c1a, 0x9f,0xb4, 0xc5,0xbb,0x62,0x74,0xd2,0x2f);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("504e2209-cac7-4c1a-9fb4-c5bb6274d22f")
+IDeckLinkGLScreenPreviewHelper_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE InitializeGL(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE PaintGL(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetFrame(
+        IDeckLinkVideoFrame_v14_2_1 *theFrame) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE Set3DPreviewFormat(
+        BMD3DPreviewFormat previewFormat) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkGLScreenPreviewHelper_v14_2_1, 0x504e2209, 0xcac7, 0x4c1a, 0x9f,0xb4, 0xc5,0xbb,0x62,0x74,0xd2,0x2f)
+#endif
+#else
+typedef struct IDeckLinkGLScreenPreviewHelper_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkGLScreenPreviewHelper_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkGLScreenPreviewHelper_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkGLScreenPreviewHelper_v14_2_1 *This);
+
+    /*** IDeckLinkGLScreenPreviewHelper_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *InitializeGL)(
+        IDeckLinkGLScreenPreviewHelper_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *PaintGL)(
+        IDeckLinkGLScreenPreviewHelper_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *SetFrame)(
+        IDeckLinkGLScreenPreviewHelper_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame);
+
+    HRESULT (STDMETHODCALLTYPE *Set3DPreviewFormat)(
+        IDeckLinkGLScreenPreviewHelper_v14_2_1 *This,
+        BMD3DPreviewFormat previewFormat);
+
+    END_INTERFACE
+} IDeckLinkGLScreenPreviewHelper_v14_2_1Vtbl;
+
+interface IDeckLinkGLScreenPreviewHelper_v14_2_1 {
+    CONST_VTBL IDeckLinkGLScreenPreviewHelper_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkGLScreenPreviewHelper_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkGLScreenPreviewHelper_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkGLScreenPreviewHelper_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkGLScreenPreviewHelper_v14_2_1 methods ***/
+#define IDeckLinkGLScreenPreviewHelper_v14_2_1_InitializeGL(This) (This)->lpVtbl->InitializeGL(This)
+#define IDeckLinkGLScreenPreviewHelper_v14_2_1_PaintGL(This) (This)->lpVtbl->PaintGL(This)
+#define IDeckLinkGLScreenPreviewHelper_v14_2_1_SetFrame(This,theFrame) (This)->lpVtbl->SetFrame(This,theFrame)
+#define IDeckLinkGLScreenPreviewHelper_v14_2_1_Set3DPreviewFormat(This,previewFormat) (This)->lpVtbl->Set3DPreviewFormat(This,previewFormat)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v14_2_1_QueryInterface(IDeckLinkGLScreenPreviewHelper_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkGLScreenPreviewHelper_v14_2_1_AddRef(IDeckLinkGLScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkGLScreenPreviewHelper_v14_2_1_Release(IDeckLinkGLScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkGLScreenPreviewHelper_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v14_2_1_InitializeGL(IDeckLinkGLScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->InitializeGL(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v14_2_1_PaintGL(IDeckLinkGLScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->PaintGL(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v14_2_1_SetFrame(IDeckLinkGLScreenPreviewHelper_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *theFrame) {
+    return This->lpVtbl->SetFrame(This,theFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v14_2_1_Set3DPreviewFormat(IDeckLinkGLScreenPreviewHelper_v14_2_1* This,BMD3DPreviewFormat previewFormat) {
+    return This->lpVtbl->Set3DPreviewFormat(This,previewFormat);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkGLScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkDX9ScreenPreviewHelper_v14_2_1 interface
+ */
+#ifndef __IDeckLinkDX9ScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkDX9ScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkDX9ScreenPreviewHelper_v14_2_1, 0x2094b522, 0xd1a1, 0x40c0, 0x9a,0xc7, 0x1c,0x01,0x22,0x18,0xef,0x02);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("2094b522-d1a1-40c0-9ac7-1c012218ef02")
+IDeckLinkDX9ScreenPreviewHelper_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE Initialize(
+        void *device) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE Render(
+        RECT *rc) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetFrame(
+        IDeckLinkVideoFrame_v14_2_1 *theFrame) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE Set3DPreviewFormat(
+        BMD3DPreviewFormat previewFormat) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkDX9ScreenPreviewHelper_v14_2_1, 0x2094b522, 0xd1a1, 0x40c0, 0x9a,0xc7, 0x1c,0x01,0x22,0x18,0xef,0x02)
+#endif
+#else
+typedef struct IDeckLinkDX9ScreenPreviewHelper_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkDX9ScreenPreviewHelper_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkDX9ScreenPreviewHelper_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkDX9ScreenPreviewHelper_v14_2_1 *This);
+
+    /*** IDeckLinkDX9ScreenPreviewHelper_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *Initialize)(
+        IDeckLinkDX9ScreenPreviewHelper_v14_2_1 *This,
+        void *device);
+
+    HRESULT (STDMETHODCALLTYPE *Render)(
+        IDeckLinkDX9ScreenPreviewHelper_v14_2_1 *This,
+        RECT *rc);
+
+    HRESULT (STDMETHODCALLTYPE *SetFrame)(
+        IDeckLinkDX9ScreenPreviewHelper_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame);
+
+    HRESULT (STDMETHODCALLTYPE *Set3DPreviewFormat)(
+        IDeckLinkDX9ScreenPreviewHelper_v14_2_1 *This,
+        BMD3DPreviewFormat previewFormat);
+
+    END_INTERFACE
+} IDeckLinkDX9ScreenPreviewHelper_v14_2_1Vtbl;
+
+interface IDeckLinkDX9ScreenPreviewHelper_v14_2_1 {
+    CONST_VTBL IDeckLinkDX9ScreenPreviewHelper_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkDX9ScreenPreviewHelper_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkDX9ScreenPreviewHelper_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkDX9ScreenPreviewHelper_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkDX9ScreenPreviewHelper_v14_2_1 methods ***/
+#define IDeckLinkDX9ScreenPreviewHelper_v14_2_1_Initialize(This,device) (This)->lpVtbl->Initialize(This,device)
+#define IDeckLinkDX9ScreenPreviewHelper_v14_2_1_Render(This,rc) (This)->lpVtbl->Render(This,rc)
+#define IDeckLinkDX9ScreenPreviewHelper_v14_2_1_SetFrame(This,theFrame) (This)->lpVtbl->SetFrame(This,theFrame)
+#define IDeckLinkDX9ScreenPreviewHelper_v14_2_1_Set3DPreviewFormat(This,previewFormat) (This)->lpVtbl->Set3DPreviewFormat(This,previewFormat)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkDX9ScreenPreviewHelper_v14_2_1_QueryInterface(IDeckLinkDX9ScreenPreviewHelper_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkDX9ScreenPreviewHelper_v14_2_1_AddRef(IDeckLinkDX9ScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkDX9ScreenPreviewHelper_v14_2_1_Release(IDeckLinkDX9ScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkDX9ScreenPreviewHelper_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkDX9ScreenPreviewHelper_v14_2_1_Initialize(IDeckLinkDX9ScreenPreviewHelper_v14_2_1* This,void *device) {
+    return This->lpVtbl->Initialize(This,device);
+}
+static __WIDL_INLINE HRESULT IDeckLinkDX9ScreenPreviewHelper_v14_2_1_Render(IDeckLinkDX9ScreenPreviewHelper_v14_2_1* This,RECT *rc) {
+    return This->lpVtbl->Render(This,rc);
+}
+static __WIDL_INLINE HRESULT IDeckLinkDX9ScreenPreviewHelper_v14_2_1_SetFrame(IDeckLinkDX9ScreenPreviewHelper_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *theFrame) {
+    return This->lpVtbl->SetFrame(This,theFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkDX9ScreenPreviewHelper_v14_2_1_Set3DPreviewFormat(IDeckLinkDX9ScreenPreviewHelper_v14_2_1* This,BMD3DPreviewFormat previewFormat) {
+    return This->lpVtbl->Set3DPreviewFormat(This,previewFormat);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkDX9ScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 interface
+ */
+#ifndef __IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1, 0xad8ec84a, 0x7dde, 0x11e9, 0x8f,0x9e, 0x2a,0x86,0xe4,0x08,0x5a,0x59);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("ad8ec84a-7dde-11e9-8f9e-2a86e4085a59")
+IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE Initialize(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE Render(
+        ) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetSurfaceSize(
+        unsigned int width,
+        unsigned int height) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE SetFrame(
+        IDeckLinkVideoFrame_v14_2_1 *theFrame) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE Set3DPreviewFormat(
+        BMD3DPreviewFormat previewFormat) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetBackBuffer(
+        void **backBuffer) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1, 0xad8ec84a, 0x7dde, 0x11e9, 0x8f,0x9e, 0x2a,0x86,0xe4,0x08,0x5a,0x59)
+#endif
+#else
+typedef struct IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This);
+
+    /*** IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *Initialize)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *Render)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This);
+
+    HRESULT (STDMETHODCALLTYPE *SetSurfaceSize)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This,
+        unsigned int width,
+        unsigned int height);
+
+    HRESULT (STDMETHODCALLTYPE *SetFrame)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame);
+
+    HRESULT (STDMETHODCALLTYPE *Set3DPreviewFormat)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This,
+        BMD3DPreviewFormat previewFormat);
+
+    HRESULT (STDMETHODCALLTYPE *GetBackBuffer)(
+        IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 *This,
+        void **backBuffer);
+
+    END_INTERFACE
+} IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1Vtbl;
+
+interface IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 {
+    CONST_VTBL IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 methods ***/
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_Initialize(This) (This)->lpVtbl->Initialize(This)
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_Render(This) (This)->lpVtbl->Render(This)
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_SetSurfaceSize(This,width,height) (This)->lpVtbl->SetSurfaceSize(This,width,height)
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_SetFrame(This,theFrame) (This)->lpVtbl->SetFrame(This,theFrame)
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_Set3DPreviewFormat(This,previewFormat) (This)->lpVtbl->Set3DPreviewFormat(This,previewFormat)
+#define IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_GetBackBuffer(This,backBuffer) (This)->lpVtbl->GetBackBuffer(This,backBuffer)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_QueryInterface(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_AddRef(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_Release(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_Initialize(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->Initialize(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_Render(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This) {
+    return This->lpVtbl->Render(This);
+}
+static __WIDL_INLINE HRESULT IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_SetSurfaceSize(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This,unsigned int width,unsigned int height) {
+    return This->lpVtbl->SetSurfaceSize(This,width,height);
+}
+static __WIDL_INLINE HRESULT IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_SetFrame(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *theFrame) {
+    return This->lpVtbl->SetFrame(This,theFrame);
+}
+static __WIDL_INLINE HRESULT IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_Set3DPreviewFormat(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This,BMD3DPreviewFormat previewFormat) {
+    return This->lpVtbl->Set3DPreviewFormat(This,previewFormat);
+}
+static __WIDL_INLINE HRESULT IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_GetBackBuffer(IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1* This,void **backBuffer) {
+    return This->lpVtbl->GetBackBuffer(This,backBuffer);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkVideoConversion_v14_2_1 interface
+ */
+#ifndef __IDeckLinkVideoConversion_v14_2_1_INTERFACE_DEFINED__
+#define __IDeckLinkVideoConversion_v14_2_1_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoConversion_v14_2_1, 0x3bbcb8a2, 0xda2c, 0x42d9, 0xb5,0xd8, 0x88,0x08,0x36,0x44,0xe9,0x9a);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("3bbcb8a2-da2c-42d9-b5d8-88083644e99a")
+IDeckLinkVideoConversion_v14_2_1 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE ConvertFrame(
+        IDeckLinkVideoFrame_v14_2_1 *srcFrame,
+        IDeckLinkVideoFrame_v14_2_1 *dstFrame) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoConversion_v14_2_1, 0x3bbcb8a2, 0xda2c, 0x42d9, 0xb5,0xd8, 0x88,0x08,0x36,0x44,0xe9,0x9a)
+#endif
+#else
+typedef struct IDeckLinkVideoConversion_v14_2_1Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoConversion_v14_2_1 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoConversion_v14_2_1 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoConversion_v14_2_1 *This);
+
+    /*** IDeckLinkVideoConversion_v14_2_1 methods ***/
+    HRESULT (STDMETHODCALLTYPE *ConvertFrame)(
+        IDeckLinkVideoConversion_v14_2_1 *This,
+        IDeckLinkVideoFrame_v14_2_1 *srcFrame,
+        IDeckLinkVideoFrame_v14_2_1 *dstFrame);
+
+    END_INTERFACE
+} IDeckLinkVideoConversion_v14_2_1Vtbl;
+
+interface IDeckLinkVideoConversion_v14_2_1 {
+    CONST_VTBL IDeckLinkVideoConversion_v14_2_1Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoConversion_v14_2_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoConversion_v14_2_1_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoConversion_v14_2_1_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoConversion_v14_2_1 methods ***/
+#define IDeckLinkVideoConversion_v14_2_1_ConvertFrame(This,srcFrame,dstFrame) (This)->lpVtbl->ConvertFrame(This,srcFrame,dstFrame)
+#else
+/*** IUnknown methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoConversion_v14_2_1_QueryInterface(IDeckLinkVideoConversion_v14_2_1* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoConversion_v14_2_1_AddRef(IDeckLinkVideoConversion_v14_2_1* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static __WIDL_INLINE ULONG IDeckLinkVideoConversion_v14_2_1_Release(IDeckLinkVideoConversion_v14_2_1* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoConversion_v14_2_1 methods ***/
+static __WIDL_INLINE HRESULT IDeckLinkVideoConversion_v14_2_1_ConvertFrame(IDeckLinkVideoConversion_v14_2_1* This,IDeckLinkVideoFrame_v14_2_1 *srcFrame,IDeckLinkVideoFrame_v14_2_1 *dstFrame) {
+    return This->lpVtbl->ConvertFrame(This,srcFrame,dstFrame);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoConversion_v14_2_1_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * CDeckLinkGLScreenPreviewHelper_v14_2_1 coclass
+ */
+
+DEFINE_GUID(CLSID_CDeckLinkGLScreenPreviewHelper_v14_2_1, 0xf63e77c7, 0xb655, 0x4a4a, 0x9a,0xd0, 0x3c,0xa8,0x5d,0x39,0x43,0x43);
+
+#ifdef __cplusplus
+class DECLSPEC_UUID("f63e77c7-b655-4a4a-9ad0-3ca85d394343") CDeckLinkGLScreenPreviewHelper_v14_2_1;
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(CDeckLinkGLScreenPreviewHelper_v14_2_1, 0xf63e77c7, 0xb655, 0x4a4a, 0x9a,0xd0, 0x3c,0xa8,0x5d,0x39,0x43,0x43)
+#endif
+#endif
+
+/*****************************************************************************
+ * CDeckLinkGL3ScreenPreviewHelper_v14_2_1 coclass
+ */
+
+DEFINE_GUID(CLSID_CDeckLinkGL3ScreenPreviewHelper_v14_2_1, 0x00696a71, 0xebc7, 0x491f, 0xac,0x02, 0x18,0xd3,0x39,0x3f,0x33,0xf0);
+
+#ifdef __cplusplus
+class DECLSPEC_UUID("00696a71-ebc7-491f-ac02-18d3393f33f0") CDeckLinkGL3ScreenPreviewHelper_v14_2_1;
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(CDeckLinkGL3ScreenPreviewHelper_v14_2_1, 0x00696a71, 0xebc7, 0x491f, 0xac,0x02, 0x18,0xd3,0x39,0x3f,0x33,0xf0)
+#endif
+#endif
+
+/*****************************************************************************
+ * CDeckLinkDX9ScreenPreviewHelper_v14_2_1 coclass
+ */
+
+DEFINE_GUID(CLSID_CDeckLinkDX9ScreenPreviewHelper_v14_2_1, 0xcc010023, 0xe01d, 0x4525, 0x9d,0x59, 0x80,0xc8,0xab,0x3d,0xc7,0xa0);
+
+#ifdef __cplusplus
+class DECLSPEC_UUID("cc010023-e01d-4525-9d59-80c8ab3dc7a0") CDeckLinkDX9ScreenPreviewHelper_v14_2_1;
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(CDeckLinkDX9ScreenPreviewHelper_v14_2_1, 0xcc010023, 0xe01d, 0x4525, 0x9d,0x59, 0x80,0xc8,0xab,0x3d,0xc7,0xa0)
+#endif
+#endif
+
+/*****************************************************************************
+ * CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1 coclass
+ */
+
+DEFINE_GUID(CLSID_CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1, 0xef2a8478, 0x7ddf, 0x11e9, 0x8f,0x9e, 0x2a,0x86,0xe4,0x08,0x5a,0x59);
+
+#ifdef __cplusplus
+class DECLSPEC_UUID("ef2a8478-7ddf-11e9-8f9e-2a86e4085a59") CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1;
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(CDeckLinkWPFDX9ScreenPreviewHelper_v14_2_1, 0xef2a8478, 0x7ddf, 0x11e9, 0x8f,0x9e, 0x2a,0x86,0xe4,0x08,0x5a,0x59)
+#endif
+#endif
+
+/*****************************************************************************
+ * CDeckLinkVideoConversion_v14_2_1 coclass
+ */
+
+DEFINE_GUID(CLSID_CDeckLinkVideoConversion_v14_2_1, 0x7dbbbb11, 0x5b7b, 0x467d, 0xae,0xa4, 0xce,0xa4,0x68,0xfd,0x36,0x8c);
+
+#ifdef __cplusplus
+class DECLSPEC_UUID("7dbbbb11-5b7b-467d-aea4-cea468fd368c") CDeckLinkVideoConversion_v14_2_1;
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(CDeckLinkVideoConversion_v14_2_1, 0x7dbbbb11, 0x5b7b, 0x467d, 0xae,0xa4, 0xce,0xa4,0x68,0xfd,0x36,0x8c)
+#endif
+#endif
+
 typedef enum _BMDDeckLinkStatusID_v11_5_1 {
     bmdDeckLinkStatusDetectedVideoInputFlags_v11_5_1 = 0x64766966
 } BMDDeckLinkStatusID_v11_5_1;
@@ -10566,7 +13429,7 @@ IDeckLinkInputCallback_v11_5_1 : public IUnknown
         BMDDetectedVideoInputFormatFlags detectedSignalFlags) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE VideoInputFrameArrived(
-        IDeckLinkVideoInputFrame *videoFrame,
+        IDeckLinkVideoInputFrame_v14_2_1 *videoFrame,
         IDeckLinkAudioInputPacket *audioPacket) = 0;
 
 };
@@ -10598,7 +13461,7 @@ typedef struct IDeckLinkInputCallback_v11_5_1Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *VideoInputFrameArrived)(
         IDeckLinkInputCallback_v11_5_1 *This,
-        IDeckLinkVideoInputFrame *videoFrame,
+        IDeckLinkVideoInputFrame_v14_2_1 *videoFrame,
         IDeckLinkAudioInputPacket *audioPacket);
 
     END_INTERFACE
@@ -10632,7 +13495,7 @@ static __WIDL_INLINE ULONG IDeckLinkInputCallback_v11_5_1_Release(IDeckLinkInput
 static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v11_5_1_VideoInputFormatChanged(IDeckLinkInputCallback_v11_5_1* This,BMDVideoInputFormatChangedEvents notificationEvents,IDeckLinkDisplayMode *newDisplayMode,BMDDetectedVideoInputFormatFlags detectedSignalFlags) {
     return This->lpVtbl->VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags);
 }
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v11_5_1_VideoInputFrameArrived(IDeckLinkInputCallback_v11_5_1* This,IDeckLinkVideoInputFrame *videoFrame,IDeckLinkAudioInputPacket *audioPacket) {
+static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v11_5_1_VideoInputFrameArrived(IDeckLinkInputCallback_v11_5_1* This,IDeckLinkVideoInputFrame_v14_2_1 *videoFrame,IDeckLinkAudioInputPacket *audioPacket) {
     return This->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket);
 }
 #endif
@@ -10671,7 +13534,7 @@ IDeckLinkInput_v11_5_1 : public IUnknown
         IDeckLinkDisplayModeIterator **iterator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
         BMDDisplayMode displayMode,
@@ -10685,7 +13548,7 @@ IDeckLinkInput_v11_5_1 : public IUnknown
         unsigned int *availableFrameCount) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetVideoInputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
         BMDAudioSampleRate sampleRate,
@@ -10761,7 +13624,7 @@ typedef struct IDeckLinkInput_v11_5_1Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
         IDeckLinkInput_v11_5_1 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback);
 
     HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
         IDeckLinkInput_v11_5_1 *This,
@@ -10778,7 +13641,7 @@ typedef struct IDeckLinkInput_v11_5_1Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetVideoInputFrameMemoryAllocator)(
         IDeckLinkInput_v11_5_1 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
 
     HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
         IDeckLinkInput_v11_5_1 *This,
@@ -10868,7 +13731,7 @@ static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_GetDisplayMode(IDeckLinkInpu
 static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_GetDisplayModeIterator(IDeckLinkInput_v11_5_1* This,IDeckLinkDisplayModeIterator **iterator) {
     return This->lpVtbl->GetDisplayModeIterator(This,iterator);
 }
-static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_SetScreenPreviewCallback(IDeckLinkInput_v11_5_1* This,IDeckLinkScreenPreviewCallback *previewCallback) {
+static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_SetScreenPreviewCallback(IDeckLinkInput_v11_5_1* This,IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) {
     return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
 }
 static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_EnableVideoInput(IDeckLinkInput_v11_5_1* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
@@ -10880,7 +13743,7 @@ static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_DisableVideoInput(IDeckLinkI
 static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_GetAvailableVideoFrameCount(IDeckLinkInput_v11_5_1* This,unsigned int *availableFrameCount) {
     return This->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount);
 }
-static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_SetVideoInputFrameMemoryAllocator(IDeckLinkInput_v11_5_1* This,IDeckLinkMemoryAllocator *theAllocator) {
+static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_SetVideoInputFrameMemoryAllocator(IDeckLinkInput_v11_5_1* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
     return This->lpVtbl->SetVideoInputFrameMemoryAllocator(This,theAllocator);
 }
 static __WIDL_INLINE HRESULT IDeckLinkInput_v11_5_1_EnableAudioInput(IDeckLinkInput_v11_5_1* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
@@ -11289,7 +14152,7 @@ IDeckLinkOutput_v10_11 : public IUnknown
         IDeckLinkDisplayModeIterator **iterator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableVideoOutput(
         BMDDisplayMode displayMode,
@@ -11299,7 +14162,7 @@ IDeckLinkOutput_v10_11 : public IUnknown
         ) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE CreateVideoFrame(
         int width,
@@ -11307,23 +14170,23 @@ IDeckLinkOutput_v10_11 : public IUnknown
         int rowBytes,
         BMDPixelFormat pixelFormat,
         BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame **outFrame) = 0;
+        IDeckLinkMutableVideoFrame_v14_2_1 **outFrame) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE CreateAncillaryData(
         BMDPixelFormat pixelFormat,
         IDeckLinkVideoFrameAncillary **outBuffer) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE DisplayVideoFrameSync(
-        IDeckLinkVideoFrame *theFrame) = 0;
+        IDeckLinkVideoFrame_v14_2_1 *theFrame) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE ScheduleVideoFrame(
-        IDeckLinkVideoFrame *theFrame,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
         BMDTimeValue displayTime,
         BMDTimeValue displayDuration,
         BMDTimeScale timeScale) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetScheduledFrameCompletionCallback(
-        IDeckLinkVideoOutputCallback *theCallback) = 0;
+        IDeckLinkVideoOutputCallback_v14_2_1 *theCallback) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE GetBufferedVideoFrameCount(
         unsigned int *bufferedFrameCount) = 0;
@@ -11392,7 +14255,7 @@ IDeckLinkOutput_v10_11 : public IUnknown
         BMDTimeValue *ticksPerFrame) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE GetFrameCompletionReferenceTimestamp(
-        IDeckLinkVideoFrame *theFrame,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
         BMDTimeScale desiredTimeScale,
         BMDTimeValue *frameCompletionTimestamp) = 0;
 
@@ -11431,7 +14294,7 @@ typedef struct IDeckLinkOutput_v10_11Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
         IDeckLinkOutput_v10_11 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback);
 
     HRESULT (STDMETHODCALLTYPE *EnableVideoOutput)(
         IDeckLinkOutput_v10_11 *This,
@@ -11443,7 +14306,7 @@ typedef struct IDeckLinkOutput_v10_11Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetVideoOutputFrameMemoryAllocator)(
         IDeckLinkOutput_v10_11 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
 
     HRESULT (STDMETHODCALLTYPE *CreateVideoFrame)(
         IDeckLinkOutput_v10_11 *This,
@@ -11452,7 +14315,7 @@ typedef struct IDeckLinkOutput_v10_11Vtbl {
         int rowBytes,
         BMDPixelFormat pixelFormat,
         BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame **outFrame);
+        IDeckLinkMutableVideoFrame_v14_2_1 **outFrame);
 
     HRESULT (STDMETHODCALLTYPE *CreateAncillaryData)(
         IDeckLinkOutput_v10_11 *This,
@@ -11461,18 +14324,18 @@ typedef struct IDeckLinkOutput_v10_11Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *DisplayVideoFrameSync)(
         IDeckLinkOutput_v10_11 *This,
-        IDeckLinkVideoFrame *theFrame);
+        IDeckLinkVideoFrame_v14_2_1 *theFrame);
 
     HRESULT (STDMETHODCALLTYPE *ScheduleVideoFrame)(
         IDeckLinkOutput_v10_11 *This,
-        IDeckLinkVideoFrame *theFrame,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
         BMDTimeValue displayTime,
         BMDTimeValue displayDuration,
         BMDTimeScale timeScale);
 
     HRESULT (STDMETHODCALLTYPE *SetScheduledFrameCompletionCallback)(
         IDeckLinkOutput_v10_11 *This,
-        IDeckLinkVideoOutputCallback *theCallback);
+        IDeckLinkVideoOutputCallback_v14_2_1 *theCallback);
 
     HRESULT (STDMETHODCALLTYPE *GetBufferedVideoFrameCount)(
         IDeckLinkOutput_v10_11 *This,
@@ -11554,7 +14417,7 @@ typedef struct IDeckLinkOutput_v10_11Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *GetFrameCompletionReferenceTimestamp)(
         IDeckLinkOutput_v10_11 *This,
-        IDeckLinkVideoFrame *theFrame,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
         BMDTimeScale desiredTimeScale,
         BMDTimeValue *frameCompletionTimestamp);
 
@@ -11618,7 +14481,7 @@ static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_DoesSupportVideoMode(IDeckLi
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_GetDisplayModeIterator(IDeckLinkOutput_v10_11* This,IDeckLinkDisplayModeIterator **iterator) {
     return This->lpVtbl->GetDisplayModeIterator(This,iterator);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_SetScreenPreviewCallback(IDeckLinkOutput_v10_11* This,IDeckLinkScreenPreviewCallback *previewCallback) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_SetScreenPreviewCallback(IDeckLinkOutput_v10_11* This,IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) {
     return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
 }
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_EnableVideoOutput(IDeckLinkOutput_v10_11* This,BMDDisplayMode displayMode,BMDVideoOutputFlags flags) {
@@ -11627,22 +14490,22 @@ static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_EnableVideoOutput(IDeckLinkO
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_DisableVideoOutput(IDeckLinkOutput_v10_11* This) {
     return This->lpVtbl->DisableVideoOutput(This);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v10_11* This,IDeckLinkMemoryAllocator *theAllocator) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v10_11* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
     return This->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_CreateVideoFrame(IDeckLinkOutput_v10_11* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame **outFrame) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_CreateVideoFrame(IDeckLinkOutput_v10_11* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame_v14_2_1 **outFrame) {
     return This->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame);
 }
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_CreateAncillaryData(IDeckLinkOutput_v10_11* This,BMDPixelFormat pixelFormat,IDeckLinkVideoFrameAncillary **outBuffer) {
     return This->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_DisplayVideoFrameSync(IDeckLinkOutput_v10_11* This,IDeckLinkVideoFrame *theFrame) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_DisplayVideoFrameSync(IDeckLinkOutput_v10_11* This,IDeckLinkVideoFrame_v14_2_1 *theFrame) {
     return This->lpVtbl->DisplayVideoFrameSync(This,theFrame);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_ScheduleVideoFrame(IDeckLinkOutput_v10_11* This,IDeckLinkVideoFrame *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_ScheduleVideoFrame(IDeckLinkOutput_v10_11* This,IDeckLinkVideoFrame_v14_2_1 *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
     return This->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v10_11* This,IDeckLinkVideoOutputCallback *theCallback) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v10_11* This,IDeckLinkVideoOutputCallback_v14_2_1 *theCallback) {
     return This->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback);
 }
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_GetBufferedVideoFrameCount(IDeckLinkOutput_v10_11* This,unsigned int *bufferedFrameCount) {
@@ -11693,7 +14556,7 @@ static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_GetReferenceStatus(IDeckLink
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_GetHardwareReferenceClock(IDeckLinkOutput_v10_11* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
     return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_GetFrameCompletionReferenceTimestamp(IDeckLinkOutput_v10_11* This,IDeckLinkVideoFrame *theFrame,BMDTimeScale desiredTimeScale,BMDTimeValue *frameCompletionTimestamp) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v10_11_GetFrameCompletionReferenceTimestamp(IDeckLinkOutput_v10_11* This,IDeckLinkVideoFrame_v14_2_1 *theFrame,BMDTimeScale desiredTimeScale,BMDTimeValue *frameCompletionTimestamp) {
     return This->lpVtbl->GetFrameCompletionReferenceTimestamp(This,theFrame,desiredTimeScale,frameCompletionTimestamp);
 }
 #endif
@@ -11726,7 +14589,7 @@ IDeckLinkInput_v10_11 : public IUnknown
         IDeckLinkDisplayModeIterator **iterator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
         BMDDisplayMode displayMode,
@@ -11740,7 +14603,7 @@ IDeckLinkInput_v10_11 : public IUnknown
         unsigned int *availableFrameCount) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetVideoInputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
         BMDAudioSampleRate sampleRate,
@@ -11809,7 +14672,7 @@ typedef struct IDeckLinkInput_v10_11Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
         IDeckLinkInput_v10_11 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback);
 
     HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
         IDeckLinkInput_v10_11 *This,
@@ -11826,7 +14689,7 @@ typedef struct IDeckLinkInput_v10_11Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetVideoInputFrameMemoryAllocator)(
         IDeckLinkInput_v10_11 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
 
     HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
         IDeckLinkInput_v10_11 *This,
@@ -11912,7 +14775,7 @@ static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_DoesSupportVideoMode(IDeckLin
 static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_GetDisplayModeIterator(IDeckLinkInput_v10_11* This,IDeckLinkDisplayModeIterator **iterator) {
     return This->lpVtbl->GetDisplayModeIterator(This,iterator);
 }
-static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_SetScreenPreviewCallback(IDeckLinkInput_v10_11* This,IDeckLinkScreenPreviewCallback *previewCallback) {
+static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_SetScreenPreviewCallback(IDeckLinkInput_v10_11* This,IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) {
     return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
 }
 static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_EnableVideoInput(IDeckLinkInput_v10_11* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
@@ -11924,7 +14787,7 @@ static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_DisableVideoInput(IDeckLinkIn
 static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_GetAvailableVideoFrameCount(IDeckLinkInput_v10_11* This,unsigned int *availableFrameCount) {
     return This->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount);
 }
-static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_SetVideoInputFrameMemoryAllocator(IDeckLinkInput_v10_11* This,IDeckLinkMemoryAllocator *theAllocator) {
+static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_SetVideoInputFrameMemoryAllocator(IDeckLinkInput_v10_11* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
     return This->lpVtbl->SetVideoInputFrameMemoryAllocator(This,theAllocator);
 }
 static __WIDL_INLINE HRESULT IDeckLinkInput_v10_11_EnableAudioInput(IDeckLinkInput_v10_11* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
@@ -11995,7 +14858,7 @@ IDeckLinkEncoderInput_v10_11 : public IUnknown
         unsigned int *availablePacketsCount) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
         BMDAudioFormat audioFormat,
@@ -12078,7 +14941,7 @@ typedef struct IDeckLinkEncoderInput_v10_11Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetMemoryAllocator)(
         IDeckLinkEncoderInput_v10_11 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
 
     HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
         IDeckLinkEncoderInput_v10_11 *This,
@@ -12173,7 +15036,7 @@ static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v10_11_DisableVideoInput(IDec
 static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v10_11_GetAvailablePacketsCount(IDeckLinkEncoderInput_v10_11* This,unsigned int *availablePacketsCount) {
     return This->lpVtbl->GetAvailablePacketsCount(This,availablePacketsCount);
 }
-static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v10_11_SetMemoryAllocator(IDeckLinkEncoderInput_v10_11* This,IDeckLinkMemoryAllocator *theAllocator) {
+static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v10_11_SetMemoryAllocator(IDeckLinkEncoderInput_v10_11* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
     return This->lpVtbl->SetMemoryAllocator(This,theAllocator);
 }
 static __WIDL_INLINE HRESULT IDeckLinkEncoderInput_v10_11_EnableAudioInput(IDeckLinkEncoderInput_v10_11* This,BMDAudioFormat audioFormat,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
@@ -13122,7 +15985,7 @@ IDeckLinkOutput_v11_4 : public IUnknown
         IDeckLinkDisplayModeIterator **iterator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableVideoOutput(
         BMDDisplayMode displayMode,
@@ -13132,7 +15995,7 @@ IDeckLinkOutput_v11_4 : public IUnknown
         ) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE CreateVideoFrame(
         int width,
@@ -13140,23 +16003,23 @@ IDeckLinkOutput_v11_4 : public IUnknown
         int rowBytes,
         BMDPixelFormat pixelFormat,
         BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame **outFrame) = 0;
+        IDeckLinkMutableVideoFrame_v14_2_1 **outFrame) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE CreateAncillaryData(
         BMDPixelFormat pixelFormat,
         IDeckLinkVideoFrameAncillary **outBuffer) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE DisplayVideoFrameSync(
-        IDeckLinkVideoFrame *theFrame) = 0;
+        IDeckLinkVideoFrame_v14_2_1 *theFrame) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE ScheduleVideoFrame(
-        IDeckLinkVideoFrame *theFrame,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
         BMDTimeValue displayTime,
         BMDTimeValue displayDuration,
         BMDTimeScale timeScale) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetScheduledFrameCompletionCallback(
-        IDeckLinkVideoOutputCallback *theCallback) = 0;
+        IDeckLinkVideoOutputCallback_v14_2_1 *theCallback) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE GetBufferedVideoFrameCount(
         unsigned int *bufferedFrameCount) = 0;
@@ -13225,7 +16088,7 @@ IDeckLinkOutput_v11_4 : public IUnknown
         BMDTimeValue *ticksPerFrame) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE GetFrameCompletionReferenceTimestamp(
-        IDeckLinkVideoFrame *theFrame,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
         BMDTimeScale desiredTimeScale,
         BMDTimeValue *frameCompletionTimestamp) = 0;
 
@@ -13270,7 +16133,7 @@ typedef struct IDeckLinkOutput_v11_4Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
         IDeckLinkOutput_v11_4 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback);
 
     HRESULT (STDMETHODCALLTYPE *EnableVideoOutput)(
         IDeckLinkOutput_v11_4 *This,
@@ -13282,7 +16145,7 @@ typedef struct IDeckLinkOutput_v11_4Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetVideoOutputFrameMemoryAllocator)(
         IDeckLinkOutput_v11_4 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
 
     HRESULT (STDMETHODCALLTYPE *CreateVideoFrame)(
         IDeckLinkOutput_v11_4 *This,
@@ -13291,7 +16154,7 @@ typedef struct IDeckLinkOutput_v11_4Vtbl {
         int rowBytes,
         BMDPixelFormat pixelFormat,
         BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame **outFrame);
+        IDeckLinkMutableVideoFrame_v14_2_1 **outFrame);
 
     HRESULT (STDMETHODCALLTYPE *CreateAncillaryData)(
         IDeckLinkOutput_v11_4 *This,
@@ -13300,18 +16163,18 @@ typedef struct IDeckLinkOutput_v11_4Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *DisplayVideoFrameSync)(
         IDeckLinkOutput_v11_4 *This,
-        IDeckLinkVideoFrame *theFrame);
+        IDeckLinkVideoFrame_v14_2_1 *theFrame);
 
     HRESULT (STDMETHODCALLTYPE *ScheduleVideoFrame)(
         IDeckLinkOutput_v11_4 *This,
-        IDeckLinkVideoFrame *theFrame,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
         BMDTimeValue displayTime,
         BMDTimeValue displayDuration,
         BMDTimeScale timeScale);
 
     HRESULT (STDMETHODCALLTYPE *SetScheduledFrameCompletionCallback)(
         IDeckLinkOutput_v11_4 *This,
-        IDeckLinkVideoOutputCallback *theCallback);
+        IDeckLinkVideoOutputCallback_v14_2_1 *theCallback);
 
     HRESULT (STDMETHODCALLTYPE *GetBufferedVideoFrameCount)(
         IDeckLinkOutput_v11_4 *This,
@@ -13393,7 +16256,7 @@ typedef struct IDeckLinkOutput_v11_4Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *GetFrameCompletionReferenceTimestamp)(
         IDeckLinkOutput_v11_4 *This,
-        IDeckLinkVideoFrame *theFrame,
+        IDeckLinkVideoFrame_v14_2_1 *theFrame,
         BMDTimeScale desiredTimeScale,
         BMDTimeValue *frameCompletionTimestamp);
 
@@ -13461,7 +16324,7 @@ static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_GetDisplayMode(IDeckLinkOutpu
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_GetDisplayModeIterator(IDeckLinkOutput_v11_4* This,IDeckLinkDisplayModeIterator **iterator) {
     return This->lpVtbl->GetDisplayModeIterator(This,iterator);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_SetScreenPreviewCallback(IDeckLinkOutput_v11_4* This,IDeckLinkScreenPreviewCallback *previewCallback) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_SetScreenPreviewCallback(IDeckLinkOutput_v11_4* This,IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) {
     return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
 }
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_EnableVideoOutput(IDeckLinkOutput_v11_4* This,BMDDisplayMode displayMode,BMDVideoOutputFlags flags) {
@@ -13470,22 +16333,22 @@ static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_EnableVideoOutput(IDeckLinkOu
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_DisableVideoOutput(IDeckLinkOutput_v11_4* This) {
     return This->lpVtbl->DisableVideoOutput(This);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v11_4* This,IDeckLinkMemoryAllocator *theAllocator) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v11_4* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
     return This->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_CreateVideoFrame(IDeckLinkOutput_v11_4* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame **outFrame) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_CreateVideoFrame(IDeckLinkOutput_v11_4* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame_v14_2_1 **outFrame) {
     return This->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame);
 }
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_CreateAncillaryData(IDeckLinkOutput_v11_4* This,BMDPixelFormat pixelFormat,IDeckLinkVideoFrameAncillary **outBuffer) {
     return This->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_DisplayVideoFrameSync(IDeckLinkOutput_v11_4* This,IDeckLinkVideoFrame *theFrame) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_DisplayVideoFrameSync(IDeckLinkOutput_v11_4* This,IDeckLinkVideoFrame_v14_2_1 *theFrame) {
     return This->lpVtbl->DisplayVideoFrameSync(This,theFrame);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_ScheduleVideoFrame(IDeckLinkOutput_v11_4* This,IDeckLinkVideoFrame *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_ScheduleVideoFrame(IDeckLinkOutput_v11_4* This,IDeckLinkVideoFrame_v14_2_1 *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
     return This->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v11_4* This,IDeckLinkVideoOutputCallback *theCallback) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v11_4* This,IDeckLinkVideoOutputCallback_v14_2_1 *theCallback) {
     return This->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback);
 }
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_GetBufferedVideoFrameCount(IDeckLinkOutput_v11_4* This,unsigned int *bufferedFrameCount) {
@@ -13536,7 +16399,7 @@ static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_GetReferenceStatus(IDeckLinkO
 static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_GetHardwareReferenceClock(IDeckLinkOutput_v11_4* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
     return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
 }
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_GetFrameCompletionReferenceTimestamp(IDeckLinkOutput_v11_4* This,IDeckLinkVideoFrame *theFrame,BMDTimeScale desiredTimeScale,BMDTimeValue *frameCompletionTimestamp) {
+static __WIDL_INLINE HRESULT IDeckLinkOutput_v11_4_GetFrameCompletionReferenceTimestamp(IDeckLinkOutput_v11_4* This,IDeckLinkVideoFrame_v14_2_1 *theFrame,BMDTimeScale desiredTimeScale,BMDTimeValue *frameCompletionTimestamp) {
     return This->lpVtbl->GetFrameCompletionReferenceTimestamp(This,theFrame,desiredTimeScale,frameCompletionTimestamp);
 }
 #endif
@@ -13573,7 +16436,7 @@ IDeckLinkInput_v11_4 : public IUnknown
         IDeckLinkDisplayModeIterator **iterator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
         BMDDisplayMode displayMode,
@@ -13587,7 +16450,7 @@ IDeckLinkInput_v11_4 : public IUnknown
         unsigned int *availableFrameCount) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE SetVideoInputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) = 0;
 
     virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
         BMDAudioSampleRate sampleRate,
@@ -13661,7 +16524,7 @@ typedef struct IDeckLinkInput_v11_4Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
         IDeckLinkInput_v11_4 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
+        IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback);
 
     HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
         IDeckLinkInput_v11_4 *This,
@@ -13678,7 +16541,7 @@ typedef struct IDeckLinkInput_v11_4Vtbl {
 
     HRESULT (STDMETHODCALLTYPE *SetVideoInputFrameMemoryAllocator)(
         IDeckLinkInput_v11_4 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
+        IDeckLinkMemoryAllocator_v14_2_1 *theAllocator);
 
     HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
         IDeckLinkInput_v11_4 *This,
@@ -13768,7 +16631,7 @@ static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_GetDisplayMode(IDeckLinkInput_
 static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_GetDisplayModeIterator(IDeckLinkInput_v11_4* This,IDeckLinkDisplayModeIterator **iterator) {
     return This->lpVtbl->GetDisplayModeIterator(This,iterator);
 }
-static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_SetScreenPreviewCallback(IDeckLinkInput_v11_4* This,IDeckLinkScreenPreviewCallback *previewCallback) {
+static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_SetScreenPreviewCallback(IDeckLinkInput_v11_4* This,IDeckLinkScreenPreviewCallback_v14_2_1 *previewCallback) {
     return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
 }
 static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_EnableVideoInput(IDeckLinkInput_v11_4* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
@@ -13780,7 +16643,7 @@ static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_DisableVideoInput(IDeckLinkInp
 static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_GetAvailableVideoFrameCount(IDeckLinkInput_v11_4* This,unsigned int *availableFrameCount) {
     return This->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount);
 }
-static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_SetVideoInputFrameMemoryAllocator(IDeckLinkInput_v11_4* This,IDeckLinkMemoryAllocator *theAllocator) {
+static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_SetVideoInputFrameMemoryAllocator(IDeckLinkInput_v11_4* This,IDeckLinkMemoryAllocator_v14_2_1 *theAllocator) {
     return This->lpVtbl->SetVideoInputFrameMemoryAllocator(This,theAllocator);
 }
 static __WIDL_INLINE HRESULT IDeckLinkInput_v11_4_EnableAudioInput(IDeckLinkInput_v11_4* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
@@ -14045,6543 +16908,6 @@ static __WIDL_INLINE HRESULT IDeckLinkEncoderConfiguration_v10_5_GetDecoderConfi
 
 
 #endif  /* __IDeckLinkEncoderConfiguration_v10_5_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkOutput_v9_9 interface
- */
-#ifndef __IDeckLinkOutput_v9_9_INTERFACE_DEFINED__
-#define __IDeckLinkOutput_v9_9_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkOutput_v9_9, 0xa3ef0963, 0x0862, 0x44ed, 0x92,0xa9, 0xee,0x89,0xab,0xf4,0x31,0xc7);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("a3ef0963-0862-44ed-92a9-ee89abf431c7")
-IDeckLinkOutput_v9_9 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoOutputFlags flags,
-        BMDDisplayModeSupport_v10_11 *result,
-        IDeckLinkDisplayMode **resultDisplayMode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
-        IDeckLinkDisplayModeIterator **iterator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableVideoOutput(
-        BMDDisplayMode displayMode,
-        BMDVideoOutputFlags flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableVideoOutput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CreateVideoFrame(
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame **outFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CreateAncillaryData(
-        BMDPixelFormat pixelFormat,
-        IDeckLinkVideoFrameAncillary **outBuffer) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisplayVideoFrameSync(
-        IDeckLinkVideoFrame *theFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduleVideoFrame(
-        IDeckLinkVideoFrame *theFrame,
-        BMDTimeValue displayTime,
-        BMDTimeValue displayDuration,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScheduledFrameCompletionCallback(
-        IDeckLinkVideoOutputCallback *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBufferedVideoFrameCount(
-        unsigned int *bufferedFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableAudioOutput(
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount,
-        BMDAudioOutputStreamType streamType) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableAudioOutput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE WriteAudioSamplesSync(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesWritten) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE BeginAudioPreroll(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EndAudioPreroll(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduleAudioSamples(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        BMDTimeValue streamTime,
-        BMDTimeScale timeScale,
-        unsigned int *sampleFramesWritten) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBufferedAudioSampleFrameCount(
-        unsigned int *bufferedSampleFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FlushBufferedAudioSamples(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetAudioCallback(
-        IDeckLinkAudioOutputCallback *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartScheduledPlayback(
-        BMDTimeValue playbackStartTime,
-        BMDTimeScale timeScale,
-        double playbackSpeed) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StopScheduledPlayback(
-        BMDTimeValue stopPlaybackAtTime,
-        BMDTimeValue *actualStopTime,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE IsScheduledPlaybackRunning(
-        BOOL *active) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetScheduledStreamTime(
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *streamTime,
-        double *playbackSpeed) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetReferenceStatus(
-        BMDReferenceStatus *referenceStatus) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *hardwareTime,
-        BMDTimeValue *timeInFrame,
-        BMDTimeValue *ticksPerFrame) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkOutput_v9_9, 0xa3ef0963, 0x0862, 0x44ed, 0x92,0xa9, 0xee,0x89,0xab,0xf4,0x31,0xc7)
-#endif
-#else
-typedef struct IDeckLinkOutput_v9_9Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkOutput_v9_9 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkOutput_v9_9 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkOutput_v9_9 *This);
-
-    /*** IDeckLinkOutput_v9_9 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoOutputFlags flags,
-        BMDDisplayModeSupport_v10_11 *result,
-        IDeckLinkDisplayMode **resultDisplayMode);
-
-    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
-        IDeckLinkOutput_v9_9 *This,
-        IDeckLinkDisplayModeIterator **iterator);
-
-    HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
-        IDeckLinkOutput_v9_9 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
-
-    HRESULT (STDMETHODCALLTYPE *EnableVideoOutput)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDDisplayMode displayMode,
-        BMDVideoOutputFlags flags);
-
-    HRESULT (STDMETHODCALLTYPE *DisableVideoOutput)(
-        IDeckLinkOutput_v9_9 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoOutputFrameMemoryAllocator)(
-        IDeckLinkOutput_v9_9 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
-
-    HRESULT (STDMETHODCALLTYPE *CreateVideoFrame)(
-        IDeckLinkOutput_v9_9 *This,
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame **outFrame);
-
-    HRESULT (STDMETHODCALLTYPE *CreateAncillaryData)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDPixelFormat pixelFormat,
-        IDeckLinkVideoFrameAncillary **outBuffer);
-
-    HRESULT (STDMETHODCALLTYPE *DisplayVideoFrameSync)(
-        IDeckLinkOutput_v9_9 *This,
-        IDeckLinkVideoFrame *theFrame);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduleVideoFrame)(
-        IDeckLinkOutput_v9_9 *This,
-        IDeckLinkVideoFrame *theFrame,
-        BMDTimeValue displayTime,
-        BMDTimeValue displayDuration,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *SetScheduledFrameCompletionCallback)(
-        IDeckLinkOutput_v9_9 *This,
-        IDeckLinkVideoOutputCallback *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *GetBufferedVideoFrameCount)(
-        IDeckLinkOutput_v9_9 *This,
-        unsigned int *bufferedFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *EnableAudioOutput)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount,
-        BMDAudioOutputStreamType streamType);
-
-    HRESULT (STDMETHODCALLTYPE *DisableAudioOutput)(
-        IDeckLinkOutput_v9_9 *This);
-
-    HRESULT (STDMETHODCALLTYPE *WriteAudioSamplesSync)(
-        IDeckLinkOutput_v9_9 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesWritten);
-
-    HRESULT (STDMETHODCALLTYPE *BeginAudioPreroll)(
-        IDeckLinkOutput_v9_9 *This);
-
-    HRESULT (STDMETHODCALLTYPE *EndAudioPreroll)(
-        IDeckLinkOutput_v9_9 *This);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduleAudioSamples)(
-        IDeckLinkOutput_v9_9 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        BMDTimeValue streamTime,
-        BMDTimeScale timeScale,
-        unsigned int *sampleFramesWritten);
-
-    HRESULT (STDMETHODCALLTYPE *GetBufferedAudioSampleFrameCount)(
-        IDeckLinkOutput_v9_9 *This,
-        unsigned int *bufferedSampleFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *FlushBufferedAudioSamples)(
-        IDeckLinkOutput_v9_9 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetAudioCallback)(
-        IDeckLinkOutput_v9_9 *This,
-        IDeckLinkAudioOutputCallback *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *StartScheduledPlayback)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDTimeValue playbackStartTime,
-        BMDTimeScale timeScale,
-        double playbackSpeed);
-
-    HRESULT (STDMETHODCALLTYPE *StopScheduledPlayback)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDTimeValue stopPlaybackAtTime,
-        BMDTimeValue *actualStopTime,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *IsScheduledPlaybackRunning)(
-        IDeckLinkOutput_v9_9 *This,
-        BOOL *active);
-
-    HRESULT (STDMETHODCALLTYPE *GetScheduledStreamTime)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *streamTime,
-        double *playbackSpeed);
-
-    HRESULT (STDMETHODCALLTYPE *GetReferenceStatus)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDReferenceStatus *referenceStatus);
-
-    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
-        IDeckLinkOutput_v9_9 *This,
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *hardwareTime,
-        BMDTimeValue *timeInFrame,
-        BMDTimeValue *ticksPerFrame);
-
-    END_INTERFACE
-} IDeckLinkOutput_v9_9Vtbl;
-
-interface IDeckLinkOutput_v9_9 {
-    CONST_VTBL IDeckLinkOutput_v9_9Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkOutput_v9_9_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkOutput_v9_9_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkOutput_v9_9_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkOutput_v9_9 methods ***/
-#define IDeckLinkOutput_v9_9_DoesSupportVideoMode(This,displayMode,pixelFormat,flags,result,resultDisplayMode) (This)->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,flags,result,resultDisplayMode)
-#define IDeckLinkOutput_v9_9_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
-#define IDeckLinkOutput_v9_9_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
-#define IDeckLinkOutput_v9_9_EnableVideoOutput(This,displayMode,flags) (This)->lpVtbl->EnableVideoOutput(This,displayMode,flags)
-#define IDeckLinkOutput_v9_9_DisableVideoOutput(This) (This)->lpVtbl->DisableVideoOutput(This)
-#define IDeckLinkOutput_v9_9_SetVideoOutputFrameMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator)
-#define IDeckLinkOutput_v9_9_CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame) (This)->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame)
-#define IDeckLinkOutput_v9_9_CreateAncillaryData(This,pixelFormat,outBuffer) (This)->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer)
-#define IDeckLinkOutput_v9_9_DisplayVideoFrameSync(This,theFrame) (This)->lpVtbl->DisplayVideoFrameSync(This,theFrame)
-#define IDeckLinkOutput_v9_9_ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale) (This)->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale)
-#define IDeckLinkOutput_v9_9_SetScheduledFrameCompletionCallback(This,theCallback) (This)->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback)
-#define IDeckLinkOutput_v9_9_GetBufferedVideoFrameCount(This,bufferedFrameCount) (This)->lpVtbl->GetBufferedVideoFrameCount(This,bufferedFrameCount)
-#define IDeckLinkOutput_v9_9_EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType) (This)->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType)
-#define IDeckLinkOutput_v9_9_DisableAudioOutput(This) (This)->lpVtbl->DisableAudioOutput(This)
-#define IDeckLinkOutput_v9_9_WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten) (This)->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten)
-#define IDeckLinkOutput_v9_9_BeginAudioPreroll(This) (This)->lpVtbl->BeginAudioPreroll(This)
-#define IDeckLinkOutput_v9_9_EndAudioPreroll(This) (This)->lpVtbl->EndAudioPreroll(This)
-#define IDeckLinkOutput_v9_9_ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten) (This)->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten)
-#define IDeckLinkOutput_v9_9_GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount) (This)->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount)
-#define IDeckLinkOutput_v9_9_FlushBufferedAudioSamples(This) (This)->lpVtbl->FlushBufferedAudioSamples(This)
-#define IDeckLinkOutput_v9_9_SetAudioCallback(This,theCallback) (This)->lpVtbl->SetAudioCallback(This,theCallback)
-#define IDeckLinkOutput_v9_9_StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed) (This)->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed)
-#define IDeckLinkOutput_v9_9_StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale) (This)->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale)
-#define IDeckLinkOutput_v9_9_IsScheduledPlaybackRunning(This,active) (This)->lpVtbl->IsScheduledPlaybackRunning(This,active)
-#define IDeckLinkOutput_v9_9_GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed) (This)->lpVtbl->GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed)
-#define IDeckLinkOutput_v9_9_GetReferenceStatus(This,referenceStatus) (This)->lpVtbl->GetReferenceStatus(This,referenceStatus)
-#define IDeckLinkOutput_v9_9_GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_QueryInterface(IDeckLinkOutput_v9_9* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkOutput_v9_9_AddRef(IDeckLinkOutput_v9_9* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkOutput_v9_9_Release(IDeckLinkOutput_v9_9* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkOutput_v9_9 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_DoesSupportVideoMode(IDeckLinkOutput_v9_9* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoOutputFlags flags,BMDDisplayModeSupport_v10_11 *result,IDeckLinkDisplayMode **resultDisplayMode) {
-    return This->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,flags,result,resultDisplayMode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_GetDisplayModeIterator(IDeckLinkOutput_v9_9* This,IDeckLinkDisplayModeIterator **iterator) {
-    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_SetScreenPreviewCallback(IDeckLinkOutput_v9_9* This,IDeckLinkScreenPreviewCallback *previewCallback) {
-    return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_EnableVideoOutput(IDeckLinkOutput_v9_9* This,BMDDisplayMode displayMode,BMDVideoOutputFlags flags) {
-    return This->lpVtbl->EnableVideoOutput(This,displayMode,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_DisableVideoOutput(IDeckLinkOutput_v9_9* This) {
-    return This->lpVtbl->DisableVideoOutput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v9_9* This,IDeckLinkMemoryAllocator *theAllocator) {
-    return This->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_CreateVideoFrame(IDeckLinkOutput_v9_9* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame **outFrame) {
-    return This->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_CreateAncillaryData(IDeckLinkOutput_v9_9* This,BMDPixelFormat pixelFormat,IDeckLinkVideoFrameAncillary **outBuffer) {
-    return This->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_DisplayVideoFrameSync(IDeckLinkOutput_v9_9* This,IDeckLinkVideoFrame *theFrame) {
-    return This->lpVtbl->DisplayVideoFrameSync(This,theFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_ScheduleVideoFrame(IDeckLinkOutput_v9_9* This,IDeckLinkVideoFrame *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
-    return This->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v9_9* This,IDeckLinkVideoOutputCallback *theCallback) {
-    return This->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_GetBufferedVideoFrameCount(IDeckLinkOutput_v9_9* This,unsigned int *bufferedFrameCount) {
-    return This->lpVtbl->GetBufferedVideoFrameCount(This,bufferedFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_EnableAudioOutput(IDeckLinkOutput_v9_9* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount,BMDAudioOutputStreamType streamType) {
-    return This->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_DisableAudioOutput(IDeckLinkOutput_v9_9* This) {
-    return This->lpVtbl->DisableAudioOutput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_WriteAudioSamplesSync(IDeckLinkOutput_v9_9* This,void *buffer,unsigned int sampleFrameCount,unsigned int *sampleFramesWritten) {
-    return This->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_BeginAudioPreroll(IDeckLinkOutput_v9_9* This) {
-    return This->lpVtbl->BeginAudioPreroll(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_EndAudioPreroll(IDeckLinkOutput_v9_9* This) {
-    return This->lpVtbl->EndAudioPreroll(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_ScheduleAudioSamples(IDeckLinkOutput_v9_9* This,void *buffer,unsigned int sampleFrameCount,BMDTimeValue streamTime,BMDTimeScale timeScale,unsigned int *sampleFramesWritten) {
-    return This->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_GetBufferedAudioSampleFrameCount(IDeckLinkOutput_v9_9* This,unsigned int *bufferedSampleFrameCount) {
-    return This->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_FlushBufferedAudioSamples(IDeckLinkOutput_v9_9* This) {
-    return This->lpVtbl->FlushBufferedAudioSamples(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_SetAudioCallback(IDeckLinkOutput_v9_9* This,IDeckLinkAudioOutputCallback *theCallback) {
-    return This->lpVtbl->SetAudioCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_StartScheduledPlayback(IDeckLinkOutput_v9_9* This,BMDTimeValue playbackStartTime,BMDTimeScale timeScale,double playbackSpeed) {
-    return This->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_StopScheduledPlayback(IDeckLinkOutput_v9_9* This,BMDTimeValue stopPlaybackAtTime,BMDTimeValue *actualStopTime,BMDTimeScale timeScale) {
-    return This->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_IsScheduledPlaybackRunning(IDeckLinkOutput_v9_9* This,BOOL *active) {
-    return This->lpVtbl->IsScheduledPlaybackRunning(This,active);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_GetScheduledStreamTime(IDeckLinkOutput_v9_9* This,BMDTimeScale desiredTimeScale,BMDTimeValue *streamTime,double *playbackSpeed) {
-    return This->lpVtbl->GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_GetReferenceStatus(IDeckLinkOutput_v9_9* This,BMDReferenceStatus *referenceStatus) {
-    return This->lpVtbl->GetReferenceStatus(This,referenceStatus);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v9_9_GetHardwareReferenceClock(IDeckLinkOutput_v9_9* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
-    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkOutput_v9_9_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkInput_v9_2 interface
- */
-#ifndef __IDeckLinkInput_v9_2_INTERFACE_DEFINED__
-#define __IDeckLinkInput_v9_2_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkInput_v9_2, 0x6d40ef78, 0x28b9, 0x4e21, 0x99,0x0d, 0x95,0xbb,0x77,0x50,0xa0,0x4f);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("6d40ef78-28b9-4e21-990d-95bb7750a04f")
-IDeckLinkInput_v9_2 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags,
-        BMDDisplayModeSupport_v10_11 *result,
-        IDeckLinkDisplayMode **resultDisplayMode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
-        IDeckLinkDisplayModeIterator **iterator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableVideoInput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAvailableVideoFrameCount(
-        unsigned int *availableFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableAudioInput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAvailableAudioSampleFrameCount(
-        unsigned int *availableSampleFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StopStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE PauseStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FlushStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetCallback(
-        IDeckLinkInputCallback_v11_5_1 *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *hardwareTime,
-        BMDTimeValue *timeInFrame,
-        BMDTimeValue *ticksPerFrame) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInput_v9_2, 0x6d40ef78, 0x28b9, 0x4e21, 0x99,0x0d, 0x95,0xbb,0x77,0x50,0xa0,0x4f)
-#endif
-#else
-typedef struct IDeckLinkInput_v9_2Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkInput_v9_2 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkInput_v9_2 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkInput_v9_2 *This);
-
-    /*** IDeckLinkInput_v9_2 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
-        IDeckLinkInput_v9_2 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags,
-        BMDDisplayModeSupport_v10_11 *result,
-        IDeckLinkDisplayMode **resultDisplayMode);
-
-    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
-        IDeckLinkInput_v9_2 *This,
-        IDeckLinkDisplayModeIterator **iterator);
-
-    HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
-        IDeckLinkInput_v9_2 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
-
-    HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
-        IDeckLinkInput_v9_2 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags);
-
-    HRESULT (STDMETHODCALLTYPE *DisableVideoInput)(
-        IDeckLinkInput_v9_2 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetAvailableVideoFrameCount)(
-        IDeckLinkInput_v9_2 *This,
-        unsigned int *availableFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
-        IDeckLinkInput_v9_2 *This,
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount);
-
-    HRESULT (STDMETHODCALLTYPE *DisableAudioInput)(
-        IDeckLinkInput_v9_2 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetAvailableAudioSampleFrameCount)(
-        IDeckLinkInput_v9_2 *This,
-        unsigned int *availableSampleFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *StartStreams)(
-        IDeckLinkInput_v9_2 *This);
-
-    HRESULT (STDMETHODCALLTYPE *StopStreams)(
-        IDeckLinkInput_v9_2 *This);
-
-    HRESULT (STDMETHODCALLTYPE *PauseStreams)(
-        IDeckLinkInput_v9_2 *This);
-
-    HRESULT (STDMETHODCALLTYPE *FlushStreams)(
-        IDeckLinkInput_v9_2 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetCallback)(
-        IDeckLinkInput_v9_2 *This,
-        IDeckLinkInputCallback_v11_5_1 *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
-        IDeckLinkInput_v9_2 *This,
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *hardwareTime,
-        BMDTimeValue *timeInFrame,
-        BMDTimeValue *ticksPerFrame);
-
-    END_INTERFACE
-} IDeckLinkInput_v9_2Vtbl;
-
-interface IDeckLinkInput_v9_2 {
-    CONST_VTBL IDeckLinkInput_v9_2Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkInput_v9_2_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkInput_v9_2_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkInput_v9_2_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkInput_v9_2 methods ***/
-#define IDeckLinkInput_v9_2_DoesSupportVideoMode(This,displayMode,pixelFormat,flags,result,resultDisplayMode) (This)->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,flags,result,resultDisplayMode)
-#define IDeckLinkInput_v9_2_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
-#define IDeckLinkInput_v9_2_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
-#define IDeckLinkInput_v9_2_EnableVideoInput(This,displayMode,pixelFormat,flags) (This)->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags)
-#define IDeckLinkInput_v9_2_DisableVideoInput(This) (This)->lpVtbl->DisableVideoInput(This)
-#define IDeckLinkInput_v9_2_GetAvailableVideoFrameCount(This,availableFrameCount) (This)->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount)
-#define IDeckLinkInput_v9_2_EnableAudioInput(This,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount)
-#define IDeckLinkInput_v9_2_DisableAudioInput(This) (This)->lpVtbl->DisableAudioInput(This)
-#define IDeckLinkInput_v9_2_GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount) (This)->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount)
-#define IDeckLinkInput_v9_2_StartStreams(This) (This)->lpVtbl->StartStreams(This)
-#define IDeckLinkInput_v9_2_StopStreams(This) (This)->lpVtbl->StopStreams(This)
-#define IDeckLinkInput_v9_2_PauseStreams(This) (This)->lpVtbl->PauseStreams(This)
-#define IDeckLinkInput_v9_2_FlushStreams(This) (This)->lpVtbl->FlushStreams(This)
-#define IDeckLinkInput_v9_2_SetCallback(This,theCallback) (This)->lpVtbl->SetCallback(This,theCallback)
-#define IDeckLinkInput_v9_2_GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_QueryInterface(IDeckLinkInput_v9_2* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkInput_v9_2_AddRef(IDeckLinkInput_v9_2* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkInput_v9_2_Release(IDeckLinkInput_v9_2* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkInput_v9_2 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_DoesSupportVideoMode(IDeckLinkInput_v9_2* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags,BMDDisplayModeSupport_v10_11 *result,IDeckLinkDisplayMode **resultDisplayMode) {
-    return This->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,flags,result,resultDisplayMode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_GetDisplayModeIterator(IDeckLinkInput_v9_2* This,IDeckLinkDisplayModeIterator **iterator) {
-    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_SetScreenPreviewCallback(IDeckLinkInput_v9_2* This,IDeckLinkScreenPreviewCallback *previewCallback) {
-    return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_EnableVideoInput(IDeckLinkInput_v9_2* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
-    return This->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_DisableVideoInput(IDeckLinkInput_v9_2* This) {
-    return This->lpVtbl->DisableVideoInput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_GetAvailableVideoFrameCount(IDeckLinkInput_v9_2* This,unsigned int *availableFrameCount) {
-    return This->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_EnableAudioInput(IDeckLinkInput_v9_2* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
-    return This->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_DisableAudioInput(IDeckLinkInput_v9_2* This) {
-    return This->lpVtbl->DisableAudioInput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_GetAvailableAudioSampleFrameCount(IDeckLinkInput_v9_2* This,unsigned int *availableSampleFrameCount) {
-    return This->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_StartStreams(IDeckLinkInput_v9_2* This) {
-    return This->lpVtbl->StartStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_StopStreams(IDeckLinkInput_v9_2* This) {
-    return This->lpVtbl->StopStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_PauseStreams(IDeckLinkInput_v9_2* This) {
-    return This->lpVtbl->PauseStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_FlushStreams(IDeckLinkInput_v9_2* This) {
-    return This->lpVtbl->FlushStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_SetCallback(IDeckLinkInput_v9_2* This,IDeckLinkInputCallback_v11_5_1 *theCallback) {
-    return This->lpVtbl->SetCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v9_2_GetHardwareReferenceClock(IDeckLinkInput_v9_2* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
-    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkInput_v9_2_INTERFACE_DEFINED__ */
-
-typedef enum _BMDDeckControlVTRControlState_v8_1 {
-    bmdDeckControlNotInVTRControlMode_v8_1 = 0x6e76636d,
-    bmdDeckControlVTRControlPlaying_v8_1 = 0x76747270,
-    bmdDeckControlVTRControlRecording_v8_1 = 0x76747272,
-    bmdDeckControlVTRControlStill_v8_1 = 0x76747261,
-    bmdDeckControlVTRControlSeeking_v8_1 = 0x76747273,
-    bmdDeckControlVTRControlStopped_v8_1 = 0x7674726f
-} BMDDeckControlVTRControlState_v8_1;
-#ifndef __IDeckLinkDeckControlStatusCallback_FWD_DEFINED__
-#define __IDeckLinkDeckControlStatusCallback_FWD_DEFINED__
-typedef interface IDeckLinkDeckControlStatusCallback IDeckLinkDeckControlStatusCallback;
-#ifdef __cplusplus
-interface IDeckLinkDeckControlStatusCallback;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDeckControl_FWD_DEFINED__
-#define __IDeckLinkDeckControl_FWD_DEFINED__
-typedef interface IDeckLinkDeckControl IDeckLinkDeckControl;
-#ifdef __cplusplus
-interface IDeckLinkDeckControl;
-#endif /* __cplusplus */
-#endif
-
-/*****************************************************************************
- * IDeckLinkDeckControlStatusCallback_v8_1 interface
- */
-#ifndef __IDeckLinkDeckControlStatusCallback_v8_1_INTERFACE_DEFINED__
-#define __IDeckLinkDeckControlStatusCallback_v8_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkDeckControlStatusCallback_v8_1, 0xe5f693c1, 0x4283, 0x4716, 0xb1,0x8f, 0xc1,0x43,0x15,0x21,0x95,0x5b);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("e5f693c1-4283-4716-b18f-c1431521955b")
-IDeckLinkDeckControlStatusCallback_v8_1 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE TimecodeUpdate(
-        BMDTimecodeBCD currentTimecode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE VTRControlStateChanged(
-        BMDDeckControlVTRControlState_v8_1 newState,
-        BMDDeckControlError error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DeckControlEventReceived(
-        BMDDeckControlEvent event,
-        BMDDeckControlError error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DeckControlStatusChanged(
-        BMDDeckControlStatusFlags flags,
-        unsigned int mask) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkDeckControlStatusCallback_v8_1, 0xe5f693c1, 0x4283, 0x4716, 0xb1,0x8f, 0xc1,0x43,0x15,0x21,0x95,0x5b)
-#endif
-#else
-typedef struct IDeckLinkDeckControlStatusCallback_v8_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkDeckControlStatusCallback_v8_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkDeckControlStatusCallback_v8_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkDeckControlStatusCallback_v8_1 *This);
-
-    /*** IDeckLinkDeckControlStatusCallback_v8_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *TimecodeUpdate)(
-        IDeckLinkDeckControlStatusCallback_v8_1 *This,
-        BMDTimecodeBCD currentTimecode);
-
-    HRESULT (STDMETHODCALLTYPE *VTRControlStateChanged)(
-        IDeckLinkDeckControlStatusCallback_v8_1 *This,
-        BMDDeckControlVTRControlState_v8_1 newState,
-        BMDDeckControlError error);
-
-    HRESULT (STDMETHODCALLTYPE *DeckControlEventReceived)(
-        IDeckLinkDeckControlStatusCallback_v8_1 *This,
-        BMDDeckControlEvent event,
-        BMDDeckControlError error);
-
-    HRESULT (STDMETHODCALLTYPE *DeckControlStatusChanged)(
-        IDeckLinkDeckControlStatusCallback_v8_1 *This,
-        BMDDeckControlStatusFlags flags,
-        unsigned int mask);
-
-    END_INTERFACE
-} IDeckLinkDeckControlStatusCallback_v8_1Vtbl;
-
-interface IDeckLinkDeckControlStatusCallback_v8_1 {
-    CONST_VTBL IDeckLinkDeckControlStatusCallback_v8_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkDeckControlStatusCallback_v8_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkDeckControlStatusCallback_v8_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkDeckControlStatusCallback_v8_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkDeckControlStatusCallback_v8_1 methods ***/
-#define IDeckLinkDeckControlStatusCallback_v8_1_TimecodeUpdate(This,currentTimecode) (This)->lpVtbl->TimecodeUpdate(This,currentTimecode)
-#define IDeckLinkDeckControlStatusCallback_v8_1_VTRControlStateChanged(This,newState,error) (This)->lpVtbl->VTRControlStateChanged(This,newState,error)
-#define IDeckLinkDeckControlStatusCallback_v8_1_DeckControlEventReceived(This,event,error) (This)->lpVtbl->DeckControlEventReceived(This,event,error)
-#define IDeckLinkDeckControlStatusCallback_v8_1_DeckControlStatusChanged(This,flags,mask) (This)->lpVtbl->DeckControlStatusChanged(This,flags,mask)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDeckControlStatusCallback_v8_1_QueryInterface(IDeckLinkDeckControlStatusCallback_v8_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkDeckControlStatusCallback_v8_1_AddRef(IDeckLinkDeckControlStatusCallback_v8_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkDeckControlStatusCallback_v8_1_Release(IDeckLinkDeckControlStatusCallback_v8_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkDeckControlStatusCallback_v8_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDeckControlStatusCallback_v8_1_TimecodeUpdate(IDeckLinkDeckControlStatusCallback_v8_1* This,BMDTimecodeBCD currentTimecode) {
-    return This->lpVtbl->TimecodeUpdate(This,currentTimecode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControlStatusCallback_v8_1_VTRControlStateChanged(IDeckLinkDeckControlStatusCallback_v8_1* This,BMDDeckControlVTRControlState_v8_1 newState,BMDDeckControlError error) {
-    return This->lpVtbl->VTRControlStateChanged(This,newState,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControlStatusCallback_v8_1_DeckControlEventReceived(IDeckLinkDeckControlStatusCallback_v8_1* This,BMDDeckControlEvent event,BMDDeckControlError error) {
-    return This->lpVtbl->DeckControlEventReceived(This,event,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControlStatusCallback_v8_1_DeckControlStatusChanged(IDeckLinkDeckControlStatusCallback_v8_1* This,BMDDeckControlStatusFlags flags,unsigned int mask) {
-    return This->lpVtbl->DeckControlStatusChanged(This,flags,mask);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkDeckControlStatusCallback_v8_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkDeckControl_v8_1 interface
- */
-#ifndef __IDeckLinkDeckControl_v8_1_INTERFACE_DEFINED__
-#define __IDeckLinkDeckControl_v8_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkDeckControl_v8_1, 0x522a9e39, 0x0f3c, 0x4742, 0x94,0xee, 0xd8,0x0d,0xe3,0x35,0xda,0x1d);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("522a9e39-0f3c-4742-94ee-d80de335da1d")
-IDeckLinkDeckControl_v8_1 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE Open(
-        BMDTimeScale timeScale,
-        BMDTimeValue timeValue,
-        BOOL timecodeIsDropFrame,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Close(
-        BOOL standbyOn) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetCurrentState(
-        BMDDeckControlMode *mode,
-        BMDDeckControlVTRControlState_v8_1 *vtrControlState,
-        BMDDeckControlStatusFlags *flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetStandby(
-        BOOL standbyOn) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SendCommand(
-        unsigned char *inBuffer,
-        unsigned int inBufferSize,
-        unsigned char *outBuffer,
-        unsigned int *outDataSize,
-        unsigned int outBufferSize,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Play(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Stop(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE TogglePlayStop(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Eject(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GoToTimecode(
-        BMDTimecodeBCD timecode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FastForward(
-        BOOL viewTape,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Rewind(
-        BOOL viewTape,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StepForward(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StepBack(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Jog(
-        double rate,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Shuttle(
-        double rate,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetTimecodeString(
-        BSTR *currentTimeCode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetTimecode(
-        IDeckLinkTimecode **currentTimecode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetTimecodeBCD(
-        BMDTimecodeBCD *currentTimecode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetPreroll(
-        unsigned int prerollSeconds) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetPreroll(
-        unsigned int *prerollSeconds) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetExportOffset(
-        int exportOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetExportOffset(
-        int *exportOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetManualExportOffset(
-        int *deckManualExportOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetCaptureOffset(
-        int captureOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetCaptureOffset(
-        int *captureOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartExport(
-        BMDTimecodeBCD inTimecode,
-        BMDTimecodeBCD outTimecode,
-        BMDDeckControlExportModeOpsFlags exportModeOps,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartCapture(
-        BOOL useVITC,
-        BMDTimecodeBCD inTimecode,
-        BMDTimecodeBCD outTimecode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDeviceID(
-        unsigned short *deviceId,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Abort(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CrashRecordStart(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CrashRecordStop(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetCallback(
-        IDeckLinkDeckControlStatusCallback_v8_1 *callback) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkDeckControl_v8_1, 0x522a9e39, 0x0f3c, 0x4742, 0x94,0xee, 0xd8,0x0d,0xe3,0x35,0xda,0x1d)
-#endif
-#else
-typedef struct IDeckLinkDeckControl_v8_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkDeckControl_v8_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkDeckControl_v8_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkDeckControl_v8_1 *This);
-
-    /*** IDeckLinkDeckControl_v8_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *Open)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDTimeScale timeScale,
-        BMDTimeValue timeValue,
-        BOOL timecodeIsDropFrame,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Close)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BOOL standbyOn);
-
-    HRESULT (STDMETHODCALLTYPE *GetCurrentState)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlMode *mode,
-        BMDDeckControlVTRControlState_v8_1 *vtrControlState,
-        BMDDeckControlStatusFlags *flags);
-
-    HRESULT (STDMETHODCALLTYPE *SetStandby)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BOOL standbyOn);
-
-    HRESULT (STDMETHODCALLTYPE *SendCommand)(
-        IDeckLinkDeckControl_v8_1 *This,
-        unsigned char *inBuffer,
-        unsigned int inBufferSize,
-        unsigned char *outBuffer,
-        unsigned int *outDataSize,
-        unsigned int outBufferSize,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Play)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Stop)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *TogglePlayStop)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Eject)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GoToTimecode)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDTimecodeBCD timecode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *FastForward)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BOOL viewTape,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Rewind)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BOOL viewTape,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *StepForward)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *StepBack)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Jog)(
-        IDeckLinkDeckControl_v8_1 *This,
-        double rate,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Shuttle)(
-        IDeckLinkDeckControl_v8_1 *This,
-        double rate,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecodeString)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BSTR *currentTimeCode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
-        IDeckLinkDeckControl_v8_1 *This,
-        IDeckLinkTimecode **currentTimecode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecodeBCD)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDTimecodeBCD *currentTimecode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *SetPreroll)(
-        IDeckLinkDeckControl_v8_1 *This,
-        unsigned int prerollSeconds);
-
-    HRESULT (STDMETHODCALLTYPE *GetPreroll)(
-        IDeckLinkDeckControl_v8_1 *This,
-        unsigned int *prerollSeconds);
-
-    HRESULT (STDMETHODCALLTYPE *SetExportOffset)(
-        IDeckLinkDeckControl_v8_1 *This,
-        int exportOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *GetExportOffset)(
-        IDeckLinkDeckControl_v8_1 *This,
-        int *exportOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *GetManualExportOffset)(
-        IDeckLinkDeckControl_v8_1 *This,
-        int *deckManualExportOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *SetCaptureOffset)(
-        IDeckLinkDeckControl_v8_1 *This,
-        int captureOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *GetCaptureOffset)(
-        IDeckLinkDeckControl_v8_1 *This,
-        int *captureOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *StartExport)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDTimecodeBCD inTimecode,
-        BMDTimecodeBCD outTimecode,
-        BMDDeckControlExportModeOpsFlags exportModeOps,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *StartCapture)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BOOL useVITC,
-        BMDTimecodeBCD inTimecode,
-        BMDTimecodeBCD outTimecode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GetDeviceID)(
-        IDeckLinkDeckControl_v8_1 *This,
-        unsigned short *deviceId,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Abort)(
-        IDeckLinkDeckControl_v8_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *CrashRecordStart)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *CrashRecordStop)(
-        IDeckLinkDeckControl_v8_1 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *SetCallback)(
-        IDeckLinkDeckControl_v8_1 *This,
-        IDeckLinkDeckControlStatusCallback_v8_1 *callback);
-
-    END_INTERFACE
-} IDeckLinkDeckControl_v8_1Vtbl;
-
-interface IDeckLinkDeckControl_v8_1 {
-    CONST_VTBL IDeckLinkDeckControl_v8_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkDeckControl_v8_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkDeckControl_v8_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkDeckControl_v8_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkDeckControl_v8_1 methods ***/
-#define IDeckLinkDeckControl_v8_1_Open(This,timeScale,timeValue,timecodeIsDropFrame,error) (This)->lpVtbl->Open(This,timeScale,timeValue,timecodeIsDropFrame,error)
-#define IDeckLinkDeckControl_v8_1_Close(This,standbyOn) (This)->lpVtbl->Close(This,standbyOn)
-#define IDeckLinkDeckControl_v8_1_GetCurrentState(This,mode,vtrControlState,flags) (This)->lpVtbl->GetCurrentState(This,mode,vtrControlState,flags)
-#define IDeckLinkDeckControl_v8_1_SetStandby(This,standbyOn) (This)->lpVtbl->SetStandby(This,standbyOn)
-#define IDeckLinkDeckControl_v8_1_SendCommand(This,inBuffer,inBufferSize,outBuffer,outDataSize,outBufferSize,error) (This)->lpVtbl->SendCommand(This,inBuffer,inBufferSize,outBuffer,outDataSize,outBufferSize,error)
-#define IDeckLinkDeckControl_v8_1_Play(This,error) (This)->lpVtbl->Play(This,error)
-#define IDeckLinkDeckControl_v8_1_Stop(This,error) (This)->lpVtbl->Stop(This,error)
-#define IDeckLinkDeckControl_v8_1_TogglePlayStop(This,error) (This)->lpVtbl->TogglePlayStop(This,error)
-#define IDeckLinkDeckControl_v8_1_Eject(This,error) (This)->lpVtbl->Eject(This,error)
-#define IDeckLinkDeckControl_v8_1_GoToTimecode(This,timecode,error) (This)->lpVtbl->GoToTimecode(This,timecode,error)
-#define IDeckLinkDeckControl_v8_1_FastForward(This,viewTape,error) (This)->lpVtbl->FastForward(This,viewTape,error)
-#define IDeckLinkDeckControl_v8_1_Rewind(This,viewTape,error) (This)->lpVtbl->Rewind(This,viewTape,error)
-#define IDeckLinkDeckControl_v8_1_StepForward(This,error) (This)->lpVtbl->StepForward(This,error)
-#define IDeckLinkDeckControl_v8_1_StepBack(This,error) (This)->lpVtbl->StepBack(This,error)
-#define IDeckLinkDeckControl_v8_1_Jog(This,rate,error) (This)->lpVtbl->Jog(This,rate,error)
-#define IDeckLinkDeckControl_v8_1_Shuttle(This,rate,error) (This)->lpVtbl->Shuttle(This,rate,error)
-#define IDeckLinkDeckControl_v8_1_GetTimecodeString(This,currentTimeCode,error) (This)->lpVtbl->GetTimecodeString(This,currentTimeCode,error)
-#define IDeckLinkDeckControl_v8_1_GetTimecode(This,currentTimecode,error) (This)->lpVtbl->GetTimecode(This,currentTimecode,error)
-#define IDeckLinkDeckControl_v8_1_GetTimecodeBCD(This,currentTimecode,error) (This)->lpVtbl->GetTimecodeBCD(This,currentTimecode,error)
-#define IDeckLinkDeckControl_v8_1_SetPreroll(This,prerollSeconds) (This)->lpVtbl->SetPreroll(This,prerollSeconds)
-#define IDeckLinkDeckControl_v8_1_GetPreroll(This,prerollSeconds) (This)->lpVtbl->GetPreroll(This,prerollSeconds)
-#define IDeckLinkDeckControl_v8_1_SetExportOffset(This,exportOffsetFields) (This)->lpVtbl->SetExportOffset(This,exportOffsetFields)
-#define IDeckLinkDeckControl_v8_1_GetExportOffset(This,exportOffsetFields) (This)->lpVtbl->GetExportOffset(This,exportOffsetFields)
-#define IDeckLinkDeckControl_v8_1_GetManualExportOffset(This,deckManualExportOffsetFields) (This)->lpVtbl->GetManualExportOffset(This,deckManualExportOffsetFields)
-#define IDeckLinkDeckControl_v8_1_SetCaptureOffset(This,captureOffsetFields) (This)->lpVtbl->SetCaptureOffset(This,captureOffsetFields)
-#define IDeckLinkDeckControl_v8_1_GetCaptureOffset(This,captureOffsetFields) (This)->lpVtbl->GetCaptureOffset(This,captureOffsetFields)
-#define IDeckLinkDeckControl_v8_1_StartExport(This,inTimecode,outTimecode,exportModeOps,error) (This)->lpVtbl->StartExport(This,inTimecode,outTimecode,exportModeOps,error)
-#define IDeckLinkDeckControl_v8_1_StartCapture(This,useVITC,inTimecode,outTimecode,error) (This)->lpVtbl->StartCapture(This,useVITC,inTimecode,outTimecode,error)
-#define IDeckLinkDeckControl_v8_1_GetDeviceID(This,deviceId,error) (This)->lpVtbl->GetDeviceID(This,deviceId,error)
-#define IDeckLinkDeckControl_v8_1_Abort(This) (This)->lpVtbl->Abort(This)
-#define IDeckLinkDeckControl_v8_1_CrashRecordStart(This,error) (This)->lpVtbl->CrashRecordStart(This,error)
-#define IDeckLinkDeckControl_v8_1_CrashRecordStop(This,error) (This)->lpVtbl->CrashRecordStop(This,error)
-#define IDeckLinkDeckControl_v8_1_SetCallback(This,callback) (This)->lpVtbl->SetCallback(This,callback)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_QueryInterface(IDeckLinkDeckControl_v8_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkDeckControl_v8_1_AddRef(IDeckLinkDeckControl_v8_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkDeckControl_v8_1_Release(IDeckLinkDeckControl_v8_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkDeckControl_v8_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Open(IDeckLinkDeckControl_v8_1* This,BMDTimeScale timeScale,BMDTimeValue timeValue,BOOL timecodeIsDropFrame,BMDDeckControlError *error) {
-    return This->lpVtbl->Open(This,timeScale,timeValue,timecodeIsDropFrame,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Close(IDeckLinkDeckControl_v8_1* This,BOOL standbyOn) {
-    return This->lpVtbl->Close(This,standbyOn);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetCurrentState(IDeckLinkDeckControl_v8_1* This,BMDDeckControlMode *mode,BMDDeckControlVTRControlState_v8_1 *vtrControlState,BMDDeckControlStatusFlags *flags) {
-    return This->lpVtbl->GetCurrentState(This,mode,vtrControlState,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_SetStandby(IDeckLinkDeckControl_v8_1* This,BOOL standbyOn) {
-    return This->lpVtbl->SetStandby(This,standbyOn);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_SendCommand(IDeckLinkDeckControl_v8_1* This,unsigned char *inBuffer,unsigned int inBufferSize,unsigned char *outBuffer,unsigned int *outDataSize,unsigned int outBufferSize,BMDDeckControlError *error) {
-    return This->lpVtbl->SendCommand(This,inBuffer,inBufferSize,outBuffer,outDataSize,outBufferSize,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Play(IDeckLinkDeckControl_v8_1* This,BMDDeckControlError *error) {
-    return This->lpVtbl->Play(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Stop(IDeckLinkDeckControl_v8_1* This,BMDDeckControlError *error) {
-    return This->lpVtbl->Stop(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_TogglePlayStop(IDeckLinkDeckControl_v8_1* This,BMDDeckControlError *error) {
-    return This->lpVtbl->TogglePlayStop(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Eject(IDeckLinkDeckControl_v8_1* This,BMDDeckControlError *error) {
-    return This->lpVtbl->Eject(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GoToTimecode(IDeckLinkDeckControl_v8_1* This,BMDTimecodeBCD timecode,BMDDeckControlError *error) {
-    return This->lpVtbl->GoToTimecode(This,timecode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_FastForward(IDeckLinkDeckControl_v8_1* This,BOOL viewTape,BMDDeckControlError *error) {
-    return This->lpVtbl->FastForward(This,viewTape,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Rewind(IDeckLinkDeckControl_v8_1* This,BOOL viewTape,BMDDeckControlError *error) {
-    return This->lpVtbl->Rewind(This,viewTape,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_StepForward(IDeckLinkDeckControl_v8_1* This,BMDDeckControlError *error) {
-    return This->lpVtbl->StepForward(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_StepBack(IDeckLinkDeckControl_v8_1* This,BMDDeckControlError *error) {
-    return This->lpVtbl->StepBack(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Jog(IDeckLinkDeckControl_v8_1* This,double rate,BMDDeckControlError *error) {
-    return This->lpVtbl->Jog(This,rate,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Shuttle(IDeckLinkDeckControl_v8_1* This,double rate,BMDDeckControlError *error) {
-    return This->lpVtbl->Shuttle(This,rate,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetTimecodeString(IDeckLinkDeckControl_v8_1* This,BSTR *currentTimeCode,BMDDeckControlError *error) {
-    return This->lpVtbl->GetTimecodeString(This,currentTimeCode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetTimecode(IDeckLinkDeckControl_v8_1* This,IDeckLinkTimecode **currentTimecode,BMDDeckControlError *error) {
-    return This->lpVtbl->GetTimecode(This,currentTimecode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetTimecodeBCD(IDeckLinkDeckControl_v8_1* This,BMDTimecodeBCD *currentTimecode,BMDDeckControlError *error) {
-    return This->lpVtbl->GetTimecodeBCD(This,currentTimecode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_SetPreroll(IDeckLinkDeckControl_v8_1* This,unsigned int prerollSeconds) {
-    return This->lpVtbl->SetPreroll(This,prerollSeconds);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetPreroll(IDeckLinkDeckControl_v8_1* This,unsigned int *prerollSeconds) {
-    return This->lpVtbl->GetPreroll(This,prerollSeconds);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_SetExportOffset(IDeckLinkDeckControl_v8_1* This,int exportOffsetFields) {
-    return This->lpVtbl->SetExportOffset(This,exportOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetExportOffset(IDeckLinkDeckControl_v8_1* This,int *exportOffsetFields) {
-    return This->lpVtbl->GetExportOffset(This,exportOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetManualExportOffset(IDeckLinkDeckControl_v8_1* This,int *deckManualExportOffsetFields) {
-    return This->lpVtbl->GetManualExportOffset(This,deckManualExportOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_SetCaptureOffset(IDeckLinkDeckControl_v8_1* This,int captureOffsetFields) {
-    return This->lpVtbl->SetCaptureOffset(This,captureOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetCaptureOffset(IDeckLinkDeckControl_v8_1* This,int *captureOffsetFields) {
-    return This->lpVtbl->GetCaptureOffset(This,captureOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_StartExport(IDeckLinkDeckControl_v8_1* This,BMDTimecodeBCD inTimecode,BMDTimecodeBCD outTimecode,BMDDeckControlExportModeOpsFlags exportModeOps,BMDDeckControlError *error) {
-    return This->lpVtbl->StartExport(This,inTimecode,outTimecode,exportModeOps,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_StartCapture(IDeckLinkDeckControl_v8_1* This,BOOL useVITC,BMDTimecodeBCD inTimecode,BMDTimecodeBCD outTimecode,BMDDeckControlError *error) {
-    return This->lpVtbl->StartCapture(This,useVITC,inTimecode,outTimecode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_GetDeviceID(IDeckLinkDeckControl_v8_1* This,unsigned short *deviceId,BMDDeckControlError *error) {
-    return This->lpVtbl->GetDeviceID(This,deviceId,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_Abort(IDeckLinkDeckControl_v8_1* This) {
-    return This->lpVtbl->Abort(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_CrashRecordStart(IDeckLinkDeckControl_v8_1* This,BMDDeckControlError *error) {
-    return This->lpVtbl->CrashRecordStart(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_CrashRecordStop(IDeckLinkDeckControl_v8_1* This,BMDDeckControlError *error) {
-    return This->lpVtbl->CrashRecordStop(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v8_1_SetCallback(IDeckLinkDeckControl_v8_1* This,IDeckLinkDeckControlStatusCallback_v8_1 *callback) {
-    return This->lpVtbl->SetCallback(This,callback);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkDeckControl_v8_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLink_v8_0 interface
- */
-#ifndef __IDeckLink_v8_0_INTERFACE_DEFINED__
-#define __IDeckLink_v8_0_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLink_v8_0, 0x62bff75d, 0x6569, 0x4e55, 0x8d,0x4d, 0x66,0xaa,0x03,0x82,0x9a,0xbc);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("62bff75d-6569-4e55-8d4d-66aa03829abc")
-IDeckLink_v8_0 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE GetModelName(
-        BSTR *modelName) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLink_v8_0, 0x62bff75d, 0x6569, 0x4e55, 0x8d,0x4d, 0x66,0xaa,0x03,0x82,0x9a,0xbc)
-#endif
-#else
-typedef struct IDeckLink_v8_0Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLink_v8_0 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLink_v8_0 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLink_v8_0 *This);
-
-    /*** IDeckLink_v8_0 methods ***/
-    HRESULT (STDMETHODCALLTYPE *GetModelName)(
-        IDeckLink_v8_0 *This,
-        BSTR *modelName);
-
-    END_INTERFACE
-} IDeckLink_v8_0Vtbl;
-
-interface IDeckLink_v8_0 {
-    CONST_VTBL IDeckLink_v8_0Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLink_v8_0_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLink_v8_0_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLink_v8_0_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLink_v8_0 methods ***/
-#define IDeckLink_v8_0_GetModelName(This,modelName) (This)->lpVtbl->GetModelName(This,modelName)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLink_v8_0_QueryInterface(IDeckLink_v8_0* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLink_v8_0_AddRef(IDeckLink_v8_0* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLink_v8_0_Release(IDeckLink_v8_0* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLink_v8_0 methods ***/
-static __WIDL_INLINE HRESULT IDeckLink_v8_0_GetModelName(IDeckLink_v8_0* This,BSTR *modelName) {
-    return This->lpVtbl->GetModelName(This,modelName);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLink_v8_0_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkIterator_v8_0 interface
- */
-#ifndef __IDeckLinkIterator_v8_0_INTERFACE_DEFINED__
-#define __IDeckLinkIterator_v8_0_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkIterator_v8_0, 0x74e936fc, 0xcc28, 0x4a67, 0x81,0xa0, 0x1e,0x94,0xe5,0x2d,0x4e,0x69);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("74e936fc-cc28-4a67-81a0-1e94e52d4e69")
-IDeckLinkIterator_v8_0 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE Next(
-        IDeckLink_v8_0 **deckLinkInstance) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkIterator_v8_0, 0x74e936fc, 0xcc28, 0x4a67, 0x81,0xa0, 0x1e,0x94,0xe5,0x2d,0x4e,0x69)
-#endif
-#else
-typedef struct IDeckLinkIterator_v8_0Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkIterator_v8_0 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkIterator_v8_0 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkIterator_v8_0 *This);
-
-    /*** IDeckLinkIterator_v8_0 methods ***/
-    HRESULT (STDMETHODCALLTYPE *Next)(
-        IDeckLinkIterator_v8_0 *This,
-        IDeckLink_v8_0 **deckLinkInstance);
-
-    END_INTERFACE
-} IDeckLinkIterator_v8_0Vtbl;
-
-interface IDeckLinkIterator_v8_0 {
-    CONST_VTBL IDeckLinkIterator_v8_0Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkIterator_v8_0_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkIterator_v8_0_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkIterator_v8_0_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkIterator_v8_0 methods ***/
-#define IDeckLinkIterator_v8_0_Next(This,deckLinkInstance) (This)->lpVtbl->Next(This,deckLinkInstance)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkIterator_v8_0_QueryInterface(IDeckLinkIterator_v8_0* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkIterator_v8_0_AddRef(IDeckLinkIterator_v8_0* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkIterator_v8_0_Release(IDeckLinkIterator_v8_0* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkIterator_v8_0 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkIterator_v8_0_Next(IDeckLinkIterator_v8_0* This,IDeckLink_v8_0 **deckLinkInstance) {
-    return This->lpVtbl->Next(This,deckLinkInstance);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkIterator_v8_0_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * CDeckLinkIterator_v8_0 coclass
- */
-
-DEFINE_GUID(CLSID_CDeckLinkIterator_v8_0, 0xd9eda3b3, 0x2887, 0x41fa, 0xb7,0x24, 0x01,0x7c,0xf1,0xeb,0x1d,0x37);
-
-#ifdef __cplusplus
-class DECLSPEC_UUID("d9eda3b3-2887-41fa-b724-017cf1eb1d37") CDeckLinkIterator_v8_0;
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkIterator_v8_0, 0xd9eda3b3, 0x2887, 0x41fa, 0xb7,0x24, 0x01,0x7c,0xf1,0xeb,0x1d,0x37)
-#endif
-#endif
-
-/*****************************************************************************
- * IDeckLinkDeckControl_v7_9 interface
- */
-#ifndef __IDeckLinkDeckControl_v7_9_INTERFACE_DEFINED__
-#define __IDeckLinkDeckControl_v7_9_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkDeckControl_v7_9, 0xa4d81043, 0x0619, 0x42b7, 0x8e,0xd6, 0x60,0x2d,0x29,0x04,0x1d,0xf7);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("a4d81043-0619-42b7-8ed6-602d29041df7")
-IDeckLinkDeckControl_v7_9 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE Open(
-        BMDTimeScale timeScale,
-        BMDTimeValue timeValue,
-        BOOL timecodeIsDropFrame,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Close(
-        BOOL standbyOn) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetCurrentState(
-        BMDDeckControlMode *mode,
-        BMDDeckControlVTRControlState *vtrControlState,
-        BMDDeckControlStatusFlags *flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetStandby(
-        BOOL standbyOn) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Play(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Stop(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE TogglePlayStop(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Eject(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GoToTimecode(
-        BMDTimecodeBCD timecode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FastForward(
-        BOOL viewTape,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Rewind(
-        BOOL viewTape,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StepForward(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StepBack(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Jog(
-        double rate,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Shuttle(
-        double rate,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetTimecodeString(
-        BSTR *currentTimeCode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetTimecode(
-        IDeckLinkTimecode **currentTimecode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetTimecodeBCD(
-        BMDTimecodeBCD *currentTimecode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetPreroll(
-        unsigned int prerollSeconds) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetPreroll(
-        unsigned int *prerollSeconds) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetExportOffset(
-        int exportOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetExportOffset(
-        int *exportOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetManualExportOffset(
-        int *deckManualExportOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetCaptureOffset(
-        int captureOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetCaptureOffset(
-        int *captureOffsetFields) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartExport(
-        BMDTimecodeBCD inTimecode,
-        BMDTimecodeBCD outTimecode,
-        BMDDeckControlExportModeOpsFlags exportModeOps,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartCapture(
-        BOOL useVITC,
-        BMDTimecodeBCD inTimecode,
-        BMDTimecodeBCD outTimecode,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDeviceID(
-        unsigned short *deviceId,
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Abort(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CrashRecordStart(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CrashRecordStop(
-        BMDDeckControlError *error) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetCallback(
-        IDeckLinkDeckControlStatusCallback *callback) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkDeckControl_v7_9, 0xa4d81043, 0x0619, 0x42b7, 0x8e,0xd6, 0x60,0x2d,0x29,0x04,0x1d,0xf7)
-#endif
-#else
-typedef struct IDeckLinkDeckControl_v7_9Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkDeckControl_v7_9 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkDeckControl_v7_9 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkDeckControl_v7_9 *This);
-
-    /*** IDeckLinkDeckControl_v7_9 methods ***/
-    HRESULT (STDMETHODCALLTYPE *Open)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDTimeScale timeScale,
-        BMDTimeValue timeValue,
-        BOOL timecodeIsDropFrame,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Close)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BOOL standbyOn);
-
-    HRESULT (STDMETHODCALLTYPE *GetCurrentState)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlMode *mode,
-        BMDDeckControlVTRControlState *vtrControlState,
-        BMDDeckControlStatusFlags *flags);
-
-    HRESULT (STDMETHODCALLTYPE *SetStandby)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BOOL standbyOn);
-
-    HRESULT (STDMETHODCALLTYPE *Play)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Stop)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *TogglePlayStop)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Eject)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GoToTimecode)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDTimecodeBCD timecode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *FastForward)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BOOL viewTape,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Rewind)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BOOL viewTape,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *StepForward)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *StepBack)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Jog)(
-        IDeckLinkDeckControl_v7_9 *This,
-        double rate,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Shuttle)(
-        IDeckLinkDeckControl_v7_9 *This,
-        double rate,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecodeString)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BSTR *currentTimeCode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
-        IDeckLinkDeckControl_v7_9 *This,
-        IDeckLinkTimecode **currentTimecode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecodeBCD)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDTimecodeBCD *currentTimecode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *SetPreroll)(
-        IDeckLinkDeckControl_v7_9 *This,
-        unsigned int prerollSeconds);
-
-    HRESULT (STDMETHODCALLTYPE *GetPreroll)(
-        IDeckLinkDeckControl_v7_9 *This,
-        unsigned int *prerollSeconds);
-
-    HRESULT (STDMETHODCALLTYPE *SetExportOffset)(
-        IDeckLinkDeckControl_v7_9 *This,
-        int exportOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *GetExportOffset)(
-        IDeckLinkDeckControl_v7_9 *This,
-        int *exportOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *GetManualExportOffset)(
-        IDeckLinkDeckControl_v7_9 *This,
-        int *deckManualExportOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *SetCaptureOffset)(
-        IDeckLinkDeckControl_v7_9 *This,
-        int captureOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *GetCaptureOffset)(
-        IDeckLinkDeckControl_v7_9 *This,
-        int *captureOffsetFields);
-
-    HRESULT (STDMETHODCALLTYPE *StartExport)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDTimecodeBCD inTimecode,
-        BMDTimecodeBCD outTimecode,
-        BMDDeckControlExportModeOpsFlags exportModeOps,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *StartCapture)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BOOL useVITC,
-        BMDTimecodeBCD inTimecode,
-        BMDTimecodeBCD outTimecode,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *GetDeviceID)(
-        IDeckLinkDeckControl_v7_9 *This,
-        unsigned short *deviceId,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *Abort)(
-        IDeckLinkDeckControl_v7_9 *This);
-
-    HRESULT (STDMETHODCALLTYPE *CrashRecordStart)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *CrashRecordStop)(
-        IDeckLinkDeckControl_v7_9 *This,
-        BMDDeckControlError *error);
-
-    HRESULT (STDMETHODCALLTYPE *SetCallback)(
-        IDeckLinkDeckControl_v7_9 *This,
-        IDeckLinkDeckControlStatusCallback *callback);
-
-    END_INTERFACE
-} IDeckLinkDeckControl_v7_9Vtbl;
-
-interface IDeckLinkDeckControl_v7_9 {
-    CONST_VTBL IDeckLinkDeckControl_v7_9Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkDeckControl_v7_9_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkDeckControl_v7_9_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkDeckControl_v7_9_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkDeckControl_v7_9 methods ***/
-#define IDeckLinkDeckControl_v7_9_Open(This,timeScale,timeValue,timecodeIsDropFrame,error) (This)->lpVtbl->Open(This,timeScale,timeValue,timecodeIsDropFrame,error)
-#define IDeckLinkDeckControl_v7_9_Close(This,standbyOn) (This)->lpVtbl->Close(This,standbyOn)
-#define IDeckLinkDeckControl_v7_9_GetCurrentState(This,mode,vtrControlState,flags) (This)->lpVtbl->GetCurrentState(This,mode,vtrControlState,flags)
-#define IDeckLinkDeckControl_v7_9_SetStandby(This,standbyOn) (This)->lpVtbl->SetStandby(This,standbyOn)
-#define IDeckLinkDeckControl_v7_9_Play(This,error) (This)->lpVtbl->Play(This,error)
-#define IDeckLinkDeckControl_v7_9_Stop(This,error) (This)->lpVtbl->Stop(This,error)
-#define IDeckLinkDeckControl_v7_9_TogglePlayStop(This,error) (This)->lpVtbl->TogglePlayStop(This,error)
-#define IDeckLinkDeckControl_v7_9_Eject(This,error) (This)->lpVtbl->Eject(This,error)
-#define IDeckLinkDeckControl_v7_9_GoToTimecode(This,timecode,error) (This)->lpVtbl->GoToTimecode(This,timecode,error)
-#define IDeckLinkDeckControl_v7_9_FastForward(This,viewTape,error) (This)->lpVtbl->FastForward(This,viewTape,error)
-#define IDeckLinkDeckControl_v7_9_Rewind(This,viewTape,error) (This)->lpVtbl->Rewind(This,viewTape,error)
-#define IDeckLinkDeckControl_v7_9_StepForward(This,error) (This)->lpVtbl->StepForward(This,error)
-#define IDeckLinkDeckControl_v7_9_StepBack(This,error) (This)->lpVtbl->StepBack(This,error)
-#define IDeckLinkDeckControl_v7_9_Jog(This,rate,error) (This)->lpVtbl->Jog(This,rate,error)
-#define IDeckLinkDeckControl_v7_9_Shuttle(This,rate,error) (This)->lpVtbl->Shuttle(This,rate,error)
-#define IDeckLinkDeckControl_v7_9_GetTimecodeString(This,currentTimeCode,error) (This)->lpVtbl->GetTimecodeString(This,currentTimeCode,error)
-#define IDeckLinkDeckControl_v7_9_GetTimecode(This,currentTimecode,error) (This)->lpVtbl->GetTimecode(This,currentTimecode,error)
-#define IDeckLinkDeckControl_v7_9_GetTimecodeBCD(This,currentTimecode,error) (This)->lpVtbl->GetTimecodeBCD(This,currentTimecode,error)
-#define IDeckLinkDeckControl_v7_9_SetPreroll(This,prerollSeconds) (This)->lpVtbl->SetPreroll(This,prerollSeconds)
-#define IDeckLinkDeckControl_v7_9_GetPreroll(This,prerollSeconds) (This)->lpVtbl->GetPreroll(This,prerollSeconds)
-#define IDeckLinkDeckControl_v7_9_SetExportOffset(This,exportOffsetFields) (This)->lpVtbl->SetExportOffset(This,exportOffsetFields)
-#define IDeckLinkDeckControl_v7_9_GetExportOffset(This,exportOffsetFields) (This)->lpVtbl->GetExportOffset(This,exportOffsetFields)
-#define IDeckLinkDeckControl_v7_9_GetManualExportOffset(This,deckManualExportOffsetFields) (This)->lpVtbl->GetManualExportOffset(This,deckManualExportOffsetFields)
-#define IDeckLinkDeckControl_v7_9_SetCaptureOffset(This,captureOffsetFields) (This)->lpVtbl->SetCaptureOffset(This,captureOffsetFields)
-#define IDeckLinkDeckControl_v7_9_GetCaptureOffset(This,captureOffsetFields) (This)->lpVtbl->GetCaptureOffset(This,captureOffsetFields)
-#define IDeckLinkDeckControl_v7_9_StartExport(This,inTimecode,outTimecode,exportModeOps,error) (This)->lpVtbl->StartExport(This,inTimecode,outTimecode,exportModeOps,error)
-#define IDeckLinkDeckControl_v7_9_StartCapture(This,useVITC,inTimecode,outTimecode,error) (This)->lpVtbl->StartCapture(This,useVITC,inTimecode,outTimecode,error)
-#define IDeckLinkDeckControl_v7_9_GetDeviceID(This,deviceId,error) (This)->lpVtbl->GetDeviceID(This,deviceId,error)
-#define IDeckLinkDeckControl_v7_9_Abort(This) (This)->lpVtbl->Abort(This)
-#define IDeckLinkDeckControl_v7_9_CrashRecordStart(This,error) (This)->lpVtbl->CrashRecordStart(This,error)
-#define IDeckLinkDeckControl_v7_9_CrashRecordStop(This,error) (This)->lpVtbl->CrashRecordStop(This,error)
-#define IDeckLinkDeckControl_v7_9_SetCallback(This,callback) (This)->lpVtbl->SetCallback(This,callback)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_QueryInterface(IDeckLinkDeckControl_v7_9* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkDeckControl_v7_9_AddRef(IDeckLinkDeckControl_v7_9* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkDeckControl_v7_9_Release(IDeckLinkDeckControl_v7_9* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkDeckControl_v7_9 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Open(IDeckLinkDeckControl_v7_9* This,BMDTimeScale timeScale,BMDTimeValue timeValue,BOOL timecodeIsDropFrame,BMDDeckControlError *error) {
-    return This->lpVtbl->Open(This,timeScale,timeValue,timecodeIsDropFrame,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Close(IDeckLinkDeckControl_v7_9* This,BOOL standbyOn) {
-    return This->lpVtbl->Close(This,standbyOn);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetCurrentState(IDeckLinkDeckControl_v7_9* This,BMDDeckControlMode *mode,BMDDeckControlVTRControlState *vtrControlState,BMDDeckControlStatusFlags *flags) {
-    return This->lpVtbl->GetCurrentState(This,mode,vtrControlState,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_SetStandby(IDeckLinkDeckControl_v7_9* This,BOOL standbyOn) {
-    return This->lpVtbl->SetStandby(This,standbyOn);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Play(IDeckLinkDeckControl_v7_9* This,BMDDeckControlError *error) {
-    return This->lpVtbl->Play(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Stop(IDeckLinkDeckControl_v7_9* This,BMDDeckControlError *error) {
-    return This->lpVtbl->Stop(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_TogglePlayStop(IDeckLinkDeckControl_v7_9* This,BMDDeckControlError *error) {
-    return This->lpVtbl->TogglePlayStop(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Eject(IDeckLinkDeckControl_v7_9* This,BMDDeckControlError *error) {
-    return This->lpVtbl->Eject(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GoToTimecode(IDeckLinkDeckControl_v7_9* This,BMDTimecodeBCD timecode,BMDDeckControlError *error) {
-    return This->lpVtbl->GoToTimecode(This,timecode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_FastForward(IDeckLinkDeckControl_v7_9* This,BOOL viewTape,BMDDeckControlError *error) {
-    return This->lpVtbl->FastForward(This,viewTape,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Rewind(IDeckLinkDeckControl_v7_9* This,BOOL viewTape,BMDDeckControlError *error) {
-    return This->lpVtbl->Rewind(This,viewTape,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_StepForward(IDeckLinkDeckControl_v7_9* This,BMDDeckControlError *error) {
-    return This->lpVtbl->StepForward(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_StepBack(IDeckLinkDeckControl_v7_9* This,BMDDeckControlError *error) {
-    return This->lpVtbl->StepBack(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Jog(IDeckLinkDeckControl_v7_9* This,double rate,BMDDeckControlError *error) {
-    return This->lpVtbl->Jog(This,rate,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Shuttle(IDeckLinkDeckControl_v7_9* This,double rate,BMDDeckControlError *error) {
-    return This->lpVtbl->Shuttle(This,rate,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetTimecodeString(IDeckLinkDeckControl_v7_9* This,BSTR *currentTimeCode,BMDDeckControlError *error) {
-    return This->lpVtbl->GetTimecodeString(This,currentTimeCode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetTimecode(IDeckLinkDeckControl_v7_9* This,IDeckLinkTimecode **currentTimecode,BMDDeckControlError *error) {
-    return This->lpVtbl->GetTimecode(This,currentTimecode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetTimecodeBCD(IDeckLinkDeckControl_v7_9* This,BMDTimecodeBCD *currentTimecode,BMDDeckControlError *error) {
-    return This->lpVtbl->GetTimecodeBCD(This,currentTimecode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_SetPreroll(IDeckLinkDeckControl_v7_9* This,unsigned int prerollSeconds) {
-    return This->lpVtbl->SetPreroll(This,prerollSeconds);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetPreroll(IDeckLinkDeckControl_v7_9* This,unsigned int *prerollSeconds) {
-    return This->lpVtbl->GetPreroll(This,prerollSeconds);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_SetExportOffset(IDeckLinkDeckControl_v7_9* This,int exportOffsetFields) {
-    return This->lpVtbl->SetExportOffset(This,exportOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetExportOffset(IDeckLinkDeckControl_v7_9* This,int *exportOffsetFields) {
-    return This->lpVtbl->GetExportOffset(This,exportOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetManualExportOffset(IDeckLinkDeckControl_v7_9* This,int *deckManualExportOffsetFields) {
-    return This->lpVtbl->GetManualExportOffset(This,deckManualExportOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_SetCaptureOffset(IDeckLinkDeckControl_v7_9* This,int captureOffsetFields) {
-    return This->lpVtbl->SetCaptureOffset(This,captureOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetCaptureOffset(IDeckLinkDeckControl_v7_9* This,int *captureOffsetFields) {
-    return This->lpVtbl->GetCaptureOffset(This,captureOffsetFields);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_StartExport(IDeckLinkDeckControl_v7_9* This,BMDTimecodeBCD inTimecode,BMDTimecodeBCD outTimecode,BMDDeckControlExportModeOpsFlags exportModeOps,BMDDeckControlError *error) {
-    return This->lpVtbl->StartExport(This,inTimecode,outTimecode,exportModeOps,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_StartCapture(IDeckLinkDeckControl_v7_9* This,BOOL useVITC,BMDTimecodeBCD inTimecode,BMDTimecodeBCD outTimecode,BMDDeckControlError *error) {
-    return This->lpVtbl->StartCapture(This,useVITC,inTimecode,outTimecode,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_GetDeviceID(IDeckLinkDeckControl_v7_9* This,unsigned short *deviceId,BMDDeckControlError *error) {
-    return This->lpVtbl->GetDeviceID(This,deviceId,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_Abort(IDeckLinkDeckControl_v7_9* This) {
-    return This->lpVtbl->Abort(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_CrashRecordStart(IDeckLinkDeckControl_v7_9* This,BMDDeckControlError *error) {
-    return This->lpVtbl->CrashRecordStart(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_CrashRecordStop(IDeckLinkDeckControl_v7_9* This,BMDDeckControlError *error) {
-    return This->lpVtbl->CrashRecordStop(This,error);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDeckControl_v7_9_SetCallback(IDeckLinkDeckControl_v7_9* This,IDeckLinkDeckControlStatusCallback *callback) {
-    return This->lpVtbl->SetCallback(This,callback);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkDeckControl_v7_9_INTERFACE_DEFINED__ */
-
-typedef enum _BMDVideoConnection_v7_6 {
-    bmdVideoConnectionSDI_v7_6 = 0x73646920,
-    bmdVideoConnectionHDMI_v7_6 = 0x68646d69,
-    bmdVideoConnectionOpticalSDI_v7_6 = 0x6f707469,
-    bmdVideoConnectionComponent_v7_6 = 0x63706e74,
-    bmdVideoConnectionComposite_v7_6 = 0x636d7374,
-    bmdVideoConnectionSVideo_v7_6 = 0x73766964
-} BMDVideoConnection_v7_6;
-#ifndef __IDeckLinkDisplayModeIterator_v7_6_FWD_DEFINED__
-#define __IDeckLinkDisplayModeIterator_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkDisplayModeIterator_v7_6 IDeckLinkDisplayModeIterator_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkDisplayModeIterator_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDisplayMode_v7_6_FWD_DEFINED__
-#define __IDeckLinkDisplayMode_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkDisplayMode_v7_6 IDeckLinkDisplayMode_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkDisplayMode_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkOutput_v7_6_FWD_DEFINED__
-#define __IDeckLinkOutput_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkOutput_v7_6 IDeckLinkOutput_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkOutput_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkInput_v7_6_FWD_DEFINED__
-#define __IDeckLinkInput_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkInput_v7_6 IDeckLinkInput_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkInput_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkTimecode_v7_6_FWD_DEFINED__
-#define __IDeckLinkTimecode_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkTimecode_v7_6 IDeckLinkTimecode_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkTimecode_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoFrame_v7_6_FWD_DEFINED__
-#define __IDeckLinkVideoFrame_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkVideoFrame_v7_6 IDeckLinkVideoFrame_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkVideoFrame_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkMutableVideoFrame_v7_6_FWD_DEFINED__
-#define __IDeckLinkMutableVideoFrame_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkMutableVideoFrame_v7_6 IDeckLinkMutableVideoFrame_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkMutableVideoFrame_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoInputFrame_v7_6_FWD_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkVideoInputFrame_v7_6 IDeckLinkVideoInputFrame_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkVideoInputFrame_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkScreenPreviewCallback_v7_6_FWD_DEFINED__
-#define __IDeckLinkScreenPreviewCallback_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkScreenPreviewCallback_v7_6 IDeckLinkScreenPreviewCallback_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkScreenPreviewCallback_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkGLScreenPreviewHelper_v7_6_FWD_DEFINED__
-#define __IDeckLinkGLScreenPreviewHelper_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkGLScreenPreviewHelper_v7_6 IDeckLinkGLScreenPreviewHelper_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkGLScreenPreviewHelper_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoConversion_v7_6_FWD_DEFINED__
-#define __IDeckLinkVideoConversion_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkVideoConversion_v7_6 IDeckLinkVideoConversion_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkVideoConversion_v7_6;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkConfiguration_v7_6_FWD_DEFINED__
-#define __IDeckLinkConfiguration_v7_6_FWD_DEFINED__
-typedef interface IDeckLinkConfiguration_v7_6 IDeckLinkConfiguration_v7_6;
-#ifdef __cplusplus
-interface IDeckLinkConfiguration_v7_6;
-#endif /* __cplusplus */
-#endif
-
-/*****************************************************************************
- * IDeckLinkVideoOutputCallback_v7_6 interface
- */
-#ifndef __IDeckLinkVideoOutputCallback_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkVideoOutputCallback_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkVideoOutputCallback_v7_6, 0xe763a626, 0x4a3c, 0x49d1, 0xbf,0x13, 0xe7,0xad,0x36,0x92,0xae,0x52);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("e763a626-4a3c-49d1-bf13-e7ad3692ae52")
-IDeckLinkVideoOutputCallback_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE ScheduledFrameCompleted(
-        IDeckLinkVideoFrame_v7_6 *completedFrame,
-        BMDOutputFrameCompletionResult result) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduledPlaybackHasStopped(
-        ) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoOutputCallback_v7_6, 0xe763a626, 0x4a3c, 0x49d1, 0xbf,0x13, 0xe7,0xad,0x36,0x92,0xae,0x52)
-#endif
-#else
-typedef struct IDeckLinkVideoOutputCallback_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkVideoOutputCallback_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkVideoOutputCallback_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkVideoOutputCallback_v7_6 *This);
-
-    /*** IDeckLinkVideoOutputCallback_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *ScheduledFrameCompleted)(
-        IDeckLinkVideoOutputCallback_v7_6 *This,
-        IDeckLinkVideoFrame_v7_6 *completedFrame,
-        BMDOutputFrameCompletionResult result);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduledPlaybackHasStopped)(
-        IDeckLinkVideoOutputCallback_v7_6 *This);
-
-    END_INTERFACE
-} IDeckLinkVideoOutputCallback_v7_6Vtbl;
-
-interface IDeckLinkVideoOutputCallback_v7_6 {
-    CONST_VTBL IDeckLinkVideoOutputCallback_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkVideoOutputCallback_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkVideoOutputCallback_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkVideoOutputCallback_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoOutputCallback_v7_6 methods ***/
-#define IDeckLinkVideoOutputCallback_v7_6_ScheduledFrameCompleted(This,completedFrame,result) (This)->lpVtbl->ScheduledFrameCompleted(This,completedFrame,result)
-#define IDeckLinkVideoOutputCallback_v7_6_ScheduledPlaybackHasStopped(This) (This)->lpVtbl->ScheduledPlaybackHasStopped(This)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_v7_6_QueryInterface(IDeckLinkVideoOutputCallback_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoOutputCallback_v7_6_AddRef(IDeckLinkVideoOutputCallback_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoOutputCallback_v7_6_Release(IDeckLinkVideoOutputCallback_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoOutputCallback_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_v7_6_ScheduledFrameCompleted(IDeckLinkVideoOutputCallback_v7_6* This,IDeckLinkVideoFrame_v7_6 *completedFrame,BMDOutputFrameCompletionResult result) {
-    return This->lpVtbl->ScheduledFrameCompleted(This,completedFrame,result);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_v7_6_ScheduledPlaybackHasStopped(IDeckLinkVideoOutputCallback_v7_6* This) {
-    return This->lpVtbl->ScheduledPlaybackHasStopped(This);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkVideoOutputCallback_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkInputCallback_v7_6 interface
- */
-#ifndef __IDeckLinkInputCallback_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkInputCallback_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkInputCallback_v7_6, 0x31d28ee7, 0x88b6, 0x4cb1, 0x89,0x7a, 0xcd,0xbf,0x79,0xa2,0x64,0x14);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("31d28ee7-88b6-4cb1-897a-cdbf79a26414")
-IDeckLinkInputCallback_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE VideoInputFormatChanged(
-        BMDVideoInputFormatChangedEvents notificationEvents,
-        IDeckLinkDisplayMode_v7_6 *newDisplayMode,
-        BMDDetectedVideoInputFormatFlags detectedSignalFlags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE VideoInputFrameArrived(
-        IDeckLinkVideoInputFrame_v7_6 *videoFrame,
-        IDeckLinkAudioInputPacket *audioPacket) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInputCallback_v7_6, 0x31d28ee7, 0x88b6, 0x4cb1, 0x89,0x7a, 0xcd,0xbf,0x79,0xa2,0x64,0x14)
-#endif
-#else
-typedef struct IDeckLinkInputCallback_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkInputCallback_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkInputCallback_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkInputCallback_v7_6 *This);
-
-    /*** IDeckLinkInputCallback_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *VideoInputFormatChanged)(
-        IDeckLinkInputCallback_v7_6 *This,
-        BMDVideoInputFormatChangedEvents notificationEvents,
-        IDeckLinkDisplayMode_v7_6 *newDisplayMode,
-        BMDDetectedVideoInputFormatFlags detectedSignalFlags);
-
-    HRESULT (STDMETHODCALLTYPE *VideoInputFrameArrived)(
-        IDeckLinkInputCallback_v7_6 *This,
-        IDeckLinkVideoInputFrame_v7_6 *videoFrame,
-        IDeckLinkAudioInputPacket *audioPacket);
-
-    END_INTERFACE
-} IDeckLinkInputCallback_v7_6Vtbl;
-
-interface IDeckLinkInputCallback_v7_6 {
-    CONST_VTBL IDeckLinkInputCallback_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkInputCallback_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkInputCallback_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkInputCallback_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkInputCallback_v7_6 methods ***/
-#define IDeckLinkInputCallback_v7_6_VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags) (This)->lpVtbl->VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags)
-#define IDeckLinkInputCallback_v7_6_VideoInputFrameArrived(This,videoFrame,audioPacket) (This)->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v7_6_QueryInterface(IDeckLinkInputCallback_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkInputCallback_v7_6_AddRef(IDeckLinkInputCallback_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkInputCallback_v7_6_Release(IDeckLinkInputCallback_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkInputCallback_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v7_6_VideoInputFormatChanged(IDeckLinkInputCallback_v7_6* This,BMDVideoInputFormatChangedEvents notificationEvents,IDeckLinkDisplayMode_v7_6 *newDisplayMode,BMDDetectedVideoInputFormatFlags detectedSignalFlags) {
-    return This->lpVtbl->VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v7_6_VideoInputFrameArrived(IDeckLinkInputCallback_v7_6* This,IDeckLinkVideoInputFrame_v7_6 *videoFrame,IDeckLinkAudioInputPacket *audioPacket) {
-    return This->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkInputCallback_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkDisplayModeIterator_v7_6 interface
- */
-#ifndef __IDeckLinkDisplayModeIterator_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkDisplayModeIterator_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkDisplayModeIterator_v7_6, 0x455d741f, 0x1779, 0x4800, 0x86,0xf5, 0x0b,0x5d,0x13,0xd7,0x97,0x51);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("455d741f-1779-4800-86f5-0b5d13d79751")
-IDeckLinkDisplayModeIterator_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE Next(
-        IDeckLinkDisplayMode_v7_6 **deckLinkDisplayMode) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkDisplayModeIterator_v7_6, 0x455d741f, 0x1779, 0x4800, 0x86,0xf5, 0x0b,0x5d,0x13,0xd7,0x97,0x51)
-#endif
-#else
-typedef struct IDeckLinkDisplayModeIterator_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkDisplayModeIterator_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkDisplayModeIterator_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkDisplayModeIterator_v7_6 *This);
-
-    /*** IDeckLinkDisplayModeIterator_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *Next)(
-        IDeckLinkDisplayModeIterator_v7_6 *This,
-        IDeckLinkDisplayMode_v7_6 **deckLinkDisplayMode);
-
-    END_INTERFACE
-} IDeckLinkDisplayModeIterator_v7_6Vtbl;
-
-interface IDeckLinkDisplayModeIterator_v7_6 {
-    CONST_VTBL IDeckLinkDisplayModeIterator_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkDisplayModeIterator_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkDisplayModeIterator_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkDisplayModeIterator_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkDisplayModeIterator_v7_6 methods ***/
-#define IDeckLinkDisplayModeIterator_v7_6_Next(This,deckLinkDisplayMode) (This)->lpVtbl->Next(This,deckLinkDisplayMode)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDisplayModeIterator_v7_6_QueryInterface(IDeckLinkDisplayModeIterator_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkDisplayModeIterator_v7_6_AddRef(IDeckLinkDisplayModeIterator_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkDisplayModeIterator_v7_6_Release(IDeckLinkDisplayModeIterator_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkDisplayModeIterator_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDisplayModeIterator_v7_6_Next(IDeckLinkDisplayModeIterator_v7_6* This,IDeckLinkDisplayMode_v7_6 **deckLinkDisplayMode) {
-    return This->lpVtbl->Next(This,deckLinkDisplayMode);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkDisplayModeIterator_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkDisplayMode_v7_6 interface
- */
-#ifndef __IDeckLinkDisplayMode_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkDisplayMode_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkDisplayMode_v7_6, 0x87451e84, 0x2b7e, 0x439e, 0xa6,0x29, 0x43,0x93,0xea,0x4a,0x85,0x50);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("87451e84-2b7e-439e-a629-4393ea4a8550")
-IDeckLinkDisplayMode_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE GetName(
-        BSTR *name) = 0;
-
-    virtual BMDDisplayMode STDMETHODCALLTYPE GetDisplayMode(
-        ) = 0;
-
-    virtual LONG STDMETHODCALLTYPE GetWidth(
-        ) = 0;
-
-    virtual LONG STDMETHODCALLTYPE GetHeight(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetFrameRate(
-        BMDTimeValue *frameDuration,
-        BMDTimeScale *timeScale) = 0;
-
-    virtual BMDFieldDominance STDMETHODCALLTYPE GetFieldDominance(
-        ) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkDisplayMode_v7_6, 0x87451e84, 0x2b7e, 0x439e, 0xa6,0x29, 0x43,0x93,0xea,0x4a,0x85,0x50)
-#endif
-#else
-typedef struct IDeckLinkDisplayMode_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkDisplayMode_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkDisplayMode_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkDisplayMode_v7_6 *This);
-
-    /*** IDeckLinkDisplayMode_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *GetName)(
-        IDeckLinkDisplayMode_v7_6 *This,
-        BSTR *name);
-
-    BMDDisplayMode (STDMETHODCALLTYPE *GetDisplayMode)(
-        IDeckLinkDisplayMode_v7_6 *This);
-
-    LONG (STDMETHODCALLTYPE *GetWidth)(
-        IDeckLinkDisplayMode_v7_6 *This);
-
-    LONG (STDMETHODCALLTYPE *GetHeight)(
-        IDeckLinkDisplayMode_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetFrameRate)(
-        IDeckLinkDisplayMode_v7_6 *This,
-        BMDTimeValue *frameDuration,
-        BMDTimeScale *timeScale);
-
-    BMDFieldDominance (STDMETHODCALLTYPE *GetFieldDominance)(
-        IDeckLinkDisplayMode_v7_6 *This);
-
-    END_INTERFACE
-} IDeckLinkDisplayMode_v7_6Vtbl;
-
-interface IDeckLinkDisplayMode_v7_6 {
-    CONST_VTBL IDeckLinkDisplayMode_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkDisplayMode_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkDisplayMode_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkDisplayMode_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkDisplayMode_v7_6 methods ***/
-#define IDeckLinkDisplayMode_v7_6_GetName(This,name) (This)->lpVtbl->GetName(This,name)
-#define IDeckLinkDisplayMode_v7_6_GetDisplayMode(This) (This)->lpVtbl->GetDisplayMode(This)
-#define IDeckLinkDisplayMode_v7_6_GetWidth(This) (This)->lpVtbl->GetWidth(This)
-#define IDeckLinkDisplayMode_v7_6_GetHeight(This) (This)->lpVtbl->GetHeight(This)
-#define IDeckLinkDisplayMode_v7_6_GetFrameRate(This,frameDuration,timeScale) (This)->lpVtbl->GetFrameRate(This,frameDuration,timeScale)
-#define IDeckLinkDisplayMode_v7_6_GetFieldDominance(This) (This)->lpVtbl->GetFieldDominance(This)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDisplayMode_v7_6_QueryInterface(IDeckLinkDisplayMode_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkDisplayMode_v7_6_AddRef(IDeckLinkDisplayMode_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkDisplayMode_v7_6_Release(IDeckLinkDisplayMode_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkDisplayMode_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDisplayMode_v7_6_GetName(IDeckLinkDisplayMode_v7_6* This,BSTR *name) {
-    return This->lpVtbl->GetName(This,name);
-}
-static __WIDL_INLINE BMDDisplayMode IDeckLinkDisplayMode_v7_6_GetDisplayMode(IDeckLinkDisplayMode_v7_6* This) {
-    return This->lpVtbl->GetDisplayMode(This);
-}
-static __WIDL_INLINE LONG IDeckLinkDisplayMode_v7_6_GetWidth(IDeckLinkDisplayMode_v7_6* This) {
-    return This->lpVtbl->GetWidth(This);
-}
-static __WIDL_INLINE LONG IDeckLinkDisplayMode_v7_6_GetHeight(IDeckLinkDisplayMode_v7_6* This) {
-    return This->lpVtbl->GetHeight(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDisplayMode_v7_6_GetFrameRate(IDeckLinkDisplayMode_v7_6* This,BMDTimeValue *frameDuration,BMDTimeScale *timeScale) {
-    return This->lpVtbl->GetFrameRate(This,frameDuration,timeScale);
-}
-static __WIDL_INLINE BMDFieldDominance IDeckLinkDisplayMode_v7_6_GetFieldDominance(IDeckLinkDisplayMode_v7_6* This) {
-    return This->lpVtbl->GetFieldDominance(This);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkDisplayMode_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkOutput_v7_6 interface
- */
-#ifndef __IDeckLinkOutput_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkOutput_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkOutput_v7_6, 0x29228142, 0xeb8c, 0x4141, 0xa6,0x21, 0xf7,0x40,0x26,0x45,0x09,0x55);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("29228142-eb8c-4141-a621-f74026450955")
-IDeckLinkOutput_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
-        IDeckLinkDisplayModeIterator_v7_6 **iterator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback_v7_6 *previewCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableVideoOutput(
-        BMDDisplayMode displayMode,
-        BMDVideoOutputFlags flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableVideoOutput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CreateVideoFrame(
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame_v7_6 **outFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CreateAncillaryData(
-        BMDPixelFormat pixelFormat,
-        IDeckLinkVideoFrameAncillary **outBuffer) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisplayVideoFrameSync(
-        IDeckLinkVideoFrame_v7_6 *theFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduleVideoFrame(
-        IDeckLinkVideoFrame_v7_6 *theFrame,
-        BMDTimeValue displayTime,
-        BMDTimeValue displayDuration,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScheduledFrameCompletionCallback(
-        IDeckLinkVideoOutputCallback_v7_6 *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBufferedVideoFrameCount(
-        unsigned int *bufferedFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableAudioOutput(
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount,
-        BMDAudioOutputStreamType streamType) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableAudioOutput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE WriteAudioSamplesSync(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesWritten) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE BeginAudioPreroll(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EndAudioPreroll(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduleAudioSamples(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        BMDTimeValue streamTime,
-        BMDTimeScale timeScale,
-        unsigned int *sampleFramesWritten) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBufferedAudioSampleFrameCount(
-        unsigned int *bufferedSampleFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FlushBufferedAudioSamples(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetAudioCallback(
-        IDeckLinkAudioOutputCallback *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartScheduledPlayback(
-        BMDTimeValue playbackStartTime,
-        BMDTimeScale timeScale,
-        double playbackSpeed) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StopScheduledPlayback(
-        BMDTimeValue stopPlaybackAtTime,
-        BMDTimeValue *actualStopTime,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE IsScheduledPlaybackRunning(
-        BOOL *active) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetScheduledStreamTime(
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *streamTime,
-        double *playbackSpeed) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *hardwareTime,
-        BMDTimeValue *timeInFrame,
-        BMDTimeValue *ticksPerFrame) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkOutput_v7_6, 0x29228142, 0xeb8c, 0x4141, 0xa6,0x21, 0xf7,0x40,0x26,0x45,0x09,0x55)
-#endif
-#else
-typedef struct IDeckLinkOutput_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkOutput_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkOutput_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkOutput_v7_6 *This);
-
-    /*** IDeckLinkOutput_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
-        IDeckLinkOutput_v7_6 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result);
-
-    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
-        IDeckLinkOutput_v7_6 *This,
-        IDeckLinkDisplayModeIterator_v7_6 **iterator);
-
-    HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
-        IDeckLinkOutput_v7_6 *This,
-        IDeckLinkScreenPreviewCallback_v7_6 *previewCallback);
-
-    HRESULT (STDMETHODCALLTYPE *EnableVideoOutput)(
-        IDeckLinkOutput_v7_6 *This,
-        BMDDisplayMode displayMode,
-        BMDVideoOutputFlags flags);
-
-    HRESULT (STDMETHODCALLTYPE *DisableVideoOutput)(
-        IDeckLinkOutput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoOutputFrameMemoryAllocator)(
-        IDeckLinkOutput_v7_6 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
-
-    HRESULT (STDMETHODCALLTYPE *CreateVideoFrame)(
-        IDeckLinkOutput_v7_6 *This,
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame_v7_6 **outFrame);
-
-    HRESULT (STDMETHODCALLTYPE *CreateAncillaryData)(
-        IDeckLinkOutput_v7_6 *This,
-        BMDPixelFormat pixelFormat,
-        IDeckLinkVideoFrameAncillary **outBuffer);
-
-    HRESULT (STDMETHODCALLTYPE *DisplayVideoFrameSync)(
-        IDeckLinkOutput_v7_6 *This,
-        IDeckLinkVideoFrame_v7_6 *theFrame);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduleVideoFrame)(
-        IDeckLinkOutput_v7_6 *This,
-        IDeckLinkVideoFrame_v7_6 *theFrame,
-        BMDTimeValue displayTime,
-        BMDTimeValue displayDuration,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *SetScheduledFrameCompletionCallback)(
-        IDeckLinkOutput_v7_6 *This,
-        IDeckLinkVideoOutputCallback_v7_6 *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *GetBufferedVideoFrameCount)(
-        IDeckLinkOutput_v7_6 *This,
-        unsigned int *bufferedFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *EnableAudioOutput)(
-        IDeckLinkOutput_v7_6 *This,
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount,
-        BMDAudioOutputStreamType streamType);
-
-    HRESULT (STDMETHODCALLTYPE *DisableAudioOutput)(
-        IDeckLinkOutput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *WriteAudioSamplesSync)(
-        IDeckLinkOutput_v7_6 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesWritten);
-
-    HRESULT (STDMETHODCALLTYPE *BeginAudioPreroll)(
-        IDeckLinkOutput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *EndAudioPreroll)(
-        IDeckLinkOutput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduleAudioSamples)(
-        IDeckLinkOutput_v7_6 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        BMDTimeValue streamTime,
-        BMDTimeScale timeScale,
-        unsigned int *sampleFramesWritten);
-
-    HRESULT (STDMETHODCALLTYPE *GetBufferedAudioSampleFrameCount)(
-        IDeckLinkOutput_v7_6 *This,
-        unsigned int *bufferedSampleFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *FlushBufferedAudioSamples)(
-        IDeckLinkOutput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetAudioCallback)(
-        IDeckLinkOutput_v7_6 *This,
-        IDeckLinkAudioOutputCallback *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *StartScheduledPlayback)(
-        IDeckLinkOutput_v7_6 *This,
-        BMDTimeValue playbackStartTime,
-        BMDTimeScale timeScale,
-        double playbackSpeed);
-
-    HRESULT (STDMETHODCALLTYPE *StopScheduledPlayback)(
-        IDeckLinkOutput_v7_6 *This,
-        BMDTimeValue stopPlaybackAtTime,
-        BMDTimeValue *actualStopTime,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *IsScheduledPlaybackRunning)(
-        IDeckLinkOutput_v7_6 *This,
-        BOOL *active);
-
-    HRESULT (STDMETHODCALLTYPE *GetScheduledStreamTime)(
-        IDeckLinkOutput_v7_6 *This,
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *streamTime,
-        double *playbackSpeed);
-
-    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
-        IDeckLinkOutput_v7_6 *This,
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *hardwareTime,
-        BMDTimeValue *timeInFrame,
-        BMDTimeValue *ticksPerFrame);
-
-    END_INTERFACE
-} IDeckLinkOutput_v7_6Vtbl;
-
-interface IDeckLinkOutput_v7_6 {
-    CONST_VTBL IDeckLinkOutput_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkOutput_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkOutput_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkOutput_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkOutput_v7_6 methods ***/
-#define IDeckLinkOutput_v7_6_DoesSupportVideoMode(This,displayMode,pixelFormat,result) (This)->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result)
-#define IDeckLinkOutput_v7_6_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
-#define IDeckLinkOutput_v7_6_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
-#define IDeckLinkOutput_v7_6_EnableVideoOutput(This,displayMode,flags) (This)->lpVtbl->EnableVideoOutput(This,displayMode,flags)
-#define IDeckLinkOutput_v7_6_DisableVideoOutput(This) (This)->lpVtbl->DisableVideoOutput(This)
-#define IDeckLinkOutput_v7_6_SetVideoOutputFrameMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator)
-#define IDeckLinkOutput_v7_6_CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame) (This)->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame)
-#define IDeckLinkOutput_v7_6_CreateAncillaryData(This,pixelFormat,outBuffer) (This)->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer)
-#define IDeckLinkOutput_v7_6_DisplayVideoFrameSync(This,theFrame) (This)->lpVtbl->DisplayVideoFrameSync(This,theFrame)
-#define IDeckLinkOutput_v7_6_ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale) (This)->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale)
-#define IDeckLinkOutput_v7_6_SetScheduledFrameCompletionCallback(This,theCallback) (This)->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback)
-#define IDeckLinkOutput_v7_6_GetBufferedVideoFrameCount(This,bufferedFrameCount) (This)->lpVtbl->GetBufferedVideoFrameCount(This,bufferedFrameCount)
-#define IDeckLinkOutput_v7_6_EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType) (This)->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType)
-#define IDeckLinkOutput_v7_6_DisableAudioOutput(This) (This)->lpVtbl->DisableAudioOutput(This)
-#define IDeckLinkOutput_v7_6_WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten) (This)->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten)
-#define IDeckLinkOutput_v7_6_BeginAudioPreroll(This) (This)->lpVtbl->BeginAudioPreroll(This)
-#define IDeckLinkOutput_v7_6_EndAudioPreroll(This) (This)->lpVtbl->EndAudioPreroll(This)
-#define IDeckLinkOutput_v7_6_ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten) (This)->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten)
-#define IDeckLinkOutput_v7_6_GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount) (This)->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount)
-#define IDeckLinkOutput_v7_6_FlushBufferedAudioSamples(This) (This)->lpVtbl->FlushBufferedAudioSamples(This)
-#define IDeckLinkOutput_v7_6_SetAudioCallback(This,theCallback) (This)->lpVtbl->SetAudioCallback(This,theCallback)
-#define IDeckLinkOutput_v7_6_StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed) (This)->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed)
-#define IDeckLinkOutput_v7_6_StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale) (This)->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale)
-#define IDeckLinkOutput_v7_6_IsScheduledPlaybackRunning(This,active) (This)->lpVtbl->IsScheduledPlaybackRunning(This,active)
-#define IDeckLinkOutput_v7_6_GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed) (This)->lpVtbl->GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed)
-#define IDeckLinkOutput_v7_6_GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_QueryInterface(IDeckLinkOutput_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkOutput_v7_6_AddRef(IDeckLinkOutput_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkOutput_v7_6_Release(IDeckLinkOutput_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkOutput_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_DoesSupportVideoMode(IDeckLinkOutput_v7_6* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDDisplayModeSupport_v10_11 *result) {
-    return This->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_GetDisplayModeIterator(IDeckLinkOutput_v7_6* This,IDeckLinkDisplayModeIterator_v7_6 **iterator) {
-    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_SetScreenPreviewCallback(IDeckLinkOutput_v7_6* This,IDeckLinkScreenPreviewCallback_v7_6 *previewCallback) {
-    return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_EnableVideoOutput(IDeckLinkOutput_v7_6* This,BMDDisplayMode displayMode,BMDVideoOutputFlags flags) {
-    return This->lpVtbl->EnableVideoOutput(This,displayMode,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_DisableVideoOutput(IDeckLinkOutput_v7_6* This) {
-    return This->lpVtbl->DisableVideoOutput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v7_6* This,IDeckLinkMemoryAllocator *theAllocator) {
-    return This->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_CreateVideoFrame(IDeckLinkOutput_v7_6* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame_v7_6 **outFrame) {
-    return This->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_CreateAncillaryData(IDeckLinkOutput_v7_6* This,BMDPixelFormat pixelFormat,IDeckLinkVideoFrameAncillary **outBuffer) {
-    return This->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_DisplayVideoFrameSync(IDeckLinkOutput_v7_6* This,IDeckLinkVideoFrame_v7_6 *theFrame) {
-    return This->lpVtbl->DisplayVideoFrameSync(This,theFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_ScheduleVideoFrame(IDeckLinkOutput_v7_6* This,IDeckLinkVideoFrame_v7_6 *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
-    return This->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v7_6* This,IDeckLinkVideoOutputCallback_v7_6 *theCallback) {
-    return This->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_GetBufferedVideoFrameCount(IDeckLinkOutput_v7_6* This,unsigned int *bufferedFrameCount) {
-    return This->lpVtbl->GetBufferedVideoFrameCount(This,bufferedFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_EnableAudioOutput(IDeckLinkOutput_v7_6* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount,BMDAudioOutputStreamType streamType) {
-    return This->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_DisableAudioOutput(IDeckLinkOutput_v7_6* This) {
-    return This->lpVtbl->DisableAudioOutput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_WriteAudioSamplesSync(IDeckLinkOutput_v7_6* This,void *buffer,unsigned int sampleFrameCount,unsigned int *sampleFramesWritten) {
-    return This->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_BeginAudioPreroll(IDeckLinkOutput_v7_6* This) {
-    return This->lpVtbl->BeginAudioPreroll(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_EndAudioPreroll(IDeckLinkOutput_v7_6* This) {
-    return This->lpVtbl->EndAudioPreroll(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_ScheduleAudioSamples(IDeckLinkOutput_v7_6* This,void *buffer,unsigned int sampleFrameCount,BMDTimeValue streamTime,BMDTimeScale timeScale,unsigned int *sampleFramesWritten) {
-    return This->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_GetBufferedAudioSampleFrameCount(IDeckLinkOutput_v7_6* This,unsigned int *bufferedSampleFrameCount) {
-    return This->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_FlushBufferedAudioSamples(IDeckLinkOutput_v7_6* This) {
-    return This->lpVtbl->FlushBufferedAudioSamples(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_SetAudioCallback(IDeckLinkOutput_v7_6* This,IDeckLinkAudioOutputCallback *theCallback) {
-    return This->lpVtbl->SetAudioCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_StartScheduledPlayback(IDeckLinkOutput_v7_6* This,BMDTimeValue playbackStartTime,BMDTimeScale timeScale,double playbackSpeed) {
-    return This->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_StopScheduledPlayback(IDeckLinkOutput_v7_6* This,BMDTimeValue stopPlaybackAtTime,BMDTimeValue *actualStopTime,BMDTimeScale timeScale) {
-    return This->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_IsScheduledPlaybackRunning(IDeckLinkOutput_v7_6* This,BOOL *active) {
-    return This->lpVtbl->IsScheduledPlaybackRunning(This,active);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_GetScheduledStreamTime(IDeckLinkOutput_v7_6* This,BMDTimeScale desiredTimeScale,BMDTimeValue *streamTime,double *playbackSpeed) {
-    return This->lpVtbl->GetScheduledStreamTime(This,desiredTimeScale,streamTime,playbackSpeed);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_6_GetHardwareReferenceClock(IDeckLinkOutput_v7_6* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
-    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkOutput_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkInput_v7_6 interface
- */
-#ifndef __IDeckLinkInput_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkInput_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkInput_v7_6, 0x300c135a, 0x9f43, 0x48e2, 0x99,0x06, 0x6d,0x79,0x11,0xd9,0x3c,0xf1);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("300c135a-9f43-48e2-9906-6d7911d93cf1")
-IDeckLinkInput_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
-        IDeckLinkDisplayModeIterator_v7_6 **iterator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback_v7_6 *previewCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableVideoInput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAvailableVideoFrameCount(
-        unsigned int *availableFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableAudioInput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAvailableAudioSampleFrameCount(
-        unsigned int *availableSampleFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StopStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE PauseStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FlushStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetCallback(
-        IDeckLinkInputCallback_v7_6 *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *hardwareTime,
-        BMDTimeValue *timeInFrame,
-        BMDTimeValue *ticksPerFrame) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInput_v7_6, 0x300c135a, 0x9f43, 0x48e2, 0x99,0x06, 0x6d,0x79,0x11,0xd9,0x3c,0xf1)
-#endif
-#else
-typedef struct IDeckLinkInput_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkInput_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkInput_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkInput_v7_6 *This);
-
-    /*** IDeckLinkInput_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
-        IDeckLinkInput_v7_6 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result);
-
-    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
-        IDeckLinkInput_v7_6 *This,
-        IDeckLinkDisplayModeIterator_v7_6 **iterator);
-
-    HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
-        IDeckLinkInput_v7_6 *This,
-        IDeckLinkScreenPreviewCallback_v7_6 *previewCallback);
-
-    HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
-        IDeckLinkInput_v7_6 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags);
-
-    HRESULT (STDMETHODCALLTYPE *DisableVideoInput)(
-        IDeckLinkInput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetAvailableVideoFrameCount)(
-        IDeckLinkInput_v7_6 *This,
-        unsigned int *availableFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
-        IDeckLinkInput_v7_6 *This,
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount);
-
-    HRESULT (STDMETHODCALLTYPE *DisableAudioInput)(
-        IDeckLinkInput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetAvailableAudioSampleFrameCount)(
-        IDeckLinkInput_v7_6 *This,
-        unsigned int *availableSampleFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *StartStreams)(
-        IDeckLinkInput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *StopStreams)(
-        IDeckLinkInput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *PauseStreams)(
-        IDeckLinkInput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *FlushStreams)(
-        IDeckLinkInput_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetCallback)(
-        IDeckLinkInput_v7_6 *This,
-        IDeckLinkInputCallback_v7_6 *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
-        IDeckLinkInput_v7_6 *This,
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *hardwareTime,
-        BMDTimeValue *timeInFrame,
-        BMDTimeValue *ticksPerFrame);
-
-    END_INTERFACE
-} IDeckLinkInput_v7_6Vtbl;
-
-interface IDeckLinkInput_v7_6 {
-    CONST_VTBL IDeckLinkInput_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkInput_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkInput_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkInput_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkInput_v7_6 methods ***/
-#define IDeckLinkInput_v7_6_DoesSupportVideoMode(This,displayMode,pixelFormat,result) (This)->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result)
-#define IDeckLinkInput_v7_6_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
-#define IDeckLinkInput_v7_6_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
-#define IDeckLinkInput_v7_6_EnableVideoInput(This,displayMode,pixelFormat,flags) (This)->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags)
-#define IDeckLinkInput_v7_6_DisableVideoInput(This) (This)->lpVtbl->DisableVideoInput(This)
-#define IDeckLinkInput_v7_6_GetAvailableVideoFrameCount(This,availableFrameCount) (This)->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount)
-#define IDeckLinkInput_v7_6_EnableAudioInput(This,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount)
-#define IDeckLinkInput_v7_6_DisableAudioInput(This) (This)->lpVtbl->DisableAudioInput(This)
-#define IDeckLinkInput_v7_6_GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount) (This)->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount)
-#define IDeckLinkInput_v7_6_StartStreams(This) (This)->lpVtbl->StartStreams(This)
-#define IDeckLinkInput_v7_6_StopStreams(This) (This)->lpVtbl->StopStreams(This)
-#define IDeckLinkInput_v7_6_PauseStreams(This) (This)->lpVtbl->PauseStreams(This)
-#define IDeckLinkInput_v7_6_FlushStreams(This) (This)->lpVtbl->FlushStreams(This)
-#define IDeckLinkInput_v7_6_SetCallback(This,theCallback) (This)->lpVtbl->SetCallback(This,theCallback)
-#define IDeckLinkInput_v7_6_GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_QueryInterface(IDeckLinkInput_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkInput_v7_6_AddRef(IDeckLinkInput_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkInput_v7_6_Release(IDeckLinkInput_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkInput_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_DoesSupportVideoMode(IDeckLinkInput_v7_6* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDDisplayModeSupport_v10_11 *result) {
-    return This->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_GetDisplayModeIterator(IDeckLinkInput_v7_6* This,IDeckLinkDisplayModeIterator_v7_6 **iterator) {
-    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_SetScreenPreviewCallback(IDeckLinkInput_v7_6* This,IDeckLinkScreenPreviewCallback_v7_6 *previewCallback) {
-    return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_EnableVideoInput(IDeckLinkInput_v7_6* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
-    return This->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_DisableVideoInput(IDeckLinkInput_v7_6* This) {
-    return This->lpVtbl->DisableVideoInput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_GetAvailableVideoFrameCount(IDeckLinkInput_v7_6* This,unsigned int *availableFrameCount) {
-    return This->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_EnableAudioInput(IDeckLinkInput_v7_6* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
-    return This->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_DisableAudioInput(IDeckLinkInput_v7_6* This) {
-    return This->lpVtbl->DisableAudioInput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_GetAvailableAudioSampleFrameCount(IDeckLinkInput_v7_6* This,unsigned int *availableSampleFrameCount) {
-    return This->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_StartStreams(IDeckLinkInput_v7_6* This) {
-    return This->lpVtbl->StartStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_StopStreams(IDeckLinkInput_v7_6* This) {
-    return This->lpVtbl->StopStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_PauseStreams(IDeckLinkInput_v7_6* This) {
-    return This->lpVtbl->PauseStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_FlushStreams(IDeckLinkInput_v7_6* This) {
-    return This->lpVtbl->FlushStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_SetCallback(IDeckLinkInput_v7_6* This,IDeckLinkInputCallback_v7_6 *theCallback) {
-    return This->lpVtbl->SetCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_6_GetHardwareReferenceClock(IDeckLinkInput_v7_6* This,BMDTimeScale desiredTimeScale,BMDTimeValue *hardwareTime,BMDTimeValue *timeInFrame,BMDTimeValue *ticksPerFrame) {
-    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,hardwareTime,timeInFrame,ticksPerFrame);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkInput_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkTimecode_v7_6 interface
- */
-#ifndef __IDeckLinkTimecode_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkTimecode_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkTimecode_v7_6, 0xefb9bca6, 0xa521, 0x44f7, 0xbd,0x69, 0x23,0x32,0xf2,0x4d,0x9e,0xe6);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("efb9bca6-a521-44f7-bd69-2332f24d9ee6")
-IDeckLinkTimecode_v7_6 : public IUnknown
-{
-    virtual BMDTimecodeBCD STDMETHODCALLTYPE GetBCD(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetComponents(
-        unsigned char *hours,
-        unsigned char *minutes,
-        unsigned char *seconds,
-        unsigned char *frames) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetString(
-        BSTR *timecode) = 0;
-
-    virtual BMDTimecodeFlags STDMETHODCALLTYPE GetFlags(
-        ) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkTimecode_v7_6, 0xefb9bca6, 0xa521, 0x44f7, 0xbd,0x69, 0x23,0x32,0xf2,0x4d,0x9e,0xe6)
-#endif
-#else
-typedef struct IDeckLinkTimecode_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkTimecode_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkTimecode_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkTimecode_v7_6 *This);
-
-    /*** IDeckLinkTimecode_v7_6 methods ***/
-    BMDTimecodeBCD (STDMETHODCALLTYPE *GetBCD)(
-        IDeckLinkTimecode_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetComponents)(
-        IDeckLinkTimecode_v7_6 *This,
-        unsigned char *hours,
-        unsigned char *minutes,
-        unsigned char *seconds,
-        unsigned char *frames);
-
-    HRESULT (STDMETHODCALLTYPE *GetString)(
-        IDeckLinkTimecode_v7_6 *This,
-        BSTR *timecode);
-
-    BMDTimecodeFlags (STDMETHODCALLTYPE *GetFlags)(
-        IDeckLinkTimecode_v7_6 *This);
-
-    END_INTERFACE
-} IDeckLinkTimecode_v7_6Vtbl;
-
-interface IDeckLinkTimecode_v7_6 {
-    CONST_VTBL IDeckLinkTimecode_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkTimecode_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkTimecode_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkTimecode_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkTimecode_v7_6 methods ***/
-#define IDeckLinkTimecode_v7_6_GetBCD(This) (This)->lpVtbl->GetBCD(This)
-#define IDeckLinkTimecode_v7_6_GetComponents(This,hours,minutes,seconds,frames) (This)->lpVtbl->GetComponents(This,hours,minutes,seconds,frames)
-#define IDeckLinkTimecode_v7_6_GetString(This,timecode) (This)->lpVtbl->GetString(This,timecode)
-#define IDeckLinkTimecode_v7_6_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkTimecode_v7_6_QueryInterface(IDeckLinkTimecode_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkTimecode_v7_6_AddRef(IDeckLinkTimecode_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkTimecode_v7_6_Release(IDeckLinkTimecode_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkTimecode_v7_6 methods ***/
-static __WIDL_INLINE BMDTimecodeBCD IDeckLinkTimecode_v7_6_GetBCD(IDeckLinkTimecode_v7_6* This) {
-    return This->lpVtbl->GetBCD(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkTimecode_v7_6_GetComponents(IDeckLinkTimecode_v7_6* This,unsigned char *hours,unsigned char *minutes,unsigned char *seconds,unsigned char *frames) {
-    return This->lpVtbl->GetComponents(This,hours,minutes,seconds,frames);
-}
-static __WIDL_INLINE HRESULT IDeckLinkTimecode_v7_6_GetString(IDeckLinkTimecode_v7_6* This,BSTR *timecode) {
-    return This->lpVtbl->GetString(This,timecode);
-}
-static __WIDL_INLINE BMDTimecodeFlags IDeckLinkTimecode_v7_6_GetFlags(IDeckLinkTimecode_v7_6* This) {
-    return This->lpVtbl->GetFlags(This);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkTimecode_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkVideoFrame_v7_6 interface
- */
-#ifndef __IDeckLinkVideoFrame_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkVideoFrame_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkVideoFrame_v7_6, 0xa8d8238e, 0x6b18, 0x4196, 0x99,0xe1, 0x5a,0xf7,0x17,0xb8,0x3d,0x32);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("a8d8238e-6b18-4196-99e1-5af717b83d32")
-IDeckLinkVideoFrame_v7_6 : public IUnknown
-{
-    virtual LONG STDMETHODCALLTYPE GetWidth(
-        ) = 0;
-
-    virtual LONG STDMETHODCALLTYPE GetHeight(
-        ) = 0;
-
-    virtual LONG STDMETHODCALLTYPE GetRowBytes(
-        ) = 0;
-
-    virtual BMDPixelFormat STDMETHODCALLTYPE GetPixelFormat(
-        ) = 0;
-
-    virtual BMDFrameFlags STDMETHODCALLTYPE GetFlags(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBytes(
-        void **buffer) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetTimecode(
-        BMDTimecodeFormat format,
-        IDeckLinkTimecode_v7_6 **timecode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAncillaryData(
-        IDeckLinkVideoFrameAncillary **ancillary) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoFrame_v7_6, 0xa8d8238e, 0x6b18, 0x4196, 0x99,0xe1, 0x5a,0xf7,0x17,0xb8,0x3d,0x32)
-#endif
-#else
-typedef struct IDeckLinkVideoFrame_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkVideoFrame_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkVideoFrame_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkVideoFrame_v7_6 *This);
-
-    /*** IDeckLinkVideoFrame_v7_6 methods ***/
-    LONG (STDMETHODCALLTYPE *GetWidth)(
-        IDeckLinkVideoFrame_v7_6 *This);
-
-    LONG (STDMETHODCALLTYPE *GetHeight)(
-        IDeckLinkVideoFrame_v7_6 *This);
-
-    LONG (STDMETHODCALLTYPE *GetRowBytes)(
-        IDeckLinkVideoFrame_v7_6 *This);
-
-    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
-        IDeckLinkVideoFrame_v7_6 *This);
-
-    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
-        IDeckLinkVideoFrame_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkVideoFrame_v7_6 *This,
-        void **buffer);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
-        IDeckLinkVideoFrame_v7_6 *This,
-        BMDTimecodeFormat format,
-        IDeckLinkTimecode_v7_6 **timecode);
-
-    HRESULT (STDMETHODCALLTYPE *GetAncillaryData)(
-        IDeckLinkVideoFrame_v7_6 *This,
-        IDeckLinkVideoFrameAncillary **ancillary);
-
-    END_INTERFACE
-} IDeckLinkVideoFrame_v7_6Vtbl;
-
-interface IDeckLinkVideoFrame_v7_6 {
-    CONST_VTBL IDeckLinkVideoFrame_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkVideoFrame_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkVideoFrame_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkVideoFrame_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoFrame_v7_6 methods ***/
-#define IDeckLinkVideoFrame_v7_6_GetWidth(This) (This)->lpVtbl->GetWidth(This)
-#define IDeckLinkVideoFrame_v7_6_GetHeight(This) (This)->lpVtbl->GetHeight(This)
-#define IDeckLinkVideoFrame_v7_6_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
-#define IDeckLinkVideoFrame_v7_6_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
-#define IDeckLinkVideoFrame_v7_6_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkVideoFrame_v7_6_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
-#define IDeckLinkVideoFrame_v7_6_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
-#define IDeckLinkVideoFrame_v7_6_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v7_6_QueryInterface(IDeckLinkVideoFrame_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoFrame_v7_6_AddRef(IDeckLinkVideoFrame_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoFrame_v7_6_Release(IDeckLinkVideoFrame_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoFrame_v7_6 methods ***/
-static __WIDL_INLINE LONG IDeckLinkVideoFrame_v7_6_GetWidth(IDeckLinkVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetWidth(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoFrame_v7_6_GetHeight(IDeckLinkVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetHeight(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoFrame_v7_6_GetRowBytes(IDeckLinkVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetRowBytes(This);
-}
-static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoFrame_v7_6_GetPixelFormat(IDeckLinkVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetPixelFormat(This);
-}
-static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoFrame_v7_6_GetFlags(IDeckLinkVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetFlags(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v7_6_GetBytes(IDeckLinkVideoFrame_v7_6* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v7_6_GetTimecode(IDeckLinkVideoFrame_v7_6* This,BMDTimecodeFormat format,IDeckLinkTimecode_v7_6 **timecode) {
-    return This->lpVtbl->GetTimecode(This,format,timecode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v7_6_GetAncillaryData(IDeckLinkVideoFrame_v7_6* This,IDeckLinkVideoFrameAncillary **ancillary) {
-    return This->lpVtbl->GetAncillaryData(This,ancillary);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkVideoFrame_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkMutableVideoFrame_v7_6 interface
- */
-#ifndef __IDeckLinkMutableVideoFrame_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkMutableVideoFrame_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkMutableVideoFrame_v7_6, 0x46fcee00, 0xb4e6, 0x43d0, 0x91,0xc0, 0x02,0x3a,0x7f,0xce,0xb3,0x4f);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("46fcee00-b4e6-43d0-91c0-023a7fceb34f")
-IDeckLinkMutableVideoFrame_v7_6 : public IDeckLinkVideoFrame_v7_6
-{
-    virtual HRESULT STDMETHODCALLTYPE SetFlags(
-        BMDFrameFlags newFlags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetTimecode(
-        BMDTimecodeFormat format,
-        IDeckLinkTimecode_v7_6 *timecode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetTimecodeFromComponents(
-        BMDTimecodeFormat format,
-        unsigned char hours,
-        unsigned char minutes,
-        unsigned char seconds,
-        unsigned char frames,
-        BMDTimecodeFlags flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetAncillaryData(
-        IDeckLinkVideoFrameAncillary *ancillary) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkMutableVideoFrame_v7_6, 0x46fcee00, 0xb4e6, 0x43d0, 0x91,0xc0, 0x02,0x3a,0x7f,0xce,0xb3,0x4f)
-#endif
-#else
-typedef struct IDeckLinkMutableVideoFrame_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkMutableVideoFrame_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkMutableVideoFrame_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkMutableVideoFrame_v7_6 *This);
-
-    /*** IDeckLinkVideoFrame_v7_6 methods ***/
-    LONG (STDMETHODCALLTYPE *GetWidth)(
-        IDeckLinkMutableVideoFrame_v7_6 *This);
-
-    LONG (STDMETHODCALLTYPE *GetHeight)(
-        IDeckLinkMutableVideoFrame_v7_6 *This);
-
-    LONG (STDMETHODCALLTYPE *GetRowBytes)(
-        IDeckLinkMutableVideoFrame_v7_6 *This);
-
-    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
-        IDeckLinkMutableVideoFrame_v7_6 *This);
-
-    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
-        IDeckLinkMutableVideoFrame_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkMutableVideoFrame_v7_6 *This,
-        void **buffer);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
-        IDeckLinkMutableVideoFrame_v7_6 *This,
-        BMDTimecodeFormat format,
-        IDeckLinkTimecode_v7_6 **timecode);
-
-    HRESULT (STDMETHODCALLTYPE *GetAncillaryData)(
-        IDeckLinkMutableVideoFrame_v7_6 *This,
-        IDeckLinkVideoFrameAncillary **ancillary);
-
-    /*** IDeckLinkMutableVideoFrame_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *SetFlags)(
-        IDeckLinkMutableVideoFrame_v7_6 *This,
-        BMDFrameFlags newFlags);
-
-    HRESULT (STDMETHODCALLTYPE *SetTimecode)(
-        IDeckLinkMutableVideoFrame_v7_6 *This,
-        BMDTimecodeFormat format,
-        IDeckLinkTimecode_v7_6 *timecode);
-
-    HRESULT (STDMETHODCALLTYPE *SetTimecodeFromComponents)(
-        IDeckLinkMutableVideoFrame_v7_6 *This,
-        BMDTimecodeFormat format,
-        unsigned char hours,
-        unsigned char minutes,
-        unsigned char seconds,
-        unsigned char frames,
-        BMDTimecodeFlags flags);
-
-    HRESULT (STDMETHODCALLTYPE *SetAncillaryData)(
-        IDeckLinkMutableVideoFrame_v7_6 *This,
-        IDeckLinkVideoFrameAncillary *ancillary);
-
-    END_INTERFACE
-} IDeckLinkMutableVideoFrame_v7_6Vtbl;
-
-interface IDeckLinkMutableVideoFrame_v7_6 {
-    CONST_VTBL IDeckLinkMutableVideoFrame_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkMutableVideoFrame_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkMutableVideoFrame_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkMutableVideoFrame_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoFrame_v7_6 methods ***/
-#define IDeckLinkMutableVideoFrame_v7_6_GetWidth(This) (This)->lpVtbl->GetWidth(This)
-#define IDeckLinkMutableVideoFrame_v7_6_GetHeight(This) (This)->lpVtbl->GetHeight(This)
-#define IDeckLinkMutableVideoFrame_v7_6_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
-#define IDeckLinkMutableVideoFrame_v7_6_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
-#define IDeckLinkMutableVideoFrame_v7_6_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkMutableVideoFrame_v7_6_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
-#define IDeckLinkMutableVideoFrame_v7_6_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
-#define IDeckLinkMutableVideoFrame_v7_6_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
-/*** IDeckLinkMutableVideoFrame_v7_6 methods ***/
-#define IDeckLinkMutableVideoFrame_v7_6_SetFlags(This,newFlags) (This)->lpVtbl->SetFlags(This,newFlags)
-#define IDeckLinkMutableVideoFrame_v7_6_SetTimecode(This,format,timecode) (This)->lpVtbl->SetTimecode(This,format,timecode)
-#define IDeckLinkMutableVideoFrame_v7_6_SetTimecodeFromComponents(This,format,hours,minutes,seconds,frames,flags) (This)->lpVtbl->SetTimecodeFromComponents(This,format,hours,minutes,seconds,frames,flags)
-#define IDeckLinkMutableVideoFrame_v7_6_SetAncillaryData(This,ancillary) (This)->lpVtbl->SetAncillaryData(This,ancillary)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v7_6_QueryInterface(IDeckLinkMutableVideoFrame_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkMutableVideoFrame_v7_6_AddRef(IDeckLinkMutableVideoFrame_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkMutableVideoFrame_v7_6_Release(IDeckLinkMutableVideoFrame_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoFrame_v7_6 methods ***/
-static __WIDL_INLINE LONG IDeckLinkMutableVideoFrame_v7_6_GetWidth(IDeckLinkMutableVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetWidth(This);
-}
-static __WIDL_INLINE LONG IDeckLinkMutableVideoFrame_v7_6_GetHeight(IDeckLinkMutableVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetHeight(This);
-}
-static __WIDL_INLINE LONG IDeckLinkMutableVideoFrame_v7_6_GetRowBytes(IDeckLinkMutableVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetRowBytes(This);
-}
-static __WIDL_INLINE BMDPixelFormat IDeckLinkMutableVideoFrame_v7_6_GetPixelFormat(IDeckLinkMutableVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetPixelFormat(This);
-}
-static __WIDL_INLINE BMDFrameFlags IDeckLinkMutableVideoFrame_v7_6_GetFlags(IDeckLinkMutableVideoFrame_v7_6* This) {
-    return This->lpVtbl->GetFlags(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v7_6_GetBytes(IDeckLinkMutableVideoFrame_v7_6* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v7_6_GetTimecode(IDeckLinkMutableVideoFrame_v7_6* This,BMDTimecodeFormat format,IDeckLinkTimecode_v7_6 **timecode) {
-    return This->lpVtbl->GetTimecode(This,format,timecode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v7_6_GetAncillaryData(IDeckLinkMutableVideoFrame_v7_6* This,IDeckLinkVideoFrameAncillary **ancillary) {
-    return This->lpVtbl->GetAncillaryData(This,ancillary);
-}
-/*** IDeckLinkMutableVideoFrame_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v7_6_SetFlags(IDeckLinkMutableVideoFrame_v7_6* This,BMDFrameFlags newFlags) {
-    return This->lpVtbl->SetFlags(This,newFlags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v7_6_SetTimecode(IDeckLinkMutableVideoFrame_v7_6* This,BMDTimecodeFormat format,IDeckLinkTimecode_v7_6 *timecode) {
-    return This->lpVtbl->SetTimecode(This,format,timecode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v7_6_SetTimecodeFromComponents(IDeckLinkMutableVideoFrame_v7_6* This,BMDTimecodeFormat format,unsigned char hours,unsigned char minutes,unsigned char seconds,unsigned char frames,BMDTimecodeFlags flags) {
-    return This->lpVtbl->SetTimecodeFromComponents(This,format,hours,minutes,seconds,frames,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkMutableVideoFrame_v7_6_SetAncillaryData(IDeckLinkMutableVideoFrame_v7_6* This,IDeckLinkVideoFrameAncillary *ancillary) {
-    return This->lpVtbl->SetAncillaryData(This,ancillary);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkMutableVideoFrame_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkVideoInputFrame_v7_6 interface
- */
-#ifndef __IDeckLinkVideoInputFrame_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkVideoInputFrame_v7_6, 0x9a74fa41, 0xae9f, 0x47ac, 0x8c,0xf4, 0x01,0xf4,0x2d,0xd5,0x99,0x65);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("9a74fa41-ae9f-47ac-8cf4-01f42dd59965")
-IDeckLinkVideoInputFrame_v7_6 : public IDeckLinkVideoFrame_v7_6
-{
-    virtual HRESULT STDMETHODCALLTYPE GetStreamTime(
-        BMDTimeValue *frameTime,
-        BMDTimeValue *frameDuration,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceTimestamp(
-        BMDTimeScale timeScale,
-        BMDTimeValue *frameTime,
-        BMDTimeValue *frameDuration) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoInputFrame_v7_6, 0x9a74fa41, 0xae9f, 0x47ac, 0x8c,0xf4, 0x01,0xf4,0x2d,0xd5,0x99,0x65)
-#endif
-#else
-typedef struct IDeckLinkVideoInputFrame_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkVideoInputFrame_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkVideoInputFrame_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkVideoInputFrame_v7_6 *This);
-
-    /*** IDeckLinkVideoFrame_v7_6 methods ***/
-    LONG (STDMETHODCALLTYPE *GetWidth)(
-        IDeckLinkVideoInputFrame_v7_6 *This);
-
-    LONG (STDMETHODCALLTYPE *GetHeight)(
-        IDeckLinkVideoInputFrame_v7_6 *This);
-
-    LONG (STDMETHODCALLTYPE *GetRowBytes)(
-        IDeckLinkVideoInputFrame_v7_6 *This);
-
-    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
-        IDeckLinkVideoInputFrame_v7_6 *This);
-
-    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
-        IDeckLinkVideoInputFrame_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkVideoInputFrame_v7_6 *This,
-        void **buffer);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
-        IDeckLinkVideoInputFrame_v7_6 *This,
-        BMDTimecodeFormat format,
-        IDeckLinkTimecode_v7_6 **timecode);
-
-    HRESULT (STDMETHODCALLTYPE *GetAncillaryData)(
-        IDeckLinkVideoInputFrame_v7_6 *This,
-        IDeckLinkVideoFrameAncillary **ancillary);
-
-    /*** IDeckLinkVideoInputFrame_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *GetStreamTime)(
-        IDeckLinkVideoInputFrame_v7_6 *This,
-        BMDTimeValue *frameTime,
-        BMDTimeValue *frameDuration,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceTimestamp)(
-        IDeckLinkVideoInputFrame_v7_6 *This,
-        BMDTimeScale timeScale,
-        BMDTimeValue *frameTime,
-        BMDTimeValue *frameDuration);
-
-    END_INTERFACE
-} IDeckLinkVideoInputFrame_v7_6Vtbl;
-
-interface IDeckLinkVideoInputFrame_v7_6 {
-    CONST_VTBL IDeckLinkVideoInputFrame_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkVideoInputFrame_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkVideoInputFrame_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkVideoInputFrame_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoFrame_v7_6 methods ***/
-#define IDeckLinkVideoInputFrame_v7_6_GetWidth(This) (This)->lpVtbl->GetWidth(This)
-#define IDeckLinkVideoInputFrame_v7_6_GetHeight(This) (This)->lpVtbl->GetHeight(This)
-#define IDeckLinkVideoInputFrame_v7_6_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
-#define IDeckLinkVideoInputFrame_v7_6_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
-#define IDeckLinkVideoInputFrame_v7_6_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkVideoInputFrame_v7_6_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
-#define IDeckLinkVideoInputFrame_v7_6_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
-#define IDeckLinkVideoInputFrame_v7_6_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
-/*** IDeckLinkVideoInputFrame_v7_6 methods ***/
-#define IDeckLinkVideoInputFrame_v7_6_GetStreamTime(This,frameTime,frameDuration,timeScale) (This)->lpVtbl->GetStreamTime(This,frameTime,frameDuration,timeScale)
-#define IDeckLinkVideoInputFrame_v7_6_GetHardwareReferenceTimestamp(This,timeScale,frameTime,frameDuration) (This)->lpVtbl->GetHardwareReferenceTimestamp(This,timeScale,frameTime,frameDuration)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_6_QueryInterface(IDeckLinkVideoInputFrame_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoInputFrame_v7_6_AddRef(IDeckLinkVideoInputFrame_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoInputFrame_v7_6_Release(IDeckLinkVideoInputFrame_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoFrame_v7_6 methods ***/
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_6_GetWidth(IDeckLinkVideoInputFrame_v7_6* This) {
-    return This->lpVtbl->GetWidth(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_6_GetHeight(IDeckLinkVideoInputFrame_v7_6* This) {
-    return This->lpVtbl->GetHeight(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_6_GetRowBytes(IDeckLinkVideoInputFrame_v7_6* This) {
-    return This->lpVtbl->GetRowBytes(This);
-}
-static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoInputFrame_v7_6_GetPixelFormat(IDeckLinkVideoInputFrame_v7_6* This) {
-    return This->lpVtbl->GetPixelFormat(This);
-}
-static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoInputFrame_v7_6_GetFlags(IDeckLinkVideoInputFrame_v7_6* This) {
-    return This->lpVtbl->GetFlags(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_6_GetBytes(IDeckLinkVideoInputFrame_v7_6* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_6_GetTimecode(IDeckLinkVideoInputFrame_v7_6* This,BMDTimecodeFormat format,IDeckLinkTimecode_v7_6 **timecode) {
-    return This->lpVtbl->GetTimecode(This,format,timecode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_6_GetAncillaryData(IDeckLinkVideoInputFrame_v7_6* This,IDeckLinkVideoFrameAncillary **ancillary) {
-    return This->lpVtbl->GetAncillaryData(This,ancillary);
-}
-/*** IDeckLinkVideoInputFrame_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_6_GetStreamTime(IDeckLinkVideoInputFrame_v7_6* This,BMDTimeValue *frameTime,BMDTimeValue *frameDuration,BMDTimeScale timeScale) {
-    return This->lpVtbl->GetStreamTime(This,frameTime,frameDuration,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_6_GetHardwareReferenceTimestamp(IDeckLinkVideoInputFrame_v7_6* This,BMDTimeScale timeScale,BMDTimeValue *frameTime,BMDTimeValue *frameDuration) {
-    return This->lpVtbl->GetHardwareReferenceTimestamp(This,timeScale,frameTime,frameDuration);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkVideoInputFrame_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkScreenPreviewCallback_v7_6 interface
- */
-#ifndef __IDeckLinkScreenPreviewCallback_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkScreenPreviewCallback_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkScreenPreviewCallback_v7_6, 0x373f499d, 0x4b4d, 0x4518, 0xad,0x22, 0x63,0x54,0xe5,0xa5,0x82,0x5e);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("373f499d-4b4d-4518-ad22-6354e5a5825e")
-IDeckLinkScreenPreviewCallback_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DrawFrame(
-        IDeckLinkVideoFrame_v7_6 *theFrame) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkScreenPreviewCallback_v7_6, 0x373f499d, 0x4b4d, 0x4518, 0xad,0x22, 0x63,0x54,0xe5,0xa5,0x82,0x5e)
-#endif
-#else
-typedef struct IDeckLinkScreenPreviewCallback_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkScreenPreviewCallback_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkScreenPreviewCallback_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkScreenPreviewCallback_v7_6 *This);
-
-    /*** IDeckLinkScreenPreviewCallback_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DrawFrame)(
-        IDeckLinkScreenPreviewCallback_v7_6 *This,
-        IDeckLinkVideoFrame_v7_6 *theFrame);
-
-    END_INTERFACE
-} IDeckLinkScreenPreviewCallback_v7_6Vtbl;
-
-interface IDeckLinkScreenPreviewCallback_v7_6 {
-    CONST_VTBL IDeckLinkScreenPreviewCallback_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkScreenPreviewCallback_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkScreenPreviewCallback_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkScreenPreviewCallback_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkScreenPreviewCallback_v7_6 methods ***/
-#define IDeckLinkScreenPreviewCallback_v7_6_DrawFrame(This,theFrame) (This)->lpVtbl->DrawFrame(This,theFrame)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkScreenPreviewCallback_v7_6_QueryInterface(IDeckLinkScreenPreviewCallback_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkScreenPreviewCallback_v7_6_AddRef(IDeckLinkScreenPreviewCallback_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkScreenPreviewCallback_v7_6_Release(IDeckLinkScreenPreviewCallback_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkScreenPreviewCallback_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkScreenPreviewCallback_v7_6_DrawFrame(IDeckLinkScreenPreviewCallback_v7_6* This,IDeckLinkVideoFrame_v7_6 *theFrame) {
-    return This->lpVtbl->DrawFrame(This,theFrame);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkScreenPreviewCallback_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkGLScreenPreviewHelper_v7_6 interface
- */
-#ifndef __IDeckLinkGLScreenPreviewHelper_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkGLScreenPreviewHelper_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkGLScreenPreviewHelper_v7_6, 0xba575cd9, 0xa15e, 0x497b, 0xb2,0xc2, 0xf9,0xaf,0xe7,0xbe,0x4e,0xba);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("ba575cd9-a15e-497b-b2c2-f9afe7be4eba")
-IDeckLinkGLScreenPreviewHelper_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE InitializeGL(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE PaintGL(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetFrame(
-        IDeckLinkVideoFrame_v7_6 *theFrame) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkGLScreenPreviewHelper_v7_6, 0xba575cd9, 0xa15e, 0x497b, 0xb2,0xc2, 0xf9,0xaf,0xe7,0xbe,0x4e,0xba)
-#endif
-#else
-typedef struct IDeckLinkGLScreenPreviewHelper_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkGLScreenPreviewHelper_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkGLScreenPreviewHelper_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkGLScreenPreviewHelper_v7_6 *This);
-
-    /*** IDeckLinkGLScreenPreviewHelper_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *InitializeGL)(
-        IDeckLinkGLScreenPreviewHelper_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *PaintGL)(
-        IDeckLinkGLScreenPreviewHelper_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetFrame)(
-        IDeckLinkGLScreenPreviewHelper_v7_6 *This,
-        IDeckLinkVideoFrame_v7_6 *theFrame);
-
-    END_INTERFACE
-} IDeckLinkGLScreenPreviewHelper_v7_6Vtbl;
-
-interface IDeckLinkGLScreenPreviewHelper_v7_6 {
-    CONST_VTBL IDeckLinkGLScreenPreviewHelper_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkGLScreenPreviewHelper_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkGLScreenPreviewHelper_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkGLScreenPreviewHelper_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkGLScreenPreviewHelper_v7_6 methods ***/
-#define IDeckLinkGLScreenPreviewHelper_v7_6_InitializeGL(This) (This)->lpVtbl->InitializeGL(This)
-#define IDeckLinkGLScreenPreviewHelper_v7_6_PaintGL(This) (This)->lpVtbl->PaintGL(This)
-#define IDeckLinkGLScreenPreviewHelper_v7_6_SetFrame(This,theFrame) (This)->lpVtbl->SetFrame(This,theFrame)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v7_6_QueryInterface(IDeckLinkGLScreenPreviewHelper_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkGLScreenPreviewHelper_v7_6_AddRef(IDeckLinkGLScreenPreviewHelper_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkGLScreenPreviewHelper_v7_6_Release(IDeckLinkGLScreenPreviewHelper_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkGLScreenPreviewHelper_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v7_6_InitializeGL(IDeckLinkGLScreenPreviewHelper_v7_6* This) {
-    return This->lpVtbl->InitializeGL(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v7_6_PaintGL(IDeckLinkGLScreenPreviewHelper_v7_6* This) {
-    return This->lpVtbl->PaintGL(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkGLScreenPreviewHelper_v7_6_SetFrame(IDeckLinkGLScreenPreviewHelper_v7_6* This,IDeckLinkVideoFrame_v7_6 *theFrame) {
-    return This->lpVtbl->SetFrame(This,theFrame);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkGLScreenPreviewHelper_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkVideoConversion_v7_6 interface
- */
-#ifndef __IDeckLinkVideoConversion_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkVideoConversion_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkVideoConversion_v7_6, 0x3eb504c9, 0xf97d, 0x40fe, 0xa1,0x58, 0xd4,0x07,0xd4,0x8c,0xb5,0x3b);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("3eb504c9-f97d-40fe-a158-d407d48cb53b")
-IDeckLinkVideoConversion_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE ConvertFrame(
-        IDeckLinkVideoFrame_v7_6 *srcFrame,
-        IDeckLinkVideoFrame_v7_6 *dstFrame) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoConversion_v7_6, 0x3eb504c9, 0xf97d, 0x40fe, 0xa1,0x58, 0xd4,0x07,0xd4,0x8c,0xb5,0x3b)
-#endif
-#else
-typedef struct IDeckLinkVideoConversion_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkVideoConversion_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkVideoConversion_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkVideoConversion_v7_6 *This);
-
-    /*** IDeckLinkVideoConversion_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *ConvertFrame)(
-        IDeckLinkVideoConversion_v7_6 *This,
-        IDeckLinkVideoFrame_v7_6 *srcFrame,
-        IDeckLinkVideoFrame_v7_6 *dstFrame);
-
-    END_INTERFACE
-} IDeckLinkVideoConversion_v7_6Vtbl;
-
-interface IDeckLinkVideoConversion_v7_6 {
-    CONST_VTBL IDeckLinkVideoConversion_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkVideoConversion_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkVideoConversion_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkVideoConversion_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoConversion_v7_6 methods ***/
-#define IDeckLinkVideoConversion_v7_6_ConvertFrame(This,srcFrame,dstFrame) (This)->lpVtbl->ConvertFrame(This,srcFrame,dstFrame)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoConversion_v7_6_QueryInterface(IDeckLinkVideoConversion_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoConversion_v7_6_AddRef(IDeckLinkVideoConversion_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoConversion_v7_6_Release(IDeckLinkVideoConversion_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoConversion_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoConversion_v7_6_ConvertFrame(IDeckLinkVideoConversion_v7_6* This,IDeckLinkVideoFrame_v7_6 *srcFrame,IDeckLinkVideoFrame_v7_6 *dstFrame) {
-    return This->lpVtbl->ConvertFrame(This,srcFrame,dstFrame);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkVideoConversion_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkConfiguration_v7_6 interface
- */
-#ifndef __IDeckLinkConfiguration_v7_6_INTERFACE_DEFINED__
-#define __IDeckLinkConfiguration_v7_6_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkConfiguration_v7_6, 0xb8ead569, 0xb764, 0x47f0, 0xa7,0x3f, 0xae,0x40,0xdf,0x6c,0xbf,0x10);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("b8ead569-b764-47f0-a73f-ae40df6cbf10")
-IDeckLinkConfiguration_v7_6 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE GetConfigurationValidator(
-        IDeckLinkConfiguration_v7_6 **configObject) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE WriteConfigurationToPreferences(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFormat(
-        BMDVideoConnection_v7_6 videoOutputConnection) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE IsVideoOutputActive(
-        BMDVideoConnection_v7_6 videoOutputConnection,
-        BOOL *active) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetAnalogVideoOutputFlags(
-        BMDAnalogVideoFlags analogVideoFlags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAnalogVideoOutputFlags(
-        BMDAnalogVideoFlags *analogVideoFlags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableFieldFlickerRemovalWhenPaused(
-        BOOL enable) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE IsEnabledFieldFlickerRemovalWhenPaused(
-        BOOL *enabled) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Set444And3GBpsVideoOutput(
-        BOOL enable444VideoOutput,
-        BOOL enable3GbsOutput) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Get444And3GBpsVideoOutput(
-        BOOL *is444VideoOutputEnabled,
-        BOOL *threeGbsOutputEnabled) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoOutputConversionMode(
-        BMDVideoOutputConversionMode conversionMode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetVideoOutputConversionMode(
-        BMDVideoOutputConversionMode *conversionMode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Set_HD1080p24_to_HD1080i5994_Conversion(
-        BOOL enable) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Get_HD1080p24_to_HD1080i5994_Conversion(
-        BOOL *enabled) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoInputFormat(
-        BMDVideoConnection_v7_6 videoInputFormat) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetVideoInputFormat(
-        BMDVideoConnection_v7_6 *videoInputFormat) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetAnalogVideoInputFlags(
-        BMDAnalogVideoFlags analogVideoFlags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAnalogVideoInputFlags(
-        BMDAnalogVideoFlags *analogVideoFlags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoInputConversionMode(
-        BMDVideoInputConversionMode conversionMode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetVideoInputConversionMode(
-        BMDVideoInputConversionMode *conversionMode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetBlackVideoOutputDuringCapture(
-        BOOL blackOutInCapture) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBlackVideoOutputDuringCapture(
-        BOOL *blackOutInCapture) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Set32PulldownSequenceInitialTimecodeFrame(
-        unsigned int aFrameTimecode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE Get32PulldownSequenceInitialTimecodeFrame(
-        unsigned int *aFrameTimecode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVancSourceLineMapping(
-        unsigned int activeLine1VANCsource,
-        unsigned int activeLine2VANCsource,
-        unsigned int activeLine3VANCsource) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetVancSourceLineMapping(
-        unsigned int *activeLine1VANCsource,
-        unsigned int *activeLine2VANCsource,
-        unsigned int *activeLine3VANCsource) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetAudioInputFormat(
-        BMDAudioConnection_v10_2 audioInputFormat) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAudioInputFormat(
-        BMDAudioConnection_v10_2 *audioInputFormat) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkConfiguration_v7_6, 0xb8ead569, 0xb764, 0x47f0, 0xa7,0x3f, 0xae,0x40,0xdf,0x6c,0xbf,0x10)
-#endif
-#else
-typedef struct IDeckLinkConfiguration_v7_6Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkConfiguration_v7_6 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkConfiguration_v7_6 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkConfiguration_v7_6 *This);
-
-    /*** IDeckLinkConfiguration_v7_6 methods ***/
-    HRESULT (STDMETHODCALLTYPE *GetConfigurationValidator)(
-        IDeckLinkConfiguration_v7_6 *This,
-        IDeckLinkConfiguration_v7_6 **configObject);
-
-    HRESULT (STDMETHODCALLTYPE *WriteConfigurationToPreferences)(
-        IDeckLinkConfiguration_v7_6 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoOutputFormat)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDVideoConnection_v7_6 videoOutputConnection);
-
-    HRESULT (STDMETHODCALLTYPE *IsVideoOutputActive)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDVideoConnection_v7_6 videoOutputConnection,
-        BOOL *active);
-
-    HRESULT (STDMETHODCALLTYPE *SetAnalogVideoOutputFlags)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDAnalogVideoFlags analogVideoFlags);
-
-    HRESULT (STDMETHODCALLTYPE *GetAnalogVideoOutputFlags)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDAnalogVideoFlags *analogVideoFlags);
-
-    HRESULT (STDMETHODCALLTYPE *EnableFieldFlickerRemovalWhenPaused)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BOOL enable);
-
-    HRESULT (STDMETHODCALLTYPE *IsEnabledFieldFlickerRemovalWhenPaused)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BOOL *enabled);
-
-    HRESULT (STDMETHODCALLTYPE *Set444And3GBpsVideoOutput)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BOOL enable444VideoOutput,
-        BOOL enable3GbsOutput);
-
-    HRESULT (STDMETHODCALLTYPE *Get444And3GBpsVideoOutput)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BOOL *is444VideoOutputEnabled,
-        BOOL *threeGbsOutputEnabled);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoOutputConversionMode)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDVideoOutputConversionMode conversionMode);
-
-    HRESULT (STDMETHODCALLTYPE *GetVideoOutputConversionMode)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDVideoOutputConversionMode *conversionMode);
-
-    HRESULT (STDMETHODCALLTYPE *Set_HD1080p24_to_HD1080i5994_Conversion)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BOOL enable);
-
-    HRESULT (STDMETHODCALLTYPE *Get_HD1080p24_to_HD1080i5994_Conversion)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BOOL *enabled);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoInputFormat)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDVideoConnection_v7_6 videoInputFormat);
-
-    HRESULT (STDMETHODCALLTYPE *GetVideoInputFormat)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDVideoConnection_v7_6 *videoInputFormat);
-
-    HRESULT (STDMETHODCALLTYPE *SetAnalogVideoInputFlags)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDAnalogVideoFlags analogVideoFlags);
-
-    HRESULT (STDMETHODCALLTYPE *GetAnalogVideoInputFlags)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDAnalogVideoFlags *analogVideoFlags);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoInputConversionMode)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDVideoInputConversionMode conversionMode);
-
-    HRESULT (STDMETHODCALLTYPE *GetVideoInputConversionMode)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDVideoInputConversionMode *conversionMode);
-
-    HRESULT (STDMETHODCALLTYPE *SetBlackVideoOutputDuringCapture)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BOOL blackOutInCapture);
-
-    HRESULT (STDMETHODCALLTYPE *GetBlackVideoOutputDuringCapture)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BOOL *blackOutInCapture);
-
-    HRESULT (STDMETHODCALLTYPE *Set32PulldownSequenceInitialTimecodeFrame)(
-        IDeckLinkConfiguration_v7_6 *This,
-        unsigned int aFrameTimecode);
-
-    HRESULT (STDMETHODCALLTYPE *Get32PulldownSequenceInitialTimecodeFrame)(
-        IDeckLinkConfiguration_v7_6 *This,
-        unsigned int *aFrameTimecode);
-
-    HRESULT (STDMETHODCALLTYPE *SetVancSourceLineMapping)(
-        IDeckLinkConfiguration_v7_6 *This,
-        unsigned int activeLine1VANCsource,
-        unsigned int activeLine2VANCsource,
-        unsigned int activeLine3VANCsource);
-
-    HRESULT (STDMETHODCALLTYPE *GetVancSourceLineMapping)(
-        IDeckLinkConfiguration_v7_6 *This,
-        unsigned int *activeLine1VANCsource,
-        unsigned int *activeLine2VANCsource,
-        unsigned int *activeLine3VANCsource);
-
-    HRESULT (STDMETHODCALLTYPE *SetAudioInputFormat)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDAudioConnection_v10_2 audioInputFormat);
-
-    HRESULT (STDMETHODCALLTYPE *GetAudioInputFormat)(
-        IDeckLinkConfiguration_v7_6 *This,
-        BMDAudioConnection_v10_2 *audioInputFormat);
-
-    END_INTERFACE
-} IDeckLinkConfiguration_v7_6Vtbl;
-
-interface IDeckLinkConfiguration_v7_6 {
-    CONST_VTBL IDeckLinkConfiguration_v7_6Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkConfiguration_v7_6_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkConfiguration_v7_6_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkConfiguration_v7_6_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkConfiguration_v7_6 methods ***/
-#define IDeckLinkConfiguration_v7_6_GetConfigurationValidator(This,configObject) (This)->lpVtbl->GetConfigurationValidator(This,configObject)
-#define IDeckLinkConfiguration_v7_6_WriteConfigurationToPreferences(This) (This)->lpVtbl->WriteConfigurationToPreferences(This)
-#define IDeckLinkConfiguration_v7_6_SetVideoOutputFormat(This,videoOutputConnection) (This)->lpVtbl->SetVideoOutputFormat(This,videoOutputConnection)
-#define IDeckLinkConfiguration_v7_6_IsVideoOutputActive(This,videoOutputConnection,active) (This)->lpVtbl->IsVideoOutputActive(This,videoOutputConnection,active)
-#define IDeckLinkConfiguration_v7_6_SetAnalogVideoOutputFlags(This,analogVideoFlags) (This)->lpVtbl->SetAnalogVideoOutputFlags(This,analogVideoFlags)
-#define IDeckLinkConfiguration_v7_6_GetAnalogVideoOutputFlags(This,analogVideoFlags) (This)->lpVtbl->GetAnalogVideoOutputFlags(This,analogVideoFlags)
-#define IDeckLinkConfiguration_v7_6_EnableFieldFlickerRemovalWhenPaused(This,enable) (This)->lpVtbl->EnableFieldFlickerRemovalWhenPaused(This,enable)
-#define IDeckLinkConfiguration_v7_6_IsEnabledFieldFlickerRemovalWhenPaused(This,enabled) (This)->lpVtbl->IsEnabledFieldFlickerRemovalWhenPaused(This,enabled)
-#define IDeckLinkConfiguration_v7_6_Set444And3GBpsVideoOutput(This,enable444VideoOutput,enable3GbsOutput) (This)->lpVtbl->Set444And3GBpsVideoOutput(This,enable444VideoOutput,enable3GbsOutput)
-#define IDeckLinkConfiguration_v7_6_Get444And3GBpsVideoOutput(This,is444VideoOutputEnabled,threeGbsOutputEnabled) (This)->lpVtbl->Get444And3GBpsVideoOutput(This,is444VideoOutputEnabled,threeGbsOutputEnabled)
-#define IDeckLinkConfiguration_v7_6_SetVideoOutputConversionMode(This,conversionMode) (This)->lpVtbl->SetVideoOutputConversionMode(This,conversionMode)
-#define IDeckLinkConfiguration_v7_6_GetVideoOutputConversionMode(This,conversionMode) (This)->lpVtbl->GetVideoOutputConversionMode(This,conversionMode)
-#define IDeckLinkConfiguration_v7_6_Set_HD1080p24_to_HD1080i5994_Conversion(This,enable) (This)->lpVtbl->Set_HD1080p24_to_HD1080i5994_Conversion(This,enable)
-#define IDeckLinkConfiguration_v7_6_Get_HD1080p24_to_HD1080i5994_Conversion(This,enabled) (This)->lpVtbl->Get_HD1080p24_to_HD1080i5994_Conversion(This,enabled)
-#define IDeckLinkConfiguration_v7_6_SetVideoInputFormat(This,videoInputFormat) (This)->lpVtbl->SetVideoInputFormat(This,videoInputFormat)
-#define IDeckLinkConfiguration_v7_6_GetVideoInputFormat(This,videoInputFormat) (This)->lpVtbl->GetVideoInputFormat(This,videoInputFormat)
-#define IDeckLinkConfiguration_v7_6_SetAnalogVideoInputFlags(This,analogVideoFlags) (This)->lpVtbl->SetAnalogVideoInputFlags(This,analogVideoFlags)
-#define IDeckLinkConfiguration_v7_6_GetAnalogVideoInputFlags(This,analogVideoFlags) (This)->lpVtbl->GetAnalogVideoInputFlags(This,analogVideoFlags)
-#define IDeckLinkConfiguration_v7_6_SetVideoInputConversionMode(This,conversionMode) (This)->lpVtbl->SetVideoInputConversionMode(This,conversionMode)
-#define IDeckLinkConfiguration_v7_6_GetVideoInputConversionMode(This,conversionMode) (This)->lpVtbl->GetVideoInputConversionMode(This,conversionMode)
-#define IDeckLinkConfiguration_v7_6_SetBlackVideoOutputDuringCapture(This,blackOutInCapture) (This)->lpVtbl->SetBlackVideoOutputDuringCapture(This,blackOutInCapture)
-#define IDeckLinkConfiguration_v7_6_GetBlackVideoOutputDuringCapture(This,blackOutInCapture) (This)->lpVtbl->GetBlackVideoOutputDuringCapture(This,blackOutInCapture)
-#define IDeckLinkConfiguration_v7_6_Set32PulldownSequenceInitialTimecodeFrame(This,aFrameTimecode) (This)->lpVtbl->Set32PulldownSequenceInitialTimecodeFrame(This,aFrameTimecode)
-#define IDeckLinkConfiguration_v7_6_Get32PulldownSequenceInitialTimecodeFrame(This,aFrameTimecode) (This)->lpVtbl->Get32PulldownSequenceInitialTimecodeFrame(This,aFrameTimecode)
-#define IDeckLinkConfiguration_v7_6_SetVancSourceLineMapping(This,activeLine1VANCsource,activeLine2VANCsource,activeLine3VANCsource) (This)->lpVtbl->SetVancSourceLineMapping(This,activeLine1VANCsource,activeLine2VANCsource,activeLine3VANCsource)
-#define IDeckLinkConfiguration_v7_6_GetVancSourceLineMapping(This,activeLine1VANCsource,activeLine2VANCsource,activeLine3VANCsource) (This)->lpVtbl->GetVancSourceLineMapping(This,activeLine1VANCsource,activeLine2VANCsource,activeLine3VANCsource)
-#define IDeckLinkConfiguration_v7_6_SetAudioInputFormat(This,audioInputFormat) (This)->lpVtbl->SetAudioInputFormat(This,audioInputFormat)
-#define IDeckLinkConfiguration_v7_6_GetAudioInputFormat(This,audioInputFormat) (This)->lpVtbl->GetAudioInputFormat(This,audioInputFormat)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_QueryInterface(IDeckLinkConfiguration_v7_6* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkConfiguration_v7_6_AddRef(IDeckLinkConfiguration_v7_6* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkConfiguration_v7_6_Release(IDeckLinkConfiguration_v7_6* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkConfiguration_v7_6 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetConfigurationValidator(IDeckLinkConfiguration_v7_6* This,IDeckLinkConfiguration_v7_6 **configObject) {
-    return This->lpVtbl->GetConfigurationValidator(This,configObject);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_WriteConfigurationToPreferences(IDeckLinkConfiguration_v7_6* This) {
-    return This->lpVtbl->WriteConfigurationToPreferences(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetVideoOutputFormat(IDeckLinkConfiguration_v7_6* This,BMDVideoConnection_v7_6 videoOutputConnection) {
-    return This->lpVtbl->SetVideoOutputFormat(This,videoOutputConnection);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_IsVideoOutputActive(IDeckLinkConfiguration_v7_6* This,BMDVideoConnection_v7_6 videoOutputConnection,BOOL *active) {
-    return This->lpVtbl->IsVideoOutputActive(This,videoOutputConnection,active);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetAnalogVideoOutputFlags(IDeckLinkConfiguration_v7_6* This,BMDAnalogVideoFlags analogVideoFlags) {
-    return This->lpVtbl->SetAnalogVideoOutputFlags(This,analogVideoFlags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetAnalogVideoOutputFlags(IDeckLinkConfiguration_v7_6* This,BMDAnalogVideoFlags *analogVideoFlags) {
-    return This->lpVtbl->GetAnalogVideoOutputFlags(This,analogVideoFlags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_EnableFieldFlickerRemovalWhenPaused(IDeckLinkConfiguration_v7_6* This,BOOL enable) {
-    return This->lpVtbl->EnableFieldFlickerRemovalWhenPaused(This,enable);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_IsEnabledFieldFlickerRemovalWhenPaused(IDeckLinkConfiguration_v7_6* This,BOOL *enabled) {
-    return This->lpVtbl->IsEnabledFieldFlickerRemovalWhenPaused(This,enabled);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_Set444And3GBpsVideoOutput(IDeckLinkConfiguration_v7_6* This,BOOL enable444VideoOutput,BOOL enable3GbsOutput) {
-    return This->lpVtbl->Set444And3GBpsVideoOutput(This,enable444VideoOutput,enable3GbsOutput);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_Get444And3GBpsVideoOutput(IDeckLinkConfiguration_v7_6* This,BOOL *is444VideoOutputEnabled,BOOL *threeGbsOutputEnabled) {
-    return This->lpVtbl->Get444And3GBpsVideoOutput(This,is444VideoOutputEnabled,threeGbsOutputEnabled);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetVideoOutputConversionMode(IDeckLinkConfiguration_v7_6* This,BMDVideoOutputConversionMode conversionMode) {
-    return This->lpVtbl->SetVideoOutputConversionMode(This,conversionMode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetVideoOutputConversionMode(IDeckLinkConfiguration_v7_6* This,BMDVideoOutputConversionMode *conversionMode) {
-    return This->lpVtbl->GetVideoOutputConversionMode(This,conversionMode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_Set_HD1080p24_to_HD1080i5994_Conversion(IDeckLinkConfiguration_v7_6* This,BOOL enable) {
-    return This->lpVtbl->Set_HD1080p24_to_HD1080i5994_Conversion(This,enable);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_Get_HD1080p24_to_HD1080i5994_Conversion(IDeckLinkConfiguration_v7_6* This,BOOL *enabled) {
-    return This->lpVtbl->Get_HD1080p24_to_HD1080i5994_Conversion(This,enabled);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetVideoInputFormat(IDeckLinkConfiguration_v7_6* This,BMDVideoConnection_v7_6 videoInputFormat) {
-    return This->lpVtbl->SetVideoInputFormat(This,videoInputFormat);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetVideoInputFormat(IDeckLinkConfiguration_v7_6* This,BMDVideoConnection_v7_6 *videoInputFormat) {
-    return This->lpVtbl->GetVideoInputFormat(This,videoInputFormat);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetAnalogVideoInputFlags(IDeckLinkConfiguration_v7_6* This,BMDAnalogVideoFlags analogVideoFlags) {
-    return This->lpVtbl->SetAnalogVideoInputFlags(This,analogVideoFlags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetAnalogVideoInputFlags(IDeckLinkConfiguration_v7_6* This,BMDAnalogVideoFlags *analogVideoFlags) {
-    return This->lpVtbl->GetAnalogVideoInputFlags(This,analogVideoFlags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetVideoInputConversionMode(IDeckLinkConfiguration_v7_6* This,BMDVideoInputConversionMode conversionMode) {
-    return This->lpVtbl->SetVideoInputConversionMode(This,conversionMode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetVideoInputConversionMode(IDeckLinkConfiguration_v7_6* This,BMDVideoInputConversionMode *conversionMode) {
-    return This->lpVtbl->GetVideoInputConversionMode(This,conversionMode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetBlackVideoOutputDuringCapture(IDeckLinkConfiguration_v7_6* This,BOOL blackOutInCapture) {
-    return This->lpVtbl->SetBlackVideoOutputDuringCapture(This,blackOutInCapture);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetBlackVideoOutputDuringCapture(IDeckLinkConfiguration_v7_6* This,BOOL *blackOutInCapture) {
-    return This->lpVtbl->GetBlackVideoOutputDuringCapture(This,blackOutInCapture);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_Set32PulldownSequenceInitialTimecodeFrame(IDeckLinkConfiguration_v7_6* This,unsigned int aFrameTimecode) {
-    return This->lpVtbl->Set32PulldownSequenceInitialTimecodeFrame(This,aFrameTimecode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_Get32PulldownSequenceInitialTimecodeFrame(IDeckLinkConfiguration_v7_6* This,unsigned int *aFrameTimecode) {
-    return This->lpVtbl->Get32PulldownSequenceInitialTimecodeFrame(This,aFrameTimecode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetVancSourceLineMapping(IDeckLinkConfiguration_v7_6* This,unsigned int activeLine1VANCsource,unsigned int activeLine2VANCsource,unsigned int activeLine3VANCsource) {
-    return This->lpVtbl->SetVancSourceLineMapping(This,activeLine1VANCsource,activeLine2VANCsource,activeLine3VANCsource);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetVancSourceLineMapping(IDeckLinkConfiguration_v7_6* This,unsigned int *activeLine1VANCsource,unsigned int *activeLine2VANCsource,unsigned int *activeLine3VANCsource) {
-    return This->lpVtbl->GetVancSourceLineMapping(This,activeLine1VANCsource,activeLine2VANCsource,activeLine3VANCsource);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_SetAudioInputFormat(IDeckLinkConfiguration_v7_6* This,BMDAudioConnection_v10_2 audioInputFormat) {
-    return This->lpVtbl->SetAudioInputFormat(This,audioInputFormat);
-}
-static __WIDL_INLINE HRESULT IDeckLinkConfiguration_v7_6_GetAudioInputFormat(IDeckLinkConfiguration_v7_6* This,BMDAudioConnection_v10_2 *audioInputFormat) {
-    return This->lpVtbl->GetAudioInputFormat(This,audioInputFormat);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkConfiguration_v7_6_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * CDeckLinkGLScreenPreviewHelper_v7_6 coclass
- */
-
-DEFINE_GUID(CLSID_CDeckLinkGLScreenPreviewHelper_v7_6, 0xd398cee7, 0x4434, 0x4ca3, 0x9b,0xa6, 0x5a,0xe3,0x45,0x56,0xb9,0x05);
-
-#ifdef __cplusplus
-class DECLSPEC_UUID("d398cee7-4434-4ca3-9ba6-5ae34556b905") CDeckLinkGLScreenPreviewHelper_v7_6;
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkGLScreenPreviewHelper_v7_6, 0xd398cee7, 0x4434, 0x4ca3, 0x9b,0xa6, 0x5a,0xe3,0x45,0x56,0xb9,0x05)
-#endif
-#endif
-
-/*****************************************************************************
- * CDeckLinkVideoConversion_v7_6 coclass
- */
-
-DEFINE_GUID(CLSID_CDeckLinkVideoConversion_v7_6, 0xffa84f77, 0x73be, 0x4fb7, 0xb0,0x3e, 0xb5,0xe4,0x4b,0x9f,0x75,0x9b);
-
-#ifdef __cplusplus
-class DECLSPEC_UUID("ffa84f77-73be-4fb7-b03e-b5e44b9f759b") CDeckLinkVideoConversion_v7_6;
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkVideoConversion_v7_6, 0xffa84f77, 0x73be, 0x4fb7, 0xb0,0x3e, 0xb5,0xe4,0x4b,0x9f,0x75,0x9b)
-#endif
-#endif
-
-#ifndef __IDeckLinkInputCallback_v7_3_FWD_DEFINED__
-#define __IDeckLinkInputCallback_v7_3_FWD_DEFINED__
-typedef interface IDeckLinkInputCallback_v7_3 IDeckLinkInputCallback_v7_3;
-#ifdef __cplusplus
-interface IDeckLinkInputCallback_v7_3;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkOutput_v7_3_FWD_DEFINED__
-#define __IDeckLinkOutput_v7_3_FWD_DEFINED__
-typedef interface IDeckLinkOutput_v7_3 IDeckLinkOutput_v7_3;
-#ifdef __cplusplus
-interface IDeckLinkOutput_v7_3;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkInput_v7_3_FWD_DEFINED__
-#define __IDeckLinkInput_v7_3_FWD_DEFINED__
-typedef interface IDeckLinkInput_v7_3 IDeckLinkInput_v7_3;
-#ifdef __cplusplus
-interface IDeckLinkInput_v7_3;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoInputFrame_v7_3_FWD_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_3_FWD_DEFINED__
-typedef interface IDeckLinkVideoInputFrame_v7_3 IDeckLinkVideoInputFrame_v7_3;
-#ifdef __cplusplus
-interface IDeckLinkVideoInputFrame_v7_3;
-#endif /* __cplusplus */
-#endif
-
-/*****************************************************************************
- * IDeckLinkInputCallback_v7_3 interface
- */
-#ifndef __IDeckLinkInputCallback_v7_3_INTERFACE_DEFINED__
-#define __IDeckLinkInputCallback_v7_3_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkInputCallback_v7_3, 0xfd6f311d, 0x4d00, 0x444b, 0x9e,0xd4, 0x1f,0x25,0xb5,0x73,0x0a,0xd0);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("fd6f311d-4d00-444b-9ed4-1f25b5730ad0")
-IDeckLinkInputCallback_v7_3 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE VideoInputFormatChanged(
-        BMDVideoInputFormatChangedEvents notificationEvents,
-        IDeckLinkDisplayMode_v7_6 *newDisplayMode,
-        BMDDetectedVideoInputFormatFlags detectedSignalFlags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE VideoInputFrameArrived(
-        IDeckLinkVideoInputFrame_v7_3 *videoFrame,
-        IDeckLinkAudioInputPacket *audioPacket) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInputCallback_v7_3, 0xfd6f311d, 0x4d00, 0x444b, 0x9e,0xd4, 0x1f,0x25,0xb5,0x73,0x0a,0xd0)
-#endif
-#else
-typedef struct IDeckLinkInputCallback_v7_3Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkInputCallback_v7_3 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkInputCallback_v7_3 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkInputCallback_v7_3 *This);
-
-    /*** IDeckLinkInputCallback_v7_3 methods ***/
-    HRESULT (STDMETHODCALLTYPE *VideoInputFormatChanged)(
-        IDeckLinkInputCallback_v7_3 *This,
-        BMDVideoInputFormatChangedEvents notificationEvents,
-        IDeckLinkDisplayMode_v7_6 *newDisplayMode,
-        BMDDetectedVideoInputFormatFlags detectedSignalFlags);
-
-    HRESULT (STDMETHODCALLTYPE *VideoInputFrameArrived)(
-        IDeckLinkInputCallback_v7_3 *This,
-        IDeckLinkVideoInputFrame_v7_3 *videoFrame,
-        IDeckLinkAudioInputPacket *audioPacket);
-
-    END_INTERFACE
-} IDeckLinkInputCallback_v7_3Vtbl;
-
-interface IDeckLinkInputCallback_v7_3 {
-    CONST_VTBL IDeckLinkInputCallback_v7_3Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkInputCallback_v7_3_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkInputCallback_v7_3_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkInputCallback_v7_3_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkInputCallback_v7_3 methods ***/
-#define IDeckLinkInputCallback_v7_3_VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags) (This)->lpVtbl->VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags)
-#define IDeckLinkInputCallback_v7_3_VideoInputFrameArrived(This,videoFrame,audioPacket) (This)->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v7_3_QueryInterface(IDeckLinkInputCallback_v7_3* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkInputCallback_v7_3_AddRef(IDeckLinkInputCallback_v7_3* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkInputCallback_v7_3_Release(IDeckLinkInputCallback_v7_3* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkInputCallback_v7_3 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v7_3_VideoInputFormatChanged(IDeckLinkInputCallback_v7_3* This,BMDVideoInputFormatChangedEvents notificationEvents,IDeckLinkDisplayMode_v7_6 *newDisplayMode,BMDDetectedVideoInputFormatFlags detectedSignalFlags) {
-    return This->lpVtbl->VideoInputFormatChanged(This,notificationEvents,newDisplayMode,detectedSignalFlags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v7_3_VideoInputFrameArrived(IDeckLinkInputCallback_v7_3* This,IDeckLinkVideoInputFrame_v7_3 *videoFrame,IDeckLinkAudioInputPacket *audioPacket) {
-    return This->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkInputCallback_v7_3_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkOutput_v7_3 interface
- */
-#ifndef __IDeckLinkOutput_v7_3_INTERFACE_DEFINED__
-#define __IDeckLinkOutput_v7_3_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkOutput_v7_3, 0x271c65e3, 0xc323, 0x4344, 0xa3,0x0f, 0xd9,0x08,0xbc,0xb2,0x0a,0xa3);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("271c65e3-c323-4344-a30f-d908bcb20aa3")
-IDeckLinkOutput_v7_3 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
-        IDeckLinkDisplayModeIterator_v7_6 **iterator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableVideoOutput(
-        BMDDisplayMode displayMode,
-        BMDVideoOutputFlags flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableVideoOutput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CreateVideoFrame(
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame_v7_6 **outFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CreateAncillaryData(
-        BMDPixelFormat pixelFormat,
-        IDeckLinkVideoFrameAncillary **outBuffer) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisplayVideoFrameSync(
-        IDeckLinkVideoFrame_v7_6 *theFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduleVideoFrame(
-        IDeckLinkVideoFrame_v7_6 *theFrame,
-        BMDTimeValue displayTime,
-        BMDTimeValue displayDuration,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScheduledFrameCompletionCallback(
-        IDeckLinkVideoOutputCallback *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBufferedVideoFrameCount(
-        unsigned int *bufferedFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableAudioOutput(
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount,
-        BMDAudioOutputStreamType streamType) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableAudioOutput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE WriteAudioSamplesSync(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesWritten) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE BeginAudioPreroll(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EndAudioPreroll(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduleAudioSamples(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        BMDTimeValue streamTime,
-        BMDTimeScale timeScale,
-        unsigned int *sampleFramesWritten) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBufferedAudioSampleFrameCount(
-        unsigned int *bufferedSampleFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FlushBufferedAudioSamples(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetAudioCallback(
-        IDeckLinkAudioOutputCallback *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartScheduledPlayback(
-        BMDTimeValue playbackStartTime,
-        BMDTimeScale timeScale,
-        double playbackSpeed) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StopScheduledPlayback(
-        BMDTimeValue stopPlaybackAtTime,
-        BMDTimeValue *actualStopTime,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE IsScheduledPlaybackRunning(
-        BOOL *active) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *elapsedTimeSinceSchedulerBegan) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkOutput_v7_3, 0x271c65e3, 0xc323, 0x4344, 0xa3,0x0f, 0xd9,0x08,0xbc,0xb2,0x0a,0xa3)
-#endif
-#else
-typedef struct IDeckLinkOutput_v7_3Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkOutput_v7_3 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkOutput_v7_3 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkOutput_v7_3 *This);
-
-    /*** IDeckLinkOutput_v7_3 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
-        IDeckLinkOutput_v7_3 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result);
-
-    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
-        IDeckLinkOutput_v7_3 *This,
-        IDeckLinkDisplayModeIterator_v7_6 **iterator);
-
-    HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
-        IDeckLinkOutput_v7_3 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
-
-    HRESULT (STDMETHODCALLTYPE *EnableVideoOutput)(
-        IDeckLinkOutput_v7_3 *This,
-        BMDDisplayMode displayMode,
-        BMDVideoOutputFlags flags);
-
-    HRESULT (STDMETHODCALLTYPE *DisableVideoOutput)(
-        IDeckLinkOutput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoOutputFrameMemoryAllocator)(
-        IDeckLinkOutput_v7_3 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
-
-    HRESULT (STDMETHODCALLTYPE *CreateVideoFrame)(
-        IDeckLinkOutput_v7_3 *This,
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkMutableVideoFrame_v7_6 **outFrame);
-
-    HRESULT (STDMETHODCALLTYPE *CreateAncillaryData)(
-        IDeckLinkOutput_v7_3 *This,
-        BMDPixelFormat pixelFormat,
-        IDeckLinkVideoFrameAncillary **outBuffer);
-
-    HRESULT (STDMETHODCALLTYPE *DisplayVideoFrameSync)(
-        IDeckLinkOutput_v7_3 *This,
-        IDeckLinkVideoFrame_v7_6 *theFrame);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduleVideoFrame)(
-        IDeckLinkOutput_v7_3 *This,
-        IDeckLinkVideoFrame_v7_6 *theFrame,
-        BMDTimeValue displayTime,
-        BMDTimeValue displayDuration,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *SetScheduledFrameCompletionCallback)(
-        IDeckLinkOutput_v7_3 *This,
-        IDeckLinkVideoOutputCallback *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *GetBufferedVideoFrameCount)(
-        IDeckLinkOutput_v7_3 *This,
-        unsigned int *bufferedFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *EnableAudioOutput)(
-        IDeckLinkOutput_v7_3 *This,
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount,
-        BMDAudioOutputStreamType streamType);
-
-    HRESULT (STDMETHODCALLTYPE *DisableAudioOutput)(
-        IDeckLinkOutput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *WriteAudioSamplesSync)(
-        IDeckLinkOutput_v7_3 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesWritten);
-
-    HRESULT (STDMETHODCALLTYPE *BeginAudioPreroll)(
-        IDeckLinkOutput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *EndAudioPreroll)(
-        IDeckLinkOutput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduleAudioSamples)(
-        IDeckLinkOutput_v7_3 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        BMDTimeValue streamTime,
-        BMDTimeScale timeScale,
-        unsigned int *sampleFramesWritten);
-
-    HRESULT (STDMETHODCALLTYPE *GetBufferedAudioSampleFrameCount)(
-        IDeckLinkOutput_v7_3 *This,
-        unsigned int *bufferedSampleFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *FlushBufferedAudioSamples)(
-        IDeckLinkOutput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetAudioCallback)(
-        IDeckLinkOutput_v7_3 *This,
-        IDeckLinkAudioOutputCallback *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *StartScheduledPlayback)(
-        IDeckLinkOutput_v7_3 *This,
-        BMDTimeValue playbackStartTime,
-        BMDTimeScale timeScale,
-        double playbackSpeed);
-
-    HRESULT (STDMETHODCALLTYPE *StopScheduledPlayback)(
-        IDeckLinkOutput_v7_3 *This,
-        BMDTimeValue stopPlaybackAtTime,
-        BMDTimeValue *actualStopTime,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *IsScheduledPlaybackRunning)(
-        IDeckLinkOutput_v7_3 *This,
-        BOOL *active);
-
-    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
-        IDeckLinkOutput_v7_3 *This,
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *elapsedTimeSinceSchedulerBegan);
-
-    END_INTERFACE
-} IDeckLinkOutput_v7_3Vtbl;
-
-interface IDeckLinkOutput_v7_3 {
-    CONST_VTBL IDeckLinkOutput_v7_3Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkOutput_v7_3_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkOutput_v7_3_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkOutput_v7_3_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkOutput_v7_3 methods ***/
-#define IDeckLinkOutput_v7_3_DoesSupportVideoMode(This,displayMode,pixelFormat,result) (This)->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result)
-#define IDeckLinkOutput_v7_3_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
-#define IDeckLinkOutput_v7_3_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
-#define IDeckLinkOutput_v7_3_EnableVideoOutput(This,displayMode,flags) (This)->lpVtbl->EnableVideoOutput(This,displayMode,flags)
-#define IDeckLinkOutput_v7_3_DisableVideoOutput(This) (This)->lpVtbl->DisableVideoOutput(This)
-#define IDeckLinkOutput_v7_3_SetVideoOutputFrameMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator)
-#define IDeckLinkOutput_v7_3_CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame) (This)->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame)
-#define IDeckLinkOutput_v7_3_CreateAncillaryData(This,pixelFormat,outBuffer) (This)->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer)
-#define IDeckLinkOutput_v7_3_DisplayVideoFrameSync(This,theFrame) (This)->lpVtbl->DisplayVideoFrameSync(This,theFrame)
-#define IDeckLinkOutput_v7_3_ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale) (This)->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale)
-#define IDeckLinkOutput_v7_3_SetScheduledFrameCompletionCallback(This,theCallback) (This)->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback)
-#define IDeckLinkOutput_v7_3_GetBufferedVideoFrameCount(This,bufferedFrameCount) (This)->lpVtbl->GetBufferedVideoFrameCount(This,bufferedFrameCount)
-#define IDeckLinkOutput_v7_3_EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType) (This)->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType)
-#define IDeckLinkOutput_v7_3_DisableAudioOutput(This) (This)->lpVtbl->DisableAudioOutput(This)
-#define IDeckLinkOutput_v7_3_WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten) (This)->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten)
-#define IDeckLinkOutput_v7_3_BeginAudioPreroll(This) (This)->lpVtbl->BeginAudioPreroll(This)
-#define IDeckLinkOutput_v7_3_EndAudioPreroll(This) (This)->lpVtbl->EndAudioPreroll(This)
-#define IDeckLinkOutput_v7_3_ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten) (This)->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten)
-#define IDeckLinkOutput_v7_3_GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount) (This)->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount)
-#define IDeckLinkOutput_v7_3_FlushBufferedAudioSamples(This) (This)->lpVtbl->FlushBufferedAudioSamples(This)
-#define IDeckLinkOutput_v7_3_SetAudioCallback(This,theCallback) (This)->lpVtbl->SetAudioCallback(This,theCallback)
-#define IDeckLinkOutput_v7_3_StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed) (This)->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed)
-#define IDeckLinkOutput_v7_3_StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale) (This)->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale)
-#define IDeckLinkOutput_v7_3_IsScheduledPlaybackRunning(This,active) (This)->lpVtbl->IsScheduledPlaybackRunning(This,active)
-#define IDeckLinkOutput_v7_3_GetHardwareReferenceClock(This,desiredTimeScale,elapsedTimeSinceSchedulerBegan) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,elapsedTimeSinceSchedulerBegan)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_QueryInterface(IDeckLinkOutput_v7_3* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkOutput_v7_3_AddRef(IDeckLinkOutput_v7_3* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkOutput_v7_3_Release(IDeckLinkOutput_v7_3* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkOutput_v7_3 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_DoesSupportVideoMode(IDeckLinkOutput_v7_3* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDDisplayModeSupport_v10_11 *result) {
-    return This->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_GetDisplayModeIterator(IDeckLinkOutput_v7_3* This,IDeckLinkDisplayModeIterator_v7_6 **iterator) {
-    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_SetScreenPreviewCallback(IDeckLinkOutput_v7_3* This,IDeckLinkScreenPreviewCallback *previewCallback) {
-    return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_EnableVideoOutput(IDeckLinkOutput_v7_3* This,BMDDisplayMode displayMode,BMDVideoOutputFlags flags) {
-    return This->lpVtbl->EnableVideoOutput(This,displayMode,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_DisableVideoOutput(IDeckLinkOutput_v7_3* This) {
-    return This->lpVtbl->DisableVideoOutput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v7_3* This,IDeckLinkMemoryAllocator *theAllocator) {
-    return This->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_CreateVideoFrame(IDeckLinkOutput_v7_3* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkMutableVideoFrame_v7_6 **outFrame) {
-    return This->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_CreateAncillaryData(IDeckLinkOutput_v7_3* This,BMDPixelFormat pixelFormat,IDeckLinkVideoFrameAncillary **outBuffer) {
-    return This->lpVtbl->CreateAncillaryData(This,pixelFormat,outBuffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_DisplayVideoFrameSync(IDeckLinkOutput_v7_3* This,IDeckLinkVideoFrame_v7_6 *theFrame) {
-    return This->lpVtbl->DisplayVideoFrameSync(This,theFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_ScheduleVideoFrame(IDeckLinkOutput_v7_3* This,IDeckLinkVideoFrame_v7_6 *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
-    return This->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v7_3* This,IDeckLinkVideoOutputCallback *theCallback) {
-    return This->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_GetBufferedVideoFrameCount(IDeckLinkOutput_v7_3* This,unsigned int *bufferedFrameCount) {
-    return This->lpVtbl->GetBufferedVideoFrameCount(This,bufferedFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_EnableAudioOutput(IDeckLinkOutput_v7_3* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount,BMDAudioOutputStreamType streamType) {
-    return This->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount,streamType);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_DisableAudioOutput(IDeckLinkOutput_v7_3* This) {
-    return This->lpVtbl->DisableAudioOutput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_WriteAudioSamplesSync(IDeckLinkOutput_v7_3* This,void *buffer,unsigned int sampleFrameCount,unsigned int *sampleFramesWritten) {
-    return This->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_BeginAudioPreroll(IDeckLinkOutput_v7_3* This) {
-    return This->lpVtbl->BeginAudioPreroll(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_EndAudioPreroll(IDeckLinkOutput_v7_3* This) {
-    return This->lpVtbl->EndAudioPreroll(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_ScheduleAudioSamples(IDeckLinkOutput_v7_3* This,void *buffer,unsigned int sampleFrameCount,BMDTimeValue streamTime,BMDTimeScale timeScale,unsigned int *sampleFramesWritten) {
-    return This->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_GetBufferedAudioSampleFrameCount(IDeckLinkOutput_v7_3* This,unsigned int *bufferedSampleFrameCount) {
-    return This->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_FlushBufferedAudioSamples(IDeckLinkOutput_v7_3* This) {
-    return This->lpVtbl->FlushBufferedAudioSamples(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_SetAudioCallback(IDeckLinkOutput_v7_3* This,IDeckLinkAudioOutputCallback *theCallback) {
-    return This->lpVtbl->SetAudioCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_StartScheduledPlayback(IDeckLinkOutput_v7_3* This,BMDTimeValue playbackStartTime,BMDTimeScale timeScale,double playbackSpeed) {
-    return This->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_StopScheduledPlayback(IDeckLinkOutput_v7_3* This,BMDTimeValue stopPlaybackAtTime,BMDTimeValue *actualStopTime,BMDTimeScale timeScale) {
-    return This->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_IsScheduledPlaybackRunning(IDeckLinkOutput_v7_3* This,BOOL *active) {
-    return This->lpVtbl->IsScheduledPlaybackRunning(This,active);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_3_GetHardwareReferenceClock(IDeckLinkOutput_v7_3* This,BMDTimeScale desiredTimeScale,BMDTimeValue *elapsedTimeSinceSchedulerBegan) {
-    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,elapsedTimeSinceSchedulerBegan);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkOutput_v7_3_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkInput_v7_3 interface
- */
-#ifndef __IDeckLinkInput_v7_3_INTERFACE_DEFINED__
-#define __IDeckLinkInput_v7_3_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkInput_v7_3, 0x4973f012, 0x9925, 0x458c, 0x87,0x1c, 0x18,0x77,0x4c,0xdb,0xbe,0xcb);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("4973f012-9925-458c-871c-18774cdbbecb")
-IDeckLinkInput_v7_3 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
-        IDeckLinkDisplayModeIterator_v7_6 **iterator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScreenPreviewCallback(
-        IDeckLinkScreenPreviewCallback *previewCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableVideoInput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAvailableVideoFrameCount(
-        unsigned int *availableFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableAudioInput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAvailableAudioSampleFrameCount(
-        unsigned int *availableSampleFrameCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StopStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE PauseStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FlushStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetCallback(
-        IDeckLinkInputCallback_v7_3 *theCallback) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInput_v7_3, 0x4973f012, 0x9925, 0x458c, 0x87,0x1c, 0x18,0x77,0x4c,0xdb,0xbe,0xcb)
-#endif
-#else
-typedef struct IDeckLinkInput_v7_3Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkInput_v7_3 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkInput_v7_3 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkInput_v7_3 *This);
-
-    /*** IDeckLinkInput_v7_3 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
-        IDeckLinkInput_v7_3 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result);
-
-    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
-        IDeckLinkInput_v7_3 *This,
-        IDeckLinkDisplayModeIterator_v7_6 **iterator);
-
-    HRESULT (STDMETHODCALLTYPE *SetScreenPreviewCallback)(
-        IDeckLinkInput_v7_3 *This,
-        IDeckLinkScreenPreviewCallback *previewCallback);
-
-    HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
-        IDeckLinkInput_v7_3 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags);
-
-    HRESULT (STDMETHODCALLTYPE *DisableVideoInput)(
-        IDeckLinkInput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetAvailableVideoFrameCount)(
-        IDeckLinkInput_v7_3 *This,
-        unsigned int *availableFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
-        IDeckLinkInput_v7_3 *This,
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount);
-
-    HRESULT (STDMETHODCALLTYPE *DisableAudioInput)(
-        IDeckLinkInput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetAvailableAudioSampleFrameCount)(
-        IDeckLinkInput_v7_3 *This,
-        unsigned int *availableSampleFrameCount);
-
-    HRESULT (STDMETHODCALLTYPE *StartStreams)(
-        IDeckLinkInput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *StopStreams)(
-        IDeckLinkInput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *PauseStreams)(
-        IDeckLinkInput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *FlushStreams)(
-        IDeckLinkInput_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetCallback)(
-        IDeckLinkInput_v7_3 *This,
-        IDeckLinkInputCallback_v7_3 *theCallback);
-
-    END_INTERFACE
-} IDeckLinkInput_v7_3Vtbl;
-
-interface IDeckLinkInput_v7_3 {
-    CONST_VTBL IDeckLinkInput_v7_3Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkInput_v7_3_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkInput_v7_3_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkInput_v7_3_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkInput_v7_3 methods ***/
-#define IDeckLinkInput_v7_3_DoesSupportVideoMode(This,displayMode,pixelFormat,result) (This)->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result)
-#define IDeckLinkInput_v7_3_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
-#define IDeckLinkInput_v7_3_SetScreenPreviewCallback(This,previewCallback) (This)->lpVtbl->SetScreenPreviewCallback(This,previewCallback)
-#define IDeckLinkInput_v7_3_EnableVideoInput(This,displayMode,pixelFormat,flags) (This)->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags)
-#define IDeckLinkInput_v7_3_DisableVideoInput(This) (This)->lpVtbl->DisableVideoInput(This)
-#define IDeckLinkInput_v7_3_GetAvailableVideoFrameCount(This,availableFrameCount) (This)->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount)
-#define IDeckLinkInput_v7_3_EnableAudioInput(This,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount)
-#define IDeckLinkInput_v7_3_DisableAudioInput(This) (This)->lpVtbl->DisableAudioInput(This)
-#define IDeckLinkInput_v7_3_GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount) (This)->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount)
-#define IDeckLinkInput_v7_3_StartStreams(This) (This)->lpVtbl->StartStreams(This)
-#define IDeckLinkInput_v7_3_StopStreams(This) (This)->lpVtbl->StopStreams(This)
-#define IDeckLinkInput_v7_3_PauseStreams(This) (This)->lpVtbl->PauseStreams(This)
-#define IDeckLinkInput_v7_3_FlushStreams(This) (This)->lpVtbl->FlushStreams(This)
-#define IDeckLinkInput_v7_3_SetCallback(This,theCallback) (This)->lpVtbl->SetCallback(This,theCallback)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_QueryInterface(IDeckLinkInput_v7_3* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkInput_v7_3_AddRef(IDeckLinkInput_v7_3* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkInput_v7_3_Release(IDeckLinkInput_v7_3* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkInput_v7_3 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_DoesSupportVideoMode(IDeckLinkInput_v7_3* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDDisplayModeSupport_v10_11 *result) {
-    return This->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_GetDisplayModeIterator(IDeckLinkInput_v7_3* This,IDeckLinkDisplayModeIterator_v7_6 **iterator) {
-    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_SetScreenPreviewCallback(IDeckLinkInput_v7_3* This,IDeckLinkScreenPreviewCallback *previewCallback) {
-    return This->lpVtbl->SetScreenPreviewCallback(This,previewCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_EnableVideoInput(IDeckLinkInput_v7_3* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
-    return This->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_DisableVideoInput(IDeckLinkInput_v7_3* This) {
-    return This->lpVtbl->DisableVideoInput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_GetAvailableVideoFrameCount(IDeckLinkInput_v7_3* This,unsigned int *availableFrameCount) {
-    return This->lpVtbl->GetAvailableVideoFrameCount(This,availableFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_EnableAudioInput(IDeckLinkInput_v7_3* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
-    return This->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_DisableAudioInput(IDeckLinkInput_v7_3* This) {
-    return This->lpVtbl->DisableAudioInput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_GetAvailableAudioSampleFrameCount(IDeckLinkInput_v7_3* This,unsigned int *availableSampleFrameCount) {
-    return This->lpVtbl->GetAvailableAudioSampleFrameCount(This,availableSampleFrameCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_StartStreams(IDeckLinkInput_v7_3* This) {
-    return This->lpVtbl->StartStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_StopStreams(IDeckLinkInput_v7_3* This) {
-    return This->lpVtbl->StopStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_PauseStreams(IDeckLinkInput_v7_3* This) {
-    return This->lpVtbl->PauseStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_FlushStreams(IDeckLinkInput_v7_3* This) {
-    return This->lpVtbl->FlushStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_3_SetCallback(IDeckLinkInput_v7_3* This,IDeckLinkInputCallback_v7_3 *theCallback) {
-    return This->lpVtbl->SetCallback(This,theCallback);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkInput_v7_3_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkVideoInputFrame_v7_3 interface
- */
-#ifndef __IDeckLinkVideoInputFrame_v7_3_INTERFACE_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_3_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkVideoInputFrame_v7_3, 0xcf317790, 0x2894, 0x11de, 0x8c,0x30, 0x08,0x00,0x20,0x0c,0x9a,0x66);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("cf317790-2894-11de-8c30-0800200c9a66")
-IDeckLinkVideoInputFrame_v7_3 : public IDeckLinkVideoFrame_v7_6
-{
-    virtual HRESULT STDMETHODCALLTYPE GetStreamTime(
-        BMDTimeValue *frameTime,
-        BMDTimeValue *frameDuration,
-        BMDTimeScale timeScale) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoInputFrame_v7_3, 0xcf317790, 0x2894, 0x11de, 0x8c,0x30, 0x08,0x00,0x20,0x0c,0x9a,0x66)
-#endif
-#else
-typedef struct IDeckLinkVideoInputFrame_v7_3Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkVideoInputFrame_v7_3 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkVideoInputFrame_v7_3 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkVideoInputFrame_v7_3 *This);
-
-    /*** IDeckLinkVideoFrame_v7_6 methods ***/
-    LONG (STDMETHODCALLTYPE *GetWidth)(
-        IDeckLinkVideoInputFrame_v7_3 *This);
-
-    LONG (STDMETHODCALLTYPE *GetHeight)(
-        IDeckLinkVideoInputFrame_v7_3 *This);
-
-    LONG (STDMETHODCALLTYPE *GetRowBytes)(
-        IDeckLinkVideoInputFrame_v7_3 *This);
-
-    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
-        IDeckLinkVideoInputFrame_v7_3 *This);
-
-    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
-        IDeckLinkVideoInputFrame_v7_3 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkVideoInputFrame_v7_3 *This,
-        void **buffer);
-
-    HRESULT (STDMETHODCALLTYPE *GetTimecode)(
-        IDeckLinkVideoInputFrame_v7_3 *This,
-        BMDTimecodeFormat format,
-        IDeckLinkTimecode_v7_6 **timecode);
-
-    HRESULT (STDMETHODCALLTYPE *GetAncillaryData)(
-        IDeckLinkVideoInputFrame_v7_3 *This,
-        IDeckLinkVideoFrameAncillary **ancillary);
-
-    /*** IDeckLinkVideoInputFrame_v7_3 methods ***/
-    HRESULT (STDMETHODCALLTYPE *GetStreamTime)(
-        IDeckLinkVideoInputFrame_v7_3 *This,
-        BMDTimeValue *frameTime,
-        BMDTimeValue *frameDuration,
-        BMDTimeScale timeScale);
-
-    END_INTERFACE
-} IDeckLinkVideoInputFrame_v7_3Vtbl;
-
-interface IDeckLinkVideoInputFrame_v7_3 {
-    CONST_VTBL IDeckLinkVideoInputFrame_v7_3Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkVideoInputFrame_v7_3_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkVideoInputFrame_v7_3_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkVideoInputFrame_v7_3_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoFrame_v7_6 methods ***/
-#define IDeckLinkVideoInputFrame_v7_3_GetWidth(This) (This)->lpVtbl->GetWidth(This)
-#define IDeckLinkVideoInputFrame_v7_3_GetHeight(This) (This)->lpVtbl->GetHeight(This)
-#define IDeckLinkVideoInputFrame_v7_3_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
-#define IDeckLinkVideoInputFrame_v7_3_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
-#define IDeckLinkVideoInputFrame_v7_3_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkVideoInputFrame_v7_3_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
-#define IDeckLinkVideoInputFrame_v7_3_GetTimecode(This,format,timecode) (This)->lpVtbl->GetTimecode(This,format,timecode)
-#define IDeckLinkVideoInputFrame_v7_3_GetAncillaryData(This,ancillary) (This)->lpVtbl->GetAncillaryData(This,ancillary)
-/*** IDeckLinkVideoInputFrame_v7_3 methods ***/
-#define IDeckLinkVideoInputFrame_v7_3_GetStreamTime(This,frameTime,frameDuration,timeScale) (This)->lpVtbl->GetStreamTime(This,frameTime,frameDuration,timeScale)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_3_QueryInterface(IDeckLinkVideoInputFrame_v7_3* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoInputFrame_v7_3_AddRef(IDeckLinkVideoInputFrame_v7_3* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoInputFrame_v7_3_Release(IDeckLinkVideoInputFrame_v7_3* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoFrame_v7_6 methods ***/
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_3_GetWidth(IDeckLinkVideoInputFrame_v7_3* This) {
-    return This->lpVtbl->GetWidth(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_3_GetHeight(IDeckLinkVideoInputFrame_v7_3* This) {
-    return This->lpVtbl->GetHeight(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_3_GetRowBytes(IDeckLinkVideoInputFrame_v7_3* This) {
-    return This->lpVtbl->GetRowBytes(This);
-}
-static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoInputFrame_v7_3_GetPixelFormat(IDeckLinkVideoInputFrame_v7_3* This) {
-    return This->lpVtbl->GetPixelFormat(This);
-}
-static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoInputFrame_v7_3_GetFlags(IDeckLinkVideoInputFrame_v7_3* This) {
-    return This->lpVtbl->GetFlags(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_3_GetBytes(IDeckLinkVideoInputFrame_v7_3* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_3_GetTimecode(IDeckLinkVideoInputFrame_v7_3* This,BMDTimecodeFormat format,IDeckLinkTimecode_v7_6 **timecode) {
-    return This->lpVtbl->GetTimecode(This,format,timecode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_3_GetAncillaryData(IDeckLinkVideoInputFrame_v7_3* This,IDeckLinkVideoFrameAncillary **ancillary) {
-    return This->lpVtbl->GetAncillaryData(This,ancillary);
-}
-/*** IDeckLinkVideoInputFrame_v7_3 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_3_GetStreamTime(IDeckLinkVideoInputFrame_v7_3* This,BMDTimeValue *frameTime,BMDTimeValue *frameDuration,BMDTimeScale timeScale) {
-    return This->lpVtbl->GetStreamTime(This,frameTime,frameDuration,timeScale);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkVideoInputFrame_v7_3_INTERFACE_DEFINED__ */
-
-#ifndef __IDeckLinkDisplayModeIterator_v7_1_FWD_DEFINED__
-#define __IDeckLinkDisplayModeIterator_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkDisplayModeIterator_v7_1 IDeckLinkDisplayModeIterator_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkDisplayModeIterator_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkDisplayMode_v7_1_FWD_DEFINED__
-#define __IDeckLinkDisplayMode_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkDisplayMode_v7_1 IDeckLinkDisplayMode_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkDisplayMode_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoFrame_v7_1_FWD_DEFINED__
-#define __IDeckLinkVideoFrame_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkVideoFrame_v7_1 IDeckLinkVideoFrame_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkVideoFrame_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkVideoInputFrame_v7_1_FWD_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkVideoInputFrame_v7_1 IDeckLinkVideoInputFrame_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkVideoInputFrame_v7_1;
-#endif /* __cplusplus */
-#endif
-
-#ifndef __IDeckLinkAudioInputPacket_v7_1_FWD_DEFINED__
-#define __IDeckLinkAudioInputPacket_v7_1_FWD_DEFINED__
-typedef interface IDeckLinkAudioInputPacket_v7_1 IDeckLinkAudioInputPacket_v7_1;
-#ifdef __cplusplus
-interface IDeckLinkAudioInputPacket_v7_1;
-#endif /* __cplusplus */
-#endif
-
-/*****************************************************************************
- * IDeckLinkDisplayModeIterator_v7_1 interface
- */
-#ifndef __IDeckLinkDisplayModeIterator_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkDisplayModeIterator_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkDisplayModeIterator_v7_1, 0xb28131b6, 0x59ac, 0x4857, 0xb5,0xac, 0xcd,0x75,0xd5,0x88,0x3e,0x2f);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("b28131b6-59ac-4857-b5ac-cd75d5883e2f")
-IDeckLinkDisplayModeIterator_v7_1 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE Next(
-        IDeckLinkDisplayMode_v7_1 **deckLinkDisplayMode) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkDisplayModeIterator_v7_1, 0xb28131b6, 0x59ac, 0x4857, 0xb5,0xac, 0xcd,0x75,0xd5,0x88,0x3e,0x2f)
-#endif
-#else
-typedef struct IDeckLinkDisplayModeIterator_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkDisplayModeIterator_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkDisplayModeIterator_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkDisplayModeIterator_v7_1 *This);
-
-    /*** IDeckLinkDisplayModeIterator_v7_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *Next)(
-        IDeckLinkDisplayModeIterator_v7_1 *This,
-        IDeckLinkDisplayMode_v7_1 **deckLinkDisplayMode);
-
-    END_INTERFACE
-} IDeckLinkDisplayModeIterator_v7_1Vtbl;
-
-interface IDeckLinkDisplayModeIterator_v7_1 {
-    CONST_VTBL IDeckLinkDisplayModeIterator_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkDisplayModeIterator_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkDisplayModeIterator_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkDisplayModeIterator_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkDisplayModeIterator_v7_1 methods ***/
-#define IDeckLinkDisplayModeIterator_v7_1_Next(This,deckLinkDisplayMode) (This)->lpVtbl->Next(This,deckLinkDisplayMode)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDisplayModeIterator_v7_1_QueryInterface(IDeckLinkDisplayModeIterator_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkDisplayModeIterator_v7_1_AddRef(IDeckLinkDisplayModeIterator_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkDisplayModeIterator_v7_1_Release(IDeckLinkDisplayModeIterator_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkDisplayModeIterator_v7_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDisplayModeIterator_v7_1_Next(IDeckLinkDisplayModeIterator_v7_1* This,IDeckLinkDisplayMode_v7_1 **deckLinkDisplayMode) {
-    return This->lpVtbl->Next(This,deckLinkDisplayMode);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkDisplayModeIterator_v7_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkDisplayMode_v7_1 interface
- */
-#ifndef __IDeckLinkDisplayMode_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkDisplayMode_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkDisplayMode_v7_1, 0xaf0cd6d5, 0x8376, 0x435e, 0x84,0x33, 0x54,0xf9,0xdd,0x53,0x0a,0xc3);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("af0cd6d5-8376-435e-8433-54f9dd530ac3")
-IDeckLinkDisplayMode_v7_1 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE GetName(
-        BSTR *name) = 0;
-
-    virtual BMDDisplayMode STDMETHODCALLTYPE GetDisplayMode(
-        ) = 0;
-
-    virtual LONG STDMETHODCALLTYPE GetWidth(
-        ) = 0;
-
-    virtual LONG STDMETHODCALLTYPE GetHeight(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetFrameRate(
-        BMDTimeValue *frameDuration,
-        BMDTimeScale *timeScale) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkDisplayMode_v7_1, 0xaf0cd6d5, 0x8376, 0x435e, 0x84,0x33, 0x54,0xf9,0xdd,0x53,0x0a,0xc3)
-#endif
-#else
-typedef struct IDeckLinkDisplayMode_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkDisplayMode_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkDisplayMode_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkDisplayMode_v7_1 *This);
-
-    /*** IDeckLinkDisplayMode_v7_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *GetName)(
-        IDeckLinkDisplayMode_v7_1 *This,
-        BSTR *name);
-
-    BMDDisplayMode (STDMETHODCALLTYPE *GetDisplayMode)(
-        IDeckLinkDisplayMode_v7_1 *This);
-
-    LONG (STDMETHODCALLTYPE *GetWidth)(
-        IDeckLinkDisplayMode_v7_1 *This);
-
-    LONG (STDMETHODCALLTYPE *GetHeight)(
-        IDeckLinkDisplayMode_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetFrameRate)(
-        IDeckLinkDisplayMode_v7_1 *This,
-        BMDTimeValue *frameDuration,
-        BMDTimeScale *timeScale);
-
-    END_INTERFACE
-} IDeckLinkDisplayMode_v7_1Vtbl;
-
-interface IDeckLinkDisplayMode_v7_1 {
-    CONST_VTBL IDeckLinkDisplayMode_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkDisplayMode_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkDisplayMode_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkDisplayMode_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkDisplayMode_v7_1 methods ***/
-#define IDeckLinkDisplayMode_v7_1_GetName(This,name) (This)->lpVtbl->GetName(This,name)
-#define IDeckLinkDisplayMode_v7_1_GetDisplayMode(This) (This)->lpVtbl->GetDisplayMode(This)
-#define IDeckLinkDisplayMode_v7_1_GetWidth(This) (This)->lpVtbl->GetWidth(This)
-#define IDeckLinkDisplayMode_v7_1_GetHeight(This) (This)->lpVtbl->GetHeight(This)
-#define IDeckLinkDisplayMode_v7_1_GetFrameRate(This,frameDuration,timeScale) (This)->lpVtbl->GetFrameRate(This,frameDuration,timeScale)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDisplayMode_v7_1_QueryInterface(IDeckLinkDisplayMode_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkDisplayMode_v7_1_AddRef(IDeckLinkDisplayMode_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkDisplayMode_v7_1_Release(IDeckLinkDisplayMode_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkDisplayMode_v7_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkDisplayMode_v7_1_GetName(IDeckLinkDisplayMode_v7_1* This,BSTR *name) {
-    return This->lpVtbl->GetName(This,name);
-}
-static __WIDL_INLINE BMDDisplayMode IDeckLinkDisplayMode_v7_1_GetDisplayMode(IDeckLinkDisplayMode_v7_1* This) {
-    return This->lpVtbl->GetDisplayMode(This);
-}
-static __WIDL_INLINE LONG IDeckLinkDisplayMode_v7_1_GetWidth(IDeckLinkDisplayMode_v7_1* This) {
-    return This->lpVtbl->GetWidth(This);
-}
-static __WIDL_INLINE LONG IDeckLinkDisplayMode_v7_1_GetHeight(IDeckLinkDisplayMode_v7_1* This) {
-    return This->lpVtbl->GetHeight(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkDisplayMode_v7_1_GetFrameRate(IDeckLinkDisplayMode_v7_1* This,BMDTimeValue *frameDuration,BMDTimeScale *timeScale) {
-    return This->lpVtbl->GetFrameRate(This,frameDuration,timeScale);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkDisplayMode_v7_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkVideoOutputCallback_v7_1 interface
- */
-#ifndef __IDeckLinkVideoOutputCallback_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkVideoOutputCallback_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkVideoOutputCallback_v7_1, 0xebd01afa, 0xe4b0, 0x49c6, 0xa0,0x1d, 0xed,0xb9,0xd1,0xb5,0x5f,0xd9);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("ebd01afa-e4b0-49c6-a01d-edb9d1b55fd9")
-IDeckLinkVideoOutputCallback_v7_1 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE ScheduledFrameCompleted(
-        IDeckLinkVideoFrame_v7_1 *completedFrame,
-        BMDOutputFrameCompletionResult result) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoOutputCallback_v7_1, 0xebd01afa, 0xe4b0, 0x49c6, 0xa0,0x1d, 0xed,0xb9,0xd1,0xb5,0x5f,0xd9)
-#endif
-#else
-typedef struct IDeckLinkVideoOutputCallback_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkVideoOutputCallback_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkVideoOutputCallback_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkVideoOutputCallback_v7_1 *This);
-
-    /*** IDeckLinkVideoOutputCallback_v7_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *ScheduledFrameCompleted)(
-        IDeckLinkVideoOutputCallback_v7_1 *This,
-        IDeckLinkVideoFrame_v7_1 *completedFrame,
-        BMDOutputFrameCompletionResult result);
-
-    END_INTERFACE
-} IDeckLinkVideoOutputCallback_v7_1Vtbl;
-
-interface IDeckLinkVideoOutputCallback_v7_1 {
-    CONST_VTBL IDeckLinkVideoOutputCallback_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkVideoOutputCallback_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkVideoOutputCallback_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkVideoOutputCallback_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoOutputCallback_v7_1 methods ***/
-#define IDeckLinkVideoOutputCallback_v7_1_ScheduledFrameCompleted(This,completedFrame,result) (This)->lpVtbl->ScheduledFrameCompleted(This,completedFrame,result)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_v7_1_QueryInterface(IDeckLinkVideoOutputCallback_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoOutputCallback_v7_1_AddRef(IDeckLinkVideoOutputCallback_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoOutputCallback_v7_1_Release(IDeckLinkVideoOutputCallback_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoOutputCallback_v7_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoOutputCallback_v7_1_ScheduledFrameCompleted(IDeckLinkVideoOutputCallback_v7_1* This,IDeckLinkVideoFrame_v7_1 *completedFrame,BMDOutputFrameCompletionResult result) {
-    return This->lpVtbl->ScheduledFrameCompleted(This,completedFrame,result);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkVideoOutputCallback_v7_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkInputCallback_v7_1 interface
- */
-#ifndef __IDeckLinkInputCallback_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkInputCallback_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkInputCallback_v7_1, 0x7f94f328, 0x5ed4, 0x4e9f, 0x97,0x29, 0x76,0xa8,0x6b,0xdc,0x99,0xcc);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("7f94f328-5ed4-4e9f-9729-76a86bdc99cc")
-IDeckLinkInputCallback_v7_1 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE VideoInputFrameArrived(
-        IDeckLinkVideoInputFrame_v7_1 *videoFrame,
-        IDeckLinkAudioInputPacket_v7_1 *audioPacket) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInputCallback_v7_1, 0x7f94f328, 0x5ed4, 0x4e9f, 0x97,0x29, 0x76,0xa8,0x6b,0xdc,0x99,0xcc)
-#endif
-#else
-typedef struct IDeckLinkInputCallback_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkInputCallback_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkInputCallback_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkInputCallback_v7_1 *This);
-
-    /*** IDeckLinkInputCallback_v7_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *VideoInputFrameArrived)(
-        IDeckLinkInputCallback_v7_1 *This,
-        IDeckLinkVideoInputFrame_v7_1 *videoFrame,
-        IDeckLinkAudioInputPacket_v7_1 *audioPacket);
-
-    END_INTERFACE
-} IDeckLinkInputCallback_v7_1Vtbl;
-
-interface IDeckLinkInputCallback_v7_1 {
-    CONST_VTBL IDeckLinkInputCallback_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkInputCallback_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkInputCallback_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkInputCallback_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkInputCallback_v7_1 methods ***/
-#define IDeckLinkInputCallback_v7_1_VideoInputFrameArrived(This,videoFrame,audioPacket) (This)->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v7_1_QueryInterface(IDeckLinkInputCallback_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkInputCallback_v7_1_AddRef(IDeckLinkInputCallback_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkInputCallback_v7_1_Release(IDeckLinkInputCallback_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkInputCallback_v7_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInputCallback_v7_1_VideoInputFrameArrived(IDeckLinkInputCallback_v7_1* This,IDeckLinkVideoInputFrame_v7_1 *videoFrame,IDeckLinkAudioInputPacket_v7_1 *audioPacket) {
-    return This->lpVtbl->VideoInputFrameArrived(This,videoFrame,audioPacket);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkInputCallback_v7_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkOutput_v7_1 interface
- */
-#ifndef __IDeckLinkOutput_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkOutput_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkOutput_v7_1, 0xae5b3e9b, 0x4e1e, 0x4535, 0xb6,0xe8, 0x48,0x0f,0xf5,0x2f,0x6c,0xe5);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("ae5b3e9b-4e1e-4535-b6e8-480ff52f6ce5")
-IDeckLinkOutput_v7_1 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
-        IDeckLinkDisplayModeIterator_v7_1 **iterator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableVideoOutput(
-        BMDDisplayMode displayMode) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableVideoOutput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetVideoOutputFrameMemoryAllocator(
-        IDeckLinkMemoryAllocator *theAllocator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CreateVideoFrame(
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkVideoFrame_v7_1 **outFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE CreateVideoFrameFromBuffer(
-        void *buffer,
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkVideoFrame_v7_1 **outFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisplayVideoFrameSync(
-        IDeckLinkVideoFrame_v7_1 *theFrame) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduleVideoFrame(
-        IDeckLinkVideoFrame_v7_1 *theFrame,
-        BMDTimeValue displayTime,
-        BMDTimeValue displayDuration,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetScheduledFrameCompletionCallback(
-        IDeckLinkVideoOutputCallback_v7_1 *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableAudioOutput(
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableAudioOutput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE WriteAudioSamplesSync(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesWritten) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE BeginAudioPreroll(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EndAudioPreroll(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ScheduleAudioSamples(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        BMDTimeValue streamTime,
-        BMDTimeScale timeScale,
-        unsigned int *sampleFramesWritten) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBufferedAudioSampleFrameCount(
-        unsigned int *bufferedSampleCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE FlushBufferedAudioSamples(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetAudioCallback(
-        IDeckLinkAudioOutputCallback *theCallback) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartScheduledPlayback(
-        BMDTimeValue playbackStartTime,
-        BMDTimeScale timeScale,
-        double playbackSpeed) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StopScheduledPlayback(
-        BMDTimeValue stopPlaybackAtTime,
-        BMDTimeValue *actualStopTime,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetHardwareReferenceClock(
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *elapsedTimeSinceSchedulerBegan) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkOutput_v7_1, 0xae5b3e9b, 0x4e1e, 0x4535, 0xb6,0xe8, 0x48,0x0f,0xf5,0x2f,0x6c,0xe5)
-#endif
-#else
-typedef struct IDeckLinkOutput_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkOutput_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkOutput_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkOutput_v7_1 *This);
-
-    /*** IDeckLinkOutput_v7_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
-        IDeckLinkOutput_v7_1 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result);
-
-    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
-        IDeckLinkOutput_v7_1 *This,
-        IDeckLinkDisplayModeIterator_v7_1 **iterator);
-
-    HRESULT (STDMETHODCALLTYPE *EnableVideoOutput)(
-        IDeckLinkOutput_v7_1 *This,
-        BMDDisplayMode displayMode);
-
-    HRESULT (STDMETHODCALLTYPE *DisableVideoOutput)(
-        IDeckLinkOutput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetVideoOutputFrameMemoryAllocator)(
-        IDeckLinkOutput_v7_1 *This,
-        IDeckLinkMemoryAllocator *theAllocator);
-
-    HRESULT (STDMETHODCALLTYPE *CreateVideoFrame)(
-        IDeckLinkOutput_v7_1 *This,
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkVideoFrame_v7_1 **outFrame);
-
-    HRESULT (STDMETHODCALLTYPE *CreateVideoFrameFromBuffer)(
-        IDeckLinkOutput_v7_1 *This,
-        void *buffer,
-        int width,
-        int height,
-        int rowBytes,
-        BMDPixelFormat pixelFormat,
-        BMDFrameFlags flags,
-        IDeckLinkVideoFrame_v7_1 **outFrame);
-
-    HRESULT (STDMETHODCALLTYPE *DisplayVideoFrameSync)(
-        IDeckLinkOutput_v7_1 *This,
-        IDeckLinkVideoFrame_v7_1 *theFrame);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduleVideoFrame)(
-        IDeckLinkOutput_v7_1 *This,
-        IDeckLinkVideoFrame_v7_1 *theFrame,
-        BMDTimeValue displayTime,
-        BMDTimeValue displayDuration,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *SetScheduledFrameCompletionCallback)(
-        IDeckLinkOutput_v7_1 *This,
-        IDeckLinkVideoOutputCallback_v7_1 *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *EnableAudioOutput)(
-        IDeckLinkOutput_v7_1 *This,
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount);
-
-    HRESULT (STDMETHODCALLTYPE *DisableAudioOutput)(
-        IDeckLinkOutput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *WriteAudioSamplesSync)(
-        IDeckLinkOutput_v7_1 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesWritten);
-
-    HRESULT (STDMETHODCALLTYPE *BeginAudioPreroll)(
-        IDeckLinkOutput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *EndAudioPreroll)(
-        IDeckLinkOutput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *ScheduleAudioSamples)(
-        IDeckLinkOutput_v7_1 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        BMDTimeValue streamTime,
-        BMDTimeScale timeScale,
-        unsigned int *sampleFramesWritten);
-
-    HRESULT (STDMETHODCALLTYPE *GetBufferedAudioSampleFrameCount)(
-        IDeckLinkOutput_v7_1 *This,
-        unsigned int *bufferedSampleCount);
-
-    HRESULT (STDMETHODCALLTYPE *FlushBufferedAudioSamples)(
-        IDeckLinkOutput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetAudioCallback)(
-        IDeckLinkOutput_v7_1 *This,
-        IDeckLinkAudioOutputCallback *theCallback);
-
-    HRESULT (STDMETHODCALLTYPE *StartScheduledPlayback)(
-        IDeckLinkOutput_v7_1 *This,
-        BMDTimeValue playbackStartTime,
-        BMDTimeScale timeScale,
-        double playbackSpeed);
-
-    HRESULT (STDMETHODCALLTYPE *StopScheduledPlayback)(
-        IDeckLinkOutput_v7_1 *This,
-        BMDTimeValue stopPlaybackAtTime,
-        BMDTimeValue *actualStopTime,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *GetHardwareReferenceClock)(
-        IDeckLinkOutput_v7_1 *This,
-        BMDTimeScale desiredTimeScale,
-        BMDTimeValue *elapsedTimeSinceSchedulerBegan);
-
-    END_INTERFACE
-} IDeckLinkOutput_v7_1Vtbl;
-
-interface IDeckLinkOutput_v7_1 {
-    CONST_VTBL IDeckLinkOutput_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkOutput_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkOutput_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkOutput_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkOutput_v7_1 methods ***/
-#define IDeckLinkOutput_v7_1_DoesSupportVideoMode(This,displayMode,pixelFormat,result) (This)->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result)
-#define IDeckLinkOutput_v7_1_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
-#define IDeckLinkOutput_v7_1_EnableVideoOutput(This,displayMode) (This)->lpVtbl->EnableVideoOutput(This,displayMode)
-#define IDeckLinkOutput_v7_1_DisableVideoOutput(This) (This)->lpVtbl->DisableVideoOutput(This)
-#define IDeckLinkOutput_v7_1_SetVideoOutputFrameMemoryAllocator(This,theAllocator) (This)->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator)
-#define IDeckLinkOutput_v7_1_CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame) (This)->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame)
-#define IDeckLinkOutput_v7_1_CreateVideoFrameFromBuffer(This,buffer,width,height,rowBytes,pixelFormat,flags,outFrame) (This)->lpVtbl->CreateVideoFrameFromBuffer(This,buffer,width,height,rowBytes,pixelFormat,flags,outFrame)
-#define IDeckLinkOutput_v7_1_DisplayVideoFrameSync(This,theFrame) (This)->lpVtbl->DisplayVideoFrameSync(This,theFrame)
-#define IDeckLinkOutput_v7_1_ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale) (This)->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale)
-#define IDeckLinkOutput_v7_1_SetScheduledFrameCompletionCallback(This,theCallback) (This)->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback)
-#define IDeckLinkOutput_v7_1_EnableAudioOutput(This,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount)
-#define IDeckLinkOutput_v7_1_DisableAudioOutput(This) (This)->lpVtbl->DisableAudioOutput(This)
-#define IDeckLinkOutput_v7_1_WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten) (This)->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten)
-#define IDeckLinkOutput_v7_1_BeginAudioPreroll(This) (This)->lpVtbl->BeginAudioPreroll(This)
-#define IDeckLinkOutput_v7_1_EndAudioPreroll(This) (This)->lpVtbl->EndAudioPreroll(This)
-#define IDeckLinkOutput_v7_1_ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten) (This)->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten)
-#define IDeckLinkOutput_v7_1_GetBufferedAudioSampleFrameCount(This,bufferedSampleCount) (This)->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleCount)
-#define IDeckLinkOutput_v7_1_FlushBufferedAudioSamples(This) (This)->lpVtbl->FlushBufferedAudioSamples(This)
-#define IDeckLinkOutput_v7_1_SetAudioCallback(This,theCallback) (This)->lpVtbl->SetAudioCallback(This,theCallback)
-#define IDeckLinkOutput_v7_1_StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed) (This)->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed)
-#define IDeckLinkOutput_v7_1_StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale) (This)->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale)
-#define IDeckLinkOutput_v7_1_GetHardwareReferenceClock(This,desiredTimeScale,elapsedTimeSinceSchedulerBegan) (This)->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,elapsedTimeSinceSchedulerBegan)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_QueryInterface(IDeckLinkOutput_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkOutput_v7_1_AddRef(IDeckLinkOutput_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkOutput_v7_1_Release(IDeckLinkOutput_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkOutput_v7_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_DoesSupportVideoMode(IDeckLinkOutput_v7_1* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDDisplayModeSupport_v10_11 *result) {
-    return This->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_GetDisplayModeIterator(IDeckLinkOutput_v7_1* This,IDeckLinkDisplayModeIterator_v7_1 **iterator) {
-    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_EnableVideoOutput(IDeckLinkOutput_v7_1* This,BMDDisplayMode displayMode) {
-    return This->lpVtbl->EnableVideoOutput(This,displayMode);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_DisableVideoOutput(IDeckLinkOutput_v7_1* This) {
-    return This->lpVtbl->DisableVideoOutput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_SetVideoOutputFrameMemoryAllocator(IDeckLinkOutput_v7_1* This,IDeckLinkMemoryAllocator *theAllocator) {
-    return This->lpVtbl->SetVideoOutputFrameMemoryAllocator(This,theAllocator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_CreateVideoFrame(IDeckLinkOutput_v7_1* This,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkVideoFrame_v7_1 **outFrame) {
-    return This->lpVtbl->CreateVideoFrame(This,width,height,rowBytes,pixelFormat,flags,outFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_CreateVideoFrameFromBuffer(IDeckLinkOutput_v7_1* This,void *buffer,int width,int height,int rowBytes,BMDPixelFormat pixelFormat,BMDFrameFlags flags,IDeckLinkVideoFrame_v7_1 **outFrame) {
-    return This->lpVtbl->CreateVideoFrameFromBuffer(This,buffer,width,height,rowBytes,pixelFormat,flags,outFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_DisplayVideoFrameSync(IDeckLinkOutput_v7_1* This,IDeckLinkVideoFrame_v7_1 *theFrame) {
-    return This->lpVtbl->DisplayVideoFrameSync(This,theFrame);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_ScheduleVideoFrame(IDeckLinkOutput_v7_1* This,IDeckLinkVideoFrame_v7_1 *theFrame,BMDTimeValue displayTime,BMDTimeValue displayDuration,BMDTimeScale timeScale) {
-    return This->lpVtbl->ScheduleVideoFrame(This,theFrame,displayTime,displayDuration,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_SetScheduledFrameCompletionCallback(IDeckLinkOutput_v7_1* This,IDeckLinkVideoOutputCallback_v7_1 *theCallback) {
-    return This->lpVtbl->SetScheduledFrameCompletionCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_EnableAudioOutput(IDeckLinkOutput_v7_1* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
-    return This->lpVtbl->EnableAudioOutput(This,sampleRate,sampleType,channelCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_DisableAudioOutput(IDeckLinkOutput_v7_1* This) {
-    return This->lpVtbl->DisableAudioOutput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_WriteAudioSamplesSync(IDeckLinkOutput_v7_1* This,void *buffer,unsigned int sampleFrameCount,unsigned int *sampleFramesWritten) {
-    return This->lpVtbl->WriteAudioSamplesSync(This,buffer,sampleFrameCount,sampleFramesWritten);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_BeginAudioPreroll(IDeckLinkOutput_v7_1* This) {
-    return This->lpVtbl->BeginAudioPreroll(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_EndAudioPreroll(IDeckLinkOutput_v7_1* This) {
-    return This->lpVtbl->EndAudioPreroll(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_ScheduleAudioSamples(IDeckLinkOutput_v7_1* This,void *buffer,unsigned int sampleFrameCount,BMDTimeValue streamTime,BMDTimeScale timeScale,unsigned int *sampleFramesWritten) {
-    return This->lpVtbl->ScheduleAudioSamples(This,buffer,sampleFrameCount,streamTime,timeScale,sampleFramesWritten);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_GetBufferedAudioSampleFrameCount(IDeckLinkOutput_v7_1* This,unsigned int *bufferedSampleCount) {
-    return This->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_FlushBufferedAudioSamples(IDeckLinkOutput_v7_1* This) {
-    return This->lpVtbl->FlushBufferedAudioSamples(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_SetAudioCallback(IDeckLinkOutput_v7_1* This,IDeckLinkAudioOutputCallback *theCallback) {
-    return This->lpVtbl->SetAudioCallback(This,theCallback);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_StartScheduledPlayback(IDeckLinkOutput_v7_1* This,BMDTimeValue playbackStartTime,BMDTimeScale timeScale,double playbackSpeed) {
-    return This->lpVtbl->StartScheduledPlayback(This,playbackStartTime,timeScale,playbackSpeed);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_StopScheduledPlayback(IDeckLinkOutput_v7_1* This,BMDTimeValue stopPlaybackAtTime,BMDTimeValue *actualStopTime,BMDTimeScale timeScale) {
-    return This->lpVtbl->StopScheduledPlayback(This,stopPlaybackAtTime,actualStopTime,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkOutput_v7_1_GetHardwareReferenceClock(IDeckLinkOutput_v7_1* This,BMDTimeScale desiredTimeScale,BMDTimeValue *elapsedTimeSinceSchedulerBegan) {
-    return This->lpVtbl->GetHardwareReferenceClock(This,desiredTimeScale,elapsedTimeSinceSchedulerBegan);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkOutput_v7_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkInput_v7_1 interface
- */
-#ifndef __IDeckLinkInput_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkInput_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkInput_v7_1, 0x2b54edef, 0x5b32, 0x429f, 0xba,0x11, 0xbb,0x99,0x05,0x96,0xea,0xcd);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("2b54edef-5b32-429f-ba11-bb990596eacd")
-IDeckLinkInput_v7_1 : public IUnknown
-{
-    virtual HRESULT STDMETHODCALLTYPE DoesSupportVideoMode(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetDisplayModeIterator(
-        IDeckLinkDisplayModeIterator_v7_1 **iterator) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableVideoInput(
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableVideoInput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE EnableAudioInput(
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE DisableAudioInput(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE ReadAudioSamples(
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesRead,
-        BMDTimeValue *audioPacketTime,
-        BMDTimeScale timeScale) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBufferedAudioSampleFrameCount(
-        unsigned int *bufferedSampleCount) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StartStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE StopStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE PauseStreams(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE SetCallback(
-        IDeckLinkInputCallback_v7_1 *theCallback) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkInput_v7_1, 0x2b54edef, 0x5b32, 0x429f, 0xba,0x11, 0xbb,0x99,0x05,0x96,0xea,0xcd)
-#endif
-#else
-typedef struct IDeckLinkInput_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkInput_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkInput_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkInput_v7_1 *This);
-
-    /*** IDeckLinkInput_v7_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *DoesSupportVideoMode)(
-        IDeckLinkInput_v7_1 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDDisplayModeSupport_v10_11 *result);
-
-    HRESULT (STDMETHODCALLTYPE *GetDisplayModeIterator)(
-        IDeckLinkInput_v7_1 *This,
-        IDeckLinkDisplayModeIterator_v7_1 **iterator);
-
-    HRESULT (STDMETHODCALLTYPE *EnableVideoInput)(
-        IDeckLinkInput_v7_1 *This,
-        BMDDisplayMode displayMode,
-        BMDPixelFormat pixelFormat,
-        BMDVideoInputFlags flags);
-
-    HRESULT (STDMETHODCALLTYPE *DisableVideoInput)(
-        IDeckLinkInput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *EnableAudioInput)(
-        IDeckLinkInput_v7_1 *This,
-        BMDAudioSampleRate sampleRate,
-        BMDAudioSampleType sampleType,
-        unsigned int channelCount);
-
-    HRESULT (STDMETHODCALLTYPE *DisableAudioInput)(
-        IDeckLinkInput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *ReadAudioSamples)(
-        IDeckLinkInput_v7_1 *This,
-        void *buffer,
-        unsigned int sampleFrameCount,
-        unsigned int *sampleFramesRead,
-        BMDTimeValue *audioPacketTime,
-        BMDTimeScale timeScale);
-
-    HRESULT (STDMETHODCALLTYPE *GetBufferedAudioSampleFrameCount)(
-        IDeckLinkInput_v7_1 *This,
-        unsigned int *bufferedSampleCount);
-
-    HRESULT (STDMETHODCALLTYPE *StartStreams)(
-        IDeckLinkInput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *StopStreams)(
-        IDeckLinkInput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *PauseStreams)(
-        IDeckLinkInput_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *SetCallback)(
-        IDeckLinkInput_v7_1 *This,
-        IDeckLinkInputCallback_v7_1 *theCallback);
-
-    END_INTERFACE
-} IDeckLinkInput_v7_1Vtbl;
-
-interface IDeckLinkInput_v7_1 {
-    CONST_VTBL IDeckLinkInput_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkInput_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkInput_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkInput_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkInput_v7_1 methods ***/
-#define IDeckLinkInput_v7_1_DoesSupportVideoMode(This,displayMode,pixelFormat,result) (This)->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result)
-#define IDeckLinkInput_v7_1_GetDisplayModeIterator(This,iterator) (This)->lpVtbl->GetDisplayModeIterator(This,iterator)
-#define IDeckLinkInput_v7_1_EnableVideoInput(This,displayMode,pixelFormat,flags) (This)->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags)
-#define IDeckLinkInput_v7_1_DisableVideoInput(This) (This)->lpVtbl->DisableVideoInput(This)
-#define IDeckLinkInput_v7_1_EnableAudioInput(This,sampleRate,sampleType,channelCount) (This)->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount)
-#define IDeckLinkInput_v7_1_DisableAudioInput(This) (This)->lpVtbl->DisableAudioInput(This)
-#define IDeckLinkInput_v7_1_ReadAudioSamples(This,buffer,sampleFrameCount,sampleFramesRead,audioPacketTime,timeScale) (This)->lpVtbl->ReadAudioSamples(This,buffer,sampleFrameCount,sampleFramesRead,audioPacketTime,timeScale)
-#define IDeckLinkInput_v7_1_GetBufferedAudioSampleFrameCount(This,bufferedSampleCount) (This)->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleCount)
-#define IDeckLinkInput_v7_1_StartStreams(This) (This)->lpVtbl->StartStreams(This)
-#define IDeckLinkInput_v7_1_StopStreams(This) (This)->lpVtbl->StopStreams(This)
-#define IDeckLinkInput_v7_1_PauseStreams(This) (This)->lpVtbl->PauseStreams(This)
-#define IDeckLinkInput_v7_1_SetCallback(This,theCallback) (This)->lpVtbl->SetCallback(This,theCallback)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_QueryInterface(IDeckLinkInput_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkInput_v7_1_AddRef(IDeckLinkInput_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkInput_v7_1_Release(IDeckLinkInput_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkInput_v7_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_DoesSupportVideoMode(IDeckLinkInput_v7_1* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDDisplayModeSupport_v10_11 *result) {
-    return This->lpVtbl->DoesSupportVideoMode(This,displayMode,pixelFormat,result);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_GetDisplayModeIterator(IDeckLinkInput_v7_1* This,IDeckLinkDisplayModeIterator_v7_1 **iterator) {
-    return This->lpVtbl->GetDisplayModeIterator(This,iterator);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_EnableVideoInput(IDeckLinkInput_v7_1* This,BMDDisplayMode displayMode,BMDPixelFormat pixelFormat,BMDVideoInputFlags flags) {
-    return This->lpVtbl->EnableVideoInput(This,displayMode,pixelFormat,flags);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_DisableVideoInput(IDeckLinkInput_v7_1* This) {
-    return This->lpVtbl->DisableVideoInput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_EnableAudioInput(IDeckLinkInput_v7_1* This,BMDAudioSampleRate sampleRate,BMDAudioSampleType sampleType,unsigned int channelCount) {
-    return This->lpVtbl->EnableAudioInput(This,sampleRate,sampleType,channelCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_DisableAudioInput(IDeckLinkInput_v7_1* This) {
-    return This->lpVtbl->DisableAudioInput(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_ReadAudioSamples(IDeckLinkInput_v7_1* This,void *buffer,unsigned int sampleFrameCount,unsigned int *sampleFramesRead,BMDTimeValue *audioPacketTime,BMDTimeScale timeScale) {
-    return This->lpVtbl->ReadAudioSamples(This,buffer,sampleFrameCount,sampleFramesRead,audioPacketTime,timeScale);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_GetBufferedAudioSampleFrameCount(IDeckLinkInput_v7_1* This,unsigned int *bufferedSampleCount) {
-    return This->lpVtbl->GetBufferedAudioSampleFrameCount(This,bufferedSampleCount);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_StartStreams(IDeckLinkInput_v7_1* This) {
-    return This->lpVtbl->StartStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_StopStreams(IDeckLinkInput_v7_1* This) {
-    return This->lpVtbl->StopStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_PauseStreams(IDeckLinkInput_v7_1* This) {
-    return This->lpVtbl->PauseStreams(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkInput_v7_1_SetCallback(IDeckLinkInput_v7_1* This,IDeckLinkInputCallback_v7_1 *theCallback) {
-    return This->lpVtbl->SetCallback(This,theCallback);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkInput_v7_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkVideoFrame_v7_1 interface
- */
-#ifndef __IDeckLinkVideoFrame_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkVideoFrame_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkVideoFrame_v7_1, 0x333f3a10, 0x8c2d, 0x43cf, 0xb7,0x9d, 0x46,0x56,0x0f,0xee,0xa1,0xce);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("333f3a10-8c2d-43cf-b79d-46560feea1ce")
-IDeckLinkVideoFrame_v7_1 : public IUnknown
-{
-    virtual LONG STDMETHODCALLTYPE GetWidth(
-        ) = 0;
-
-    virtual LONG STDMETHODCALLTYPE GetHeight(
-        ) = 0;
-
-    virtual LONG STDMETHODCALLTYPE GetRowBytes(
-        ) = 0;
-
-    virtual BMDPixelFormat STDMETHODCALLTYPE GetPixelFormat(
-        ) = 0;
-
-    virtual BMDFrameFlags STDMETHODCALLTYPE GetFlags(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBytes(
-        void **buffer) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoFrame_v7_1, 0x333f3a10, 0x8c2d, 0x43cf, 0xb7,0x9d, 0x46,0x56,0x0f,0xee,0xa1,0xce)
-#endif
-#else
-typedef struct IDeckLinkVideoFrame_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkVideoFrame_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkVideoFrame_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkVideoFrame_v7_1 *This);
-
-    /*** IDeckLinkVideoFrame_v7_1 methods ***/
-    LONG (STDMETHODCALLTYPE *GetWidth)(
-        IDeckLinkVideoFrame_v7_1 *This);
-
-    LONG (STDMETHODCALLTYPE *GetHeight)(
-        IDeckLinkVideoFrame_v7_1 *This);
-
-    LONG (STDMETHODCALLTYPE *GetRowBytes)(
-        IDeckLinkVideoFrame_v7_1 *This);
-
-    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
-        IDeckLinkVideoFrame_v7_1 *This);
-
-    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
-        IDeckLinkVideoFrame_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkVideoFrame_v7_1 *This,
-        void **buffer);
-
-    END_INTERFACE
-} IDeckLinkVideoFrame_v7_1Vtbl;
-
-interface IDeckLinkVideoFrame_v7_1 {
-    CONST_VTBL IDeckLinkVideoFrame_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkVideoFrame_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkVideoFrame_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkVideoFrame_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoFrame_v7_1 methods ***/
-#define IDeckLinkVideoFrame_v7_1_GetWidth(This) (This)->lpVtbl->GetWidth(This)
-#define IDeckLinkVideoFrame_v7_1_GetHeight(This) (This)->lpVtbl->GetHeight(This)
-#define IDeckLinkVideoFrame_v7_1_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
-#define IDeckLinkVideoFrame_v7_1_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
-#define IDeckLinkVideoFrame_v7_1_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkVideoFrame_v7_1_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v7_1_QueryInterface(IDeckLinkVideoFrame_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoFrame_v7_1_AddRef(IDeckLinkVideoFrame_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoFrame_v7_1_Release(IDeckLinkVideoFrame_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoFrame_v7_1 methods ***/
-static __WIDL_INLINE LONG IDeckLinkVideoFrame_v7_1_GetWidth(IDeckLinkVideoFrame_v7_1* This) {
-    return This->lpVtbl->GetWidth(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoFrame_v7_1_GetHeight(IDeckLinkVideoFrame_v7_1* This) {
-    return This->lpVtbl->GetHeight(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoFrame_v7_1_GetRowBytes(IDeckLinkVideoFrame_v7_1* This) {
-    return This->lpVtbl->GetRowBytes(This);
-}
-static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoFrame_v7_1_GetPixelFormat(IDeckLinkVideoFrame_v7_1* This) {
-    return This->lpVtbl->GetPixelFormat(This);
-}
-static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoFrame_v7_1_GetFlags(IDeckLinkVideoFrame_v7_1* This) {
-    return This->lpVtbl->GetFlags(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoFrame_v7_1_GetBytes(IDeckLinkVideoFrame_v7_1* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkVideoFrame_v7_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkVideoInputFrame_v7_1 interface
- */
-#ifndef __IDeckLinkVideoInputFrame_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkVideoInputFrame_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkVideoInputFrame_v7_1, 0xc8b41d95, 0x8848, 0x40ee, 0x9b,0x37, 0x6e,0x34,0x17,0xfb,0x11,0x4b);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("c8b41d95-8848-40ee-9b37-6e3417fb114b")
-IDeckLinkVideoInputFrame_v7_1 : public IDeckLinkVideoFrame_v7_1
-{
-    virtual HRESULT STDMETHODCALLTYPE GetFrameTime(
-        BMDTimeValue *frameTime,
-        BMDTimeValue *frameDuration,
-        BMDTimeScale timeScale) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoInputFrame_v7_1, 0xc8b41d95, 0x8848, 0x40ee, 0x9b,0x37, 0x6e,0x34,0x17,0xfb,0x11,0x4b)
-#endif
-#else
-typedef struct IDeckLinkVideoInputFrame_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkVideoInputFrame_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkVideoInputFrame_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkVideoInputFrame_v7_1 *This);
-
-    /*** IDeckLinkVideoFrame_v7_1 methods ***/
-    LONG (STDMETHODCALLTYPE *GetWidth)(
-        IDeckLinkVideoInputFrame_v7_1 *This);
-
-    LONG (STDMETHODCALLTYPE *GetHeight)(
-        IDeckLinkVideoInputFrame_v7_1 *This);
-
-    LONG (STDMETHODCALLTYPE *GetRowBytes)(
-        IDeckLinkVideoInputFrame_v7_1 *This);
-
-    BMDPixelFormat (STDMETHODCALLTYPE *GetPixelFormat)(
-        IDeckLinkVideoInputFrame_v7_1 *This);
-
-    BMDFrameFlags (STDMETHODCALLTYPE *GetFlags)(
-        IDeckLinkVideoInputFrame_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkVideoInputFrame_v7_1 *This,
-        void **buffer);
-
-    /*** IDeckLinkVideoInputFrame_v7_1 methods ***/
-    HRESULT (STDMETHODCALLTYPE *GetFrameTime)(
-        IDeckLinkVideoInputFrame_v7_1 *This,
-        BMDTimeValue *frameTime,
-        BMDTimeValue *frameDuration,
-        BMDTimeScale timeScale);
-
-    END_INTERFACE
-} IDeckLinkVideoInputFrame_v7_1Vtbl;
-
-interface IDeckLinkVideoInputFrame_v7_1 {
-    CONST_VTBL IDeckLinkVideoInputFrame_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkVideoInputFrame_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkVideoInputFrame_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkVideoInputFrame_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkVideoFrame_v7_1 methods ***/
-#define IDeckLinkVideoInputFrame_v7_1_GetWidth(This) (This)->lpVtbl->GetWidth(This)
-#define IDeckLinkVideoInputFrame_v7_1_GetHeight(This) (This)->lpVtbl->GetHeight(This)
-#define IDeckLinkVideoInputFrame_v7_1_GetRowBytes(This) (This)->lpVtbl->GetRowBytes(This)
-#define IDeckLinkVideoInputFrame_v7_1_GetPixelFormat(This) (This)->lpVtbl->GetPixelFormat(This)
-#define IDeckLinkVideoInputFrame_v7_1_GetFlags(This) (This)->lpVtbl->GetFlags(This)
-#define IDeckLinkVideoInputFrame_v7_1_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
-/*** IDeckLinkVideoInputFrame_v7_1 methods ***/
-#define IDeckLinkVideoInputFrame_v7_1_GetFrameTime(This,frameTime,frameDuration,timeScale) (This)->lpVtbl->GetFrameTime(This,frameTime,frameDuration,timeScale)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_1_QueryInterface(IDeckLinkVideoInputFrame_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoInputFrame_v7_1_AddRef(IDeckLinkVideoInputFrame_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkVideoInputFrame_v7_1_Release(IDeckLinkVideoInputFrame_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkVideoFrame_v7_1 methods ***/
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_1_GetWidth(IDeckLinkVideoInputFrame_v7_1* This) {
-    return This->lpVtbl->GetWidth(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_1_GetHeight(IDeckLinkVideoInputFrame_v7_1* This) {
-    return This->lpVtbl->GetHeight(This);
-}
-static __WIDL_INLINE LONG IDeckLinkVideoInputFrame_v7_1_GetRowBytes(IDeckLinkVideoInputFrame_v7_1* This) {
-    return This->lpVtbl->GetRowBytes(This);
-}
-static __WIDL_INLINE BMDPixelFormat IDeckLinkVideoInputFrame_v7_1_GetPixelFormat(IDeckLinkVideoInputFrame_v7_1* This) {
-    return This->lpVtbl->GetPixelFormat(This);
-}
-static __WIDL_INLINE BMDFrameFlags IDeckLinkVideoInputFrame_v7_1_GetFlags(IDeckLinkVideoInputFrame_v7_1* This) {
-    return This->lpVtbl->GetFlags(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_1_GetBytes(IDeckLinkVideoInputFrame_v7_1* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
-/*** IDeckLinkVideoInputFrame_v7_1 methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkVideoInputFrame_v7_1_GetFrameTime(IDeckLinkVideoInputFrame_v7_1* This,BMDTimeValue *frameTime,BMDTimeValue *frameDuration,BMDTimeScale timeScale) {
-    return This->lpVtbl->GetFrameTime(This,frameTime,frameDuration,timeScale);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkVideoInputFrame_v7_1_INTERFACE_DEFINED__ */
-
-/*****************************************************************************
- * IDeckLinkAudioInputPacket_v7_1 interface
- */
-#ifndef __IDeckLinkAudioInputPacket_v7_1_INTERFACE_DEFINED__
-#define __IDeckLinkAudioInputPacket_v7_1_INTERFACE_DEFINED__
-
-DEFINE_GUID(IID_IDeckLinkAudioInputPacket_v7_1, 0xc86de4f6, 0xa29f, 0x42e3, 0xab,0x3a, 0x13,0x63,0xe2,0x9f,0x07,0x88);
-#if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("c86de4f6-a29f-42e3-ab3a-1363e29f0788")
-IDeckLinkAudioInputPacket_v7_1 : public IUnknown
-{
-    virtual LONG STDMETHODCALLTYPE GetSampleCount(
-        ) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetBytes(
-        void **buffer) = 0;
-
-    virtual HRESULT STDMETHODCALLTYPE GetAudioPacketTime(
-        BMDTimeValue *packetTime,
-        BMDTimeScale timeScale) = 0;
-
-};
-#ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkAudioInputPacket_v7_1, 0xc86de4f6, 0xa29f, 0x42e3, 0xab,0x3a, 0x13,0x63,0xe2,0x9f,0x07,0x88)
-#endif
-#else
-typedef struct IDeckLinkAudioInputPacket_v7_1Vtbl {
-    BEGIN_INTERFACE
-
-    /*** IUnknown methods ***/
-    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
-        IDeckLinkAudioInputPacket_v7_1 *This,
-        REFIID riid,
-        void **ppvObject);
-
-    ULONG (STDMETHODCALLTYPE *AddRef)(
-        IDeckLinkAudioInputPacket_v7_1 *This);
-
-    ULONG (STDMETHODCALLTYPE *Release)(
-        IDeckLinkAudioInputPacket_v7_1 *This);
-
-    /*** IDeckLinkAudioInputPacket_v7_1 methods ***/
-    LONG (STDMETHODCALLTYPE *GetSampleCount)(
-        IDeckLinkAudioInputPacket_v7_1 *This);
-
-    HRESULT (STDMETHODCALLTYPE *GetBytes)(
-        IDeckLinkAudioInputPacket_v7_1 *This,
-        void **buffer);
-
-    HRESULT (STDMETHODCALLTYPE *GetAudioPacketTime)(
-        IDeckLinkAudioInputPacket_v7_1 *This,
-        BMDTimeValue *packetTime,
-        BMDTimeScale timeScale);
-
-    END_INTERFACE
-} IDeckLinkAudioInputPacket_v7_1Vtbl;
-
-interface IDeckLinkAudioInputPacket_v7_1 {
-    CONST_VTBL IDeckLinkAudioInputPacket_v7_1Vtbl* lpVtbl;
-};
-
-#ifdef COBJMACROS
-#ifndef WIDL_C_INLINE_WRAPPERS
-/*** IUnknown methods ***/
-#define IDeckLinkAudioInputPacket_v7_1_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
-#define IDeckLinkAudioInputPacket_v7_1_AddRef(This) (This)->lpVtbl->AddRef(This)
-#define IDeckLinkAudioInputPacket_v7_1_Release(This) (This)->lpVtbl->Release(This)
-/*** IDeckLinkAudioInputPacket_v7_1 methods ***/
-#define IDeckLinkAudioInputPacket_v7_1_GetSampleCount(This) (This)->lpVtbl->GetSampleCount(This)
-#define IDeckLinkAudioInputPacket_v7_1_GetBytes(This,buffer) (This)->lpVtbl->GetBytes(This,buffer)
-#define IDeckLinkAudioInputPacket_v7_1_GetAudioPacketTime(This,packetTime,timeScale) (This)->lpVtbl->GetAudioPacketTime(This,packetTime,timeScale)
-#else
-/*** IUnknown methods ***/
-static __WIDL_INLINE HRESULT IDeckLinkAudioInputPacket_v7_1_QueryInterface(IDeckLinkAudioInputPacket_v7_1* This,REFIID riid,void **ppvObject) {
-    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
-}
-static __WIDL_INLINE ULONG IDeckLinkAudioInputPacket_v7_1_AddRef(IDeckLinkAudioInputPacket_v7_1* This) {
-    return This->lpVtbl->AddRef(This);
-}
-static __WIDL_INLINE ULONG IDeckLinkAudioInputPacket_v7_1_Release(IDeckLinkAudioInputPacket_v7_1* This) {
-    return This->lpVtbl->Release(This);
-}
-/*** IDeckLinkAudioInputPacket_v7_1 methods ***/
-static __WIDL_INLINE LONG IDeckLinkAudioInputPacket_v7_1_GetSampleCount(IDeckLinkAudioInputPacket_v7_1* This) {
-    return This->lpVtbl->GetSampleCount(This);
-}
-static __WIDL_INLINE HRESULT IDeckLinkAudioInputPacket_v7_1_GetBytes(IDeckLinkAudioInputPacket_v7_1* This,void **buffer) {
-    return This->lpVtbl->GetBytes(This,buffer);
-}
-static __WIDL_INLINE HRESULT IDeckLinkAudioInputPacket_v7_1_GetAudioPacketTime(IDeckLinkAudioInputPacket_v7_1* This,BMDTimeValue *packetTime,BMDTimeScale timeScale) {
-    return This->lpVtbl->GetAudioPacketTime(This,packetTime,timeScale);
-}
-#endif
-#endif
-
-#endif
-
-
-#endif  /* __IDeckLinkAudioInputPacket_v7_1_INTERFACE_DEFINED__ */
 
 #endif /* __DeckLinkAPI_LIBRARY_DEFINED__ */
 /* Begin additional prototypes for all interfaces */
