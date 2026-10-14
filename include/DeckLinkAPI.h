@@ -949,6 +949,39 @@ interface IDeckLinkConfiguration_v10_2;
 #endif /* __cplusplus */
 #endif
 
+#ifndef __IDeckLinkAncillaryPacket_v15_2_FWD_DEFINED__
+#define __IDeckLinkAncillaryPacket_v15_2_FWD_DEFINED__
+typedef interface IDeckLinkAncillaryPacket_v15_2 IDeckLinkAncillaryPacket_v15_2;
+#ifdef __cplusplus
+interface IDeckLinkAncillaryPacket_v15_2;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkAncillaryPacketIterator_v15_2_FWD_DEFINED__
+#define __IDeckLinkAncillaryPacketIterator_v15_2_FWD_DEFINED__
+typedef interface IDeckLinkAncillaryPacketIterator_v15_2 IDeckLinkAncillaryPacketIterator_v15_2;
+#ifdef __cplusplus
+interface IDeckLinkAncillaryPacketIterator_v15_2;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoFrameAncillaryPackets_v15_2_FWD_DEFINED__
+#define __IDeckLinkVideoFrameAncillaryPackets_v15_2_FWD_DEFINED__
+typedef interface IDeckLinkVideoFrameAncillaryPackets_v15_2 IDeckLinkVideoFrameAncillaryPackets_v15_2;
+#ifdef __cplusplus
+interface IDeckLinkVideoFrameAncillaryPackets_v15_2;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __CDeckLinkVideoFrameAncillaryPackets_v15_2_FWD_DEFINED__
+#define __CDeckLinkVideoFrameAncillaryPackets_v15_2_FWD_DEFINED__
+#ifdef __cplusplus
+typedef class CDeckLinkVideoFrameAncillaryPackets_v15_2 CDeckLinkVideoFrameAncillaryPackets_v15_2;
+#else
+typedef struct CDeckLinkVideoFrameAncillaryPackets_v15_2 CDeckLinkVideoFrameAncillaryPackets_v15_2;
+#endif /* defined __cplusplus */
+#endif /* defined __CDeckLinkVideoFrameAncillaryPackets_v15_2_FWD_DEFINED__ */
+
 #ifndef __IDeckLinkVideoFrameMetadataExtensions_v11_5_FWD_DEFINED__
 #define __IDeckLinkVideoFrameMetadataExtensions_v11_5_FWD_DEFINED__
 typedef interface IDeckLinkVideoFrameMetadataExtensions_v11_5 IDeckLinkVideoFrameMetadataExtensions_v11_5;
@@ -1724,6 +1757,10 @@ typedef enum _BMDDeckLinkConfigurationID {
     bmdDeckLinkConfigVANCSourceLine3Mapping = 0x76736c33,
     bmdDeckLinkConfigCapturePassThroughMode = 0x6370746d,
     bmdDeckLinkConfigCaptureGroup = 0x63706772,
+    bmdDeckLinkConfigHANCInputFilter1 = 0x68696631,
+    bmdDeckLinkConfigHANCInputFilter2 = 0x68696632,
+    bmdDeckLinkConfigHANCInputFilter3 = 0x68696633,
+    bmdDeckLinkConfigHANCInputFilter4 = 0x68696634,
     bmdDeckLinkConfigVideoInputComponentLumaGain = 0x69636c67,
     bmdDeckLinkConfigVideoInputComponentChromaBlueGain = 0x69636362,
     bmdDeckLinkConfigVideoInputComponentChromaRedGain = 0x69636372,
@@ -4819,6 +4856,9 @@ typedef enum _BMDDeckLinkAttributeID {
     BMDDeckLinkSupportsSynchronizeToPlaybackGroup = 0x73747067,
     BMDDeckLinkHasMonitorOut = 0x666d6f6f,
     BMDDeckLinkSupportsExtendedDesktop = 0x64746f70,
+    BMDDeckLinkHANCRequiresInputFilterConfiguration = 0x68726966,
+    BMDDeckLinkSupportsHANCOutput = 0x6473686f,
+    BMDDeckLinkSupportsHANCInput = 0x64736869,
     BMDDeckLinkMaximumAudioChannels = 0x6d616368,
     BMDDeckLinkMaximumHDMIAudioChannels = 0x6d686368,
     BMDDeckLinkMaximumAnalogAudioInputChannels = 0x69616368,
@@ -4846,6 +4886,8 @@ typedef enum _BMDDeckLinkAttributeID {
     BMDDeckLinkMezzanineType = 0x6d657a74,
     BMDDeckLinkXLRDelayMsMaximum = 0x78647478,
     BMDDeckLinkXLRDelayFramesMaximum = 0x78646678,
+    BMDDeckLinkOutputHANCUserDataWordsLimit = 0x6d686f77,
+    BMDDeckLinkInputHANCUserDataWordsLimit = 0x6d686977,
     BMDDeckLinkVideoInputGainMinimum = 0x7669676d,
     BMDDeckLinkVideoInputGainMaximum = 0x76696778,
     BMDDeckLinkVideoOutputGainMinimum = 0x766f676d,
@@ -4943,6 +4985,10 @@ typedef enum _BMD3DPreviewFormat {
     bmd3DPreviewFormatSideBySide = 0x73696465,
     bmd3DPreviewFormatTopBottom = 0x746f7062
 } BMD3DPreviewFormat;
+typedef enum _BMDAncillaryDataSpace {
+    bmdAncillaryDataSpaceVANC = 0,
+    bmdAncillaryDataSpaceHANC = 1
+} BMDAncillaryDataSpace;
 typedef enum _BMDIPFlowDirection {
     bmdDeckLinkIPFlowDirectionOutput = 0,
     bmdDeckLinkIPFlowDirectionInput = 1
@@ -8868,9 +8914,9 @@ static inline HRESULT IDeckLinkVideoInputFrame_GetHardwareReferenceTimestamp(IDe
 #ifndef __IDeckLinkAncillaryPacket_INTERFACE_DEFINED__
 #define __IDeckLinkAncillaryPacket_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkAncillaryPacket, 0xcc5bbf7e, 0x029c, 0x4d3b, 0x91,0x58, 0x60,0x00,0xef,0x5e,0x36,0x70);
+DEFINE_GUID(IID_IDeckLinkAncillaryPacket, 0xf5c0d498, 0x5cd3, 0x4c77, 0x97,0x73, 0x8e,0xfa,0x20,0xbb,0x33,0x4b);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("cc5bbf7e-029c-4d3b-9158-6000ef5e3670")
+MIDL_INTERFACE("f5c0d498-5cd3-4c77-9773-8efa20bb334b")
 IDeckLinkAncillaryPacket : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE GetBytes(
@@ -8890,9 +8936,12 @@ IDeckLinkAncillaryPacket : public IUnknown
     virtual unsigned char STDMETHODCALLTYPE GetDataStreamIndex(
         ) = 0;
 
+    virtual BMDAncillaryDataSpace STDMETHODCALLTYPE GetDataSpace(
+        ) = 0;
+
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkAncillaryPacket, 0xcc5bbf7e, 0x029c, 0x4d3b, 0x91,0x58, 0x60,0x00,0xef,0x5e,0x36,0x70)
+__CRT_UUID_DECL(IDeckLinkAncillaryPacket, 0xf5c0d498, 0x5cd3, 0x4c77, 0x97,0x73, 0x8e,0xfa,0x20,0xbb,0x33,0x4b)
 #endif
 #else
 typedef struct IDeckLinkAncillaryPacketVtbl {
@@ -8929,6 +8978,9 @@ typedef struct IDeckLinkAncillaryPacketVtbl {
     unsigned char (STDMETHODCALLTYPE *GetDataStreamIndex)(
         IDeckLinkAncillaryPacket *This);
 
+    BMDAncillaryDataSpace (STDMETHODCALLTYPE *GetDataSpace)(
+        IDeckLinkAncillaryPacket *This);
+
     END_INTERFACE
 } IDeckLinkAncillaryPacketVtbl;
 
@@ -8948,6 +9000,7 @@ interface IDeckLinkAncillaryPacket {
 #define IDeckLinkAncillaryPacket_GetSDID(This) (This)->lpVtbl->GetSDID(This)
 #define IDeckLinkAncillaryPacket_GetLineNumber(This) (This)->lpVtbl->GetLineNumber(This)
 #define IDeckLinkAncillaryPacket_GetDataStreamIndex(This) (This)->lpVtbl->GetDataStreamIndex(This)
+#define IDeckLinkAncillaryPacket_GetDataSpace(This) (This)->lpVtbl->GetDataSpace(This)
 #else
 /*** IUnknown methods ***/
 static inline HRESULT IDeckLinkAncillaryPacket_QueryInterface(IDeckLinkAncillaryPacket* This,REFIID riid,void **ppvObject) {
@@ -8975,6 +9028,9 @@ static inline unsigned int IDeckLinkAncillaryPacket_GetLineNumber(IDeckLinkAncil
 static inline unsigned char IDeckLinkAncillaryPacket_GetDataStreamIndex(IDeckLinkAncillaryPacket* This) {
     return This->lpVtbl->GetDataStreamIndex(This);
 }
+static inline BMDAncillaryDataSpace IDeckLinkAncillaryPacket_GetDataSpace(IDeckLinkAncillaryPacket* This) {
+    return This->lpVtbl->GetDataSpace(This);
+}
 #endif
 #endif
 
@@ -8989,9 +9045,9 @@ static inline unsigned char IDeckLinkAncillaryPacket_GetDataStreamIndex(IDeckLin
 #ifndef __IDeckLinkAncillaryPacketIterator_INTERFACE_DEFINED__
 #define __IDeckLinkAncillaryPacketIterator_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkAncillaryPacketIterator, 0x3fc8994b, 0x88fb, 0x4c17, 0x96,0x8f, 0x9a,0xab,0x69,0xd9,0x64,0xa7);
+DEFINE_GUID(IID_IDeckLinkAncillaryPacketIterator, 0x10f1aa88, 0x54be, 0x42f7, 0xb9,0xf8, 0xec,0x2f,0x5f,0x09,0x95,0x51);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("3fc8994b-88fb-4c17-968f-9aab69d964a7")
+MIDL_INTERFACE("10f1aa88-54be-42f7-b9f8-ec2f5f099551")
 IDeckLinkAncillaryPacketIterator : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE Next(
@@ -8999,7 +9055,7 @@ IDeckLinkAncillaryPacketIterator : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkAncillaryPacketIterator, 0x3fc8994b, 0x88fb, 0x4c17, 0x96,0x8f, 0x9a,0xab,0x69,0xd9,0x64,0xa7)
+__CRT_UUID_DECL(IDeckLinkAncillaryPacketIterator, 0x10f1aa88, 0x54be, 0x42f7, 0xb9,0xf8, 0xec,0x2f,0x5f,0x09,0x95,0x51)
 #endif
 #else
 typedef struct IDeckLinkAncillaryPacketIteratorVtbl {
@@ -9066,9 +9122,9 @@ static inline HRESULT IDeckLinkAncillaryPacketIterator_Next(IDeckLinkAncillaryPa
 #ifndef __IDeckLinkVideoFrameAncillaryPackets_INTERFACE_DEFINED__
 #define __IDeckLinkVideoFrameAncillaryPackets_INTERFACE_DEFINED__
 
-DEFINE_GUID(IID_IDeckLinkVideoFrameAncillaryPackets, 0x6c186c0f, 0x459e, 0x41d8, 0xae,0xe2, 0x48,0x12,0xd8,0x1a,0xee,0x68);
+DEFINE_GUID(IID_IDeckLinkVideoFrameAncillaryPackets, 0x8a72d630, 0x8070, 0x4d05, 0x8a,0x93, 0xe6,0x0c,0x40,0xee,0x08,0x8a);
 #if defined(__cplusplus) && !defined(CINTERFACE)
-MIDL_INTERFACE("6c186c0f-459e-41d8-aee2-4812d81aee68")
+MIDL_INTERFACE("8a72d630-8070-4d05-8a93-e60c40ee088a")
 IDeckLinkVideoFrameAncillaryPackets : public IUnknown
 {
     virtual HRESULT STDMETHODCALLTYPE GetPacketIterator(
@@ -9090,7 +9146,7 @@ IDeckLinkVideoFrameAncillaryPackets : public IUnknown
 
 };
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(IDeckLinkVideoFrameAncillaryPackets, 0x6c186c0f, 0x459e, 0x41d8, 0xae,0xe2, 0x48,0x12,0xd8,0x1a,0xee,0x68)
+__CRT_UUID_DECL(IDeckLinkVideoFrameAncillaryPackets, 0x8a72d630, 0x8070, 0x4d05, 0x8a,0x93, 0xe6,0x0c,0x40,0xee,0x08,0x8a)
 #endif
 #else
 typedef struct IDeckLinkVideoFrameAncillaryPacketsVtbl {
@@ -11631,12 +11687,12 @@ __CRT_UUID_DECL(CDeckLinkDiscovery, 0x22fbfc33, 0x8d07, 0x495c, 0xa5,0xbf, 0xda,
  * CDeckLinkVideoFrameAncillaryPackets coclass
  */
 
-DEFINE_GUID(CLSID_CDeckLinkVideoFrameAncillaryPackets, 0xf891ad29, 0xd0c2, 0x46e9, 0xa9,0x26, 0x4e,0x2d,0x0d,0xd8,0xcf,0xad);
+DEFINE_GUID(CLSID_CDeckLinkVideoFrameAncillaryPackets, 0x6f47097e, 0xb390, 0x4650, 0xbc,0xb6, 0xc4,0xd5,0x2f,0xaa,0x16,0x43);
 
 #ifdef __cplusplus
-class DECLSPEC_UUID("f891ad29-d0c2-46e9-a926-4e2d0dd8cfad") CDeckLinkVideoFrameAncillaryPackets;
+class DECLSPEC_UUID("6f47097e-b390-4650-bcb6-c4d52faa1643") CDeckLinkVideoFrameAncillaryPackets;
 #ifdef __CRT_UUID_DECL
-__CRT_UUID_DECL(CDeckLinkVideoFrameAncillaryPackets, 0xf891ad29, 0xd0c2, 0x46e9, 0xa9,0x26, 0x4e,0x2d,0x0d,0xd8,0xcf,0xad)
+__CRT_UUID_DECL(CDeckLinkVideoFrameAncillaryPackets, 0x6f47097e, 0xb390, 0x4650, 0xbc,0xb6, 0xc4,0xd5,0x2f,0xaa,0x16,0x43)
 #endif
 #endif
 
@@ -16595,6 +16651,365 @@ static inline HRESULT IDeckLinkConfiguration_v10_2_WriteConfigurationToPreferenc
 
 
 #endif  /* __IDeckLinkConfiguration_v10_2_INTERFACE_DEFINED__ */
+
+#ifndef __IDeckLinkAncillaryPacket_v15_2_FWD_DEFINED__
+#define __IDeckLinkAncillaryPacket_v15_2_FWD_DEFINED__
+typedef interface IDeckLinkAncillaryPacket_v15_2 IDeckLinkAncillaryPacket_v15_2;
+#ifdef __cplusplus
+interface IDeckLinkAncillaryPacket_v15_2;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkAncillaryPacketIterator_v15_2_FWD_DEFINED__
+#define __IDeckLinkAncillaryPacketIterator_v15_2_FWD_DEFINED__
+typedef interface IDeckLinkAncillaryPacketIterator_v15_2 IDeckLinkAncillaryPacketIterator_v15_2;
+#ifdef __cplusplus
+interface IDeckLinkAncillaryPacketIterator_v15_2;
+#endif /* __cplusplus */
+#endif
+
+#ifndef __IDeckLinkVideoFrameAncillaryPackets_v15_2_FWD_DEFINED__
+#define __IDeckLinkVideoFrameAncillaryPackets_v15_2_FWD_DEFINED__
+typedef interface IDeckLinkVideoFrameAncillaryPackets_v15_2 IDeckLinkVideoFrameAncillaryPackets_v15_2;
+#ifdef __cplusplus
+interface IDeckLinkVideoFrameAncillaryPackets_v15_2;
+#endif /* __cplusplus */
+#endif
+
+/*****************************************************************************
+ * IDeckLinkAncillaryPacket_v15_2 interface
+ */
+#ifndef __IDeckLinkAncillaryPacket_v15_2_INTERFACE_DEFINED__
+#define __IDeckLinkAncillaryPacket_v15_2_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkAncillaryPacket_v15_2, 0xcc5bbf7e, 0x029c, 0x4d3b, 0x91,0x58, 0x60,0x00,0xef,0x5e,0x36,0x70);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("cc5bbf7e-029c-4d3b-9158-6000ef5e3670")
+IDeckLinkAncillaryPacket_v15_2 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE GetBytes(
+        BMDAncillaryPacketFormat format,
+        const void **data,
+        unsigned int *size) = 0;
+
+    virtual unsigned char STDMETHODCALLTYPE GetDID(
+        ) = 0;
+
+    virtual unsigned char STDMETHODCALLTYPE GetSDID(
+        ) = 0;
+
+    virtual unsigned int STDMETHODCALLTYPE GetLineNumber(
+        ) = 0;
+
+    virtual unsigned char STDMETHODCALLTYPE GetDataStreamIndex(
+        ) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkAncillaryPacket_v15_2, 0xcc5bbf7e, 0x029c, 0x4d3b, 0x91,0x58, 0x60,0x00,0xef,0x5e,0x36,0x70)
+#endif
+#else
+typedef struct IDeckLinkAncillaryPacket_v15_2Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkAncillaryPacket_v15_2 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkAncillaryPacket_v15_2 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkAncillaryPacket_v15_2 *This);
+
+    /*** IDeckLinkAncillaryPacket_v15_2 methods ***/
+    HRESULT (STDMETHODCALLTYPE *GetBytes)(
+        IDeckLinkAncillaryPacket_v15_2 *This,
+        BMDAncillaryPacketFormat format,
+        const void **data,
+        unsigned int *size);
+
+    unsigned char (STDMETHODCALLTYPE *GetDID)(
+        IDeckLinkAncillaryPacket_v15_2 *This);
+
+    unsigned char (STDMETHODCALLTYPE *GetSDID)(
+        IDeckLinkAncillaryPacket_v15_2 *This);
+
+    unsigned int (STDMETHODCALLTYPE *GetLineNumber)(
+        IDeckLinkAncillaryPacket_v15_2 *This);
+
+    unsigned char (STDMETHODCALLTYPE *GetDataStreamIndex)(
+        IDeckLinkAncillaryPacket_v15_2 *This);
+
+    END_INTERFACE
+} IDeckLinkAncillaryPacket_v15_2Vtbl;
+
+interface IDeckLinkAncillaryPacket_v15_2 {
+    CONST_VTBL IDeckLinkAncillaryPacket_v15_2Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkAncillaryPacket_v15_2_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkAncillaryPacket_v15_2_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkAncillaryPacket_v15_2_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkAncillaryPacket_v15_2 methods ***/
+#define IDeckLinkAncillaryPacket_v15_2_GetBytes(This,format,data,size) (This)->lpVtbl->GetBytes(This,format,data,size)
+#define IDeckLinkAncillaryPacket_v15_2_GetDID(This) (This)->lpVtbl->GetDID(This)
+#define IDeckLinkAncillaryPacket_v15_2_GetSDID(This) (This)->lpVtbl->GetSDID(This)
+#define IDeckLinkAncillaryPacket_v15_2_GetLineNumber(This) (This)->lpVtbl->GetLineNumber(This)
+#define IDeckLinkAncillaryPacket_v15_2_GetDataStreamIndex(This) (This)->lpVtbl->GetDataStreamIndex(This)
+#else
+/*** IUnknown methods ***/
+static inline HRESULT IDeckLinkAncillaryPacket_v15_2_QueryInterface(IDeckLinkAncillaryPacket_v15_2* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static inline ULONG IDeckLinkAncillaryPacket_v15_2_AddRef(IDeckLinkAncillaryPacket_v15_2* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static inline ULONG IDeckLinkAncillaryPacket_v15_2_Release(IDeckLinkAncillaryPacket_v15_2* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkAncillaryPacket_v15_2 methods ***/
+static inline HRESULT IDeckLinkAncillaryPacket_v15_2_GetBytes(IDeckLinkAncillaryPacket_v15_2* This,BMDAncillaryPacketFormat format,const void **data,unsigned int *size) {
+    return This->lpVtbl->GetBytes(This,format,data,size);
+}
+static inline unsigned char IDeckLinkAncillaryPacket_v15_2_GetDID(IDeckLinkAncillaryPacket_v15_2* This) {
+    return This->lpVtbl->GetDID(This);
+}
+static inline unsigned char IDeckLinkAncillaryPacket_v15_2_GetSDID(IDeckLinkAncillaryPacket_v15_2* This) {
+    return This->lpVtbl->GetSDID(This);
+}
+static inline unsigned int IDeckLinkAncillaryPacket_v15_2_GetLineNumber(IDeckLinkAncillaryPacket_v15_2* This) {
+    return This->lpVtbl->GetLineNumber(This);
+}
+static inline unsigned char IDeckLinkAncillaryPacket_v15_2_GetDataStreamIndex(IDeckLinkAncillaryPacket_v15_2* This) {
+    return This->lpVtbl->GetDataStreamIndex(This);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkAncillaryPacket_v15_2_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkAncillaryPacketIterator_v15_2 interface
+ */
+#ifndef __IDeckLinkAncillaryPacketIterator_v15_2_INTERFACE_DEFINED__
+#define __IDeckLinkAncillaryPacketIterator_v15_2_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkAncillaryPacketIterator_v15_2, 0x3fc8994b, 0x88fb, 0x4c17, 0x96,0x8f, 0x9a,0xab,0x69,0xd9,0x64,0xa7);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("3fc8994b-88fb-4c17-968f-9aab69d964a7")
+IDeckLinkAncillaryPacketIterator_v15_2 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE Next(
+        IDeckLinkAncillaryPacket_v15_2 **packet) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkAncillaryPacketIterator_v15_2, 0x3fc8994b, 0x88fb, 0x4c17, 0x96,0x8f, 0x9a,0xab,0x69,0xd9,0x64,0xa7)
+#endif
+#else
+typedef struct IDeckLinkAncillaryPacketIterator_v15_2Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkAncillaryPacketIterator_v15_2 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkAncillaryPacketIterator_v15_2 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkAncillaryPacketIterator_v15_2 *This);
+
+    /*** IDeckLinkAncillaryPacketIterator_v15_2 methods ***/
+    HRESULT (STDMETHODCALLTYPE *Next)(
+        IDeckLinkAncillaryPacketIterator_v15_2 *This,
+        IDeckLinkAncillaryPacket_v15_2 **packet);
+
+    END_INTERFACE
+} IDeckLinkAncillaryPacketIterator_v15_2Vtbl;
+
+interface IDeckLinkAncillaryPacketIterator_v15_2 {
+    CONST_VTBL IDeckLinkAncillaryPacketIterator_v15_2Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkAncillaryPacketIterator_v15_2_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkAncillaryPacketIterator_v15_2_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkAncillaryPacketIterator_v15_2_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkAncillaryPacketIterator_v15_2 methods ***/
+#define IDeckLinkAncillaryPacketIterator_v15_2_Next(This,packet) (This)->lpVtbl->Next(This,packet)
+#else
+/*** IUnknown methods ***/
+static inline HRESULT IDeckLinkAncillaryPacketIterator_v15_2_QueryInterface(IDeckLinkAncillaryPacketIterator_v15_2* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static inline ULONG IDeckLinkAncillaryPacketIterator_v15_2_AddRef(IDeckLinkAncillaryPacketIterator_v15_2* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static inline ULONG IDeckLinkAncillaryPacketIterator_v15_2_Release(IDeckLinkAncillaryPacketIterator_v15_2* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkAncillaryPacketIterator_v15_2 methods ***/
+static inline HRESULT IDeckLinkAncillaryPacketIterator_v15_2_Next(IDeckLinkAncillaryPacketIterator_v15_2* This,IDeckLinkAncillaryPacket_v15_2 **packet) {
+    return This->lpVtbl->Next(This,packet);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkAncillaryPacketIterator_v15_2_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * IDeckLinkVideoFrameAncillaryPackets_v15_2 interface
+ */
+#ifndef __IDeckLinkVideoFrameAncillaryPackets_v15_2_INTERFACE_DEFINED__
+#define __IDeckLinkVideoFrameAncillaryPackets_v15_2_INTERFACE_DEFINED__
+
+DEFINE_GUID(IID_IDeckLinkVideoFrameAncillaryPackets_v15_2, 0x6c186c0f, 0x459e, 0x41d8, 0xae,0xe2, 0x48,0x12,0xd8,0x1a,0xee,0x68);
+#if defined(__cplusplus) && !defined(CINTERFACE)
+MIDL_INTERFACE("6c186c0f-459e-41d8-aee2-4812d81aee68")
+IDeckLinkVideoFrameAncillaryPackets_v15_2 : public IUnknown
+{
+    virtual HRESULT STDMETHODCALLTYPE GetPacketIterator(
+        IDeckLinkAncillaryPacketIterator_v15_2 **iterator) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE GetFirstPacketByID(
+        unsigned char DID,
+        unsigned char SDID,
+        IDeckLinkAncillaryPacket_v15_2 **packet) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE AttachPacket(
+        IDeckLinkAncillaryPacket_v15_2 *packet) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DetachPacket(
+        IDeckLinkAncillaryPacket_v15_2 *packet) = 0;
+
+    virtual HRESULT STDMETHODCALLTYPE DetachAllPackets(
+        ) = 0;
+
+};
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(IDeckLinkVideoFrameAncillaryPackets_v15_2, 0x6c186c0f, 0x459e, 0x41d8, 0xae,0xe2, 0x48,0x12,0xd8,0x1a,0xee,0x68)
+#endif
+#else
+typedef struct IDeckLinkVideoFrameAncillaryPackets_v15_2Vtbl {
+    BEGIN_INTERFACE
+
+    /*** IUnknown methods ***/
+    HRESULT (STDMETHODCALLTYPE *QueryInterface)(
+        IDeckLinkVideoFrameAncillaryPackets_v15_2 *This,
+        REFIID riid,
+        void **ppvObject);
+
+    ULONG (STDMETHODCALLTYPE *AddRef)(
+        IDeckLinkVideoFrameAncillaryPackets_v15_2 *This);
+
+    ULONG (STDMETHODCALLTYPE *Release)(
+        IDeckLinkVideoFrameAncillaryPackets_v15_2 *This);
+
+    /*** IDeckLinkVideoFrameAncillaryPackets_v15_2 methods ***/
+    HRESULT (STDMETHODCALLTYPE *GetPacketIterator)(
+        IDeckLinkVideoFrameAncillaryPackets_v15_2 *This,
+        IDeckLinkAncillaryPacketIterator_v15_2 **iterator);
+
+    HRESULT (STDMETHODCALLTYPE *GetFirstPacketByID)(
+        IDeckLinkVideoFrameAncillaryPackets_v15_2 *This,
+        unsigned char DID,
+        unsigned char SDID,
+        IDeckLinkAncillaryPacket_v15_2 **packet);
+
+    HRESULT (STDMETHODCALLTYPE *AttachPacket)(
+        IDeckLinkVideoFrameAncillaryPackets_v15_2 *This,
+        IDeckLinkAncillaryPacket_v15_2 *packet);
+
+    HRESULT (STDMETHODCALLTYPE *DetachPacket)(
+        IDeckLinkVideoFrameAncillaryPackets_v15_2 *This,
+        IDeckLinkAncillaryPacket_v15_2 *packet);
+
+    HRESULT (STDMETHODCALLTYPE *DetachAllPackets)(
+        IDeckLinkVideoFrameAncillaryPackets_v15_2 *This);
+
+    END_INTERFACE
+} IDeckLinkVideoFrameAncillaryPackets_v15_2Vtbl;
+
+interface IDeckLinkVideoFrameAncillaryPackets_v15_2 {
+    CONST_VTBL IDeckLinkVideoFrameAncillaryPackets_v15_2Vtbl* lpVtbl;
+};
+
+#ifdef COBJMACROS
+#ifndef WIDL_C_INLINE_WRAPPERS
+/*** IUnknown methods ***/
+#define IDeckLinkVideoFrameAncillaryPackets_v15_2_QueryInterface(This,riid,ppvObject) (This)->lpVtbl->QueryInterface(This,riid,ppvObject)
+#define IDeckLinkVideoFrameAncillaryPackets_v15_2_AddRef(This) (This)->lpVtbl->AddRef(This)
+#define IDeckLinkVideoFrameAncillaryPackets_v15_2_Release(This) (This)->lpVtbl->Release(This)
+/*** IDeckLinkVideoFrameAncillaryPackets_v15_2 methods ***/
+#define IDeckLinkVideoFrameAncillaryPackets_v15_2_GetPacketIterator(This,iterator) (This)->lpVtbl->GetPacketIterator(This,iterator)
+#define IDeckLinkVideoFrameAncillaryPackets_v15_2_GetFirstPacketByID(This,DID,SDID,packet) (This)->lpVtbl->GetFirstPacketByID(This,DID,SDID,packet)
+#define IDeckLinkVideoFrameAncillaryPackets_v15_2_AttachPacket(This,packet) (This)->lpVtbl->AttachPacket(This,packet)
+#define IDeckLinkVideoFrameAncillaryPackets_v15_2_DetachPacket(This,packet) (This)->lpVtbl->DetachPacket(This,packet)
+#define IDeckLinkVideoFrameAncillaryPackets_v15_2_DetachAllPackets(This) (This)->lpVtbl->DetachAllPackets(This)
+#else
+/*** IUnknown methods ***/
+static inline HRESULT IDeckLinkVideoFrameAncillaryPackets_v15_2_QueryInterface(IDeckLinkVideoFrameAncillaryPackets_v15_2* This,REFIID riid,void **ppvObject) {
+    return This->lpVtbl->QueryInterface(This,riid,ppvObject);
+}
+static inline ULONG IDeckLinkVideoFrameAncillaryPackets_v15_2_AddRef(IDeckLinkVideoFrameAncillaryPackets_v15_2* This) {
+    return This->lpVtbl->AddRef(This);
+}
+static inline ULONG IDeckLinkVideoFrameAncillaryPackets_v15_2_Release(IDeckLinkVideoFrameAncillaryPackets_v15_2* This) {
+    return This->lpVtbl->Release(This);
+}
+/*** IDeckLinkVideoFrameAncillaryPackets_v15_2 methods ***/
+static inline HRESULT IDeckLinkVideoFrameAncillaryPackets_v15_2_GetPacketIterator(IDeckLinkVideoFrameAncillaryPackets_v15_2* This,IDeckLinkAncillaryPacketIterator_v15_2 **iterator) {
+    return This->lpVtbl->GetPacketIterator(This,iterator);
+}
+static inline HRESULT IDeckLinkVideoFrameAncillaryPackets_v15_2_GetFirstPacketByID(IDeckLinkVideoFrameAncillaryPackets_v15_2* This,unsigned char DID,unsigned char SDID,IDeckLinkAncillaryPacket_v15_2 **packet) {
+    return This->lpVtbl->GetFirstPacketByID(This,DID,SDID,packet);
+}
+static inline HRESULT IDeckLinkVideoFrameAncillaryPackets_v15_2_AttachPacket(IDeckLinkVideoFrameAncillaryPackets_v15_2* This,IDeckLinkAncillaryPacket_v15_2 *packet) {
+    return This->lpVtbl->AttachPacket(This,packet);
+}
+static inline HRESULT IDeckLinkVideoFrameAncillaryPackets_v15_2_DetachPacket(IDeckLinkVideoFrameAncillaryPackets_v15_2* This,IDeckLinkAncillaryPacket_v15_2 *packet) {
+    return This->lpVtbl->DetachPacket(This,packet);
+}
+static inline HRESULT IDeckLinkVideoFrameAncillaryPackets_v15_2_DetachAllPackets(IDeckLinkVideoFrameAncillaryPackets_v15_2* This) {
+    return This->lpVtbl->DetachAllPackets(This);
+}
+#endif
+#endif
+
+#endif
+
+
+#endif  /* __IDeckLinkVideoFrameAncillaryPackets_v15_2_INTERFACE_DEFINED__ */
+
+/*****************************************************************************
+ * CDeckLinkVideoFrameAncillaryPackets_v15_2 coclass
+ */
+
+DEFINE_GUID(CLSID_CDeckLinkVideoFrameAncillaryPackets_v15_2, 0xf891ad29, 0xd0c2, 0x46e9, 0xa9,0x26, 0x4e,0x2d,0x0d,0xd8,0xcf,0xad);
+
+#ifdef __cplusplus
+class DECLSPEC_UUID("f891ad29-d0c2-46e9-a926-4e2d0dd8cfad") CDeckLinkVideoFrameAncillaryPackets_v15_2;
+#ifdef __CRT_UUID_DECL
+__CRT_UUID_DECL(CDeckLinkVideoFrameAncillaryPackets_v15_2, 0xf891ad29, 0xd0c2, 0x46e9, 0xa9,0x26, 0x4e,0x2d,0x0d,0xd8,0xcf,0xad)
+#endif
+#endif
 
 typedef enum _BMDDeckLinkFrameMetadataID_v11_5 {
     bmdDeckLinkFrameMetadataCintelFilmType_v11_5 = 0x63667479,
